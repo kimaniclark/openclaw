@@ -1,0 +1,219 @@
+#!/usr/bin/env node
+
+/**
+ * Google APIs Authorization Script
+ * 
+ * This script authorizes Johnny to access your Google accounts via OAuth 2.0
+ * Scopes: Gmail, Calendar, Drive, Docs, Sheets
+ * 
+ * Run: node authorize-google-apis.js
+ */
+
+const fs = require('fs');
+const path = require('path');
+const { google } = require('googleapis');
+const http = require('http');
+const url = require('url');
+const open = require('open');
+
+// Paths
+const CREDENTIALS_PATH = path.join(process.env.HOME, '.openclaw/credentials/gmail-credentials.json');
+const TOKEN_PATH = path.join(process.env.HOME, '.openclaw/credentials/google-token.json');
+
+// Scopes for all Google services we need
+const SCOPES = [
+  // Gmail - Phase 1: Read and compose (draft mode)
+  'https://www.googleapis.com/auth/gmail.readonly',
+  'https://www.googleapis.com/auth/gmail.compose',
+  'https://www.googleapis.com/auth/gmail.send',
+  'https://www.googleapis.com/auth/gmail.modify',
+  'https://www.googleapis.com/auth/gmail.labels',
+  
+  // Calendar - Full access
+  'https://www.googleapis.com/auth/calendar',
+  
+  // Drive - Full access
+  'https://www.googleapis.com/auth/drive',
+  
+  // Docs - Full access  
+  'https://www.googleapis.com/auth/documents',
+  
+  // Sheets - Full access
+  'https://www.googleapis.com/auth/spreadsheets'
+];
+
+/**
+ * Load OAuth2 credentials from file
+ */
+function loadCredentials() {
+  try {
+    const content = fs.readFileSync(CREDENTIALS_PATH, 'utf8');
+    const credentials = JSON.parse(content);
+    return credentials.installed || credentials.web;
+  } catch (err) {
+    console.error('❌ Error loading credentials file:', err.message);
+    console.error('   Make sure file exists at:', CREDENTIALS_PATH);
+    process.exit(1);
+  }
+}
+
+/**
+ * Create OAuth2 client
+ */
+function createOAuth2Client(credentials) {
+  const { client_id, client_secret, redirect_uris } = credentials;
+  return new google.auth.OAuth2(client_id, client_secret, redirect_uris[0] || "http://localhost:3000");
+}
+
+/**
+ * Get authorization URL
+ */
+function getAuthUrl(oAuth2Client) {
+  return oAuth2Client.generateAuthUrl({
+    access_type: 'offline',
+    scope: SCOPES,
+    prompt: 'consent' // Force to show consent screen
+  });
+}
+
+/**
+ * Start local server to receive OAuth callback
+ */
+async function waitForAuthCode(oAuth2Client) {
+  return new Promise((resolve, reject) => {
+    const server = http.createServer(async (req, res) => {
+      try {
+        const queryParams = url.parse(req.url, true).query;
+        
+        if (queryParams.code) {
+          res.writeHead(200, { 'Content-Type': 'text/html' });
+          res.end(`
+            <html>
+              <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; text-align: center; padding: 50px;">
+                <h1 style="color: #34c759;">✅ Authorization Successful!</h1>
+                <p style="font-size: 18px;">Johnny now has access to your Google services.</p>
+                <p style="color: #666;">You can close this window and return to Terminal.</p>
+              </body>
+            </html>
+          `);
+          
+          server.close();
+          
+          // Exchange code for tokens
+          const { tokens } = await oAuth2Client.getToken(queryParams.code);
+          resolve(tokens);
+        } else if (queryParams.error) {
+          res.writeHead(400, { 'Content-Type': 'text/html' });
+          res.end(`
+            <html>
+              <body style="font-family: sans-serif; text-align: center; padding: 50px;">
+                <h1 style="color: #ff3b30;">❌ Authorization Failed</h1>
+                <p>Error: ${queryParams.error}</p>
+                <p>Please try again.</p>
+              </body>
+            </html>
+          `);
+          server.close();
+          reject(new Error(queryParams.error));
+        }
+      } catch (err) {
+        reject(err);
+      }
+    });
+    
+    server.listen(3000, () => {
+      console.log('🔐 Local server started on http://localhost');
+    });
+  });
+}
+
+/**
+ * Save tokens to file
+ */
+function saveTokens(tokens) {
+  try {
+    fs.writeFileSync(TOKEN_PATH, JSON.stringify(tokens, null, 2));
+    console.log('✅ Tokens saved to:', TOKEN_PATH);
+  } catch (err) {
+    console.error('❌ Error saving tokens:', err.message);
+    process.exit(1);
+  }
+}
+
+/**
+ * Main authorization flow
+ */
+async function authorize() {
+  console.log('\n🚀 Starting Google APIs Authorization...\n');
+  
+  // Load credentials
+  console.log('📄 Loading OAuth credentials...');
+  const credentials = loadCredentials();
+  console.log('✅ Credentials loaded\n');
+  
+  // Create OAuth client
+  const oAuth2Client = createOAuth2Client(credentials);
+  
+  // Generate auth URL
+  const authUrl = getAuthUrl(oAuth2Client);
+  
+  console.log('🌐 Opening browser for authorization...\n');
+  console.log('📋 Services requesting access:');
+  console.log('   • Gmail (read, compose, send, organize)');
+  console.log('   • Google Calendar (full access)');
+  console.log('   • Google Drive (full access)');
+  console.log('   • Google Docs (full access)');
+  console.log('   • Google Sheets (full access)\n');
+  
+  console.log('🔗 If browser doesn\'t open, visit this URL:');
+  console.log('   ' + authUrl + '\n');
+  
+  // Open browser
+  try {
+    await open(authUrl);
+  } catch (err) {
+    console.log('⚠️  Could not open browser automatically.');
+    console.log('   Please copy the URL above and open it manually.\n');
+  }
+  
+  console.log('⏳ Waiting for authorization...\n');
+  
+  try {
+    // Wait for OAuth callback
+    const tokens = await waitForAuthCode(oAuth2Client);
+    
+    // Save tokens
+    saveTokens(tokens);
+    
+    console.log('\n🎉 SUCCESS! Google APIs are now authorized!\n');
+    console.log('📊 What Johnny can now do:');
+    console.log('   ✅ Read your emails');
+    console.log('   ✅ Create email drafts for your review');
+    console.log('   ✅ Send emails (when you approve)');
+    console.log('   ✅ Search your mailbox');
+    console.log('   ✅ Manage calendar events');
+    console.log('   ✅ Access Google Drive files');
+    console.log('   ✅ Create and edit Google Docs');
+    console.log('   ✅ Manage Google Sheets\n');
+    
+    console.log('🔐 Security: Tokens are stored locally at:');
+    console.log('   ' + TOKEN_PATH + '\n');
+    
+    console.log('💡 Next: Johnny will build email reading and drafting scripts.\n');
+    
+  } catch (err) {
+    console.error('\n❌ Authorization failed:', err.message);
+    console.error('   Please try again.\n');
+    process.exit(1);
+  }
+}
+
+// Run authorization
+if (require.main === module) {
+  authorize().catch(err => {
+    console.error('Fatal error:', err);
+    process.exit(1);
+  });
+}
+
+module.exports = { authorize, loadCredentials, createOAuth2Client };
