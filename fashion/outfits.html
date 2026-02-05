@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfits - Pre-Combined</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f7;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { font-size: 28px; margin-bottom: 24px; }
+        .outfit-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .outfit-header {
+            margin-bottom: 20px;
+        }
+        .outfit-name {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .outfit-meta {
+            font-size: 14px;
+            color: #86868b;
+        }
+        .outfit-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        .outfit-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .outfit-item-info {
+            margin-top: 8px;
+            font-size: 13px;
+        }
+        .outfit-item-brand {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pre-Combined Outfits</h1>
+        
+        <div class="outfit-card">
+            <div class="outfit-header">
+                <div class="outfit-name">Casual Grey #1</div>
+                <div class="outfit-meta">Casual • Fall, Winter</div>
+            </div>
+            <div class="outfit-items">
+                <div class="outfit-item">
+                    <img src="items/allsaints-grey-sweater.jpg" alt="Grey Sweater">
+                    <div class="outfit-item-info">
+                        <div class="outfit-item-brand">All Saints</div>
+                        <div>Sweater - Grey</div>
+                    </div>
+                </div>
+                <div class="outfit-item">
+                    <img src="items/allsaints-black-jeans.jpg" alt="Black Jeans">
+                    <div class="outfit-item-info">
+                        <div class="outfit-item-brand">All Saints</div>
+                        <div>Jeans - Black</div>
+                    </div>
+                </div>
+                <div class="outfit-item">
+                    <img src="items/oro-black-boots.jpg" alt="Black Boots">
+                    <div class="outfit-item-info">
+                        <div class="outfit-item-brand">Oro</div>
+                        <div>Boots - Black</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

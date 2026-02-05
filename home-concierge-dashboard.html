@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Concierge Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #6e6e73;
+            font-size: 16px;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .tab:hover {
+            background: #f5f5f7;
+        }
+
+        .tab.active {
+            background: #007aff;
+            color: white;
+        }
+
+        .section {
+            display: none;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f5f5f7;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .task-count {
+            color: #6e6e73;
+            font-size: 14px;
+        }
+
+        .task-list {
+            display: grid;
+            gap: 15px;
+        }
+
+        .task-item {
+            padding: 16px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 3px solid #007aff;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .task-item:hover {
+            background: #f5f5f7;
+            transform: translateX(2px);
+        }
+
+        .task-item.has-details {
+            border-left-color: #34c759;
+        }
+
+        .task-title {
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .task-meta {
+            display: flex;
+            gap: 12px;
+            font-size: 13px;
+            color: #6e6e73;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            background: #e8e8ed;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .badge.video {
+            background: #ff9500;
+            color: white;
+        }
+
+        .badge.attachment {
+            background: #5856d6;
+            color: white;
+        }
+
+        .room-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .room-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e8e8ed;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .room-card:hover {
+            border-color: #007aff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .room-title {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .room-count {
+            color: #6e6e73;
+            font-size: 14px;
+        }
+
+        .info-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .info-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid #007aff;
+        }
+
+        .info-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .info-content {
+            color: #1d1d1f;
+            line-height: 1.8;
+        }
+
+        .info-content p {
+            margin-bottom: 8px;
+        }
+
+        .placeholder {
+            color: #6e6e73;
+            font-style: italic;
+            font-size: 14px;
+            padding: 10px;
+            background: #f5f5f7;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .nav-tabs {
+                gap: 8px;
+            }
+
+            .tab {
+                padding: 10px 16px;
+                font-size: 14px;
+            }
+
+            .room-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏠 Home Concierge Dashboard</h1>
+            <div class="subtitle">Complete guide for managing 1830 Jefferson Place, NW #21</div>
+        </header>
+
+        <div class="nav-tabs">
+            <button class="tab active" onclick="showSection('home-info')">Home Information</button>
+            <button class="tab" onclick="showSection('weekly-tasks')">Weekly Tasks</button>
+            <button class="tab" onclick="showSection('quarterly')">Quarterly Maintenance</button>
+            <button class="tab" onclick="showSection('rooms')">Rooms & Areas</button>
+            <button class="tab" onclick="showSection('suppliers')">Service Providers</button>
+        </div>
+
+        <!-- Home Information Section -->
+        <div id="home-info" class="section active">
+            <div class="section-header">
+                <h2>Home Information</h2>
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-title">📍 Address</div>
+                    <div class="info-content">
+                        <p><strong>1830 Jefferson Place, NW. #21</strong></p>
+                        <p>Washington DC 20036</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🚪 Building Entry</div>
+                    <div class="info-content">
+                        <p><strong>Door Entry Code:</strong> Dial 077</p>
+                        <p><strong>Condo Door Lock:</strong> Smart lock details</p>
+                        <div class="placeholder">📹 Video instructions available</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🏢 Building Facilities</div>
+                    <div class="info-content">
+                        <p><strong>Garage:</strong> Basement level access</p>
+                        <p><strong>Elevator:</strong> Access to all floors</p>
+                        <p><strong>Mail & Packages:</strong> Front desk collection</p>
+                        <div class="placeholder">📹 Video tour available</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">💡 Systems Overview</div>
+                    <div class="info-content">
+                        <p><strong>Lighting:</strong> Smart lighting system throughout</p>
+                        <p><strong>HVAC:</strong> Central heating and air conditioning</p>
+                        <p><strong>Internet:</strong> Wi-Fi network details</p>
+                        <div class="placeholder">📋 Detailed instructions for each system</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🗑️ Waste Management</div>
+                    <div class="info-content">
+                        <p><strong>Trash:</strong> Daily removal to building chute</p>
+                        <p><strong>Recycling:</strong> Separate recycling procedures</p>
+                        <div class="placeholder">📋 Detailed sorting instructions</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🧹 Cleaning</div>
+                    <div class="info-content">
+                        <p><strong>Cleaning Service:</strong> Cinthya & Henry Vidal (every 3 weeks)</p>
+                        <p><strong>Phone:</strong> Cinthya (301) 760-0850 | Henry (301) 820-0203</p>
+                        <p><strong>Materials:</strong> All supplies stocked on-site</p>
+                        <div class="placeholder">📹 Video demonstrations available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weekly Tasks Section -->
+        <div id="weekly-tasks" class="section">
+            <div class="section-header">
+                <h2>Weekly Recurring Tasks</h2>
+                <span class="task-count">Regular maintenance schedule</span>
+            </div>
+            
+            <div class="task-list">
+                <div class="task-item has-details">
+                    <div class="task-title">🗑️ Trash & Recycling</div>
+                    <div class="task-meta">
+                        <span>Daily</span>
+                        <span class="badge video">Video</span>
+                    </div>
+                    <div class="placeholder">Remove trash to building chute, separate recycling</div>
+                </div>
+
+                <div class="task-item has-details">
+                    <div class="task-title">🧺 Laundry</div>
+                    <div class="task-meta">
+                        <span>Weekly</span>
+                        <span class="badge video">Video</span>
+                    </div>
+                    <div class="placeholder">Washing, drying, folding procedures</div>
+                </div>
+
+                <div class="task-item has-details">
+                    <div class="task-title">🍽️ Kitchen</div>
+                    <div class="task-meta">
+                        <span>Daily</span>
+                        <span class="badge video">Video</span>
+                    </div>
+                    <div class="placeholder">Dishes, countertops, restocking items</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">🧹 General Cleaning</div>
+                    <div class="task-meta">
+                        <span>Weekly</span>
+                        <span class="badge">Checklist</span>
+                    </div>
+                    <div class="placeholder">Full cleaning routine between service visits</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">📦 Stock Check</div>
+                    <div class="task-meta">
+                        <span>Weekly</span>
+                        <span class="badge attachment">List</span>
+                    </div>
+                    <div class="placeholder">Paper towels, toilet paper, cleaning supplies, food items</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">🛏️ Bedroom</div>
+                    <div class="task-meta">
+                        <span>Weekly</span>
+                    </div>
+                    <div class="placeholder">Sheets, trash, closet organization</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">🏢 Office</div>
+                    <div class="task-meta">
+                        <span>Weekly</span>
+                    </div>
+                    <div class="placeholder">Trash, organization, equipment check</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">🚿 Bathrooms</div>
+                    <div class="task-meta">
+                        <span>Weekly</span>
+                    </div>
+                    <div class="placeholder">Master bathroom, hallway bathroom, living room bathroom</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quarterly Maintenance Section -->
+        <div id="quarterly" class="section">
+            <div class="section-header">
+                <h2>Quarterly & Seasonal Maintenance</h2>
+                <span class="task-count">Less frequent maintenance tasks</span>
+            </div>
+            
+            <div class="task-list">
+                <div class="task-item">
+                    <div class="task-title">🌡️ HVAC Filter Replacement</div>
+                    <div class="task-meta">
+                        <span>Quarterly</span>
+                        <span class="badge video">Video</span>
+                    </div>
+                    <div class="placeholder">Filter replacement procedure and schedule</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">💡 Light Bulb Replacement</div>
+                    <div class="task-meta">
+                        <span>As needed</span>
+                        <span class="badge attachment">Bulb types list</span>
+                    </div>
+                    <div class="placeholder">Different bulb types for each room</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">🪟 Deep Cleaning</div>
+                    <div class="task-meta">
+                        <span>Quarterly</span>
+                    </div>
+                    <div class="placeholder">Windows, drapes, upholstery, carpets</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">☀️ Seasonal Deck Setup</div>
+                    <div class="task-meta">
+                        <span>Seasonal</span>
+                    </div>
+                    <div class="placeholder">Heat lamp, weather covers, outdoor furniture</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">💧 Water Filter Replacement</div>
+                    <div class="task-meta">
+                        <span>Every 6 months</span>
+                    </div>
+                    <div class="placeholder">Kitchen sink water filter</div>
+                </div>
+
+                <div class="task-item">
+                    <div class="task-title">🏋️ Gym Equipment</div>
+                    <div class="task-meta">
+                        <span>Quarterly</span>
+                        <span class="badge video">Video</span>
+                    </div>
+                    <div class="placeholder">Tonal battery replacement, equipment setup</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rooms & Areas Section -->
+        <div id="rooms" class="section">
+            <div class="section-header">
+                <h2>Rooms & Areas Guide</h2>
+                <span class="task-count">Click for detailed room instructions</span>
+            </div>
+            
+            <div class="room-grid">
+                <div class="room-card" onclick="alert('Detailed kitchen instructions coming soon')">
+                    <div class="room-title">🍳 Kitchen</div>
+                    <div class="room-count">11 tasks</div>
+                    <div class="placeholder">Dishes, appliances, stocking, cleaning</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed bedroom instructions coming soon')">
+                    <div class="room-title">🛏️ Bedroom</div>
+                    <div class="room-count">7 tasks</div>
+                    <div class="placeholder">Linens, closet, laundry, bathroom</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed office instructions coming soon')">
+                    <div class="room-title">💼 Office</div>
+                    <div class="room-count">7 tasks</div>
+                    <div class="placeholder">Equipment, organization, cleaning</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed deck instructions coming soon')">
+                    <div class="room-title">🌿 Deck</div>
+                    <div class="room-count">6 tasks</div>
+                    <div class="placeholder">Outdoor furniture, heat lamp, propane</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed gym instructions coming soon')">
+                    <div class="room-title">🏋️ Gym</div>
+                    <div class="room-count">4 tasks</div>
+                    <div class="placeholder">Equipment setup, organization</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed bathroom instructions coming soon')">
+                    <div class="room-title">🚿 Master Bathroom</div>
+                    <div class="room-count">3 tasks</div>
+                    <div class="placeholder">Cleaning, supplies, maintenance</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed bathroom instructions coming soon')">
+                    <div class="room-title">🚿 Hallway Bathroom</div>
+                    <div class="room-count">4 tasks</div>
+                    <div class="placeholder">Cleaning, stocking, maintenance</div>
+                </div>
+
+                <div class="room-card" onclick="alert('Detailed living room instructions coming soon')">
+                    <div class="room-title">🛋️ Living Room</div>
+                    <div class="room-count">3 tasks</div>
+                    <div class="placeholder">Furniture, fireplace, cleaning</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Providers Section -->
+        <div id="suppliers" class="section">
+            <div class="section-header">
+                <h2>Service Providers & Contacts</h2>
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-title">🧹 Cleaning Service</div>
+                    <div class="info-content">
+                        <p><strong>Cinthya & Henry Vidal</strong></p>
+                        <p>Cinthya: (301) 760-0850</p>
+                        <p>Henry: (301) 820-0203</p>
+                        <p>henrryvidal@yahoo.com</p>
+                        <p><em>Schedule: Every 3 weeks</em></p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🔧 General Contractor</div>
+                    <div class="info-content">
+                        <p><strong>Henry Vidal</strong></p>
+                        <p>(301) 820-0203</p>
+                        <div class="placeholder">Primary contractor for repairs and projects</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🎨 Interior Designer</div>
+                    <div class="info-content">
+                        <p><strong>Sarita Simpson</strong></p>
+                        <p>(703) 338-9857</p>
+                        <p>sarita@interiormatter.com</p>
+                        <p>Interior Matter</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🧼 Dry Cleaner</div>
+                    <div class="info-content">
+                        <div class="placeholder">Local dry cleaning service details</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">❄️ HVAC / AC Repair</div>
+                    <div class="info-content">
+                        <div class="placeholder">HVAC service provider contact information</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🚰 Plumber</div>
+                    <div class="info-content">
+                        <div class="placeholder">Emergency and regular plumbing service</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🏪 Local Stores</div>
+                    <div class="info-content">
+                        <div class="placeholder">Nearby stores for supplies and restocking</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🪑 Upholstery Cleaners</div>
+                    <div class="info-content">
+                        <div class="placeholder">Professional upholstery cleaning service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

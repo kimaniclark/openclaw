@@ -1,0 +1,31 @@
+{
+  "outfits": [
+    {
+      "id": "casual-grey-1",
+      "name": "Casual Grey #1",
+      "occasion": "Casual",
+      "season": "Fall, Winter",
+      "items": [
+        {
+          "type": "Sweater",
+          "brand": "All Saints",
+          "color": "Grey",
+          "photo": "items/allsaints-grey-sweater.jpg"
+        },
+        {
+          "type": "Jeans",
+          "brand": "All Saints",
+          "color": "Black",
+          "photo": "items/allsaints-black-jeans.jpg"
+        },
+        {
+          "type": "Boots",
+          "brand": "Oro",
+          "color": "Black",
+          "photo": "items/oro-black-boots.jpg"
+        }
+      ],
+      "notes": "Comfortable casual look for cooler weather"
+    }
+  ]
+}

@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Concierge - 1830 Jefferson Place NW #21</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #6e6e73;
+            font-size: 16px;
+        }
+
+        .search-box {
+            margin: 20px 0;
+            padding: 12px;
+            width: 100%;
+            border: 1px solid #e8e8ed;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .tab:hover {
+            background: #f5f5f7;
+        }
+
+        .tab.active {
+            background: #007aff;
+            color: white;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f5f5f7;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #007aff;
+        }
+
+        .task-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .task-item {
+            padding: 18px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #007aff;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .task-item:hover {
+            background: #f5f5f7;
+            transform: translateX(2px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .task-item.has-video {
+            border-left-color: #ff9500;
+        }
+
+        .task-item.has-attachment {
+            border-left-color: #5856d6;
+        }
+
+        .task-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .task-notes {
+            color: #3a3a3c;
+            font-size: 14px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            margin-top: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            background: #e8e8ed;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge.video {
+            background: #ff9500;
+            color: white;
+        }
+
+        .badge.attachment {
+            background: #5856d6;
+            color: white;
+        }
+
+        .badge.completed {
+            background: #34c759;
+            color: white;
+        }
+
+        .info-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #007aff;
+            margin-bottom: 15px;
+        }
+
+        .info-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #007aff;
+        }
+
+        .info-content {
+            color: #1d1d1f;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .info-content p {
+            margin-bottom: 8px;
+        }
+
+        .info-content strong {
+            color: #1d1d1f;
+        }
+
+        .room-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .room-card {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            border: 2px solid #e8e8ed;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .room-card:hover {
+            border-color: #007aff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .room-title {
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        .room-count {
+            color: #6e6e73;
+            font-size: 14px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #34c759;
+        }
+
+        .contact-name {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 4px;
+        }
+
+        .contact-company {
+            color: #6e6e73;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .contact-info a {
+            color: #007aff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .alert {
+            padding: 16px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .nav-tabs {
+                gap: 8px;
+            }
+
+            .tab {
+                padding: 10px 16px;
+                font-size: 14px;
+            }
+
+            .room-grid, .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏠 Home Concierge Dashboard</h1>
+            <div class="subtitle">1830 Jefferson Place, NW #21 • Washington DC 20036</div>
+            <input type="text" class="search-box" placeholder="🔍 Search tasks, rooms, or contacts..." onkeyup="searchTasks(this.value)">
+        </header>
+
+        <div class="nav-tabs">
+            <button class="tab active" onclick="showSection('overview')">Overview</button>
+            <button class="tab" onclick="showSection('entry')">Entry & Access</button>
+            <button class="tab" onclick="showSection('condo')">Condo Systems</button>
+            <button class="tab" onclick="showSection('rooms')">All Rooms</button>
+            <button class="tab" onclick="showSection('contacts')">Service Providers</button>
+        </div>
+
+        <!-- Overview Section -->
+        <div id="overview" class="section active">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Quick Reference</h2>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-title">📍 Property Address</div>
+                    <div class="info-content">
+                        <p><strong>1830 Jefferson Place, NW. Unit #21</strong></p>
+                        <p>Washington DC 20036</p>
+                        <p>The closest Metro is DuPont Circle, South entrance.</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🚪 Building Entry</div>
+                    <div class="info-content">
+                        <p><strong>Dial 077</strong> at the front door of the building</p>
+                        <p>Take the elevator to the top floor <strong>6R</strong></p>
+                        <p>Make a right off the elevator to unit 21</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🔑 Condo Door Lock</div>
+                    <div class="info-content">
+                        <p>The condo has an <strong>August smart lock</strong></p>
+                        <p>Download the August Lock app and you'll be given an electronic key</p>
+                        <p><a href="https://apps.apple.com/us/app/august-home/id648730592" target="_blank">Download August App</a></p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-title">🧹 Primary Cleaning Service</div>
+                    <div class="info-content">
+                        <p><strong>Cinthya & Henry Vidal</strong></p>
+                        <p>📱 Cinthya: (301) 760-0850</p>
+                        <p>📱 Henry: (301) 820-0203</p>
+                        <p>📧 henrryvidal@yahoo.com</p>
+                        <p><em>Schedule: Every 3 weeks</em></p>
+                        <p><strong>Note:</strong> Henry is also the primary contractor for repairs</p>
+                    </div>
+                </div>
+
+                <div class="room-grid">
+                    <div class="room-card" onclick="showSection('rooms'); document.getElementById('kitchen-section').scrollIntoView();">
+                        <div class="room-title">🍳 Kitchen</div>
+                        <div class="room-count">11 tasks</div>
+                    </div>
+                    <div class="room-card" onclick="showSection('rooms'); document.getElementById('bedroom-section').scrollIntoView();">
+                        <div class="room-title">🛏️ Bedroom</div>
+                        <div class="room-count">7 tasks</div>
+                    </div>
+                    <div class="room-card" onclick="showSection('rooms'); document.getElementById('office-section').scrollIntoView();">
+                        <div class="room-title">💼 Office</div>
+                        <div class="room-count">7 tasks</div>
+                    </div>
+                    <div class="room-card" onclick="showSection('condo')">
+                        <div class="room-title">🏢 Condo Systems</div>
+                        <div class="room-count">9 tasks</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Entry & Access Section -->
+        <div id="entry" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Entry & General Information</h2>
+                    <span class="badge">8 tasks</span>
+                </div>
+
+                <div class="task-grid">
+                    <div class="task-item">
+                        <div class="task-title">📍 Address</div>
+                        <div class="task-notes">1830 Jefferson Place, NW. #21
+Washington DC 20036
+
+The closest Metro is DuPont Circle, South entrance.</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🚪 Door Entry
+                            <span class="badge attachment">Photos</span>
+                        </div>
+                        <div class="task-notes">Dial 077 at the front door of the building and take the elevator to the top floor 6R. Make a right off the elevator to unit 21.
+
+Elevator: level 6R
+Basement, garage and back alley: 1R
+Lobby: 2</div>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-title">🔑 Condo Door Lock</div>
+                        <div class="task-notes">The condo has an August lock. Download the August Lock app. You will be given an electronic key to the condo which can be used to unlock the condo door.
+
+https://august.com
+
+August app:
+https://apps.apple.com/us/app/august-home/id648730592</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🅿️ Garage, Elevator and Basement
+                            <span class="badge attachment">Photos</span>
+                        </div>
+                        <div class="task-notes">Garage is level 1R in the elevator. The elevator requires the fob to get back on so make sure to take it with you when going to the basement floor 1R.
+    Kimani's car space is marked in photo and is in the garage on the right as you get out of the elevator
+    The garbage and recycling is in the garage straight down the hall and the door on the left (in the pic) as you get out of the elevator on floor 1R. It is in the back left of the garage behind large double doors.
+    You can exit to the back alley by going straight down the hall off the elevator.
+    The mailbox for outgoing mail is behind the condo across the street from the beer and liquor store on the south side of M St. between 19th and 18th St.</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            📬 Mail and Packages
+                            <span class="badge attachment">Photos</span>
+                        </div>
+                        <div class="task-notes">    Mail arrives in the lobby and the wooden mail chest (in pic) in front of the elevator.
+    Grab anything addressed to Kimani Clark and put it in the condo foyer on the hallway table.
+    Do not open packages unless asked.
+    If packages are opened but still in the foyer, please put the contents away where they should be (such a toilet paper, paper towels, etc.)</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            📋 Onboarding Information
+                            <span class="badge attachment">Document</span>
+                        </div>
+                        <div class="task-notes">We need:
+    Email address to invite to Asana
+    Your Venmo or PayPal for payment
+
+You will be provided:
+    Condo building door access fob
+    Electronic condo key from August Lock
+    Expense money
+
+You need:
+    Asana - Take the time to go through your account on your computer & setup your profile
+    Invoice/hour tracking app - please track your hours and email Kimani an invoice when you want to be paid. You can send Venmo request for payment to @Kimani-Clark-2 or Paypal request to kclark@alum.mit.edu
+    Receipt tracking app to track receipts for expenses https://apps.apple.com/us/app/workinghours-time-tracking/id1404035216
+
+My email address is kimani@hey.com
+
+I will send a Calendar invite with access to my calendar and you can put the times you will come on there (so I know in advance of your arriving at the condo)
+
+Due dates in Asana:
+If a due date is listed in Asana, complete the task by the due date or message if there's an issue getting it done. If a due date has to change, let me know and update the due date to the date the task is expected to be done</div>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-title">🧼 Upholstery Cleaners</div>
+                        <div class="task-notes">Silk wood 
+703-370-5856</div>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-title">🏖️ Time Off</div>
+                        <div class="task-notes">If you are going to be out temporarily (sick, vacation, travel, etc.), please text me to let me know.
+
+If you are going to be out permanently, please give two weeks notice. Thanks.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Condo Systems Section -->
+        <div id="condo" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Condo Systems & Utilities</h2>
+                    <span class="badge">9 tasks</span>
+                </div>
+
+                <div class="task-grid">
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            💡 Lighting Systems
+                            <span class="badge attachment">Photos</span>
+                        </div>
+                        <div class="task-notes">Upstairs lights:
+The upstairs light switches can be tapped at the top and bottom to go on and off. If they are held down at the top or bottom, they will dim up and down.
+
+There is a light switch for the lights above the fireplace in the living room behind the mirror (attached pic)
+
+The light switch for the lights above the couch in the living room is to the left of the couch.
+
+Bedroom lights:
+The lights in the bedroom go on and off automatically by motion sensor when walking in. They can be turned on or off by saying "Hey Siri, turn on the bedroom lights" or "Hey Siri, turn on the bedroom lights"
+
+Master bathroom lights:
+These lights go on and off automatically by motion sensor. They can be switched on or off manually using the white remote on the bathroom counter (attached pic).
+
+Balcony lights:
+There is a light switch on the pillar at the top of the stairs in front of the balcony door</div>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-title">📶 Internet / WiFi</div>
+                        <div class="task-notes">Wifi passwords:
+        Network: KC
+            milesdyson</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🌡️ Heating and Air Conditioning
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">The thermostat is a Nest (http://nest.com) thermostat on the wall outside of the gym.
+
+The thermostat temperature can be adjusted by turning the outer ring of the thermostat.
+
+Thermostat is usually set to 74. 
+
+Touch it to reset it if Kimani leaves because it's attached to his phone location and turns on and off as his phone leaves and enters.
+
+Change the air conditioner filter every three months. The replacement filters are in the office closet on the right. The A/C filter to be replaced is in the closet in front of the thermostat, on the bottom left (in the pic). Set a reminder to remember to change it</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🗑️ Trash
+                            <span class="badge attachment">Video</span>
+                        </div>
+                        <div class="task-notes">The trash goes in the trash shoot to the right of the elevator in the hall outside of the condo. There is a door that opens and the chute is the metal door behind the trash door (in the attached video).
+
+Larger items of trash can be taken to the bins in the basement garage described in the recycling section
+
+Trash bags are in the cabinet above the microwave in the kitchen.
+
+Master bathroom:
+Master bathroom trashcan is below the sink on the right.
+
+Office:
+The office trashcan is under the left side of the desk. There is a paper shredder there that needs to be emptied too.
+
+Kitchen:
+There are two trashcans, one in the cabinet to the right of the dishwasher, and another in the cabinet to the left of the bottom stove (in attached pic)</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            ♻️ Recycling
+                            <span class="badge attachment">Video</span>
+                        </div>
+                        <div class="task-notes">The recycling bin is in the garage in the basement (floor 1R).
+
+Go straight off the elevator on floor 1R and make a left into the first door on the left. Go to the back left of the garage and the recycling is bending the double doors. See attached video for directions.
+
+If there are empty boxes by the front door, they should be taken to the recycling bin in the garage. They should also be broken down before being stored in the recycling bin.
+
+You will need a fob to get back in the elevator when coming back.
+
+Master bathroom:
+There is a recycling bin to be emptied under the right sink
+
+Kitchen:
+The recycling bin is in the back of the cabinet to the right of the dishwasher</div>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-title">🧹 Cleaning Schedule</div>
+                        <div class="task-notes">Once every 3 weeks, arrange for our cleaners to come by
+
+Cinthya Vidal (301) 760-0850
+
+Also, clean off the living room coffee table and the white high table whenever coming by.
+
+We don't need heavy cleaning regularly due to our cleaners, but if you see anything out of place, please straighten it up. Particularly if there are any glasses or drink containers in any of the rooms, please put them in the dishwasher.</div>
+                    </div>
+
+                    <div class="task-item">
+                        <div class="task-title">🧺 Laundry</div>
+                        <div class="task-notes">The washing machine and dryer are to the right in front of the downstairs hallway bathroom. (Attached pic)
+
+Wash hand towels in the bathrooms periodically.
+
+(Section to be updated)</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            📦 Items to Keep Stocked
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">Method gel hand soap Sweetwater refills. 
+https://www.amazon.com/Method-Refill-Sweet-Water-Ounce/dp/B002Y26V0A?th=1
+
+e-NRG Bio Ethanol Fuel (for fireplace)
+https://www.amazon.com/gp/product/B01612SHQO
+
+Toilet paper
+https://www.amazon.com/gp/product/B07HDF1YYN
+
+Solo cups, Tide, Cascade, Kleenex, Trash bags
+
+Master bathroom toiletries:
+- Face Soap, Crest toothpaste, Lotion, Dove soap bars, Listerine, Shampoo, Dove body wash
+
+(Full Amazon links in Asana task)</div>
+                    </div>
+
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🎉 Party Setup
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">Instructions if you're told there will be a party:
+    Drain outdoor fireplace
+    Place 4 bottles of fire place fuel (at the top of the foyer closet) next to outdoor coffee table fireplace
+    Charge light balls
+    Place light balls outside on the deck In the positions shown in the attached pic.
+    Put propane tanks in heat lamps
+    Remove covers from coffee table, tv and daybed
+    Put white table chairs down (if leaned forward on table)
+    Put the ashtrays (by the kitchen sink) out on the deck table
+    Ask if Cinthya should be scheduled to clean after the party
+    The next time you come after the party, pick up any trash or debris on the deck
+
+Ask if security needs to be arranged by Superior Security (Reuben Spruill)
+Ask if bartender needs to be set up</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Rooms Section -->
+        <div id="rooms" class="section">
+            
+            <!-- Kitchen -->
+            <div class="card" id="kitchen-section">
+                <div class="card-header">
+                    <h2>🍳 Kitchen</h2>
+                    <span class="badge">11 tasks</span>
+                </div>
+                <div class="task-grid">
+                    <div class="task-item">
+                        <div class="task-title">🧻 Paper Towels</div>
+                        <div class="task-notes">Make sure there are paper towels in the paper towel holder on the counter. Paper towels are stored above the microwave. Extra paper towels are in the top of the gym closet</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🗑️ Kitchen Trash</div>
+                        <div class="task-notes">There are two trashcans and one recycling bin in the kitchen:
+•	One of the trashcans & the recycling bin are to the right of the sink
+•	The other trashcan is to the left of the stove
+
+Trash bags for these can be found in the cabinet above the stove.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🧴 Cleaning Materials</div>
+                        <div class="task-notes">All cleaning materials are under the sink
+    Use Windex for the glass tables
+    Spare paper towels are above the stove, and need to be restocked often with paper towels that are at the top of the gym closet</div>
+                    </div>
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            💧 Sink Water Filter
+                            <span class="badge completed">✓ Completed</span>
+                        </div>
+                        <div class="task-notes">Change the Pur Water Filter on the sink when the light flashes red.
+
+The extras are in the cabinet above the blender.
+
+1. Unscrew the back of the filter
+2. Remove old blue cartridge
+3. Screw the back on
+4. Let water run for 5 minutes to prime the filter</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🥃 Liquor Cabinet</div>
+                        <div class="task-notes">There is a liquor cabinet to the right of the wine cooler and left of the refrigerator.
+
+For getting more liquor upon request, you can use the Drizly app for delivery.
+https://apps.apple.com/us/app/drizly-fast-alcohol-delivery/id574731947
+
+There is also a liquor store behind the condo on M St. between 18th and 19th St.
+Bell Wine and Spirits</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🥤 Huel Shakes</div>
+                        <div class="task-notes">    Use Huel for protein/meal replacement shakes.
+    Use the black bottles and make 8 biweekly. 
+    To make, add the water to the top of a black bottle and the water to the blender. Then, add two scoops of the Huel mix and blend it.
+    You can do (1 scoop vanilla & 1 scoop berry or 2 scoops vanilla, just mix it up for variety).
+    Store them in the fridge when done.
+    Also put one Huel in the refrigerator in the bedroom closet
+    The Huel is in the cabinets above the wine cooler</div>
+                    </div>
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🥤 Breakfast Drinks
+                            <span class="badge attachment">Recipe Photo</span>
+                        </div>
+                        <div class="task-notes">    Make 3 or more containers of the dry powder mix every time I stop by the house. Enough to ensure it doesn't run out.
+    See the picture for the recipe (note the scooper is smaller than the one for the Huel shakes)
+    Don't add water, only the powder will be mixed in the black bottle.
+    Store in the cabinet when complete.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🍱 Cook Unity Meals</div>
+                        <div class="task-notes">Cook Unity Meals are delivered Mondays and Thursdays
+•	Bring them up from the lobby and store in the fridge
+•	Make sure to put older meals in the front</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🍽️ Dishes</div>
+                        <div class="task-notes">Cascade dishwashing packers are under the sink for the dishwasher 
+
+Make sure to do the dishes every time you come by
+
+Make sure to come by frequently enough that they do not back up</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🧂 Salt and Pepper Shakers</div>
+                        <div class="task-notes">If the salt and pepper shakers are empty, please refill them.
+
+Salt and pepper refills are in the cabinet to the left of the microwave.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🥗 Foods to Keep Stocked</div>
+                        <div class="task-notes">These need to be ordered if there are none in the condo:
+- Protein powder, Mio, Pepper, Salt, Vitamin C
+- 365 Organic salted popcorn, Blueberry granola
+- Muenster cheese slices, Avocado oil potato chips
+- Psyllium Husk, Greens powder, Udo's Oil
+- Polar Frost Sparking Ice (Pink Grapefruit and Lemon/Lime)
+
+(Full Amazon links available in Asana task)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bedroom -->
+            <div class="card" id="bedroom-section">
+                <div class="card-header">
+                    <h2>🛏️ Bedroom</h2>
+                    <span class="badge">7 tasks</span>
+                </div>
+                <div class="task-grid">
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🪟 Drapes
+                            <span class="badge attachment">Photos & Video</span>
+                        </div>
+                        <div class="task-notes">The large drapes are manual and have a black out drape and a see through one.
+
+The windows behind the bed have automated drapes that work with the white remote control. A picture of the remote and a video of how to use it are attached.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">💡 Bedroom Lights</div>
+                        <div class="task-notes">The lights in the bedroom go on and off automatically by motion sensor when walking in. They can be turned on or off by saying "Hey Siri, turn on the bedroom lights" or "Hey Siri, turn off the bedroom lights"</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">👔 Closet/Laundry</div>
+                        <div class="task-notes">The videos include instructions on how to do the laundry and where to put it away
+
+Wash, dry, and fold clothes each time you come to the condo:
+    The clothes are separated into whites and colors
+    Whites can be washed and put into the dryer
+    All under armor/jeans need to be hung in the gym closet to air dry so they do not shrink
+    Clothes that need to be dry cleaned will be separated (either outside the bedroom or on the shelf above the closet fridge)
+
+The attached pic is what the closet looks like organized.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🛏️ Sheets</div>
+                        <div class="task-notes">(Instructions to be added)</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🗑️ Bedroom Trash</div>
+                        <div class="task-notes">There is one trash can in the bedroom that needs to be taken out biweekly
+
+Small trash bags can be found underneath the sink in the bathroom</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🚿 Bedroom Bathroom</div>
+                        <div class="task-notes">Wash bathroom rug every 10 days or so
+
+There are two trashcans under the sink that need to be taken out biweekly
+
+Make sure the bathroom is fully stocked with toilet paper</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">👔 Dry Cleaning</div>
+                        <div class="task-notes">The clothes to be dry cleaned are above the mini refrigerator in the master bedroom closet.
+
+Pick up any dry cleaning to be cleaned there every time you come by.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office -->
+            <div class="card" id="office-section">
+                <div class="card-header">
+                    <h2>💼 Office</h2>
+                    <span class="badge">7 tasks</span>
+                </div>
+                <div class="task-grid">
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🏋️ Tonal - Battery Replacement
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">Instructions for replacing handle batteries attached</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">📄 Shredder</div>
+                        <div class="task-notes">(Instructions to be added)</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🛋️ Bed/Couch</div>
+                        <div class="task-notes">The couch in the office turns into a bed in the case guests are coming
+
+Extra sheets should be available in the gym closet (clean sheets should be put back and folded in this closet as well)</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">💡 Office Lighting</div>
+                        <div class="task-notes">(Instructions to be added)</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🗑️ Office Trash</div>
+                        <div class="task-notes">The trashcan is under the left side of the desk.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">📦 Office Closet</div>
+                        <div class="task-notes">Beanbag chairs and the back of the living room couch are stored in the office closet. Filters for the A/C are also in the office closet.</div>
+                    </div>
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🧳 Luggage Care
+                            <span class="badge attachment">Instructions</span>
+                        </div>
+                        <div class="task-notes">Instructions for cleaning Monos luggage:
+
+To clean the polycarbonate shell and interior lining, use a soft, damp cloth with warm water and mild soap.
+
+For stubborn scuff marks on the shell that water and soap can't easily remove, use the included eraser sponge.
+1. Wet the sponge and squeeze out excess water.
+2. Gently rub the scuffed area until the mark disappears.
+3. Rinse sponge with clean water.
+4. Squeeze dry and store.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Remaining Rooms (Deck, Living Room, Bathrooms, Gym) -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🌿 Deck</h2>
+                    <span class="badge">6 tasks</span>
+                </div>
+                <div class="task-grid">
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🔥 Heat Lamp
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">Anytime you come by, unless I'm having people over that day, move heat lamp against the wall (see attached pic) to protect it from blowing over in the wind</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">☂️ Weather Covers</div>
+                        <div class="task-notes">The chair, fireplace, and tv have weather covers. 
+
+The covers are in a grey rectangular box towards the back of the deck, across from the chair.
+
+Put the covers on the deck items whenever coming by.</div>
+                    </div>
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            💡 Outdoor Light Balls
+                            <span class="badge attachment">Photos</span>
+                        </div>
+                        <div class="task-notes">The chargers to the lights are to the left of the sink in the kitchen.
+
+Currently, the three big lights are broken, but the smaller ones work well. Working on getting the bigger lights repaired.
+
+The color setting should be white.
+
+The light balls should be charged upon request and put on the deck once charged</div>
+                    </div>
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🔥 Coffee Table Fireplace
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">The fireplace comes out of the center of the table and needs to be emptied of any water that has been collected. The center can be dumped of water and put back in the coffee table (is heavy, watch fingers).
+
+If there is no fuel at the top of the foyer closet, order a refill.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">⛽ Propane Refills</div>
+                        <div class="task-notes">The propane tanks are in the closet in the gym.
+
+Propane can be refilled at the Exxon at 2150 M st. or at Home Depot.
+
+Propane Taxi is also a delivery option: https://propanetaxi.com</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>🏋️ Gym</h2>
+                    <span class="badge">4 tasks</span>
+                </div>
+                <div class="task-grid">
+                    <div class="task-item">
+                        <div class="task-title">🚪 Gym Closet</div>
+                        <div class="task-notes">Make sure all extra pillows/sheets are folded and organized.
+
+This is where extra paper towels are stocked, make sure there are always some in the condo.</div>
+                    </div>
+                    <div class="task-item has-video">
+                        <div class="task-title">
+                            💪 Gym Setup - Chest & Back
+                            <span class="badge video">Video</span>
+                        </div>
+                        <div class="task-notes">If the next gym day on the calendar is chest and back, set up the gym as shown in the attached video</div>
+                    </div>
+                    <div class="task-item has-video">
+                        <div class="task-title">
+                            🦵 Gym Setup - Legs & Abs
+                            <span class="badge video">Video</span>
+                        </div>
+                        <div class="task-notes">If the next workout on the calendar is legs and abs, set up the gym as shown in the attached video.</div>
+                    </div>
+                    <div class="task-item has-video">
+                        <div class="task-title">
+                            💪 Gym Setup - Shoulders, Triceps & Biceps
+                            <span class="badge video">Video</span>
+                        </div>
+                        <div class="task-notes">If the next work out on the calendar is shoulders, triceps and biceps, set up the gym as in the attached video.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>🛋️ Living Room & Bathrooms</h2>
+                </div>
+                <div class="task-grid">
+                    <div class="task-item">
+                        <div class="task-title">🚿 Living Room Bathroom</div>
+                        <div class="task-notes">Refill liquid soap and hand sanitizer if empty. (Method Gel Hand Soap Refill, Sweet Water)
+
+Keep bathroom stocked with toilet paper.
+
+Toilet paper can be found at the top of the gym closet</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🪟 Living Room</div>
+                        <div class="task-notes">Clean glass coffee table and white high table every time you come by</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🔥 Living Room Fireplace</div>
+                        <div class="task-notes">The fireplace can be turned on by switching both switches to the left of the fireplace simultaneously up and then back down and then back up again.
+
+It can be turned off by switching both switches back down.</div>
+                    </div>
+                    <div class="task-item has-attachment">
+                        <div class="task-title">
+                            🚿 Master Bathroom Lights
+                            <span class="badge attachment">Photo</span>
+                        </div>
+                        <div class="task-notes">These lights go on and off automatically by motion sensor. They can be switched on or off manually using the white Philips remote on the bathroom counter that's in the attached pic.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🗑️ Master Bathroom Trash</div>
+                        <div class="task-notes">Master bathroom trashcan is below the sink on the right.</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🧺 Master Bathroom Rug</div>
+                        <div class="task-notes">Wash bathroom rug every 10 days or so</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">🚿 Hallway Bathroom</div>
+                        <div class="task-notes">There is one trashcan in the hallway bathroom that needs to be emptied biweekly. Mini trash bags are under the sink.
+
+Make sure underneath the sink is stocked with extra toilet paper.
+
+Wash the bathroom rug every 10 days or so or as needed</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-title">⚖️ Bathroom Scale</div>
+                        <div class="task-notes">If batteries need to be replaced, they are CR 2032 Batteries
+https://www.amazon.com/AmazonBasics-CR2032-Lithium-Coin-Cell/dp/B0787K2XWZ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service Providers Section -->
+        <div id="contacts" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2>📞 Service Providers & Contacts</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-name">Cinthya & Henry Vidal</div>
+                        <div class="contact-company">Cleaning Service & General Contractor</div>
+                        <div class="contact-info">
+                            <p>📱 Cinthya: <a href="tel:+13017600850">(301) 760-0850</a></p>
+                            <p>📱 Henry: <a href="tel:+13018200203">(301) 820-0203</a></p>
+                            <p>📧 <a href="mailto:henrryvidal@yahoo.com">henrryvidal@yahoo.com</a></p>
+                            <p><strong>Schedule:</strong> Every 3 weeks</p>
+                            <p><em>Henry is also the primary contractor for repairs</em></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">Sarita Simpson</div>
+                        <div class="contact-company">Interior Matter - Interior Designer</div>
+                        <div class="contact-info">
+                            <p>📱 <a href="tel:+17033389857">(703) 338-9857</a></p>
+                            <p>📧 <a href="mailto:sarita@interiormatter.com">sarita@interiormatter.com</a></p>
+                            <p>🌐 <a href="https://www.interiormatter.com" target="_blank">interiormatter.com</a></p>
+                            <p>Assistant - Pascale: <a href="tel:+12029003818">(202) 900-3818</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">Imperial Valet / Sterling Cleaners</div>
+                        <div class="contact-company">Dry Cleaning Service</div>
+                        <div class="contact-info">
+                            <p>📍 1333 Connecticut Ave NW</p>
+                            <p>Washington, DC 20036</p>
+                            <p><em>Located down the block</em></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">Silk Wood</div>
+                        <div class="contact-company">Upholstery Cleaners</div>
+                        <div class="contact-info">
+                            <p>📱 <a href="tel:+17033705856">(703) 370-5856</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">AC Repair Service</div>
+                        <div class="contact-company">HVAC Repairs</div>
+                        <div class="contact-info">
+                            <p>📱 <a href="tel:+17039221900">(703) 922-1900</a></p>
+                            <p><strong>Note:</strong> Not available Monday</p>
+                            <p>Need to hold a spot for them the night before with a car</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">Stevens Plumbing</div>
+                        <div class="contact-company">Plumbing Services</div>
+                        <div class="contact-info">
+                            <p>📱 <a href="tel:+12028824500">(202) 882-4500</a></p>
+                            <p><em>Familiar with the building's plumbing</em></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">Local Stores</div>
+                        <div class="contact-company">Nearby Groceries & Supplies</div>
+                        <div class="contact-info">
+                            <p>• 7/11 at 19th and M St.</p>
+                            <p>• CVS in DuPont Circle</p>
+                            <p>• Wawa on 19th and L St.</p>
+                            <p>• Bell Wine & Spirits (M St. between 18th-19th)</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-name">Propane Refills</div>
+                        <div class="contact-company">Propane Services</div>
+                        <div class="contact-info">
+                            <p>• Exxon at 2150 M St.</p>
+                            <p>• Home Depot</p>
+                            <p>• Propane Taxi (delivery): <a href="https://propanetaxi.com" target="_blank">propanetaxi.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        function searchTasks(query) {
+            query = query.toLowerCase();
+            const taskItems = document.querySelectorAll('.task-item, .info-card, .contact-card');
+            
+            taskItems.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                if (query === '' || text.includes(query)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
