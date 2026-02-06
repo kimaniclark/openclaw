@@ -70,3 +70,64 @@
 **Status**: 
 - ✅ Voice transcription: Fix applied, awaiting test
 - ✅ Phone calls: Fix applied, awaiting test
+
+---
+
+## Issue #3: OpenAI API Billing (FIXED)
+
+**Problem**: Voice transcription failing silently - messages arrived at OpenClaw but showed as `[Audio]` with no transcript
+
+**Root Cause**: No billing account set up on OpenAI platform (platform.openai.com)
+
+**Fix Applied** (Feb 5, 2026):
+- User created OpenAI platform account
+- Added payment method ($5 minimum prepaid)
+- Configured API key in OpenClaw (Model section)
+- Gateway restarted to pick up new configuration
+
+**Testing Results** (Feb 6, 2026):
+- ✅ 6:29 AM EST: Test voice message transcribed successfully ("Testing, testing, one, two, three. Let me know if you got this.")
+- ✅ Voice transcription system confirmed operational
+
+---
+
+## Issue #4: Anthropic API Timeout (ACTIVE)
+
+**Problem**: Voice message at 6:30 AM EST - Telegram showed "typing" but no response delivered
+
+**User Report** (6:35 AM EST, Feb 6, 2026):
+- Sent voice message with photo attachment
+- Telegram indicated "typing" for a while
+- Then nothing happened (no response received)
+
+**Investigation**:
+- Checked gateway.err.log
+- Found timeout errors ~1 hour after message sent
+
+**Error Logs**:
+```
+2026-02-06T07:29:24.444Z [agent/embedded] embedded run timeout: runId=73b32c19-b4bf-40bd-886e-eaa9c0fa9a7e sessionId=8c5757f2-845f-4669-99bd-281a65f29dc8 timeoutMs=600000
+2026-02-06T07:30:43.816Z [agent/embedded] Profile anthropic:default timed out (possible rate limit). Trying next account...
+```
+
+**Root Cause**: 
+- Voice transcription worked (audio → text successful) ✅
+- OpenClaw received message and started processing (typing indicator) ✅
+- **Anthropic API timed out** after 10 minutes (600,000ms) ❌
+- Possible rate limiting or API slowness
+- No response was ever sent
+
+**Impact**: This is NOT a voice transcription issue - it's an Anthropic API timeout
+
+**Possible Factors**:
+1. **Large context size** - 28K+ tokens in conversation history
+2. **Rate limiting** - Anthropic throttling API calls
+3. **Temporary API issue** - Anthropic servers slow/overloaded
+4. **Photo attachment** - Additional processing for image analysis
+
+**Next Steps**:
+- Monitor for continued timeouts
+- Consider context pruning if this persists
+- May need to switch to shorter context or smaller model temporarily
+
+**Status**: INVESTIGATING - Voice transcription working, but agent response generation timing out

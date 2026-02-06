@@ -115,6 +115,38 @@ This validates that **people don't need to understand the 20+ life areas framewo
 
 ## 🎯 Beta Candidate Pool
 
+### Kristin Jepsen - High School Friend 🆕
+**Status**: BETA TESTER - explicitly wants to participate  
+**Contact**: 
+- Mobile: (954) 673-7001
+- Email: Kb2mgmt@yahoo.com
+**Location**: Loxahatchee, FL  
+**Relationship**: Friend from high school  
+**Interest Level**: HIGH - called directly to volunteer as beta tester  
+**Price Point**: $49/month beta pricing  
+
+**The Story:**
+Called Kimani (Feb 5, 2026) and volunteered to be a Life Concierge beta tester. Personal connection + genuine interest = great beta candidate.
+
+**Why This Is Perfect:**
+- Pre-existing trust (high school friend)
+- Proactive interest (she reached out, not pitched)
+- Good geography (Florida - different market from DC)
+- Will provide honest feedback
+
+**Next Steps:**
+- [ ] Contact Kristin to schedule beta onboarding
+- [ ] Explain beta pricing and timeline
+- [ ] Complete 200+ question framework assessment
+- [ ] Begin service delivery
+
+**Notes:**
+- Added Feb 5, 2026
+- Great candidate for testimonial (personal relationship = authentic)
+- Florida market test
+
+---
+
 ### Circle.so Members (20 unpaid members)
 **Status**: First beta cohort  
 **Source**: Life Concierge course community  

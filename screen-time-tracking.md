@@ -107,3 +107,34 @@ Telegram has been extremely productive lately (coordinating with Johnny, Life Co
 **Last Updated**: February 3, 2026  
 **Next Update**: Monday, February 10, 2026  
 **Data Source**: iPhone Screen Time (Settings → Screen Time → See All Activity)
+
+---
+
+## Sleep Debt Tracking Added (Feb 6, 2026)
+
+### New Metric: Sleep Debt
+- **Source**: Rise Sleep app
+- **Tracking frequency**: Weekly on Mondays
+- **Current baseline**: 28.4 hours
+- **Goal**: Reduce sleep debt (lower is better)
+
+### Related Metric: Energy Potential
+- **Source**: Rise Sleep app (calculated from sleep debt)
+- **Current baseline**: 5%
+- **Interpretation**: Low energy due to high sleep debt
+
+### Monday Morning Update Checklist (Updated)
+Every Monday at 9 AM EST, you'll get reminded to check:
+1. ✅ Sleep Debt (Rise Sleep app)
+2. ✅ Screen Time (iPhone Settings)
+3. ✅ Bedtime (Health app)
+
+### Dashboard Changes
+Health section now tracks:
+- Sleep (Avg): 5h 43m
+- **Sleep Debt: 28.4h** (NEW)
+- Testosterone: 539 ng/dL
+- **Energy Potential: 5%** (NEW)
+- A1C: 6.1%
+
+This gives a complete picture of sleep quality and its impact on daily energy levels.
