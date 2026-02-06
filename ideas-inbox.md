@@ -12,7 +12,13 @@ Quick voice capture for ideas that don't need immediate action.
 
 ### February 2026
 
-<!-- Ideas will be added here automatically -->
+#### 💡 #1 - Gift Certificate to Jeanette
+**Captured:** Thursday, February 6, 2026 at 4:37 PM EST  
+**Idea:** Send a Fever Up gift certificate to Jeanette
+
+**Context:** Gift giving idea
+
+---
 
 ---
 
