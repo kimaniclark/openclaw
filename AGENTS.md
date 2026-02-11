@@ -207,6 +207,60 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🧠 Intelligent Model Routing
+
+**Goal:** User sends messages with zero friction. Johnny handles model selection automatically.
+
+**See `model-routing.md` for full details.**
+
+### Quick Reference
+
+| Channel | Default Model | Why |
+|---------|---------------|-----|
+| Telegram (main) | Opus | Large context |
+| Discord (all) | Sonnet | Fresh context, balanced |
+
+### Complexity Detection
+
+**Handle directly (Sonnet):**
+- Writing, planning, reasoning
+- Most business questions
+- Research summaries
+- 80% of tasks
+
+**Spawn Opus when:**
+- Deep analysis needed
+- Multi-step complex reasoning
+- Strategic planning
+- Synthesizing across multiple contexts
+- User asks for "thorough" / "deep dive" / "comprehensive"
+- M&A deal evaluation
+- Complex financial analysis
+
+**Don't spawn Haiku:**
+- Overhead > savings for simple tasks
+- Sonnet handles quick lookups fast enough
+
+### How to Spawn Opus
+
+When you detect a complex task in a Discord (Sonnet) session:
+
+```
+sessions_spawn(
+  task: "[restate the complex question]",
+  model: "anthropic/claude-opus-4-5"
+)
+```
+
+The sub-agent runs with Opus, returns the answer, and you relay it to the user.
+
+### User Experience
+
+- User just messages naturally
+- No model selection required
+- Complex tasks might take slightly longer (spawn overhead)
+- Quality automatically matches task complexity
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

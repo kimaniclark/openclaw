@@ -63,6 +63,34 @@ Help clients find and hire home assistants without the 20+ hour time sink.
 
 ---
 
+## Client Communication Options
+
+### Discord Multi-Channel Setup (Feb 11, 2026) 💬
+**Status**: Validated | **Flexibility**: High
+
+**Insight:** Clients can set up Discord servers with multiple channels for different life categories:
+- #home-management
+- #travel
+- #entertainment
+- #finance
+- #family
+- etc.
+
+**Benefits:**
+- Organized conversations by topic
+- Easy to reference past discussions in specific categories
+- Zero-friction (no @mentions needed)
+- Free unlimited usage
+- Voice messages supported
+
+**Reality check:** Many clients will opt for a single-channel Telegram instead for simplicity. Discord multi-channel is a power-user option for clients who want more organization.
+
+**Onboarding consideration:** Offer both options during setup:
+1. **Simple:** Single Telegram channel (most clients)
+2. **Organized:** Discord server with category channels (power users)
+
+---
+
 ## Entertainment Management
 
 ### Feature: Automated Artist Tracking
