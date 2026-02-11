@@ -8,6 +8,7 @@
 - **Met:** 
 
 ## Relationship
+- **Inner Circle:** [yes / no]
 - **Frequency:** [weekly / monthly / quarterly / 6-months / 9-months]
 - **Last Contact:** [YYYY-MM-DD]
 - **Next Due:** [YYYY-MM-DD]

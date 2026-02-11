@@ -58,7 +58,20 @@ Johnny monitors contact frequency and sends reminders when someone is overdue.
 4. Tracks when you actually reached out
 5. Weekly summary on Sundays: "4 people to catch up with this week"
 
+## Two-Tier System
+
+**Full CRM** (from Quo/OpenPhone)
+- Everyone in Kimani's network
+- Stored for reference and context
+- No proactive outreach unless requested
+
+**Inner Circle** (from Contacts Journal)
+- ~100 curated people Kimani wants to stay in touch with
+- Active relationship maintenance with frequency tracking
+- Proactive reminders and meetup scheduling
+- Marked with `Inner Circle: yes`
+
 ## Sources
 
-- Quo (OpenPhone) contacts - notes on friends' stores
-- Contacts Journal export - frequencies and relationship data
+- Quo (OpenPhone) contacts - broad network, notes on friends' stores
+- Contacts Journal CSV export - inner circle with frequencies
