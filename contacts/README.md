@@ -41,6 +41,24 @@ Johnny has full access to search and update these files. Use for:
 - Tracking last interactions
 - Gift ideas and preferences
 
-## Source
+## Relationship Maintenance
 
-Initial data imported from Quo (OpenPhone) contacts.
+Johnny monitors contact frequency and sends reminders when someone is overdue.
+
+**Frequency tiers:**
+- weekly, monthly, quarterly, 6-months, 9-months (max)
+
+**Meetup types:**
+- lunch, dinner, drinks, activity, text-only
+
+**What Johnny does:**
+1. During heartbeats, checks who's overdue
+2. Pings with context and suggests reaching out
+3. For meetup contacts: offers to schedule lunch/dinner/drinks
+4. Tracks when you actually reached out
+5. Weekly summary on Sundays: "4 people to catch up with this week"
+
+## Sources
+
+- Quo (OpenPhone) contacts - notes on friends' stores
+- Contacts Journal export - frequencies and relationship data

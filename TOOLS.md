@@ -2,6 +2,22 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## Web Design Resources
+
+**Design Inspiration:**
+- **Dribbble** — https://dribbble.com — Designer portfolios, UI/UX inspiration
+- **Godly** — https://godly.website — Curated gallery of beautiful websites
+- **Awwwards** — https://awwwards.com — Award-winning web design showcase
+
+**Website Builders:**
+- **Framer** — https://framer.com — Design-forward, great templates
+- **Webflow** — https://webflow.com — Powerful, more technical
+
+**Reference Video:**
+- "Stealing $10K Website Designs with Claude Code" — https://youtu.be/AaO6ujcx6TY
+
+---
+
 ## What Goes Here
 
 Things like:

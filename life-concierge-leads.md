@@ -147,6 +147,40 @@ Called Kimani (Feb 5, 2026) and volunteered to be a Life Concierge beta tester. 
 
 ---
 
+### Casey Gunn 🆕
+**Status**: BETA TESTER - early beta customer  
+**Contact**: 
+- Mobile: +1 (770) 871-6255
+- Email: caseygunn577@gmail.com
+**Location**: Atlanta, GA area (770 area code)  
+**Relationship**: Referred by his mother Meredith McDuffie (Kimani's high school friend)  
+**Referral Contact**: Meredith McDuffie - +1 (912) 409-9088 | Cumming, GA | Birthday: Jan 12  
+**Interest Level**: HIGH - wants to improve both business and personal life operations  
+**Price Point**: TBD  
+
+**Background:**
+- Runs his own sports agency financial advice business
+- NFLPA connection (photo at NFLPA event)
+- Entrepreneur looking to optimize both business AND personal life
+
+**Why This Is Great:**
+- Warm referral through trusted connection (mom is Kimani's friend)
+- Business owner = understands value of time and delegation
+- Sports/finance industry = high-income, busy professional
+- Wants BOTH business and life improvements (full Life Concierge value prop)
+
+**Next Steps:**
+- [ ] Contact Casey to schedule beta onboarding
+- [ ] Complete 200+ question framework assessment
+- [ ] Begin service delivery
+
+**Notes:**
+- Added Feb 11, 2026
+- Atlanta market test (different from DC/FL)
+- Potential crossover with The Modern Owner (business optimization)
+
+---
+
 ### Circle.so Members (20 unpaid members)
 **Status**: First beta cohort  
 **Source**: Life Concierge course community  

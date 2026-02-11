@@ -7,6 +7,14 @@
 - **Birthday:** 
 - **Met:** 
 
+## Relationship
+- **Frequency:** [weekly / monthly / quarterly / 6-months / 9-months]
+- **Last Contact:** [YYYY-MM-DD]
+- **Next Due:** [YYYY-MM-DD]
+- **Meetup Type:** [lunch / dinner / drinks / activity / text-only]
+- **Preferred Days:** [weekday evenings / weekends / flexible]
+- **Their Spots:** [places they like or are near]
+
 ## Context
 
 
