@@ -2,6 +2,29 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+## Integrations
+
+### Gmail (Email Access)
+- **kimani@kimaniclark.com** — Kimani's personal email (primary inbox I monitor)
+- **assistant@kimaniclark.com** — My email address (use for sending on Kimani's behalf)
+- **admin@kimaniclark.com** — Newsletters and website logins (alias)
+- All under the kimaniclark.com Google Workspace
+- Set up via Telegram session
+
+### Motion (Calendar/Task Management)
+- **API Key**: Stored in `credentials.json`
+- **Docs**: https://docs.usemotion.com
+- **Usage**: Create tasks, get schedules, manage calendar
+- **Setup**: Already configured and working
+- **Important**: Always include `autoScheduled` when creating tasks, otherwise they don't appear on calendar
+  ```json
+  "autoScheduled": {
+    "startDate": "YYYY-MM-DD",
+    "deadlineType": "SOFT",
+    "schedule": "Work Hours"
+  }
+  ```
+
 ## Web Design Resources
 
 **Design Inspiration:**

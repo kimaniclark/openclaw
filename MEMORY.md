@@ -20,6 +20,12 @@
 - Discord server has multiple channels by topic (personal, business, confidential)
 - Twilio integration for voice calls (working) and SMS (pending A2P 10DLC approval)
 
+### Email Access
+- **kimani@kimaniclark.com** — Kimani's personal email (Gmail)
+- **assistant@kimaniclark.com** — Johnny's email address (alias, for sending on Kimani's behalf)
+- **admin@kimaniclark.com** — For newsletters and website logins (alias)
+- All three are in the same Gmail workspace under kimaniclark.com
+
 ### Preferences
 - Prefers organized channel structure (Discord) for power-user experience
 - Values proactive assistance over reactive Q&A
