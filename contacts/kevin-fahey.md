@@ -1,0 +1,32 @@
+# Kevin Fahey
+
+## Basic Info
+- **Phone:** 5032676011
+- **Email:** Kevin.fahey@marketoperandi.com
+- **Location:** 
+- **Birthday:** Apr 2
+- **Met:** 
+
+## Relationship
+- **Inner Circle:** yes
+- **Frequency:** 9-months
+- **Last Contact:** 
+- **Next Due:** 
+- **Meetup Type:** 
+- **Preferred Days:** 
+- **Their Spots:** 
+- **Tags:** Friend
+
+## Context
+
+
+## Their World
+- **Business/Work:** 
+- **Interests:** 
+- **Family:** 
+
+## Notes
+
+
+## History
+- [Date] - Imported from Contacts Journal
