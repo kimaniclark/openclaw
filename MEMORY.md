@@ -29,6 +29,7 @@
 ### Preferences
 - Prefers organized channel structure (Discord) for power-user experience
 - Values proactive assistance over reactive Q&A
+- **Motion Task Protocol**: When asked to create a task, first analyze if I can do it myself or minimize his effort. Only create tasks for things genuinely requiring his action, and prep as much as possible beforehand.
 
 ---
 

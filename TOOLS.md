@@ -23,10 +23,14 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **assistant@kimaniclark.com** — Johnny's sending address (alias)
 - **admin@kimaniclark.com** — Newsletters/logins (alias)
 
+### OpenClaw Config Notes
+- When setting `dmPolicy: "open"` for any channel account, MUST also include `allowFrom: ["*"]`
+- Config validation enforces this as a safety requirement
+
 ### Motion (Calendar/Task Management) ✅
 - **Docs**: https://docs.usemotion.com
 - **What I can do**: Create tasks, get schedules, manage calendar
-- **Important**: Always include `autoScheduled` when creating tasks:
+- **CRITICAL**: Always include `autoScheduled` when creating tasks — without it, tasks won't appear on calendar!
   ```json
   "autoScheduled": {
     "startDate": "YYYY-MM-DD",
@@ -34,6 +38,7 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
     "schedule": "Work Hours"
   }
   ```
+- **Workspaces**: Law Company = `BNopGoBRs6iIYs4ulAkT8`, Personal = `QDEsQoPza_p5clRPrh3LE`, Crown Acquisitions = `GwzH_8QWAAjwoYs18vKkm`, The Modern Owner = `uduxE79OeLU1QEZlh1Euq`, Life Concierge = `qoZOmVGH4FFfuuoWc2_0Q`
 
 ### Twilio (SMS/Voice) ⏳
 - **Status**: A2P 10DLC campaign PENDING carrier approval
