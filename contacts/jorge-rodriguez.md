@@ -15,9 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** 
+- **Tags:** Prime Corporate Services
 
 ## Context
+Prime Corporate Services
 
 ## Their World
 - **Business/Work:** Prime Corporate Services
@@ -25,6 +26,7 @@
 - **Family:** 
 
 ## Notes
+Contacted via assistant in the past
 
 ## History
 - [Date] - Imported from Quo (OpenPhone)

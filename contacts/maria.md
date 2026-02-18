@@ -1,8 +1,8 @@
-# Rob
+# Maria
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +15407620129
+- **Email:** mariaalejandrasanchezg@gmail.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,10 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Alt Condo Assistant
 
 ## Context
-Friend
+Alt Condo Assistant
 
 ## Their World
 - **Business/Work:** 

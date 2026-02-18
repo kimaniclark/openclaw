@@ -1,7 +1,7 @@
-# Rob
+# Cynthia Vidal
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +13017600850
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,10 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Condo Cleaning
 
 ## Context
-Friend
+Condo Cleaning
 
 ## Their World
 - **Business/Work:** 

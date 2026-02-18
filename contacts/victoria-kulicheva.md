@@ -1,8 +1,9 @@
-# Rob
+# Victoria Kulicheva
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** 
+- **Phone2:** +13104226802
+- **Email:** victoria@kissmodelmanagement.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,10 +16,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Business partner / Friend
 
 ## Context
-Friend
+Business partner / Friend
 
 ## Their World
 - **Business/Work:** 

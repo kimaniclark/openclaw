@@ -1,8 +1,8 @@
-# Rob
+# James Kopcie
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +14129776209
+- **Email:** jkopcie@hotmail.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,13 +15,13 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Kimani's Bookeeper
 
 ## Context
-Friend
+Kimani's Bookeeper
 
 ## Their World
-- **Business/Work:** 
+- **Business/Work:** Kimani’s Bookeeper
 - **Interests:** 
 - **Family:** 
 

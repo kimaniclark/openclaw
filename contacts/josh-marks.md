@@ -1,8 +1,8 @@
-# Rob
+# Josh Marks
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +12027465779
+- **Email:** joshmarks202@gmail.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 

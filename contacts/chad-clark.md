@@ -1,8 +1,8 @@
-# Rob
+# Chad Clark
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +17038622984
+- **Email:** beautypill@mac.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,10 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Kimani's Brother
 
 ## Context
-Friend
+Kimani's Brother
 
 ## Their World
 - **Business/Work:** 

@@ -1,7 +1,7 @@
-# Rob
+# Josh Thomas
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +16672170048
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,10 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Modeling Agency Photographer
 
 ## Context
-Friend
+Modeling Agency Photographer
 
 ## Their World
 - **Business/Work:** 

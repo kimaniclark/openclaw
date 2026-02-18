@@ -1,8 +1,8 @@
-# Rob
+# Paul Mink
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +16155743359
+- **Email:** Paulmink1@gmail.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,10 +15,9 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** 
 
 ## Context
-Friend
 
 ## Their World
 - **Business/Work:** 

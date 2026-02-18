@@ -1,7 +1,7 @@
-# Rob
+# Casey Hollingsworth
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +14439266939
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,10 +15,9 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** 
 
 ## Context
-Friend
 
 ## Their World
 - **Business/Work:** 

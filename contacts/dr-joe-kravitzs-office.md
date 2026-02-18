@@ -1,7 +1,7 @@
-# Rob
+# Dr. Joe Kravitz's office
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +13017614840
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,13 +15,13 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Dentist at Kravitz Dentistry
 
 ## Context
-Friend
+Dentist at Kravitz Dentistry
 
 ## Their World
-- **Business/Work:** 
+- **Business/Work:** Kravitz Dentistry
 - **Interests:** 
 - **Family:** 
 

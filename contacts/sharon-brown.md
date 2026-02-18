@@ -1,8 +1,8 @@
-# Rob
+# Sharon Brown
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +16107374877
+- **Email:** info@3S-solution.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,10 +15,9 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** 
 
 ## Context
-Friend
 
 ## Their World
 - **Business/Work:** 

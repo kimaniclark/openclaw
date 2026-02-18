@@ -15,9 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** 
+- **Tags:** Jason- Quantum Coaching
 
 ## Context
+Jason- Quantum Coaching
 
 ## Their World
 - **Business/Work:** Jason- Quantum Coaching
@@ -25,7 +26,7 @@
 - **Family:** 
 
 ## Notes
-Address: Csm.quantumcoaching@gmail.com
+Contacted via assistant in the past
 
 ## History
 - [Date] - Imported from Quo (OpenPhone)

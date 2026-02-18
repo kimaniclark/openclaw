@@ -1,8 +1,8 @@
-# Rob
+# Roop Sood
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** 
+- **Email:** roop@fifthweapon.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,13 +15,13 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** CEO at Fifth Weapon
 
 ## Context
-Friend
+CEO at Fifth Weapon
 
 ## Their World
-- **Business/Work:** 
+- **Business/Work:** Fifth Weapon
 - **Interests:** 
 - **Family:** 
 

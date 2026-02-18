@@ -1,8 +1,8 @@
-# Rob
+# Jessica Orenstein
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +17146065066
+- **Email:** jessica_orenstein@yahoo.com
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,10 +15,9 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** 
 
 ## Context
-Friend
 
 ## Their World
 - **Business/Work:** 

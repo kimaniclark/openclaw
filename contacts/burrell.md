@@ -1,7 +1,7 @@
-# Rob
+# Burrell
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +12025698628
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,13 +15,13 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Tailor
 
 ## Context
-Friend
+Tailor
 
 ## Their World
-- **Business/Work:** 
+- **Business/Work:** Burrell - Tailor
 - **Interests:** 
 - **Family:** 
 

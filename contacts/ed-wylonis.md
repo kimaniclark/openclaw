@@ -1,7 +1,7 @@
-# Rob
+# Ed wylonis
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +12672575911
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,10 +15,9 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** 
 
 ## Context
-Friend
 
 ## Their World
 - **Business/Work:** 

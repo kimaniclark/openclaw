@@ -1,7 +1,7 @@
-# Rob
+# Henry Vidal
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +13018200203
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,10 +15,10 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Cleaner/Cynthia's Husband/Contractor
 
 ## Context
-Friend
+Cleaner/Cynthia's Husband/Contractor
 
 ## Their World
 - **Business/Work:** 

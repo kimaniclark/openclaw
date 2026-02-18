@@ -26,6 +26,7 @@ Barter Saves Representative
 - **Family:** 
 
 ## Notes
+Contacted via assistant in the past
 
 ## History
 - [Date] - Imported from Quo (OpenPhone)

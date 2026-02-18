@@ -1,8 +1,8 @@
-# Rob
+# OpenPhone Team
 
 ## Basic Info
-- **Phone:** +12022706716
-- **Email:** 
+- **Phone:** +14158516951
+- **Email:** support@openphone.co
 - **Location:** 
 - **Birthday:** 
 - **Met:** 
@@ -15,13 +15,13 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** Support at OpenPhone
 
 ## Context
-Friend
+Support at OpenPhone
 
 ## Their World
-- **Business/Work:** 
+- **Business/Work:** OpenPhone
 - **Interests:** 
 - **Family:** 
 

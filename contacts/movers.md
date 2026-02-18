@@ -1,7 +1,7 @@
-# Rob
+# movers
 
 ## Basic Info
-- **Phone:** +12022706716
+- **Phone:** +18774010933
 - **Email:** 
 - **Location:** 
 - **Birthday:** 
@@ -15,10 +15,9 @@
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Friend
+- **Tags:** 
 
 ## Context
-Friend
 
 ## Their World
 - **Business/Work:** 
