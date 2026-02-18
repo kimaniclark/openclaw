@@ -2,21 +2,31 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-## Integrations
+## 🔌 Available API Integrations
 
-### Gmail (Email Access)
-- **kimani@kimaniclark.com** — Kimani's personal email (primary inbox I monitor)
-- **assistant@kimaniclark.com** — My email address (use for sending on Kimani's behalf)
-- **admin@kimaniclark.com** — Newsletters and website logins (alias)
-- All under the kimaniclark.com Google Workspace
-- Set up via Telegram session
+All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKING.
 
-### Motion (Calendar/Task Management)
-- **API Key**: Stored in `credentials.json`
+### Grain (Meeting Recordings & Transcripts) ✅
+- **Workspace**: Kiklis and Clark (teams: Main, The Modern Owner, Life Concierge)
+- **What I can do**:
+  - List all recorded meetings
+  - Pull full transcripts with speaker names + timestamps
+  - Search meetings by title or participant
+  - Get AI-generated summaries
+  - Download recordings (video/audio)
+- **Use cases**: Pull notes from past calls, find what was discussed in a specific meeting, summarize coaching sessions
+
+### Gmail (Email Access) ✅
+- **kimani@kimaniclark.com** — Personal email (primary inbox)
+- **kimani@modernowner.co** — The Modern Owner business email
+- **kimani@crownacquisitions.co** — Crown Acquisitions business email
+- **assistant@kimaniclark.com** — Johnny's sending address (alias)
+- **admin@kimaniclark.com** — Newsletters/logins (alias)
+
+### Motion (Calendar/Task Management) ✅
 - **Docs**: https://docs.usemotion.com
-- **Usage**: Create tasks, get schedules, manage calendar
-- **Setup**: Already configured and working
-- **Important**: Always include `autoScheduled` when creating tasks, otherwise they don't appear on calendar
+- **What I can do**: Create tasks, get schedules, manage calendar
+- **Important**: Always include `autoScheduled` when creating tasks:
   ```json
   "autoScheduled": {
     "startDate": "YYYY-MM-DD",
@@ -24,6 +34,32 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
     "schedule": "Work Hours"
   }
   ```
+
+### Twilio (SMS/Voice) ⏳
+- **Status**: A2P 10DLC campaign PENDING carrier approval
+- **Voice calls**: Working
+- **SMS**: Blocked until A2P approved
+
+### LearnWorlds - The Modern Owner ✅
+- **What I can do**: List students, check enrollments, course progress
+- **16 students** currently accessible
+
+### Coachmarketer CRM (Go High Level) ✅
+- **Platform**: Go High Level
+- **114 contacts** accessible
+- **Use**: CRM for coaching/consulting leads
+
+### Apollo (Lead Generation) ✅
+- **What I can do**: People search, enrichment, sequences
+- **Use**: Find leads, enrich contact data
+
+### Instantly (Cold Email) ✅
+- **What I can do**: Manage campaigns, lead finder
+- **Use**: Cold email outreach
+
+### Asana (Task Management) ✅
+- **Workspace**: Assistance
+- **Use**: Home assistant training and task management
 
 ## Web Design Resources
 
