@@ -4,6 +4,8 @@
 - **What to call them:** Kimani
 - **Pronouns:** *(to learn)*
 - **Timezone:** America/New_York (EST)
+- **Phone:** 301-674-1098
+- **Email:** kimani@kimaniclark.com
 - **Notes:** Entrepreneur with multiple businesses. Wants a proactive COO-style assistant for both personal life and business operations.
 
 ## Context

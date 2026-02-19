@@ -14,6 +14,13 @@
 - **The Modern Owner** — Small business course, AI coaching
 - **Crown Acquisitions** — M&A, business acquisitions
 - **Kiss Model Management** — Modeling agency with Victoria Kulicheva
+- **One Call Away** — Referral network ("eBay for referrals")
+  - Website: https://onecallaway.com | Goals: https://onecallaway.com/browse-goals
+  - Built on Lovable.dev (considering migration)
+  - Concept: People post goals, super connectors refer them to someone who can achieve it easily
+  - Revenue: Small fee for connecting call + larger success fee on results
+  - Current state: 4 real goals posted, 6-7 super connectors ready to match
+  - Core premise: For any goal, someone exists who can deliver it easily
 
 ### Technical Setup
 - OpenClaw running locally with Discord + Telegram channels

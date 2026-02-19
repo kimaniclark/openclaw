@@ -38,7 +38,7 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
     "schedule": "Work Hours"
   }
   ```
-- **Workspaces**: Law Company = `BNopGoBRs6iIYs4ulAkT8`, Personal = `QDEsQoPza_p5clRPrh3LE`, Crown Acquisitions = `GwzH_8QWAAjwoYs18vKkm`, The Modern Owner = `uduxE79OeLU1QEZlh1Euq`, Life Concierge = `qoZOmVGH4FFfuuoWc2_0Q`
+- **Workspaces**: Law Company = `BNopGoBRs6iIYs4ulAkT8`, Personal = `QDEsQoPza_p5clRPrh3LE`, Crown Acquisitions = `GwzH_8QWAAjwoYs18vKkm`, The Modern Owner = `uduxE79OeLU1QEZlh1Euq`, Life Concierge = `qoZOmVGH4FFfuuoWc2_0Q`, One Call Away = `1UYNj9zhkFS4l4iuFLlIs`
 
 ### Twilio (SMS/Voice) ⏳
 - **Status**: A2P 10DLC campaign PENDING carrier approval
