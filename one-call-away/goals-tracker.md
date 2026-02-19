@@ -38,13 +38,15 @@
 ---
 
 ### 3. Download Worldview from $5M Solo Founder
-- **Posted by:** Kevin T.
-- **Reward:** $500
+- **Posted by:** Kevin Today (Kevin T.)
+- **Reward:** TBD (asked for his input on call fee vs success fee)
 - **Timeline:** Soon (Within 1 month)
 - **Details:** Wants to understand how a solo founder running ~$5M/year thinks about: business deals, time management, work-life balance, travel, family life, wealth creation & preservation.
-- **Status:** Not yet matched
+- **Status:** ⏳ Reached out to confirm goal + pricing
 - **Connectors contacted:** None yet
 - **Referrals received:** 0
+- **Activity log:**
+  - 2025-02-19: Sent email to Kevin (kevin.j.today@gmail.com) — confirming goal still valid, asking for pricing input
 
 ---
 

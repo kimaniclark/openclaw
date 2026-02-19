@@ -17,9 +17,13 @@
 
 ---
 
-## Kevin T.
+## Kevin Today (Kevin T.)
 - **Goal:** Download worldview from $5M solo founder
-- **Contact:** TBD
+- **Phone:** +1 (331) 251-3356
+- **Email:** kevin.j.today@gmail.com
+- **Booking link:** https://book.vimcal.com/p/kevintoday/60m-meet
+- **WhatsApp:** Kevin Today
+- **Notes:** $500 was default value, not intentional — waiting for his input on real pricing
 
 ---
 
