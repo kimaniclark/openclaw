@@ -1,10 +1,16 @@
 # Fitness Tracking
 
-## Current Stats (Feb 8, 2026)
-- **Weight:** 189.8 lb (stable past 7 days)
-- **Muscle:** 77.2%
-- **Body Fat:** 18.8%
-- **Trend:** Gaining Weight (muscle up, fat relatively stable)
+## Current Stats (Feb 20, 2026)
+- **Weight:** 189.8 lb (stable)
+- **Muscle:** 78.2% ↑
+- **Body Fat:** 17.7% ↓
+- **Trend:** Losing Weight (recomping — muscle up, fat down, weight stable)
+
+### History
+| Date | Weight | Muscle | Body Fat | Trend |
+|------|--------|--------|----------|-------|
+| Feb 20 | 189.8 lb | 78.2% | 17.7% | Losing Weight |
+| Feb 8 | 189.8 lb | 77.2% | 18.8% | Gaining Weight |
 
 ## Goal
 **Lift weights at least 2x per week**

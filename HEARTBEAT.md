@@ -25,3 +25,6 @@ Check law firm email for messages from **Chris Cresswell** about New Enterprise 
 
 ### Relationship Maintenance (Weekly)
 Every Sunday evening or Monday morning, review `contacts/` folder for inner circle people and suggest 2-3 to reach out to that week. Rotate through different tags (Friend, Social V, Feel Good, etc.) and prioritize anyone approaching their frequency limit. Post suggestions to #social channel.
+
+### Fitness Dashboard Update (Weekly)
+Every Sunday or Monday, ping Kimani in #fitness for updated Withings stats (weight, body fat %, muscle %). Update `life-dashboard.html` fitness section with new data and reset the week range.
