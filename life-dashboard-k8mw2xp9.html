@@ -126,7 +126,7 @@
         }
         
         .badge-pending {
-            background: #fff3e0;
+            background: #f0f4f8;
             color: #e65100;
         }
         
@@ -231,155 +231,115 @@
             <p class="subtitle">Last updated: February 3, 2026</p>
         </header>
         
-        <!-- Life Areas Overview -->
-        <div class="card" style="margin-bottom: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+        <!-- Life Areas Overview - Grouped by Category -->
+        <div class="card" style="margin-bottom: 30px;">
             <div style="margin-bottom: 20px;">
                 <h2 style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Life Areas Overview</h2>
-                <p style="opacity: 0.9; font-size: 14px;">Tracking progress across 20+ areas of personal life management</p>
+                <p style="color: #86868b; font-size: 14px;">10 categories • 20 areas of personal life management</p>
             </div>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;">
-                <!-- Built Areas (On Dashboard) -->
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">🎵</div>
-                    <div style="font-size: 14px; font-weight: 600;">Entertainment</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;">
+                
+                <!-- STRATEGY -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">🎯 Strategy</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">⏰ Time Management ✓</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">✈️</div>
-                    <div style="font-size: 14px; font-weight: 600;">Travel</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- BODY -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">💪 Body</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">🩺 Health ✓</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">🏋️ Fitness ✓</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">🏠</div>
-                    <div style="font-size: 14px; font-weight: 600;">Home</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- MIND -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">🧠 Mind</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">❤️ Emotional Health</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">🎯 Vision & Purpose</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">👔</div>
-                    <div style="font-size: 14px; font-weight: 600;">Fashion</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- THINGS -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">📦 Things</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #1d1d1f; border: 2px solid #86868b;">🍽️ Food</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">🏠 Home ✓</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">🚗 Car ✓</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">👔 Fashion ✓</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">💻 Technology</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">🏋️</div>
-                    <div style="font-size: 14px; font-weight: 600;">Fitness</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- PEOPLE -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">👥 People</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">💕 Relationships</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">🎉 Social</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">🩺</div>
-                    <div style="font-size: 14px; font-weight: 600;">Health</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- JOY -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">🌟 Joy</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">🎮 Fun</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">😊 Lifestyle</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">🎵 Entertainment ✓</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; border: 2px solid #0066cc; color: #1d1d1f;">✈️ Travel ✓</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.25); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.4);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">🚗</div>
-                    <div style="font-size: 14px; font-weight: 600;">Car</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- WEALTH -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">💰 Wealth</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #1d1d1f; border: 2px solid #86868b;">💵 Financial</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">💼 Business/Career</div>
+                    </div>
                 </div>
                 
-                <!-- Documented (Files Created) -->
-                <div style="background: rgba(255,255,255,0.15); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.2);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">🍽️</div>
-                    <div style="font-size: 14px; font-weight: 600;">Food</div>
-                    <div style="font-size: 11px; opacity: 0.7; margin-top: 2px;">Documented</div>
+                <!-- CONNECTION -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">📡 Connection</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">📧 Communications</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">🌐 Online Presence</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.15); padding: 14px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.2);">
-                    <div style="font-size: 20px; margin-bottom: 4px;">💰</div>
-                    <div style="font-size: 14px; font-weight: 600;">Financial</div>
-                    <div style="font-size: 11px; opacity: 0.7; margin-top: 2px;">Documented</div>
+                <!-- GROWTH -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">📈 Growth</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">📚 Personal Development</div>
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">💡 Innovation</div>
+                    </div>
                 </div>
                 
-                <!-- Not Started Yet -->
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 1;">⏰</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 1;">Time Management</div>
-                    <div style="font-size: 11px; opacity: 0.8; margin-top: 2px;">✓ Built</div>
+                <!-- IMPACT -->
+                <div style="background: #f5f5f7; padding: 16px; border-radius: 10px;">
+                    <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; color: #86868b;">🌍 Impact</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                        <div style="background: white; padding: 8px 12px; border-radius: 6px; font-size: 13px; color: #86868b; border: 1px solid #e5e5e7;">🤝 Contribution</div>
+                    </div>
                 </div>
                 
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">❤️</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Emotional Health</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">🎯</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Vision & Purpose</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">💻</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Technology</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">👥</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Relationships</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">🎉</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Social</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">😊</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Fun & Lifestyle</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">💼</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Business & Career</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">📧</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Communications</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">🌐</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Online Presence</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">📚</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Personal Dev</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">💡</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Innovation</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
-                
-                <div style="background: rgba(255,255,255,0.08); padding: 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);">
-                    <div style="font-size: 20px; margin-bottom: 4px; opacity: 0.6;">🤝</div>
-                    <div style="font-size: 14px; font-weight: 600; opacity: 0.7;">Contribution</div>
-                    <div style="font-size: 11px; opacity: 0.5; margin-top: 2px;">Not started</div>
-                </div>
             </div>
             
-            <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.2); display: flex; gap: 24px; font-size: 13px;">
-                <div><strong>8</strong> Built on Dashboard</div>
-                <div><strong>2</strong> Documented</div>
-                <div><strong>12</strong> To Build</div>
-                <div style="margin-left: auto; opacity: 0.8;">Progress: 36%</div>
+            <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e5e7; display: flex; gap: 24px; font-size: 13px; flex-wrap: wrap; color: #86868b;">
+                <div><span style="color: #0066cc; font-weight: 600;">8</span> Built ✓</div>
+                <div><span style="color: #86868b; font-weight: 600;">2</span> Documented</div>
+                <div><span style="color: #86868b; font-weight: 600;">10</span> To Build</div>
+                <div style="margin-left: auto;">Progress: 36%</div>
             </div>
         </div>
         
@@ -400,24 +360,24 @@
                 
                 <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px;">
                     <!-- Tuesday (TODAY) - BUFFER -->
-                    <div style="padding: 12px; border-radius: 8px; background: #fff3e0; text-align: center; border: 2px solid #f57c00;">
-                        <div style="font-size: 11px; color: #f57c00; font-weight: 600; margin-bottom: 6px;">TUE (TODAY)</div>
+                    <div style="padding: 12px; border-radius: 8px; background: #f0f4f8; text-align: center; border: 2px solid #64748b;">
+                        <div style="font-size: 11px; color: #64748b; font-weight: 600; margin-bottom: 6px;">TUE (TODAY)</div>
                         <div style="font-size: 13px; font-weight: 600; margin-bottom: 4px;">Feb 3</div>
-                        <div style="font-size: 13px; font-weight: 600; color: #f57c00;">⚙️ BUFFER</div>
+                        <div style="font-size: 13px; font-weight: 600; color: #64748b;">⚙️ BUFFER</div>
                     </div>
                     
                     <!-- Wednesday - BUFFER -->
-                    <div style="padding: 12px; border-radius: 8px; background: #fff3e0; text-align: center; border: 2px solid #f57c00;">
+                    <div style="padding: 12px; border-radius: 8px; background: #f0f4f8; text-align: center; border: 2px solid #64748b;">
                         <div style="font-size: 11px; color: #86868b; margin-bottom: 6px;">WED</div>
                         <div style="font-size: 13px; font-weight: 600; margin-bottom: 4px;">Feb 4</div>
-                        <div style="font-size: 13px; font-weight: 600; color: #f57c00;">⚙️ BUFFER</div>
+                        <div style="font-size: 13px; font-weight: 600; color: #64748b;">⚙️ BUFFER</div>
                     </div>
                     
                     <!-- Thursday - BUFFER -->
-                    <div style="padding: 12px; border-radius: 8px; background: #fff3e0; text-align: center; border: 2px solid #f57c00;">
+                    <div style="padding: 12px; border-radius: 8px; background: #f0f4f8; text-align: center; border: 2px solid #64748b;">
                         <div style="font-size: 11px; color: #86868b; margin-bottom: 6px;">THU</div>
                         <div style="font-size: 13px; font-weight: 600; margin-bottom: 4px;">Feb 5</div>
-                        <div style="font-size: 13px; font-weight: 600; color: #f57c00;">⚙️ BUFFER</div>
+                        <div style="font-size: 13px; font-weight: 600; color: #64748b;">⚙️ BUFFER</div>
                     </div>
                     
                     <!-- Friday - FOCUS -->
@@ -462,9 +422,9 @@
                     </div>
                     
                     <!-- Social Media Time -->
-                    <div style="background: #fff3e0; padding: 16px; border-radius: 8px; border: 2px solid #f57c00;">
+                    <div style="background: #f0f4f8; padding: 16px; border-radius: 8px; border: 2px solid #64748b;">
                         <div style="font-size: 12px; color: #86868b; margin-bottom: 4px;">Social Media Daily Avg</div>
-                        <div style="font-size: 28px; font-weight: 600; color: #f57c00;">4h 41m</div>
+                        <div style="font-size: 28px; font-weight: 600; color: #64748b;">4h 41m</div>
                         <div style="font-size: 11px; color: #86868b; margin-top: 4px;">Excluding Telegram (productive)</div>
                     </div>
                 </div>
@@ -473,10 +433,10 @@
                 <div style="background: #e3f2fd; padding: 14px; border-radius: 8px; margin-bottom: 12px;">
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                         <div style="font-size: 13px; font-weight: 600; color: #1976d2;">🎯 Goal: Social Media <3h/day</div>
-                        <div style="font-size: 13px; font-weight: 600; color: #f57c00;">4h 41m / 3h 0m</div>
+                        <div style="font-size: 13px; font-weight: 600; color: #64748b;">4h 41m / 3h 0m</div>
                     </div>
                     <div style="height: 8px; background: rgba(25, 118, 210, 0.2); border-radius: 4px; overflow: hidden;">
-                        <div style="height: 100%; width: 156%; background: linear-gradient(90deg, #f57c00, #ff9800); border-radius: 4px;"></div>
+                        <div style="height: 100%; width: 156%; background: linear-gradient(90deg, #64748b, #94a3b8); border-radius: 4px;"></div>
                     </div>
                     <div style="font-size: 11px; color: #86868b; margin-top: 6px;">1h 41m over target • Telegram excluded (productive use)</div>
                 </div>
@@ -500,13 +460,13 @@
                         <div style="font-size: 20px; color: #86868b;">→</div>
                         <div style="text-align: right;">
                             <div style="font-size: 12px; color: #86868b;">Goal</div>
-                            <div style="font-size: 24px; font-weight: 600; color: #34c759;">12:00 AM</div>
+                            <div style="font-size: 24px; font-weight: 600; color: #0066cc;">12:00 AM</div>
                         </div>
                     </div>
                     
                     <!-- Progress Bar -->
                     <div style="height: 8px; background: rgba(52, 199, 89, 0.2); border-radius: 4px; overflow: hidden; margin-bottom: 8px;">
-                        <div style="height: 100%; width: 0%; background: linear-gradient(90deg, #34c759, #30d158); border-radius: 4px;"></div>
+                        <div style="height: 100%; width: 0%; background: linear-gradient(90deg, #0066cc, #30d158); border-radius: 4px;"></div>
                     </div>
                     
                     <div style="font-size: 11px; color: #86868b;">
@@ -515,7 +475,7 @@
                 </div>
                 
                 <!-- Note -->
-                <div style="padding: 10px; background: #fff3e0; border-radius: 6px; font-size: 11px; color: #86868b; border-left: 3px solid #f57c00;">
+                <div style="padding: 10px; background: #f0f4f8; border-radius: 6px; font-size: 11px; color: #86868b; border-left: 3px solid #64748b;">
                     💡 <em>This week's data inconsistent (all-nighters). Will update with accurate baseline next Monday.</em>
                 </div>
             </div>
@@ -716,7 +676,7 @@
                         <div class="metric-label">Body Fat %</div>
                         <div class="metric-value metric-small">17.7%</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 43%; background: #ff9500;"></div>
+                            <div class="progress-fill" style="width: 43%; background: #86868b;"></div>
                         </div>
                         <div style="font-size: 12px; color: #86868b; margin-top: 4px;">
                             Target: 10% (7.7% to go)
@@ -727,7 +687,7 @@
                         <div class="metric-label">Weight</div>
                         <div class="metric-value metric-small">189.8 lb</div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: 100%; background: #34c759;"></div>
+                            <div class="progress-fill" style="width: 100%; background: #0066cc;"></div>
                         </div>
                         <div style="font-size: 12px; color: #86868b; margin-top: 4px;">
                             Stable ✓
@@ -879,7 +839,7 @@
                             <div class="metric-label">Sleep (Avg)</div>
                             <div class="metric-value metric-small">5h 43m</div>
                             <div class="progress-bar">
-                                <div class="progress-fill" style="width: 71%; background: #ff9500;"></div>
+                                <div class="progress-fill" style="width: 71%; background: #86868b;"></div>
                             </div>
                             <div style="font-size: 12px; color: #86868b; margin-top: 4px;">
                                 Target: 8h (2h 17m to go)
@@ -969,7 +929,7 @@
             
             <!-- Next Planned Trip -->
             <div style="margin-bottom: 24px;">
-                <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #ff9500;">📍 Next Planned Trip</h3>
+                <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #86868b;">📍 Next Planned Trip</h3>
                 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 24px; border-radius: 12px; color: white;">
                     <div style="font-size: 20px; font-weight: 600; margin-bottom: 8px;">Germany 🇩🇪</div>
                     <div style="font-size: 16px; margin-bottom: 12px; opacity: 0.9;">Metallica M72 World Tour</div>
@@ -1030,7 +990,7 @@
             
             <!-- Upcoming Projects -->
             <div style="margin-bottom: 24px;">
-                <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #ff9500;">📦 Upcoming Projects</h3>
+                <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #86868b;">📦 Upcoming Projects</h3>
                 <div style="background: #f5f5f7; padding: 16px; border-radius: 8px;">
                     <div style="font-size: 15px; font-weight: 600; margin-bottom: 4px;">Gym Equipment Removal</div>
                     <div style="font-size: 13px; color: #86868b; margin-bottom: 8px;">eBay sales project to clear out bedroom</div>
@@ -1043,7 +1003,7 @@
             
             <!-- Maintenance Schedule -->
             <div>
-                <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #34c759;">📋 Maintenance Schedule</h3>
+                <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 12px; color: #0066cc;">📋 Maintenance Schedule</h3>
                 <div style="background: #f5f5f7; padding: 20px; border-radius: 8px; text-align: center;">
                     <div style="font-size: 32px; margin-bottom: 8px;">📅</div>
                     <div style="font-size: 14px; color: #86868b;">No upcoming maintenance scheduled</div>
