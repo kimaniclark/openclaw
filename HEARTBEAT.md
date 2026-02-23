@@ -2,6 +2,12 @@
 
 ## Active Monitoring
 
+### eBay Messages - Ab Machine Pickup
+Check eBay messages (via browser) for responses from **hi-fi_nerd** or **helpmedrinks** about Hammer Strength Ab Machine pickup ($1,950 sale). When they reply with availability, alert Kimani in #home. Key details:
+- Calendar link shared: http://cal.link/kimaniclark
+- Location: Dupont Circle, DC
+- Funds release: March 23
+
 ### Twilio A2P 10DLC Approval
 Check if SMS is working yet. Once approved, alert Kimani in #one-call-away that we're ready to start super connector outreach for One Call Away.
 
@@ -28,3 +34,10 @@ Every Sunday evening or Monday morning, review `contacts/` folder for inner circ
 
 ### Fitness Dashboard Update (Weekly)
 Every Sunday or Monday, ping Kimani in #fitness for updated Withings stats (weight, body fat %, muscle %). Update `life-dashboard.html` fitness section with new data and reset the week range.
+
+### TCPA Attorney Research (When web access available)
+Research TCPA attorneys for spam call/text lawsuits when Brave Search API is configured:
+- DC/MD/VA area, contingency fee
+- Check: NACA directory, Edelson PC, Lemberg Law, Francis Mailman Soumilas, Justia
+- Deliver findings to #communications channel
+- Context: Kimani receiving illegal spam calls, already told one company to stop but they keep calling

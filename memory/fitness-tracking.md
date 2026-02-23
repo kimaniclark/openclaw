@@ -29,9 +29,10 @@
 
 ## Tracking
 - Start date: 2026-02-01
-- Current week: 
-  - Planned: TBD (will ask Monday 2026-02-03)
-  - Completed: TBD
+- Current week (Feb 17-23): 
+  - Working Out: 1/2 ✓
+  - Running: 1/2 ✓
+  - Jiu Jitsu: 0/2
 
 ## Notes
 - This is **priority #1** in the fitness category

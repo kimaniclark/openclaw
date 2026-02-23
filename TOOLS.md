@@ -27,9 +27,10 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - When setting `dmPolicy: "open"` for any channel account, MUST also include `allowFrom: ["*"]`
 - Config validation enforces this as a safety requirement
 
-### Motion (Calendar/Task Management) ✅
+### Motion (Task Management) ✅
 - **Docs**: https://docs.usemotion.com
-- **What I can do**: Create tasks, get schedules, manage calendar
+- **What I can do**: Create tasks, get schedules
+- **LIMITATION**: Motion API only supports Tasks, NOT Events. Tasks show in Motion but don't sync to Apple Calendar.
 - **CRITICAL**: Always include `autoScheduled` when creating tasks — without it, tasks won't appear on calendar!
   ```json
   "autoScheduled": {
@@ -39,6 +40,13 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
   }
   ```
 - **Workspaces**: Law Company = `BNopGoBRs6iIYs4ulAkT8`, Personal = `QDEsQoPza_p5clRPrh3LE`, Crown Acquisitions = `GwzH_8QWAAjwoYs18vKkm`, The Modern Owner = `uduxE79OeLU1QEZlh1Euq`, Life Concierge = `qoZOmVGH4FFfuuoWc2_0Q`, One Call Away = `1UYNj9zhkFS4l4iuFLlIs`
+
+### Google Calendar (via Gmail OAuth) ✅
+- **Account**: kimani@kimaniclark.com
+- **What I can do**: Create, edit, delete calendar events
+- **Syncs to iPhone**: Yes! Events appear in iOS Calendar app alongside Apple Calendar
+- **Use this for**: Creating calendar events that need to show on Kimani's phone
+- **Note**: Motion tasks don't sync to Apple Calendar, so use Google Calendar API for actual calendar events
 
 ### Twilio (SMS/Voice) ⏳
 - **Status**: A2P 10DLC campaign PENDING carrier approval

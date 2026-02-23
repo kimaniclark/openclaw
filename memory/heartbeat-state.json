@@ -1,12 +1,12 @@
 {
   "lastChecks": {
-    "twilioSms": 1739973600,
+    "twilioSms": 1740146400,
     "medtronicEmail": 1739966466,
     "relationshipMaintenance": null
   },
   "notes": {
-    "twilioSms": "FAILED - Campaign rejected Feb 2 due to CTA/MESSAGE_FLOW verification (error 30909). Needs resubmission.",
-    "medtronicEmail": "No engagement letter from Jon Corey yet - deadline Feb 21.",
-    "lastUpdate": "2026-02-19T09:00:00-05:00"
+    "twilioSms": "FAILED - Campaign still rejected. Needs resubmission with fixed CTA/MESSAGE_FLOW. Checked 2026-02-21.",
+    "medtronicEmail": "No engagement letter from Jon Corey yet - deadline Feb 21. Crown email OAuth not configured.",
+    "lastUpdate": "2026-02-21T09:00:00-05:00"
   }
 }
