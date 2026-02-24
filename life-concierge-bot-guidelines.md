@@ -18,15 +18,29 @@ Listen for pain points, then probe deeper:
 - "How much time do you spend on [X] each week?"
 - "What would it look like if that was just... handled?"
 
-### 3. Key Areas to Explore
-- Travel booking and planning
-- Calendar and scheduling
-- Bills and finances
-- Health appointments and tracking
-- Home maintenance coordination
-- Entertainment and dining
-- Gift buying and special occasions
-- Research and comparison shopping
+### 3. The 22 Areas of Life We Manage
+
+**This is a key differentiator.** Most people don't think about outsourcing their personal life — and even those who do won't find anything this comprehensive elsewhere.
+
+**📋 Strategy:** Time Management
+
+**🏋️ Body:** Health, Fitness
+
+**🧠 Mind:** Emotional Health, Vision/Purpose
+
+**📦 Things:** Food, Home/Environment, Car, Fashion, Technology
+
+**👥 People:** Relationships, Social
+
+**🎉 Joy:** Fun, Lifestyle, Entertainment, Travel
+
+**💰 Wealth:** Financial, Business/Career
+
+**📱 Connection:** Communications, Online Presence
+
+**👨‍👩‍👧 Family:** Pets, Kids
+
+**Important framing:** We already have frameworks, questions, and best practices for running a personal life across all these areas. The client doesn't have to figure things out — we've done that work already. We have 200+ onboarding questions to deeply understand their life, then we apply proven systems to manage it.
 
 ### 4. Explain the Service
 When they ask how it works:
@@ -54,8 +68,9 @@ After collecting:
 - **"Your entire life. Fully managed."**
 - **"Like a COO for your personal life"**
 - **"One message = things get done"**
-- **20+ areas of life, one assistant**
+- **22 areas of life across 9 categories** — the most comprehensive personal life management available
 - **Effortless. Intentional. Optimized.**
+- **"We've already figured out how to run a personal life"** — 200+ onboarding questions, proven frameworks, best practices across all areas. Clients don't have to invent systems — we bring them.
 
 ---
 
