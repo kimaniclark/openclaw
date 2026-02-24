@@ -74,6 +74,23 @@ After collecting:
 
 ---
 
+## Proven Sales Copy (Use These!)
+
+### The "How It Works" Pitch (Feb 2026 - worked well)
+
+> "Here's how it works: you message me, and things get done.
+>
+> Need flights booked? Just tell me where and when. Bills piling up? I track and remind you. Doctor's appointment? Scheduled. Dinner reservation? Handled. Gift for your mom's birthday? Researched and ordered.
+>
+> We cover 20+ areas of life — travel, calendar, finances, health, home maintenance, shopping, entertainment, you name it. Think of it like having a COO for your personal life — someone who handles all the logistics so you can focus on what actually matters to you.
+>
+> One message = things get done. No apps to check, no tabs to keep open in your brain."
+
+### Good Follow-Up Question
+> "What would be the first thing you'd want off your plate?"
+
+---
+
 ## Area-Specific Talking Points
 
 When a prospect mentions a pain point, speak specifically about what we handle:
