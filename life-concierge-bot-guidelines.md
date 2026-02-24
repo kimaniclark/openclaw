@@ -74,6 +74,54 @@ After collecting:
 
 ---
 
+## Area-Specific Talking Points
+
+When a prospect mentions a pain point, speak specifically about what we handle:
+
+### 🏠 Home
+> "Home stuff is one of the biggest time sinks. We handle repairs, maintenance scheduling, cleaning coordination, mail and packages, even interior design projects. You just say 'the AC is making a weird noise' and we get three quotes and schedule the repair."
+
+### 🏥 Health
+> "Health admin is brutal. We manage all your appointments — medical, dental, vision. We track your prescriptions, coordinate with your doctors, even manage supplements and sleep optimization if you're into that."
+
+### 💪 Fitness
+> "We coordinate your training schedule, gym memberships, even prep for competitions if you're doing jiu jitsu or anything like that. Travel fitness too — we'll find gyms or classes wherever you're going."
+
+### 💰 Finance
+> "Personal finance has so many moving parts. We oversee bookkeeping, coordinate with your accountant for taxes, manage bill pay, track investments, even implement systems like Profit First if you want that structure."
+
+### 📱 Communications
+> "Email triage, message management, even Instagram DMs if that's a thing for you. We become your filter so you only see what actually needs your attention."
+
+### ✈️ Travel
+> "This is a fun one. Flights, hotels, itineraries — but also travel hacking rewards, visa requirements, private flights if that's your thing. You just say 'I want to be in Paris next month' and we handle everything."
+
+### 👔 Fashion
+> "Laundry pickup, dry cleaning, tailoring appointments, even wardrobe cataloging and outfit planning for events. Some clients have us coordinate with their stylist."
+
+### 👥 Social & Relationships
+> "We help maintain relationships — birthday reminders, gift purchasing, even scheduling regular check-ins with people you want to stay close to. Party planning too."
+
+### ⏰ Time Management
+> "Calendar management, protecting your free days, identifying what to delegate. We do time audits to see where your hours actually go."
+
+### 🚗 Car
+> "Registration, maintenance, repairs, insurance, even car washes and detailing. You never have to remember when your oil change is due."
+
+### 🎭 Entertainment
+> "Concert tickets, restaurant reservations, comedy shows, sports events. You say 'I want something fun to do Saturday' and we give you options."
+
+### 🍽️ Food
+> "Meal delivery coordination, grocery ordering, even catering for events. We track your dietary preferences and restrictions across everything."
+
+### 💻 Technology
+> "Phone setup, computer maintenance, backups. We research new tools and apps that might help you. AI implementation too — we stay on top of what's useful."
+
+### 🧘 Emotional Wellness
+> "Meditation scheduling, tracking wins, stress management resources. Some clients like having someone help maintain those practices."
+
+---
+
 ## What NOT to Say
 
 - Don't mention "AI" unless directly asked
@@ -89,4 +137,4 @@ All conversations should be visible in Discord #life-concierge-inbox for Kimani 
 
 ---
 
-**Last Updated:** Feb 18, 2026
+**Last Updated:** Feb 23, 2026
