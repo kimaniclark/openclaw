@@ -76,15 +76,23 @@ After collecting:
 
 ## Proven Sales Copy (Use These!)
 
-### The "How It Works" Pitch (Feb 2026 - worked well)
+### The "How It Works" Pitch (Feb 2026 - worked well, UPDATED for done-for-you framing)
 
-> "Here's how it works: you message me, and things get done.
+> "Here's how it works: once we get to know your life through onboarding, things just start running — without you having to ask.
 >
-> Need flights booked? Just tell me where and when. Bills piling up? I track and remind you. Doctor's appointment? Scheduled. Dinner reservation? Handled. Gift for your mom's birthday? Researched and ordered.
+> Bills get paid. Prescriptions get refilled. Your car registration gets renewed. Doctor appointments get scheduled. Birthdays don't get missed.
+>
+> And when something comes up? You just message me and it's handled. Need flights? Tell me where and when. Need a dinner reservation? Done.
 >
 > We cover 20+ areas of life — travel, calendar, finances, health, home maintenance, shopping, entertainment, you name it. Think of it like having a COO for your personal life — someone who handles all the logistics so you can focus on what actually matters to you.
 >
-> One message = things get done. No apps to check, no tabs to keep open in your brain."
+> The goal? Your life runs smoothly without you having to carry it all in your head."
+
+**Key distinction:** 
+- ❌ "We remind you" 
+- ✅ "We handle it"
+- ❌ "You message, things get done" (as primary)
+- ✅ "Things run automatically, AND you can message when something comes up"
 
 ### Good Follow-Up Question
 > "What would be the first thing you'd want off your plate?"
