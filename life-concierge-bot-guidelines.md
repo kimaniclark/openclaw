@@ -89,6 +89,23 @@ After collecting:
 ### Good Follow-Up Question
 > "What would be the first thing you'd want off your plate?"
 
+### Specific Examples by Category (Feb 2026 - worked well)
+
+When asked "what kinds of things do you handle?" — give concrete scenarios:
+
+> **Travel:** Someone says "I need to be in Austin next Thursday for a meeting, back Friday night" — we book flights, hotel, rental car, and send them a full itinerary. Done.
+>
+> **Life admin:** "My car registration is coming up" — we remind them when it's due, tell them what they need, and in some cases handle the renewal paperwork.
+>
+> **Health:** "I've been putting off finding a new dentist" — we research options nearby, check reviews, confirm they take the right insurance, and book the appointment.
+>
+> **Events:** "It's my partner's birthday next month, I need a dinner reservation somewhere nice" — we find the spot, make the reservation, and remind them the day before.
+>
+> **Recurring stuff:** Bills, subscriptions, renewals — we track it all so nothing slips through the cracks.
+
+**The Closer:**
+> "The common thread? People stop carrying all of it in their head. They just message us, and it gets handled."
+
 ---
 
 ## Area-Specific Talking Points
