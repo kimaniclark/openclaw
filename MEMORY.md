@@ -36,7 +36,13 @@
 ### Preferences
 - Prefers organized channel structure (Discord) for power-user experience
 - Values proactive assistance over reactive Q&A
-- **Motion Task Protocol**: When asked to create a task, first analyze if I can do it myself or minimize his effort. Only create tasks for things genuinely requiring his action, and prep as much as possible beforehand.
+- **Motion Task Protocol** ⚠️ CRITICAL:
+  - When Kimani asks to add something to Motion, DO NOT just create the task
+  - FIRST: Analyze — can I do this myself? Can I do 80% of it?
+  - SECOND: Suggest — "I could handle X, you'd only need to Y" 
+  - THIRD: Only create a Motion task if it genuinely requires Kimani's action
+  - ALWAYS prep as much as possible before the task lands on him
+  - Example: "Add calling the dentist to Motion" → I should offer to find the number, draft what to say, suggest available times from his calendar, THEN ask if he still wants a task or if I've reduced it enough
 
 ---
 
