@@ -17,3 +17,18 @@ Next review: 2026-03-04
 
 ## 2026-02-20
 - **Build custom LMS website** — Consider replacing LearnWorlds ($300/mo) with custom-built learning management system. Currently using: video hosting, links/text, payments, student access. Potential stack: Base44/Framer + Bunny.net + Stripe + simple auth. Could save ~$250/month.
+
+## 2026-02-23
+- **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade.
+
+## 2026-02-27
+- **Collect deposit money from High Crown Homes** — Outstanding deposit to recover.
+
+## 2026-02-28
+- **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Browser extension that cleans up sensational/clickbait headlines. Could be useful personally or inspiration for similar tools.
+
+## 2026-02-25
+- **M&A outreach via marketing agencies + accountants** — Reach companies through their service providers on LinkedIn. Marketing agencies and accountants have visibility into businesses ready to sell/grow. Indirect channel for deal flow.
+- **Video messages on LinkedIn for acquisition outreach** — Personal video DMs to stand out. Higher response rate than text for M&A conversations.
+- **Chamber of Commerce lunch & learns** — Attend local chamber meetings for deal flow. High concentration of business owners in one room. In-person relationship building.
+- **Hire acquisition lead specialist (Upwork)** — Outsource deal sourcing. Find someone to identify and qualify acquisition targets.

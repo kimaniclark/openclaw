@@ -29,10 +29,19 @@
 
 ## Tracking
 - Start date: 2026-02-01
-- Current week (Feb 17-23): 
-  - Working Out: 1/2 ✓
-  - Running: 1/2 ✓
+- Week of Feb 17-23: Working Out 1/2, Running 1/2, Jiu Jitsu 0/2
+- Current week (Feb 24 - Mar 2): 
+  - Working Out: 2/2 ✓ GOAL HIT
+  - Running: 1/2
   - Jiu Jitsu: 0/2
+
+## Jiu Jitsu - Beta Academy
+- Contact: Furaha Rutambika
+- Phone: +1 (646) 416-2321
+- Email: furaha@betaacademy.com
+- Schedule: http://betaacademy.com/schedule
+- Foundations classes: 6:30pm and 7:30pm (intro instructor teaches basics for BJJ and Muay Thai)
+- **Scheduled:** Monday Mar 3, 2026 @ 6:30pm - Foundations class
 
 ## Notes
 - This is **priority #1** in the fitness category

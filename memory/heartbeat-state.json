@@ -1,12 +1,24 @@
 {
   "lastChecks": {
-    "twilioSms": 1740146400,
+    "twilioSms": 1740668400,
     "medtronicEmail": 1739966466,
+    "ebayMessages": 1740585600,
+    "ebayListings": 1740672000,
+    "craigslistInquiries": 1740556133,
     "relationshipMaintenance": null
   },
   "notes": {
-    "twilioSms": "FAILED - Campaign still rejected. Needs resubmission with fixed CTA/MESSAGE_FLOW. Checked 2026-02-21.",
-    "medtronicEmail": "No engagement letter from Jon Corey yet - deadline Feb 21. Crown email OAuth not configured.",
-    "lastUpdate": "2026-02-21T09:00:00-05:00"
+    "twilioSms": "FAILED - Campaign rejected (error 30909: CTA verification). Needs resubmission with opt-in page.",
+    "medtronicEmail": "Crown email OAuth 401 error - needs token refresh. Deadline was Feb 21.",
+    "ebayMessages": "No eBay email notifications in last 7 days.",
+    "ebayListings": "Session expired - kclark3 needs password re-auth. Alert sent to #home.",
+    "craigslistInquiries": "No buyer inquiries - only posting confirmation from Craigslist robot.",
+    "cfeCoachingCall": "Alert sent to #crown-acquisitions for Yelitza's 10 AM ET call on Feb 26.",
+    "lastUpdate": "2026-02-26T10:00:30-05:00"
+  },
+  "blockers": {
+    "crownEmailOAuth": "401 Invalid Credentials - needs token refresh for gmailCrownAcquisitions",
+    "browserAutomation": "Chrome extension relay running but no tab connected. Openclaw profile starts but snapshot fails.",
+    "ebayAuth": "kclark3 session expired, password required"
   }
 }

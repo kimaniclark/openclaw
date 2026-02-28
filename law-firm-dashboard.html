@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiklis Clark - Patent Projects Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 24px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .header .subtitle {
+            color: #8892b0;
+            font-size: 14px;
+        }
+        
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .stat-card .label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #8892b0;
+            margin-bottom: 8px;
+        }
+        
+        .stat-card .value {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .stat-card .value.money {
+            color: #64ffda;
+        }
+        
+        .stat-card .value.pending {
+            color: #ffd93d;
+        }
+        
+        .stat-card .value.collected {
+            color: #6bcb77;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section-title .icon {
+            width: 24px;
+            height: 24px;
+            background: rgba(100, 255, 218, 0.2);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+        
+        .projects-grid {
+            display: grid;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 16px;
+            align-items: center;
+        }
+        
+        .project-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(100, 255, 218, 0.3);
+        }
+        
+        .project-info h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .project-info .matter {
+            font-size: 13px;
+            color: #8892b0;
+            margin-bottom: 8px;
+        }
+        
+        .project-info .contact {
+            font-size: 12px;
+            color: #64ffda;
+        }
+        
+        .project-status {
+            text-align: right;
+        }
+        
+        .project-status .amount {
+            font-size: 20px;
+            font-weight: 700;
+            color: #64ffda;
+            margin-bottom: 4px;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .status-badge.pending {
+            background: rgba(255, 217, 61, 0.2);
+            color: #ffd93d;
+        }
+        
+        .status-badge.collected {
+            background: rgba(107, 203, 119, 0.2);
+            color: #6bcb77;
+        }
+        
+        .status-badge.tbd {
+            background: rgba(136, 146, 176, 0.2);
+            color: #8892b0;
+        }
+        
+        .pipeline-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+        
+        .pipeline-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .pipeline-item:last-child {
+            border-bottom: none;
+        }
+        
+        .pipeline-item .name {
+            font-weight: 500;
+        }
+        
+        .pipeline-item .details {
+            font-size: 13px;
+            color: #8892b0;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #8892b0;
+            font-size: 12px;
+            margin-top: 32px;
+        }
+        
+        .priority-high {
+            border-left: 3px solid #ff6b6b;
+        }
+        
+        .priority-medium {
+            border-left: 3px solid #ffd93d;
+        }
+        
+        .priority-normal {
+            border-left: 3px solid #64ffda;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⚖️ Patent Projects Dashboard</h1>
+        <div class="subtitle">Kiklis Clark, PLLC • Last updated: Feb 26, 2026</div>
+    </div>
+    
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="label">Active Projects</div>
+            <div class="value">5</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">Total Deposits Due</div>
+            <div class="value money">$21,500</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">Deposits Pending</div>
+            <div class="value pending">5</div>
+        </div>
+        <div class="stat-card">
+            <div class="label">Deposits Collected</div>
+            <div class="value collected">$0</div>
+        </div>
+    </div>
+    
+    <div class="section-title">
+        <div class="icon">📋</div>
+        Active Projects — Deposits Needed
+    </div>
+    
+    <div class="projects-grid">
+        <div class="project-card priority-high">
+            <div class="project-info">
+                <h3>Archivox</h3>
+                <div class="matter">Non-Provisional Patent Application</div>
+                <div class="contact">Contact: Chris Cresswell</div>
+            </div>
+            <div class="project-status">
+                <div class="amount">$12,000</div>
+                <span class="status-badge pending">Deposit Pending</span>
+            </div>
+        </div>
+        
+        <div class="project-card priority-medium">
+            <div class="project-info">
+                <h3>Clipboard Nation</h3>
+                <div class="matter">Office Action Response</div>
+                <div class="contact">Contact: Lu Molenje</div>
+            </div>
+            <div class="project-status">
+                <div class="amount">$3,500</div>
+                <span class="status-badge pending">Deposit Pending</span>
+            </div>
+        </div>
+        
+        <div class="project-card priority-medium">
+            <div class="project-info">
+                <h3>Fifth Weapon</h3>
+                <div class="matter">Provisional Patent Application</div>
+                <div class="contact">Contact: Roop Sood</div>
+            </div>
+            <div class="project-status">
+                <div class="amount">$2,500</div>
+                <span class="status-badge pending">Deposit Pending</span>
+            </div>
+        </div>
+        
+        <div class="project-card priority-normal">
+            <div class="project-info">
+                <h3>A Good Walk</h3>
+                <div class="matter">Office Action Response</div>
+                <div class="contact">Contact: Morris Brown</div>
+            </div>
+            <div class="project-status">
+                <div class="amount">$3,500</div>
+                <span class="status-badge pending">Deposit Pending</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section-title">
+        <div class="icon">🚀</div>
+        Pipeline — Potential Projects
+    </div>
+    
+    <div class="pipeline-section">
+        <div class="pipeline-item">
+            <div>
+                <div class="name">Karios Patent Applications</div>
+                <div class="details">1-24 applications • Awaiting confirmation on count</div>
+            </div>
+            <span class="status-badge tbd">Pending Scope</span>
+        </div>
+        <div class="pipeline-item">
+            <div>
+                <div class="name">New Client Acquisition</div>
+                <div class="details">Priority if Karios doesn't move forward</div>
+            </div>
+            <span class="status-badge tbd">Contingency</span>
+        </div>
+    </div>
+    
+    <div class="section-title">
+        <div class="icon">✅</div>
+        Recent Actions
+    </div>
+    
+    <div class="pipeline-section">
+        <div class="pipeline-item">
+            <div>
+                <div class="name">A Good Walk Office Action</div>
+                <div class="details">Report to Morris Brown</div>
+            </div>
+            <span class="status-badge pending">Due Feb 24</span>
+        </div>
+        <div class="pipeline-item">
+            <div>
+                <div class="name">Clipboard Nation Deposit</div>
+                <div class="details">Collect from Lu Molenje</div>
+            </div>
+            <span class="status-badge pending">Due Feb 27</span>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Dashboard managed by Johnny • Updates sync from Motion tasks
+    </div>
+</body>
+</html>

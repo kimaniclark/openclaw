@@ -43,7 +43,8 @@
   - THIRD: Only create a Motion task if it genuinely requires Kimani's action
   - ALWAYS prep as much as possible before the task lands on him
   - Example: "Add calling the dentist to Motion" → I should offer to find the number, draft what to say, suggest available times from his calendar, THEN ask if he still wants a task or if I've reduced it enough
+- **Epic Network calls**: Alert Kimani in #crown-acquisitions when Epic Network coaching calls or events are happening (until further notice)
 
 ---
 
-*Updated: 2026-02-11*
+*Updated: 2026-02-26*
