@@ -21,11 +21,18 @@ Next review: 2026-03-04
 ## 2026-02-23
 - **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade.
 
+## 2026-03-02
+- **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant.
+- **Pay Upwork to fix account** — Account issue needs resolution.
+
 ## 2026-02-27
 - **Collect deposit money from High Crown Homes** — Outstanding deposit to recover.
 
 ## 2026-02-28
 - **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Browser extension that cleans up sensational/clickbait headlines. Could be useful personally or inspiration for similar tools.
+
+## 2026-03-04
+- **Stake.law + Market Operandi referral partnership** — Connect Stake.law with Market Operandi for a referral fee arrangement. Potential revenue stream.
 
 ## 2026-02-25
 - **M&A outreach via marketing agencies + accountants** — Reach companies through their service providers on LinkedIn. Marketing agencies and accountants have visibility into businesses ready to sell/grow. Indirect channel for deal flow.

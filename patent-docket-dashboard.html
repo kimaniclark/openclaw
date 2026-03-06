@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Docket Dashboard - Kiklis Clark</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            color: #e2e8f0;
+            padding: 24px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #f8fafc;
+        }
+        
+        .header .subtitle {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+        
+        .urgent-banner {
+            background: linear-gradient(90deg, #dc2626 0%, #b91c1c 100%);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .urgent-banner .icon {
+            font-size: 24px;
+        }
+        
+        .urgent-banner .text {
+            flex: 1;
+        }
+        
+        .urgent-banner .title {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .urgent-banner .detail {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+        
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+        }
+        
+        .stat-card .number {
+            font-size: 28px;
+            font-weight: 700;
+            color: #38bdf8;
+        }
+        
+        .stat-card .label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #94a3b8;
+            margin-top: 4px;
+        }
+        
+        .client-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .client-header {
+            padding: 16px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .client-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #f8fafc;
+        }
+        
+        .client-name .aka {
+            font-weight: 400;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+        
+        .deposit-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .deposit-badge.pending {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+        }
+        
+        .deposit-badge.collected {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+        }
+        
+        .matter-info {
+            padding: 12px 20px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 13px;
+            color: #94a3b8;
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        
+        .matter-info span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .matter-info .label {
+            color: #64748b;
+        }
+        
+        .deadlines {
+            padding: 16px 20px;
+        }
+        
+        .deadline-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .deadline-item:last-child {
+            border-bottom: none;
+        }
+        
+        .deadline-date {
+            width: 100px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .deadline-date.urgent {
+            color: #f87171;
+        }
+        
+        .deadline-date.soon {
+            color: #fbbf24;
+        }
+        
+        .deadline-date.future {
+            color: #94a3b8;
+        }
+        
+        .deadline-type {
+            flex: 1;
+            font-size: 13px;
+        }
+        
+        .deadline-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .deadline-badge.hard {
+            background: rgba(239, 68, 68, 0.2);
+            color: #f87171;
+        }
+        
+        .deadline-badge.extendable {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+        }
+        
+        .deadline-badge.reminder {
+            background: rgba(148, 163, 184, 0.2);
+            color: #94a3b8;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-top: 32px;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-row {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .matter-info {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⚖️ Patent Docket Dashboard</h1>
+        <div class="subtitle">Active Clients • Last updated: March 5, 2026</div>
+    </div>
+    
+    <div class="urgent-banner">
+        <div class="icon">⚠️</div>
+        <div class="text">
+            <div class="title">2 Office Actions Due This Month</div>
+            <div class="detail">Clipboard Nation (Mar 20) • Morris Brown (Mar 21)</div>
+        </div>
+    </div>
+    
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="number">4</div>
+            <div class="label">Active Clients</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">5</div>
+            <div class="label">Active Matters</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">2</div>
+            <div class="label">Due This Month</div>
+        </div>
+        <div class="stat-card">
+            <div class="number" style="color: #fbbf24;">$18K</div>
+            <div class="label">Deposits Pending</div>
+        </div>
+    </div>
+    
+    <!-- Morris Brown / A Good Walk -->
+    <div class="client-section">
+        <div class="client-header">
+            <div class="client-name">Morris Brown <span class="aka">(A Good Walk)</span></div>
+            <div class="deposit-badge pending">$3,500 Pending</div>
+        </div>
+        <div class="matter-info">
+            <span><span class="label">Matter:</span> 1002-0002</span>
+            <span><span class="label">App#:</span> 18/325,585</span>
+            <span><span class="label">Status:</span> Published</span>
+        </div>
+        <div class="deadlines">
+            <div class="deadline-item">
+                <div class="deadline-date urgent">Mar 21</div>
+                <div class="deadline-type">Respond to Final Office Action (4 Month)</div>
+                <div class="deadline-badge extendable">Extendable</div>
+            </div>
+            <div class="deadline-item">
+                <div class="deadline-date urgent">Mar 21</div>
+                <div class="deadline-type">File Notice of Appeal (4 Month)</div>
+                <div class="deadline-badge extendable">Extendable</div>
+            </div>
+            <div class="deadline-item">
+                <div class="deadline-date soon">May 21</div>
+                <div class="deadline-type">RCE Final Deadline</div>
+                <div class="deadline-badge hard">Hard</div>
+            </div>
+            <div class="deadline-item">
+                <div class="deadline-date soon">May 21</div>
+                <div class="deadline-type">Advisory Action Response Final Deadline</div>
+                <div class="deadline-badge hard">Hard</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Clipboard Nation -->
+    <div class="client-section">
+        <div class="client-header">
+            <div class="client-name">Clipboard Nation <span class="aka">(Lu Molenje)</span></div>
+            <div class="deposit-badge pending">$3,500 Pending</div>
+        </div>
+        <div class="matter-info">
+            <span><span class="label">Matter:</span> 3021-0003</span>
+            <span><span class="label">App#:</span> 18/534,782</span>
+            <span><span class="label">Status:</span> Pending</span>
+        </div>
+        <div class="deadlines">
+            <div class="deadline-item">
+                <div class="deadline-date urgent">Mar 20</div>
+                <div class="deadline-type">Respond to Non-Final Office Action (4 Month)</div>
+                <div class="deadline-badge extendable">Extendable</div>
+            </div>
+        </div>
+        <div class="matter-info" style="border-top: 1px solid rgba(255,255,255,0.05); margin-top: 0;">
+            <span><span class="label">Matter:</span> 3021-0002</span>
+            <span><span class="label">App#:</span> 15/636,654</span>
+            <span><span class="label">Status:</span> Issued</span>
+        </div>
+        <div class="deadlines">
+            <div class="deadline-item">
+                <div class="deadline-date future">Jan 2 (Past)</div>
+                <div class="deadline-type">File Broadening Reissue Application</div>
+                <div class="deadline-badge hard">Hard</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Richard Giambruno II -->
+    <div class="client-section">
+        <div class="client-header">
+            <div class="client-name">Richard Giambruno II</div>
+            <div class="deposit-badge" style="background: rgba(148, 163, 184, 0.2); color: #94a3b8;">Status TBD</div>
+        </div>
+        <div class="matter-info">
+            <span><span class="label">Matter:</span> 1009-0002</span>
+            <span><span class="label">App#:</span> 18/776,642</span>
+            <span><span class="label">Status:</span> Pending</span>
+        </div>
+        <div class="deadlines">
+            <div class="deadline-item">
+                <div class="deadline-date future">Jul 18, 2025</div>
+                <div class="deadline-type">File Foreign Application</div>
+                <div class="deadline-badge hard">Hard</div>
+            </div>
+            <div class="deadline-item">
+                <div class="deadline-date future">Nov 18, 2024</div>
+                <div class="deadline-type">File Priority Claim</div>
+                <div class="deadline-badge hard">Hard</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Archivox -->
+    <div class="client-section">
+        <div class="client-header">
+            <div class="client-name">Archivox <span class="aka">(Chris Cresswell)</span></div>
+            <div class="deposit-badge pending">$12,000 Pending</div>
+        </div>
+        <div class="matter-info">
+            <span><span class="label">Matter:</span> 1013-0002-PRO</span>
+            <span><span class="label">App#:</span> 63/820,629 (Provisional)</span>
+            <span><span class="label">Status:</span> Pending</span>
+        </div>
+        <div class="deadlines">
+            <div class="deadline-item">
+                <div class="deadline-date future">Jan 16 (Past)</div>
+                <div class="deadline-type">Respond to Notice to File Missing Parts - Final</div>
+                <div class="deadline-badge hard">Hard</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Dashboard managed by Johnny • Data from AppColl via Black Hills IP<br>
+        Deposits: Archivox $12K + Clipboard $3.5K + Morris Brown $3.5K = $19K pending
+    </div>
+</body>
+</html>

@@ -2,11 +2,11 @@
 
 ## Active Monitoring
 
-### eBay Messages - Ab Machine Pickup
-Check eBay messages (via browser) for responses from **hi-fi_nerd** or **helpmedrinks** about Hammer Strength Ab Machine pickup ($1,950 sale). When they reply with availability, alert Kimani in #home. Key details:
-- Calendar link shared: http://cal.link/kimaniclark
-- Location: Dupont Circle, DC
+### eBay Ab Machine Pickup — SCHEDULED ✅
+**Pickup: Friday March 6, 4:30 PM** — Buyer (hi-fi_nerd/helpmedrinks) coming to get the Hammer Strength Ab Machine ($1,950).
+- Calendar event created with QR code scan instructions
 - Funds release: March 23
+- After pickup confirmed, remove this item and update eBay listings status
 
 ### Craigslist Inquiries - Gym Equipment
 Check admin@kimaniclark.com for Craigslist responses about:
@@ -15,27 +15,65 @@ Check admin@kimaniclark.com for Craigslist responses about:
 
 Alert Kimani in #home when inquiries come in.
 
-### Twilio A2P 10DLC Approval
-Check if SMS is working yet. Once approved, alert Kimani in #one-call-away that we're ready to start super connector outreach for One Call Away.
+### Twilio A2P 10DLC — FAILED ⚠️
+~~Check if SMS is working yet. Once approved, alert Kimani in #one-call-away that we're ready to start super connector outreach for One Call Away.~~
+**Status:** Campaign FAILED (Feb 2, 2026). Alerted Kimani on March 3. Awaiting decision on resubmission/appeal. Remove once resolved.
 
-### Medtronic Engagement Letter (through Feb 21)
-Check Crown Acquisitions email (kimani@crownacquisitions.co) for engagement letter from Jon Corey (jcorey@mckoolsmith.com) re: Chad Clark v. Medtronic case. Alert in #crown-acquisitions if found.
+### Medtronic Engagement Letter ⚠️ STALE
+~~Check Crown Acquisitions email (kimani@crownacquisitions.co) for engagement letter from Jon Corey (jcorey@mckoolsmith.com) re: Chad Clark v. Medtronic case.~~
+**Status:** Deadline was Feb 21. Crown email OAuth broken. Kimani: should this be removed or is follow-up needed?
 
-### NEV Stock Agreement (Pending law firm email access)
-Check law firm email for messages from **Chris Cresswell** about New Enterprise Ventures (NEV) stock — payment for patent work. When found:
+### Patent Docket & USPTO Monitoring ✅ FULL API ACCESS
+**Reference:** `law-firm/patent-matters.md` | **Docket CSV:** `law-firm/appcoll_docket_2026-03-01.csv`
+
+**USPTO API Monitoring (Weekly):**
+Use USPTO Open Data Portal API to check status changes on active applications:
+- **18/534,782** (Clipboard Nation 3021-0003) — Non-Final OA due Mar 20
+- **18/325,585** (A Good Walk 1002-0002) — Final Rejection due Mar 21
+- **63/820,629** (Archivox 1013-0002-PRO) — Missing Parts
+
+Alert in #law-company if:
+- Status changes (new office action, allowance, abandonment)
+- New documents appear in file wrapper
+- Approaching deadlines (<14 days)
+
+**Law Firm Email Monitoring:**
+Check kimani@kiklisclark.com for:
+
+**HIGHEST PRIORITY - USPTO Correspondence:**
+- From: noreply@uspto.gov
+- Subject contains: "Correspondence Notification" or "Patent Electronic System"
+- Alert Kimani immediately in #law-company when these arrive
+- Note: Application number, Document type (CTFR, Office Action, etc.), Attorney Docket #
+
+**Weekly - Black Hills IP Docket Reports:**
+- From: Automated Email (Black Hills IP)
+- "Pending Docketing Report for Kiklis and Clark, P.L.L.C."
+- "Completed Docketing Report for Kiklis and Clark, P.L.L.C."
+- Summarize key deadlines and alert in #law-company
+
+**Monthly - AppColl Full Docket (arrives ~1st of month):**
+- From: BHIP Customer Service
+- Subject: "AppColl Scheduled Report: Monthly Docket R..."
+- Save new CSV to `law-firm/` and update `patent-matters.md`
+
+### NEV Stock Agreement ✅ LAW FIRM EMAIL CONNECTED
+Check law firm email (kimani@kiklisclark.com) for messages from **Chris Cresswell** about New Enterprise Ventures (NEV) stock — payment for patent work. When found:
 1. Alert Kimani to complete the agreement
 2. Crown Acquisitions will own the stock — add to CFE tracker
 3. Notify #crown-acquisitions channel
 
-### Myoncare NDA (Starting next week)
+### Myoncare NDA
 Check Crown Acquisitions email for NDA from Myoncare JV partners. Alert in #crown-acquisitions when it arrives. Deal: JV/SPV that owns Myoncare infrastructure and licenses to MSO.
+**Status:** Crown email OAuth broken — will check once fixed.
 
-### Karios/NEV Proposal PDF (Tonight/Tomorrow - Feb 23-24)
+### Karios/NEV Proposal PDF ⚠️ STALE
 Check Crown Acquisitions email (kimani@crownacquisitions.co) for PDF proposal from Chris Cresswell re: Karios/NEV engagement. When found:
 - Alert in #crown-acquisitions
 - Deal: $15K/mo × 3 months + $20K/mo × 9 months = $225K total
 - Kimani's 10% = $22,500 + performance bonus after month 3
 - If signed → move to Active deals on CFE dashboard
+**Status:** Expected Feb 23-24, now overdue. Crown email OAuth broken. Kimani: did this arrive? Remove or keep monitoring?
 
 ### Karios Sales Commission Agreement (Pending - law firm email)
 Check law firm email for agreement from **Sree** re: Karios sales commission. When found:
@@ -43,17 +81,14 @@ Check law firm email for agreement from **Sree** re: Karios sales commission. Wh
 - Deal: 15% of Karios product sales
 - If signed → move to Active deals on CFE dashboard
 
-### NEV Stock Agreement (Pending law firm email access)
-Check law firm email for messages from **Chris Cresswell** about New Enterprise Ventures (NEV) stock — payment for patent work. When found:
-1. Alert Kimani to complete the agreement
-2. Crown Acquisitions will own the stock — add to CFE tracker
-3. Notify #crown-acquisitions channel
-
 ### Relationship Maintenance (Weekly)
 Every Sunday evening or Monday morning, review `contacts/` folder for inner circle people and suggest 2-3 to reach out to that week. Rotate through different tags (Friend, Social V, Feel Good, etc.) and prioritize anyone approaching their frequency limit. Post suggestions to #social channel.
 
-### Fitness Dashboard Update (Weekly)
-Every Sunday or Monday, ping Kimani in #fitness for updated Withings stats (weight, body fat %, muscle %). Update `life-dashboard.html` fitness section with new data and reset the week range.
+### Fitness Dashboard Update (Weekly) — POST TO #fitness
+Every Monday morning, ping Kimani **in #fitness channel** (not #home) for:
+1. Updated Withings stats (weight, body fat %)
+2. Which two days he plans to work out this week
+Update `life-dashboard.html` fitness section with new data and reset the week range.
 
 ### TCPA Attorney Research (When web access available)
 Research TCPA attorneys for spam call/text lawsuits when Brave Search API is configured:

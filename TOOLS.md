@@ -20,6 +20,7 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **kimani@kimaniclark.com** — Personal email (primary inbox)
 - **kimani@modernowner.co** — The Modern Owner business email
 - **kimani@crownacquisitions.co** — Crown Acquisitions business email
+- **kimani@kiklisclark.com** — Kiklis Clark law firm email ✅ NEW
 - **assistant@kimaniclark.com** — Johnny's sending address (alias)
 - **admin@kimaniclark.com** — Newsletters/logins (alias)
 
@@ -48,6 +49,19 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **Use this for**: Creating calendar events that need to show on Kimani's phone
 - **Note**: Motion tasks don't sync to Apple Calendar, so use Google Calendar API for actual calendar events
 
+### iCloud Calendar (via CalDAV) ✅
+- **Apple ID**: kclark@alum.mit.edu
+- **Principal ID**: 171088746
+- **What I can do**: Read all iCloud calendar events
+- **Calendars available**:
+  - Calendar (main) - `00D3B8D0-6B3A-4B46-9E0D-15687351F8AD`
+  - Assistant - `work/`
+  - Home Assistant - `4D520B86-0865-41F9-BCBC-A983C786EA3E`
+  - Free time - `51700024-1341-4626-AAA6-911B72A00EAF`
+  - Reminders ⚠️ - `b72694ac-2025-4c3d-acfc-191263add5c9`
+  - Notification - `home/`
+- **Use this for**: Checking Kimani's schedule before creating events, avoiding conflicts
+
 ### Twilio (SMS/Voice) ⏳
 - **Status**: A2P 10DLC campaign PENDING carrier approval
 - **Voice calls**: Working
@@ -73,6 +87,22 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 ### Asana (Task Management) ✅
 - **Workspace**: Assistance
 - **Use**: Home assistant training and task management
+
+### USPTO Open Data Portal ✅ NEW
+- **API Base**: https://api.uspto.gov/api/v1
+- **Key stored in**: `credentials.json` → `usptoODP.apiKey`
+- **Rate Limits**: 1.2M document retrievals/week, 5M metadata retrievals/week
+- **What I can do**:
+  - Get application status and metadata by app number
+  - List all documents in file wrapper (office actions, responses, etc.)
+  - Get transaction history
+  - Search applications by various criteria
+- **Endpoints**:
+  - `GET /patent/applications/{appNum}` — Full application data
+  - `GET /patent/applications/{appNum}/documents` — Document list
+  - `GET /patent/applications/{appNum}/transactions` — Transaction history
+- **Note**: PDF downloads require browser (Patent Center doesn't expose doc content via API)
+- **Reference Files**: `law-firm/patent-matters.md`, `law-firm/appcoll_docket_*.csv`
 
 ## Web Design Resources
 

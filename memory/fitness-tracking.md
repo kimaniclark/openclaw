@@ -1,16 +1,15 @@
 # Fitness Tracking
 
-## Current Stats (Feb 20, 2026)
-- **Weight:** 189.8 lb (stable)
-- **Muscle:** 78.2% ↑
-- **Body Fat:** 17.7% ↓
-- **Trend:** Losing Weight (recomping — muscle up, fat down, weight stable)
+## Current Stats (Mar 2, 2026)
+- **Weight:** 191.7 lb (stable)
+- **Body Fat:** 18.1%
 
 ### History
-| Date | Weight | Muscle | Body Fat | Trend |
-|------|--------|--------|----------|-------|
-| Feb 20 | 189.8 lb | 78.2% | 17.7% | Losing Weight |
-| Feb 8 | 189.8 lb | 77.2% | 18.8% | Gaining Weight |
+| Date | Weight | Body Fat | Trend |
+|------|--------|----------|-------|
+| Mar 2 | 191.7 lb | 18.1% | Stable |
+| Feb 20 | 189.8 lb | 17.7% | Losing Weight |
+| Feb 8 | 189.8 lb | 18.8% | Gaining Weight |
 
 ## Goal
 **Lift weights at least 2x per week**
@@ -30,10 +29,11 @@
 ## Tracking
 - Start date: 2026-02-01
 - Week of Feb 17-23: Working Out 1/2, Running 1/2, Jiu Jitsu 0/2
-- Current week (Feb 24 - Mar 2): 
+- Week of Feb 24 - Mar 2: Working Out 2/2 ✓, Running 1/2, Jiu Jitsu 0/2
+- Current week (Mar 2-8): 
   - Working Out: 2/2 ✓ GOAL HIT
-  - Running: 1/2
-  - Jiu Jitsu: 0/2
+  - Running: 0/2
+  - Jiu Jitsu: 1/2 ✓
 
 ## Jiu Jitsu - Beta Academy
 - Contact: Furaha Rutambika
@@ -41,7 +41,7 @@
 - Email: furaha@betaacademy.com
 - Schedule: http://betaacademy.com/schedule
 - Foundations classes: 6:30pm and 7:30pm (intro instructor teaches basics for BJJ and Muay Thai)
-- **Scheduled:** Monday Mar 3, 2026 @ 6:30pm - Foundations class
+- **Intro Instructor:** Kirk (purple belt)
 
 ## Notes
 - This is **priority #1** in the fitness category

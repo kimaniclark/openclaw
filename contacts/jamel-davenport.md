@@ -30,6 +30,7 @@ Personal Coach for Ben Arabov, CEO of Jacob & Co (luxury watches/jewelry). Conne
 
 ## Notes
 Added to stay-in-touch list Feb 2026.
+**Plan:** Kimani will reach out in April closer to a potential NYC trip.
 
 ## History
 - [Date] - Imported from Contacts Journal
