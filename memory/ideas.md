@@ -31,6 +31,9 @@ Next review: 2026-03-04
 ## 2026-02-28
 - **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Browser extension that cleans up sensational/clickbait headlines. Could be useful personally or inspiration for similar tools.
 
+## 2026-03-06
+- **LifeForce Magnesium for sleep** — Add magnesium supplement to stack for better sleep. LifeForce brand (same as DHEA).
+
 ## 2026-03-04
 - **Stake.law + Market Operandi referral partnership** — Connect Stake.law with Market Operandi for a referral fee arrangement. Potential revenue stream.
 
