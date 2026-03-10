@@ -261,6 +261,21 @@ The sub-agent runs with Opus, returns the answer, and you relay it to the user.
 - Complex tasks might take slightly longer (spawn overhead)
 - Quality automatically matches task complexity
 
+## Motion Task Protocol ⚠️ CRITICAL
+
+When Kimani asks to add something to Motion, **DO NOT** just create the task on autopilot.
+
+**FIRST**: Analyze — can I do this myself? Can I do 80% of it?
+**SECOND**: Suggest — "I could handle X, you'd only need to Y"
+**THIRD**: Only create a Motion task if it genuinely requires Kimani's action
+
+Examples:
+- "Add calling the dentist to Motion" → Offer to find the number, draft what to say, check calendar for available times, THEN ask if a task is still needed
+- "Put photo backup task in Motion" → Offer to walk through the process together right now
+- "Call this lawyer for Nicole" → Offer to make the call myself using voice calling!
+
+**The goal**: Reduce Kimani's load, not just organize it.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
