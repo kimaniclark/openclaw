@@ -13,9 +13,9 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            background: #f8fafc;
             min-height: 100vh;
-            color: #e2e8f0;
+            color: #1e293b;
             padding: 24px;
         }
         
@@ -28,11 +28,11 @@
             font-size: 24px;
             font-weight: 600;
             margin-bottom: 8px;
-            color: #f8fafc;
+            color: #0f172a;
         }
         
         .header .subtitle {
-            color: #94a3b8;
+            color: #64748b;
             font-size: 14px;
         }
         
@@ -44,6 +44,7 @@
             display: flex;
             align-items: center;
             gap: 12px;
+            color: #fff;
         }
         
         .urgent-banner .icon {
@@ -72,39 +73,41 @@
         }
         
         .stat-card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: #fff;
+            border: 1px solid #e2e8f0;
             border-radius: 12px;
             padding: 16px;
             text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
         
         .stat-card .number {
             font-size: 28px;
             font-weight: 700;
-            color: #38bdf8;
+            color: #0284c7;
         }
         
         .stat-card .label {
             font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: #94a3b8;
+            color: #64748b;
             margin-top: 4px;
         }
         
         .client-section {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: #fff;
+            border: 1px solid #e2e8f0;
             border-radius: 16px;
             margin-bottom: 20px;
             overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
         
         .client-header {
             padding: 16px 20px;
-            background: rgba(255, 255, 255, 0.05);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            background: #f1f5f9;
+            border-bottom: 1px solid #e2e8f0;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -113,12 +116,12 @@
         .client-name {
             font-size: 16px;
             font-weight: 600;
-            color: #f8fafc;
+            color: #0f172a;
         }
         
         .client-name .aka {
             font-weight: 400;
-            color: #94a3b8;
+            color: #64748b;
             font-size: 14px;
         }
         
@@ -130,20 +133,20 @@
         }
         
         .deposit-badge.pending {
-            background: rgba(251, 191, 36, 0.2);
-            color: #fbbf24;
+            background: rgba(245, 158, 11, 0.15);
+            color: #b45309;
         }
         
         .deposit-badge.collected {
-            background: rgba(34, 197, 94, 0.2);
-            color: #22c55e;
+            background: rgba(34, 197, 94, 0.15);
+            color: #15803d;
         }
         
         .matter-info {
             padding: 12px 20px;
-            background: rgba(0, 0, 0, 0.2);
+            background: #f8fafc;
             font-size: 13px;
-            color: #94a3b8;
+            color: #475569;
             display: flex;
             gap: 24px;
             flex-wrap: wrap;
@@ -156,7 +159,7 @@
         }
         
         .matter-info .label {
-            color: #64748b;
+            color: #94a3b8;
         }
         
         .deadlines {
@@ -167,7 +170,7 @@
             display: flex;
             align-items: center;
             padding: 10px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid #f1f5f9;
         }
         
         .deadline-item:last-child {
@@ -181,20 +184,21 @@
         }
         
         .deadline-date.urgent {
-            color: #f87171;
+            color: #dc2626;
         }
         
         .deadline-date.soon {
-            color: #fbbf24;
+            color: #d97706;
         }
         
         .deadline-date.future {
-            color: #94a3b8;
+            color: #64748b;
         }
         
         .deadline-type {
             flex: 1;
             font-size: 13px;
+            color: #334155;
         }
         
         .deadline-badge {
@@ -206,23 +210,23 @@
         }
         
         .deadline-badge.hard {
-            background: rgba(239, 68, 68, 0.2);
-            color: #f87171;
+            background: rgba(239, 68, 68, 0.1);
+            color: #dc2626;
         }
         
         .deadline-badge.extendable {
-            background: rgba(251, 191, 36, 0.2);
-            color: #fbbf24;
+            background: rgba(245, 158, 11, 0.1);
+            color: #b45309;
         }
         
         .deadline-badge.reminder {
-            background: rgba(148, 163, 184, 0.2);
-            color: #94a3b8;
+            background: rgba(100, 116, 139, 0.1);
+            color: #64748b;
         }
         
         .footer {
             text-align: center;
-            color: #64748b;
+            color: #94a3b8;
             font-size: 12px;
             margin-top: 32px;
         }
@@ -241,14 +245,14 @@
 <body>
     <div class="header">
         <h1>⚖️ Patent Docket Dashboard</h1>
-        <div class="subtitle">Active Clients • Last updated: March 5, 2026</div>
+        <div class="subtitle">Active Clients • Last updated: March 6, 2026</div>
     </div>
     
     <div class="urgent-banner">
         <div class="icon">⚠️</div>
         <div class="text">
             <div class="title">2 Office Actions Due This Month</div>
-            <div class="detail">Clipboard Nation (Mar 20) • Morris Brown (Mar 21)</div>
+            <div class="detail">Clipboard Nation (Mar 20) • A Good Walk (Mar 21)</div>
         </div>
     </div>
     
@@ -266,15 +270,15 @@
             <div class="label">Due This Month</div>
         </div>
         <div class="stat-card">
-            <div class="number" style="color: #fbbf24;">$18K</div>
+            <div class="number" style="color: #d97706;">$18K</div>
             <div class="label">Deposits Pending</div>
         </div>
     </div>
     
-    <!-- Morris Brown / A Good Walk -->
+    <!-- A Good Walk / Morris Brown -->
     <div class="client-section">
         <div class="client-header">
-            <div class="client-name">Morris Brown <span class="aka">(A Good Walk)</span></div>
+            <div class="client-name">A Good Walk <span class="aka">(Morris Brown)</span></div>
             <div class="deposit-badge pending">$3,500 Pending</div>
         </div>
         <div class="matter-info">
@@ -324,7 +328,7 @@
                 <div class="deadline-badge extendable">Extendable</div>
             </div>
         </div>
-        <div class="matter-info" style="border-top: 1px solid rgba(255,255,255,0.05); margin-top: 0;">
+        <div class="matter-info" style="border-top: 1px solid #e2e8f0; margin-top: 0;">
             <span><span class="label">Matter:</span> 3021-0002</span>
             <span><span class="label">App#:</span> 15/636,654</span>
             <span><span class="label">Status:</span> Issued</span>
@@ -342,7 +346,7 @@
     <div class="client-section">
         <div class="client-header">
             <div class="client-name">Richard Giambruno II</div>
-            <div class="deposit-badge" style="background: rgba(148, 163, 184, 0.2); color: #94a3b8;">Status TBD</div>
+            <div class="deposit-badge" style="background: rgba(100, 116, 139, 0.1); color: #64748b;">Status TBD</div>
         </div>
         <div class="matter-info">
             <span><span class="label">Matter:</span> 1009-0002</span>
@@ -385,7 +389,7 @@
     
     <div class="footer">
         Dashboard managed by Johnny • Data from AppColl via Black Hills IP<br>
-        Deposits: Archivox $12K + Clipboard $3.5K + Morris Brown $3.5K = $19K pending
+        Deposits: Archivox $12K + Clipboard $3.5K + A Good Walk $3.5K = $19K pending
     </div>
 </body>
 </html>

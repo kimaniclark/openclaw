@@ -8,6 +8,13 @@
 - Funds release: March 23
 - After pickup confirmed, remove this item and update eBay listings status
 
+### ACloset Clothing Pictures (Life Dashboard)
+Check kimani@kimaniclark.com for email from **Natalia** with clothing pictures from ACloset app.
+- Should include: pics of clothes + brand of each item
+- Purpose: Build out fashion portion of Life Dashboard + outfit selection software
+- **Deadline:** March 17 (1 week) — cron reminder set
+- When received: Download pics, catalog by brand, alert in #fashion
+
 ### Craigslist Inquiries - Gym Equipment
 Check admin@kimaniclark.com for Craigslist responses about:
 - **NS600 + NS75X** ($999): washingtondc.craigslist.org/doc/spo/d/washington-nautilus-ns600-complete-home/7917601087.html

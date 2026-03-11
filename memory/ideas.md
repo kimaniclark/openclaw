@@ -28,6 +28,9 @@ Next review: 2026-03-04
 ## 2026-02-27
 - **Collect deposit money from High Crown Homes** — Outstanding deposit to recover.
 
+## 2026-03-11
+- **Claude browser extension** — https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn — Official Claude Chrome extension. Explore for quick access to Claude from browser.
+
 ## 2026-02-28
 - **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Browser extension that cleans up sensational/clickbait headlines. Could be useful personally or inspiration for similar tools.
 
@@ -36,6 +39,9 @@ Next review: 2026-03-04
 
 ## 2026-03-04
 - **Stake.law + Market Operandi referral partnership** — Connect Stake.law with Market Operandi for a referral fee arrangement. Potential revenue stream.
+
+## 2026-03-10
+- **Seamless.ai for lead generation** — https://seamless.ai — B2B lead gen platform. For medical roll-up deal sourcing.
 
 ## 2026-02-25
 - **M&A outreach via marketing agencies + accountants** — Reach companies through their service providers on LinkedIn. Marketing agencies and accountants have visibility into businesses ready to sell/grow. Indirect channel for deal flow.

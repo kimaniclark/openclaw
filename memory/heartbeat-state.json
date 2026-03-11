@@ -1,30 +1,39 @@
 {
   "lastChecks": {
-    "twilioSms": 1709391600000,
+    "twilioSms": 1741578766000,
     "medtronicEmail": 1739966466,
     "ebayMessages": 1740585600,
     "ebayListings": 1740672000,
     "craigslistInquiries": 1772629270386,
     "relationshipMaintenance": 1772397076338,
-    "fitnessUpdate": 1772370022297,
-    "weeklyCheckin": 1709391600000
+    "fitnessUpdate": 1741608274000,
+    "weeklyCheckin": 1709391600000,
+    "lawFirmEmail": 1741578766000
   },
   "notes": {
-    "twilioSms": "FAILED - still needs opt-in page resubmission. Checked 2026-03-02 11 AM.",
+    "twilioSms": "FAILED - checked 2026-03-09 11:32 PM. Still failed, awaiting Kimani decision on resubmission.",
     "medtronicEmail": "Crown email OAuth 401 error - needs token refresh. Deadline was Feb 21.",
     "ebayMessages": "Auth expired - kclark3 needs password re-auth.",
     "ebayListings": "Session expired - kclark3 needs password re-auth. Alert sent to #home.",
-    "craigslistInquiries": "No buyer inquiries - checked 2026-03-04 8 AM.",
-    "fitnessUpdate": "Pinged #fitness for Withings stats - Sunday 8 AM",
+    "ebayPickup": "March 6 pickup (Hammer Strength Ab Machine) - ASKED Kimani for confirmation 2026-03-10 8:04 AM.",
+    "craigslistInquiries": "Can't check - all Gmail tokens need refresh.",
+    "fitnessUpdate": "Pinged #fitness for Withings stats - Tuesday 8:04 AM (missed Monday).",
     "relationshipMaintenance": "Sent weekly suggestions: Monica English (bday tomorrow!), Johnny Norton (bday Mar 17), Jamel Davenport (networking). Sunday 3:30 PM.",
     "weeklyCheckin": "Monday check-in sent to #home: workout days, time system, dashboard stats. 2026-03-02 11 AM.",
-    "lastUpdate": "2026-03-02T11:00:00-05:00",
-    "googleWorkspaceAlert": "modernowner.co payment failure/cancellation detected - alerted 2026-03-04 8 AM"
+    "lawFirmEmail": "Can't check - all Gmail tokens need refresh.",
+    "patentDeadlines": "Mar 20 (18/534,782 Non-Final OA), Mar 21 (18/325,585 Final Rejection) - 10-11 days out, monitoring.",
+    "lastUpdate": "2026-03-10T08:04:00-04:00"
   },
   "blockers": {
     "crownEmailOAuth": "401 Invalid Credentials - needs token refresh for gmailCrownAcquisitions",
+    "allGmailTokens": "All Gmail tokens (main, admin, kiklisclark, crownacquisitions) showing NO - need refresh",
     "browserAutomation": "Chrome extension relay running but no tab connected. Openclaw profile starts but snapshot fails.",
     "ebayAuth": "kclark3 session expired, password required",
     "braveApi": "Web search needs Brave API key"
-  }
+  },
+  "pendingMorning": [
+    "Confirm eBay pickup (March 6 Hammer Strength Ab Machine) completed - ASKED",
+    "Get Withings stats for fitness dashboard - ASKED",
+    "Refresh Gmail tokens for email monitoring"
+  ]
 }

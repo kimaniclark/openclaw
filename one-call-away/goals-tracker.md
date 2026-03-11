@@ -34,6 +34,7 @@
 - **Referrals received:** 0
 - **Activity log:**
   - 2025-02-19: Sent email to Sourcify (sales@sourcify.com) from assistant@kimaniclark.com — waiting for response on process/pricing
+  - 2026-03-10: Sent follow-up email to Sourcify — no response after 3 weeks. Will try calling if still no reply.
 
 ---
 
@@ -47,6 +48,7 @@
 - **Referrals received:** 0
 - **Activity log:**
   - 2025-02-19: Sent email to Kevin (kevin.j.today@gmail.com) — confirming goal still valid, asking for pricing input
+  - 2026-03-10: Sent follow-up email — no response after 3 weeks. Will escalate to text if no reply by March 17.
 
 ---
 
