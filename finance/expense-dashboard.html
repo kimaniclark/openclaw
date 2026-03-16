@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimani Clark - Finance Dashboard</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --border: #30363d;
+            --text: #e6edf3;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --green: #3fb950;
+            --red: #f85149;
+            --yellow: #d29922;
+            --purple: #a371f7;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 24px;
+            line-height: 1.5;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        
+        .header .updated {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        
+        .summary-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .summary-card.personal { border-left: 4px solid var(--accent); }
+        .summary-card.business { border-left: 4px solid var(--green); }
+        .summary-card.total { border-left: 4px solid var(--purple); }
+        
+        .summary-card .label {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+        }
+        
+        .summary-card .amount {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 8px 0;
+        }
+        
+        .summary-card .annual {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        
+        .section {
+            margin-bottom: 32px;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .section-header h2 {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .section-total {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--accent);
+        }
+        
+        .expense-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .expense-table th,
+        .expense-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .expense-table th {
+            background: rgba(255,255,255,0.05);
+            font-size: 12px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        
+        .expense-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .expense-table .amount {
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        
+        .tag.cancel { background: rgba(248,81,73,0.2); color: var(--red); }
+        .tag.review { background: rgba(210,153,34,0.2); color: var(--yellow); }
+        .tag.active { background: rgba(63,185,80,0.2); color: var(--green); }
+        
+        .business-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 24px;
+        }
+        
+        .business-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .business-card-header {
+            padding: 16px;
+            background: rgba(255,255,255,0.03);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .business-card-header h3 {
+            font-size: 16px;
+        }
+        
+        .business-card-total {
+            font-weight: 700;
+            color: var(--green);
+        }
+        
+        .business-card-body {
+            padding: 0;
+        }
+        
+        .expense-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .expense-row:last-child {
+            border-bottom: none;
+        }
+        
+        .expense-name {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .notes {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 32px;
+        }
+        
+        .notes h3 {
+            margin-bottom: 12px;
+            color: var(--yellow);
+        }
+        
+        .notes ul {
+            padding-left: 20px;
+        }
+        
+        .notes li {
+            margin-bottom: 8px;
+            color: var(--text-muted);
+        }
+        
+        .break-even {
+            background: linear-gradient(135deg, rgba(163,113,247,0.1), rgba(88,166,255,0.1));
+            border: 1px solid var(--purple);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 32px;
+        }
+        
+        .break-even h3 {
+            color: var(--purple);
+            margin-bottom: 8px;
+        }
+        
+        .break-even .target {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--text);
+        }
+        
+        .break-even .detail {
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>💰 Finance Dashboard</h1>
+        <div class="updated">Updated: March 16, 2026</div>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="summary-grid">
+        <div class="summary-card personal">
+            <div class="label">Personal</div>
+            <div class="amount">$3,909</div>
+            <div class="annual">$46,908/year</div>
+        </div>
+        <div class="summary-card business">
+            <div class="label">Business (All)</div>
+            <div class="amount">$5,539</div>
+            <div class="annual">$66,468/year</div>
+        </div>
+        <div class="summary-card total">
+            <div class="label">Total Monthly</div>
+            <div class="amount">$9,448</div>
+            <div class="annual">$113,376/year</div>
+        </div>
+    </div>
+
+    <!-- PERSONAL SECTION -->
+    <div class="section">
+        <div class="section-header">
+            <h2>🏠 Personal Expenses</h2>
+            <div class="section-total">$3,909/mo</div>
+        </div>
+        
+        <table class="expense-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Item</th>
+                    <th>Monthly</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Staff</td>
+                    <td>Natalia (fees)</td>
+                    <td class="amount">$650</td>
+                    <td>~32 hrs @ $20/hr</td>
+                </tr>
+                <tr>
+                    <td>Staff</td>
+                    <td>Natalia (hard costs)</td>
+                    <td class="amount">$165</td>
+                    <td>Drycleaning, supplies</td>
+                </tr>
+                <tr>
+                    <td>Staff</td>
+                    <td>House Cleaning</td>
+                    <td class="amount">$435</td>
+                    <td>$300/3 weeks</td>
+                </tr>
+                <tr>
+                    <td>Housing</td>
+                    <td>Condo Fee</td>
+                    <td class="amount">$1,155</td>
+                    <td>Jefferson Row</td>
+                </tr>
+                <tr>
+                    <td>Food</td>
+                    <td>HAVN Meal Delivery</td>
+                    <td class="amount">$867</td>
+                    <td>~$200/week</td>
+                </tr>
+                <tr>
+                    <td>Bills</td>
+                    <td>AT&T</td>
+                    <td class="amount">$255</td>
+                    <td>Phone/cell</td>
+                </tr>
+                <tr>
+                    <td>Bills</td>
+                    <td>Comcast Xfinity</td>
+                    <td class="amount">$86</td>
+                    <td>Internet</td>
+                </tr>
+                <tr>
+                    <td>Fitness</td>
+                    <td>Tonal</td>
+                    <td class="amount">$64</td>
+                    <td>Home gym</td>
+                </tr>
+                <tr>
+                    <td>Subscriptions</td>
+                    <td>Apple (various)</td>
+                    <td class="amount">$87</td>
+                    <td>Music, TV, iCloud, etc.</td>
+                </tr>
+                <tr>
+                    <td>Subscriptions</td>
+                    <td>HBO Max</td>
+                    <td class="amount">$35</td>
+                    <td>Streaming</td>
+                </tr>
+                <tr>
+                    <td>Subscriptions</td>
+                    <td>Dropbox</td>
+                    <td class="amount">$23</td>
+                    <td><span class="tag review">Move to TMO</span></td>
+                </tr>
+                <tr>
+                    <td>Insurance</td>
+                    <td>Chubb</td>
+                    <td class="amount">$40</td>
+                    <td>⚠️ Verify coverage type</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>Wells Fargo Fee</td>
+                    <td class="amount">$25</td>
+                    <td>Prime Checking</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>Clear (Airport)</td>
+                    <td class="amount">$17</td>
+                    <td>$200/year</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>Rocket Money</td>
+                    <td class="amount">$4</td>
+                    <td>$50.88/year</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>Xbox Live</td>
+                    <td class="amount">$5</td>
+                    <td>$63.59/year</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- BUSINESS SECTION -->
+    <div class="section">
+        <div class="section-header">
+            <h2>💼 Business Expenses</h2>
+            <div class="section-total">$5,539/mo</div>
+        </div>
+        
+        <div class="business-grid">
+            <!-- Law Firm -->
+            <div class="business-card">
+                <div class="business-card-header">
+                    <h3>⚖️ Kiklis & Clark (Law Firm)</h3>
+                    <div class="business-card-total">$1,495/mo</div>
+                </div>
+                <div class="business-card-body">
+                    <div class="expense-row">
+                        <span>Black Hills IP</span>
+                        <span class="amount">$400</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Convene (Office)</span>
+                        <span class="amount">$400</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Malpractice Insurance</span>
+                        <span class="amount">$175</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>OpenPhone (Quo)</span>
+                        <span class="amount">$107</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>LearnWorlds (Innovating Patents)</span>
+                        <span class="amount">$100</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>TrustBooks</span>
+                        <span class="amount">$99</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Grain</span>
+                        <span class="amount">$78</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Jace AI</span>
+                        <span class="amount">$52</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Guru</span>
+                        <span class="amount">$36</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Slack</span>
+                        <span class="amount">$18</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>MD Bar License <span class="tag review">Review</span></span>
+                        <span class="amount">$18</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Google Workspace</span>
+                        <span class="amount">$14</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modern Owner -->
+            <div class="business-card">
+                <div class="business-card-header">
+                    <h3>🎯 The Modern Owner</h3>
+                    <div class="business-card-total">$2,737/mo</div>
+                </div>
+                <div class="business-card-body">
+                    <div class="expense-row">
+                        <span>LearnWorlds</span>
+                        <span class="amount">$300</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Coach Marketer</span>
+                        <span class="amount">$100</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Motion</span>
+                        <span class="amount">$90</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Google Workspace</span>
+                        <span class="amount">$50</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Slack</span>
+                        <span class="amount">$47</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Missive <span class="tag cancel">To Cancel</span></span>
+                        <span class="amount">$38</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Sequence</span>
+                        <span class="amount">$35</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Dub.co</span>
+                        <span class="amount">$30</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Loom</span>
+                        <span class="amount">$24</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Calendly</span>
+                        <span class="amount">$12</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Backblaze</span>
+                        <span class="amount">$10</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Kristell (Staff)</span>
+                        <span class="amount">$2,000</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crown Acquisitions -->
+            <div class="business-card">
+                <div class="business-card-header">
+                    <h3>👑 Crown Acquisitions</h3>
+                    <div class="business-card-total">$59/mo</div>
+                </div>
+                <div class="business-card-body">
+                    <div class="expense-row">
+                        <span>Google Workspace</span>
+                        <span class="amount">$59</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Life Concierge -->
+            <div class="business-card">
+                <div class="business-card-header">
+                    <h3>🤖 Life Concierge</h3>
+                    <div class="business-card-total">$100/mo</div>
+                </div>
+                <div class="business-card-body">
+                    <div class="expense-row">
+                        <span>Circle (Community)</span>
+                        <span class="amount">$100</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kiss Model Management -->
+            <div class="business-card">
+                <div class="business-card-header">
+                    <h3>💃 Kiss Model Management</h3>
+                    <div class="business-card-total">$170/mo</div>
+                </div>
+                <div class="business-card-body">
+                    <div class="expense-row">
+                        <span>Squarespace + PortfolioPad</span>
+                        <span class="amount">$170</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pending Assignment -->
+            <div class="business-card" style="border-color: var(--yellow);">
+                <div class="business-card-header" style="background: rgba(210,153,34,0.1);">
+                    <h3>⏳ Unassigned / TBD</h3>
+                    <div class="business-card-total" style="color: var(--yellow);">$978/mo</div>
+                </div>
+                <div class="business-card-body">
+                    <div class="expense-row">
+                        <span>Google Workspace (2 more accounts TBD)</span>
+                        <span class="amount">~$30</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Claude.ai API (variable)</span>
+                        <span class="amount">~$200+</span>
+                    </div>
+                    <div class="expense-row">
+                        <span>Meta Ads (variable)</span>
+                        <span class="amount">~$100-150</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Break-Even Target -->
+    <div class="break-even">
+        <h3>🎯 Monthly Break-Even Target</h3>
+        <div class="target">$9,448</div>
+        <div class="detail">Revenue needed to cover all recurring expenses</div>
+        <div class="detail" style="margin-top: 16px;">
+            <strong>By Business:</strong> 
+            Law Firm $1,495 | Modern Owner $2,737 | Crown $59 | Life Concierge $100 | Kiss $170
+        </div>
+    </div>
+
+    <!-- Notes -->
+    <div class="notes">
+        <h3>⚠️ Action Items</h3>
+        <ul>
+            <li><strong>Cancel Missive</strong> — $38/mo savings (Johnny handling email)</li>
+            <li><strong>Review MD Bar License</strong> — $210/yr if not practicing in MD</li>
+            <li><strong>Google Workspace Audit</strong> — 5 accounts, need breakdown (Motion task created)</li>
+            <li><strong>Move Dropbox</strong> — From personal to Modern Owner</li>
+            <li><strong>Verify Chubb</strong> — What insurance coverage is this?</li>
+            <li><strong>mymind expires March 24</strong> — Renewal decision needed</li>
+            <li><strong>Withings+ expires March 27</strong> — Renewal decision needed</li>
+        </ul>
+    </div>
+
+    <!-- Removed Items -->
+    <div class="notes" style="border-color: var(--green);">
+        <h3 style="color: var(--green);">✅ Removed (Not Being Charged)</h3>
+        <ul>
+            <li><strong>Birdwatch</strong> — Former subscription, no 2026 charges</li>
+            <li><strong>Overture 2.0</strong> — Never agreed to subscription, no charges</li>
+            <li><strong>Hey.com</strong> — Canceled</li>
+            <li><strong>Slack Personal</strong> — No longer needed ($37/mo saved)</li>
+        </ul>
+    </div>
+</body>
+</html>
