@@ -1,53 +1,74 @@
 # Captured Ideas
 
 Review cycle: Every 3 weeks
-Last review: (not yet)
-Next review: 2026-03-04
+Last review: 2026-03-15
+Next review: 2026-04-05
 
 ---
 
-## 2026-02-19
-- **Nutrition Solutions (nutritionsolutions.com)** — Meal prep/nutrition service. To explore.
-- **Patent Prosecution Software on Base44** — Build the patent prosecution software using base44.com (no-code/low-code platform). For Kiklis Clark.
+## Personal — Health & Fitness
+- **Puppy Yoga DC** — Yoga class with puppies. Fun fitness/social activity. *(2026-03-13)*
+- **Soothe app for massages** — On-demand massage service app. Wellness/recovery. *(2026-03-11)*
+- **LifeForce Magnesium for sleep** — Add magnesium supplement to stack for better sleep. *(2026-03-06)*
+- **Nutrition Solutions (nutritionsolutions.com)** — Meal prep/nutrition service. *(2026-02-19)*
 
-## 2026-02-11
-- **DeleteMe (deleteme.com)** — Privacy data removal service. Removes personal info from data brokers, people search sites, search engines, dark web. For personal use.
-- **Website Design Process (YouTube)** — "Stealing $10K Website Designs with Claude Code" https://youtu.be/AaO6ujcx6TY - design methodology for landing pages, dashboards, client sites. Video mentions a design inspiration site.
+## Personal — Travel & Experiences
+- **Private Jet Trip to Blue Vista Villa** — Trip with Ivy and Hope. *(2026-03-12)*
+- **Jeanette Fever Up Gift Certificate** — Send Fever Up gift certificate to Jeanette. *(2026-02-07)*
 
+## Personal — Home
+- **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade. *(2026-02-23)*
+- **Donate unsellable gym equipment to Beta Academy** — Clearing out home gym items that won't sell. *(2026-03-13)*
+- **Collect deposit money from High Crown Homes** — Outstanding deposit to recover. *(2026-02-27)*
 
-## 2026-02-20
-- **Build custom LMS website** — Consider replacing LearnWorlds ($300/mo) with custom-built learning management system. Currently using: video hosting, links/text, payments, student access. Potential stack: Base44/Framer + Bunny.net + Stripe + simple auth. Could save ~$250/month.
+## Personal — Privacy & Communications
+- **DeleteMe (deleteme.com)** — Privacy data removal service. Removes personal info from data brokers. *(2026-02-11)*
+- **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Cleans clickbait headlines. *(2026-02-28)*
+- **Claude browser extension** — https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn *(2026-03-11)*
 
-## 2026-02-23
-- **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade.
+## Personal — Finance & Admin
+- **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant. *(2026-03-02)*
+- **Pay Upwork to fix account** — Account issue needs resolution. *(2026-03-02)*
+- **Close kimaniclark7@gmail.com Account** — Email consolidation. *(2026-02-07)*
+- **Change Asana Email Address** — Update to restored johnnybradley876@gmail.com. *(2026-02-07)*
 
-## 2026-03-02
-- **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant.
-- **Pay Upwork to fix account** — Account issue needs resolution.
+## Personal — Learning & Reference
+- **Civil Rights Lawyer Archive** — American Archive historical interview about NAACP Legal Defense Fund. *(2026-02-07)*
+- **Website Design Process (YouTube)** — "Stealing $10K Website Designs with Claude Code" https://youtu.be/AaO6ujcx6TY *(2026-02-11)*
+- **Danielle's Mail and Papers Folder** — Google Drive organization project. *(2026-02-07)*
 
-## 2026-02-27
-- **Collect deposit money from High Crown Homes** — Outstanding deposit to recover.
+---
 
-## 2026-03-11
-- **Claude browser extension** — https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn — Official Claude Chrome extension. Explore for quick access to Claude from browser.
+## Business — Kiklis Clark (Law Firm)
+- **Law Firm Platform Model** — Transform into platform where attorneys bring their own work. Revenue: % of attorney billings (passive income). Target: attorneys who want their own book but don't want to start a firm. *(2026-03-12)*
+- **Patent Prosecution Software on Base44** — Build patent prosecution software using base44.com. *(2026-02-19)*
+- **Try fearn.ai for patent drawings** — https://fearn.ai/ — AI patent drafting platform. *(2026-03-11)*
 
-## 2026-02-28
-- **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Browser extension that cleans up sensational/clickbait headlines. Could be useful personally or inspiration for similar tools.
+## Business — Crown Acquisitions
+- **Seamless.ai for lead generation** — https://seamless.ai — B2B lead gen for medical roll-up deal sourcing. *(2026-03-10)*
+- **M&A outreach via marketing agencies + accountants** — LinkedIn outreach through service providers who see businesses ready to sell. *(2026-02-25)*
+- **Video messages on LinkedIn for acquisition outreach** — Personal video DMs for higher response rate. *(2026-02-25)*
+- **Chamber of Commerce lunch & learns** — Attend local chamber meetings for deal flow. *(2026-02-25)*
+- **Hire acquisition lead specialist (Upwork)** — Outsource deal sourcing. *(2026-02-25)*
+- **Stake.law + Market Operandi referral partnership** — Connect for referral fee arrangement. *(2026-03-04)*
 
-## 2026-03-11
-- **Soothe app for massages** — On-demand massage service app. Wellness/recovery.
+## Business — The Modern Owner
+- **Build custom LMS website** — Replace LearnWorlds ($300/mo) with custom-built. Stack: Base44/Framer + Bunny.net + Stripe. Could save ~$250/month. *(2026-02-20)*
 
-## 2026-03-06
-- **LifeForce Magnesium for sleep** — Add magnesium supplement to stack for better sleep. LifeForce brand (same as DHEA).
+## Business — Life Concierge
+- **Dub.co Partner Program** — https://partners.dub.co/jace/apply *(2026-02-09)*
 
-## 2026-03-04
-- **Stake.law + Market Operandi referral partnership** — Connect Stake.law with Market Operandi for a referral fee arrangement. Potential revenue stream.
+## Business — Tools & Tech
+- **Base44.com No-Code AI App Builder** — AI no-code app builder ($20/mo). *(2026-02-07)*
+- **Best Vibe Coding Tools** — https://www.techradar.com/pro/best-vibe-coding-tools *(2026-02-10)*
+- **Dual Agent Guide - Cost Savings** — https://dual-agent-guide.vercel.app/ *(2026-02-10)*
+- **fearn.ai website design reference** — Clean, modern SaaS design for Crown or Kiklis Clark site. *(2026-03-11)*
 
-## 2026-03-10
-- **Seamless.ai for lead generation** — https://seamless.ai — B2B lead gen platform. For medical roll-up deal sourcing.
+---
 
-## 2026-02-25
-- **M&A outreach via marketing agencies + accountants** — Reach companies through their service providers on LinkedIn. Marketing agencies and accountants have visibility into businesses ready to sell/grow. Indirect channel for deal flow.
-- **Video messages on LinkedIn for acquisition outreach** — Personal video DMs to stand out. Higher response rate than text for M&A conversations.
-- **Chamber of Commerce lunch & learns** — Attend local chamber meetings for deal flow. High concentration of business owners in one room. In-person relationship building.
-- **Hire acquisition lead specialist (Upwork)** — Outsource deal sourcing. Find someone to identify and qualify acquisition targets.
+## Archived
+*(Moved here after review - deprioritized but not deleted)*
+
+---
+
+*Last updated: 2026-03-15*

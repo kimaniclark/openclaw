@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideas Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      min-height: 100vh;
+      padding: 2rem;
+      color: #e0e0e0;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+    .header .meta {
+      color: #888;
+      font-size: 0.9rem;
+    }
+    .header .next-review {
+      display: inline-block;
+      background: #4a5568;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .stat {
+      background: rgba(255,255,255,0.05);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #60a5fa;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: #888;
+      text-transform: uppercase;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.5rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .category {
+      background: rgba(255,255,255,0.03);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .category-header {
+      padding: 1rem 1.25rem;
+      font-weight: 600;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .category-header .count {
+      background: rgba(255,255,255,0.1);
+      padding: 0.2rem 0.6rem;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      margin-left: auto;
+    }
+    /* Personal categories */
+    .personal-health .category-header { background: linear-gradient(90deg, #10b981 0%, #059669 100%); }
+    .personal-travel .category-header { background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%); }
+    .personal-home .category-header { background: linear-gradient(90deg, #8b5cf6 0%, #7c3aed 100%); }
+    .personal-privacy .category-header { background: linear-gradient(90deg, #ef4444 0%, #dc2626 100%); }
+    .personal-finance .category-header { background: linear-gradient(90deg, #06b6d4 0%, #0891b2 100%); }
+    .personal-learning .category-header { background: linear-gradient(90deg, #ec4899 0%, #db2777 100%); }
+    /* Business categories */
+    .business-lawfirm .category-header { background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%); }
+    .business-crown .category-header { background: linear-gradient(90deg, #f97316 0%, #ea580c 100%); }
+    .business-tmo .category-header { background: linear-gradient(90deg, #14b8a6 0%, #0d9488 100%); }
+    .business-lc .category-header { background: linear-gradient(90deg, #a855f7 0%, #9333ea 100%); }
+    .business-tools .category-header { background: linear-gradient(90deg, #6366f1 0%, #4f46e5 100%); }
+    
+    .ideas-list {
+      padding: 0.75rem;
+    }
+    .idea {
+      background: rgba(255,255,255,0.03);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.5rem;
+      border-left: 3px solid rgba(255,255,255,0.2);
+      transition: all 0.2s;
+    }
+    .idea:hover {
+      background: rgba(255,255,255,0.07);
+      transform: translateX(3px);
+    }
+    .idea:last-child { margin-bottom: 0; }
+    .idea-title {
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 0.3rem;
+    }
+    .idea-title a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    .idea-title a:hover {
+      text-decoration: underline;
+    }
+    .idea-desc {
+      font-size: 0.85rem;
+      color: #9ca3af;
+      line-height: 1.4;
+    }
+    .idea-date {
+      font-size: 0.7rem;
+      color: #6b7280;
+      margin-top: 0.3rem;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 2rem 0 1rem;
+      padding-left: 0.5rem;
+      border-left: 4px solid #60a5fa;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .section-title:first-of-type { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🧠 Ideas Dashboard</h1>
+    <div class="meta">Captured ideas organized by life area & business</div>
+    <div class="next-review">📅 Next Review: April 5, 2026</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-number">32</div>
+      <div class="stat-label">Total Ideas</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">10</div>
+      <div class="stat-label">Personal</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">13</div>
+      <div class="stat-label">Business</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">6</div>
+      <div class="stat-label">Quick Tasks</div>
+    </div>
+  </div>
+
+  <h2 class="section-title">🏠 Personal</h2>
+  <div class="container">
+    
+    <div class="category personal-health">
+      <div class="category-header">💪 Health & Fitness <span class="count">4</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🐕 Puppy Yoga DC</div>
+          <div class="idea-desc">Yoga class with puppies. Fun fitness/social activity.</div>
+          <div class="idea-date">Mar 13</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">💆 Soothe App</div>
+          <div class="idea-desc">On-demand massage service app for wellness/recovery.</div>
+          <div class="idea-date">Mar 11</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">💊 LifeForce Magnesium</div>
+          <div class="idea-desc">Add magnesium supplement for better sleep.</div>
+          <div class="idea-date">Mar 6</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🍽️ Nutrition Solutions</div>
+          <div class="idea-desc"><a href="https://nutritionsolutions.com">nutritionsolutions.com</a> — Meal prep/nutrition service.</div>
+          <div class="idea-date">Feb 19</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category personal-travel">
+      <div class="category-header">✈️ Travel & Experiences <span class="count">2</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🛩️ Private Jet to Blue Vista Villa</div>
+          <div class="idea-desc">Trip with Ivy and Hope.</div>
+          <div class="idea-date">Mar 12</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🎟️ Jeanette Fever Up Gift Certificate</div>
+          <div class="idea-desc">Send Fever Up gift certificate to Jeanette.</div>
+          <div class="idea-date">Feb 7</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category personal-home">
+      <div class="category-header">🏠 Home <span class="count">3</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🍸 Barsys 360</div>
+          <div class="idea-desc"><a href="https://barsys.com/us/product/barsys-360">Automated cocktail maker</a> for home bar.</div>
+          <div class="idea-date">Feb 23</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🏋️ Donate Gym Equipment</div>
+          <div class="idea-desc">Offer unsellable items to Beta Academy.</div>
+          <div class="idea-date">Mar 13</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">💰 High Crown Homes Deposit</div>
+          <div class="idea-desc">Collect outstanding deposit money.</div>
+          <div class="idea-date">Feb 27</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category personal-privacy">
+      <div class="category-header">🔒 Privacy & Communications <span class="count">3</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🛡️ DeleteMe</div>
+          <div class="idea-desc"><a href="https://deleteme.com">deleteme.com</a> — Remove personal info from data brokers.</div>
+          <div class="idea-date">Feb 11</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">📰 Headline Cleaner</div>
+          <div class="idea-desc"><a href="https://headlinecleaner.com/en/browser-extension">Browser extension</a> that cleans clickbait headlines.</div>
+          <div class="idea-date">Feb 28</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🧠 Claude Browser Extension</div>
+          <div class="idea-desc"><a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">Official Chrome extension</a> for quick Claude access.</div>
+          <div class="idea-date">Mar 11</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category personal-finance">
+      <div class="category-header">💳 Finance & Admin <span class="count">4</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">❌ Cancel ChatGPT</div>
+          <div class="idea-desc">Already have Claude via OpenClaw, likely redundant.</div>
+          <div class="idea-date">Mar 2</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">💼 Fix Upwork Account</div>
+          <div class="idea-desc">Pay Upwork to resolve account issue.</div>
+          <div class="idea-date">Mar 2</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">📧 Close Old Gmail</div>
+          <div class="idea-desc">Close kimaniclark7@gmail.com for email consolidation.</div>
+          <div class="idea-date">Feb 7</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">📋 Update Asana Email</div>
+          <div class="idea-desc">Change to restored johnnybradley876@gmail.com.</div>
+          <div class="idea-date">Feb 7</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category personal-learning">
+      <div class="category-header">📚 Learning & Reference <span class="count">3</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">⚖️ Civil Rights Lawyer Archive</div>
+          <div class="idea-desc">American Archive interview about NAACP Legal Defense Fund.</div>
+          <div class="idea-date">Feb 7</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🎨 Website Design Video</div>
+          <div class="idea-desc"><a href="https://youtu.be/AaO6ujcx6TY">"Stealing $10K Website Designs with Claude Code"</a></div>
+          <div class="idea-date">Feb 11</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">📁 Danielle's Drive Folder</div>
+          <div class="idea-desc">Google Drive organization project (mail and papers).</div>
+          <div class="idea-date">Feb 7</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 class="section-title">💼 Business</h2>
+  <div class="container">
+
+    <div class="category business-lawfirm">
+      <div class="category-header">⚖️ Kiklis Clark (Law Firm) <span class="count">3</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🏢 Law Firm Platform Model</div>
+          <div class="idea-desc">Attorneys bring their own work, you take %. Passive income. Target: attorneys who want their own book without starting a firm.</div>
+          <div class="idea-date">Mar 12</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">💻 Patent Software on Base44</div>
+          <div class="idea-desc">Build patent prosecution software using base44.com.</div>
+          <div class="idea-date">Feb 19</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">✏️ Fearn.ai for Patent Drawings</div>
+          <div class="idea-desc"><a href="https://fearn.ai/">AI patent drafting platform</a> — try for drawings.</div>
+          <div class="idea-date">Mar 11</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category business-crown">
+      <div class="category-header">👑 Crown Acquisitions <span class="count">6</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">📊 Seamless.ai</div>
+          <div class="idea-desc"><a href="https://seamless.ai">B2B lead gen</a> for medical roll-up deal sourcing.</div>
+          <div class="idea-date">Mar 10</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🔗 Stake.law + Market Operandi</div>
+          <div class="idea-desc">Connect for referral fee arrangement.</div>
+          <div class="idea-date">Mar 4</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🏢 M&A via Agencies/Accountants</div>
+          <div class="idea-desc">LinkedIn outreach through service providers who see businesses ready to sell.</div>
+          <div class="idea-date">Feb 25</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🎥 Video DMs on LinkedIn</div>
+          <div class="idea-desc">Personal video messages for higher M&A response rate.</div>
+          <div class="idea-date">Feb 25</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🤝 Chamber of Commerce</div>
+          <div class="idea-desc">Attend lunch & learns for deal flow.</div>
+          <div class="idea-date">Feb 25</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">👔 Hire Lead Specialist</div>
+          <div class="idea-desc">Outsource deal sourcing on Upwork.</div>
+          <div class="idea-date">Feb 25</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category business-tmo">
+      <div class="category-header">📚 The Modern Owner <span class="count">1</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🎓 Build Custom LMS</div>
+          <div class="idea-desc">Replace LearnWorlds ($300/mo). Stack: Base44/Framer + Bunny.net + Stripe. Save ~$250/month.</div>
+          <div class="idea-date">Feb 20</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category business-lc">
+      <div class="category-header">🏠 Life Concierge <span class="count">1</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🔗 Dub.co Partner Program</div>
+          <div class="idea-desc"><a href="https://partners.dub.co/jace/apply">Apply for partnership</a></div>
+          <div class="idea-date">Feb 9</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="category business-tools">
+      <div class="category-header">🛠️ Tools & Tech <span class="count">4</span></div>
+      <div class="ideas-list">
+        <div class="idea">
+          <div class="idea-title">🔧 Base44.com</div>
+          <div class="idea-desc"><a href="https://base44.com">AI no-code app builder</a> ($20/mo)</div>
+          <div class="idea-date">Feb 7</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">💻 Best Vibe Coding Tools</div>
+          <div class="idea-desc"><a href="https://www.techradar.com/pro/best-vibe-coding-tools">TechRadar article</a></div>
+          <div class="idea-date">Feb 10</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🤖 Dual Agent Guide</div>
+          <div class="idea-desc"><a href="https://dual-agent-guide.vercel.app/">Cost savings tool</a></div>
+          <div class="idea-date">Feb 10</div>
+        </div>
+        <div class="idea">
+          <div class="idea-title">🎨 Fearn.ai Design Reference</div>
+          <div class="idea-desc"><a href="https://fearn.ai/">Clean SaaS design</a> for Crown or Kiklis Clark site.</div>
+          <div class="idea-date">Mar 11</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // Update stats dynamically
+    const ideas = document.querySelectorAll('.idea');
+    document.querySelector('.stat-number').textContent = ideas.length;
+  </script>
+</body>
+</html>
