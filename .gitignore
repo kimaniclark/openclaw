@@ -1,5 +1,4 @@
 # Large media files (store in Dropbox or download on-demand)
-attachments/
 *.mp4
 *.mov
 *.MP4
