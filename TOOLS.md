@@ -118,6 +118,12 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 **Reference Video:**
 - "Stealing $10K Website Designs with Claude Code" — https://youtu.be/AaO6ujcx6TY
 
+### Zoom (Direct Link)
+- **Meeting ID**: 4333875714
+- **Password**: 177172
+- **Link**: https://zoom.us/j/4333875714
+- **When to use**: For calls not scheduled through Calendly (Calendly auto-generates individual Zoom links)
+
 ---
 
 ## What Goes Here

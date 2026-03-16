@@ -8,7 +8,8 @@
     "relationshipMaintenance": 1772397076338,
     "fitnessUpdate": 1741608274000,
     "weeklyCheckin": 1709391600000,
-    "lawFirmEmail": 1741578766000
+    "lawFirmEmail": 1741858200000,
+    "patentDeadlines": 1741858200000
   },
   "notes": {
     "twilioSms": "FAILED - checked 2026-03-09 11:32 PM. Still failed, awaiting Kimani decision on resubmission.",
@@ -16,17 +17,19 @@
     "ebayMessages": "Auth expired - kclark3 needs password re-auth.",
     "ebayListings": "Session expired - kclark3 needs password re-auth. Alert sent to #home.",
     "ebayPickup": "March 6 pickup (Hammer Strength Ab Machine) - ASKED Kimani for confirmation 2026-03-10 8:04 AM.",
-    "craigslistInquiries": "Can't check - all Gmail tokens need refresh.",
+    "craigslistInquiries": "Can't check - admin@ token needs refresh.",
     "fitnessUpdate": "Pinged #fitness for Withings stats - Tuesday 8:04 AM (missed Monday).",
     "relationshipMaintenance": "Sent weekly suggestions: Monica English (bday tomorrow!), Johnny Norton (bday Mar 17), Jamel Davenport (networking). Sunday 3:30 PM.",
     "weeklyCheckin": "Monday check-in sent to #home: workout days, time system, dashboard stats. 2026-03-02 11 AM.",
-    "lawFirmEmail": "Can't check - all Gmail tokens need refresh.",
-    "patentDeadlines": "Mar 20 (18/534,782 Non-Final OA), Mar 21 (18/325,585 Final Rejection) - 10-11 days out, monitoring.",
-    "lastUpdate": "2026-03-10T08:04:00-04:00"
+    "lawFirmEmail": "Checked 2026-03-15 6:30 AM. Found: Rho card declined ($52 Jace AI), Convene invoice overdue, Coach Marketer $97 failed. Alerted #law-company.",
+    "patentDeadlines": "Mar 20 (18/534,782 Non-Final OA), Mar 21 (18/325,585 Final Rejection) - 5-6 days out. Alerted #law-company.",
+    "kariosDeposit": "Deadline was Mar 12 - no payment confirmation found. Status unknown.",
+    "upcomingMeeting": "Ian - Monday Mar 16 at 3:30 PM (Calendly booking)",
+    "lastUpdate": "2026-03-15T06:30:00-04:00"
   },
   "blockers": {
     "crownEmailOAuth": "401 Invalid Credentials - needs token refresh for gmailCrownAcquisitions",
-    "allGmailTokens": "All Gmail tokens (main, admin, kiklisclark, crownacquisitions) showing NO - need refresh",
+    "adminEmailToken": "admin@kimaniclark.com token needs refresh",
     "browserAutomation": "Chrome extension relay running but no tab connected. Openclaw profile starts but snapshot fails.",
     "ebayAuth": "kclark3 session expired, password required",
     "braveApi": "Web search needs Brave API key"
@@ -34,6 +37,7 @@
   "pendingMorning": [
     "Confirm eBay pickup (March 6 Hammer Strength Ab Machine) completed - ASKED",
     "Get Withings stats for fitness dashboard - ASKED",
-    "Refresh Gmail tokens for email monitoring"
+    "Refresh Crown and admin Gmail tokens for email monitoring",
+    "Karios $57,200 deposit - deadline passed, status unknown"
   ]
 }

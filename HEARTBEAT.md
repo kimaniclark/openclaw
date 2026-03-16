@@ -2,18 +2,28 @@
 
 ## Active Monitoring
 
-### eBay Ab Machine Pickup — SCHEDULED ✅
-**Pickup: Friday March 6, 4:30 PM** — Buyer (hi-fi_nerd/helpmedrinks) coming to get the Hammer Strength Ab Machine ($1,950).
-- Calendar event created with QR code scan instructions
-- Funds release: March 23
-- After pickup confirmed, remove this item and update eBay listings status
+### Karios $57,200 Deposit — URGENT ⏰
+**Invoice sent:** March 11, 2026
+**Monitor for:** Payment confirmation (wire, ACH, or LawPay)
+**Deadline:** Before Kimani's inventor call — **Thursday March 12, 4:00 PM**
 
-### ACloset Clothing Pictures (Life Dashboard)
-Check kimani@kimaniclark.com for email from **Natalia** with clothing pictures from ACloset app.
-- Should include: pics of clothes + brand of each item
-- Purpose: Build out fashion portion of Life Dashboard + outfit selection software
-- **Deadline:** March 17 (1 week) — cron reminder set
-- When received: Download pics, catalog by brand, alert in #fashion
+Check kimani@kiklisclark.com for:
+- Reply from svet@karios.ai, sree@karios.ai, or salim.k@karios.ai
+- Bank of America wire/ACH notification
+- LawPay payment notification
+
+Alert Kimani in #law-company immediately when payment method is confirmed.
+
+### eBay Ab Machine — SOLD & PICKED UP ✅
+**Completed:** Hammer Strength Ab Machine ($1,950) picked up by buyer (hi-fi_nerd/helpmedrinks)
+- **Funds release:** March 23 → eBay linked payout method (check eBay → Seller Hub → Payments to confirm where)
+- Remove this section after funds confirmed
+
+### ACloset Clothing Pictures (Life Dashboard) ✅ RECEIVED
+**Status:** 2 emails received March 13 (96 total images)
+- Part I: 50 images | Part II: 46 images  
+- Brands visible on clothing (BOSS, Robert Barakett, etc.) but no separate text list
+- Awaiting Kimani's decision: process all images with vision AI, or ask Natalia for brand list
 
 ### Craigslist Inquiries - Gym Equipment
 Check admin@kimaniclark.com for Craigslist responses about:

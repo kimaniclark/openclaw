@@ -59,6 +59,7 @@ Next review: 2026-04-05
 - **Dub.co Partner Program** — https://partners.dub.co/jace/apply *(2026-02-09)*
 
 ## Business — Tools & Tech
+- **Analyze software subscriptions for DIY replacement** — Review all ~$2,700/mo in software expenses to identify which could be eliminated by building custom solutions. *(2026-03-15)*
 - **Base44.com No-Code AI App Builder** — AI no-code app builder ($20/mo). *(2026-02-07)*
 - **Best Vibe Coding Tools** — https://www.techradar.com/pro/best-vibe-coding-tools *(2026-02-10)*
 - **Dual Agent Guide - Cost Savings** — https://dual-agent-guide.vercel.app/ *(2026-02-10)*

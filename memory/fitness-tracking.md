@@ -1,12 +1,13 @@
 # Fitness Tracking
 
-## Current Stats (Mar 6, 2026)
-- **Weight:** 191.5 lb (stable)
-- **Body Fat:** 17.8% ↓
+## Current Stats (Mar 11, 2026)
+- **Weight:** 190.7 lb (stable)
+- **Body Fat:** 19.5%
 
 ### History
 | Date | Weight | Body Fat | Trend |
 |------|--------|----------|-------|
+| Mar 11 | 190.7 lb | 19.5% | Gaining Weight |
 | Mar 6 | 191.5 lb | 17.8% | Gaining Weight |
 | Mar 2 | 191.7 lb | 18.1% | Stable |
 | Feb 20 | 189.8 lb | 17.7% | Losing Weight |
@@ -33,9 +34,19 @@
 - Week of Feb 24 - Mar 2: Working Out 2/2 ✓, Running 1/2, Jiu Jitsu 0/2
 - Week of Mar 2-8: Working Out 2/2 ✓, Running 1/2, Jiu Jitsu 1/2
 - Current week (Mar 9-15): 
-  - Working Out: 0/2 (planned: Wed + Fri)
+  - Working Out: 1/2 ✓
   - Running: 0/2
-  - Jiu Jitsu: 0/2
+  - Jiu Jitsu: 1/2 ✓
+
+## Boxing - Nuboxx Fitness
+- Location: 1449 U St. NW, Washington, DC 20009
+- Phone: (202) 921-9238
+- Schedule: https://nuboxxfitness.com/schedule
+- Pricing: Pay-per-class model
+  - First Class Drop In: $35 (Buy 1 Get 1 Free, includes gloves + wraps)
+  - 5 Pack: $159 ($32/class, 45 days)
+  - 10 Pack: $299 ($30/class, 90 days)
+- Booking: WellnessLiving platform
 
 ## Jiu Jitsu - Beta Academy
 - Contact: Furaha Rutambika
