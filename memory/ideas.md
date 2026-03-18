@@ -7,6 +7,7 @@ Next review: 2026-04-05
 ---
 
 ## Personal — Health & Fitness
+- **Function Health blood tests** — Comprehensive testing for $365. https://www.functionhealth.com/pricing *(2026-03-17)*
 - **Rythm Health blood tests** — Comprehensive blood testing service. https://rythmhealth.com/what-we-test *(2026-03-17)*
 - **Puppy Yoga DC** — Yoga class with puppies. Fun fitness/social activity. *(2026-03-13)*
 - **Soothe app for massages** — On-demand massage service app. Wellness/recovery. *(2026-03-11)*
