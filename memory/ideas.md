@@ -88,3 +88,49 @@ Watch Robbie and Maria's fashion video for style inspiration/insights
 **Status:** To discuss in #law-company channel
 **Tags:** #law-firm #software #automation
 
+
+---
+
+## Patent Prosecutor SaaS (2026-03-18)
+
+**Concept:** AI-powered patent prosecution software
+
+**Core Features:**
+1. **OA Monitoring** — USPTO API polling, auto-notify when office actions arrive
+2. **Client Reporting** — Auto-generate and send OA report emails, get authorization
+3. **AI Analysis** — Pull prior art + history, generate argument strategies, rank by strength
+4. **Draft Generation** — Create response using templates + AI arguments
+5. **Attorney Review** — Review, modify, approve workflow
+6. **E-filing** — Prepare for Patent Center filing
+7. **Auto-Report** — Notify client of filing automatically
+
+**Patent Application Drafting:**
+- Integrate with Grain for invention disclosure meeting transcripts
+- Upload disclosure documents
+- Auto-generate patent applications
+- Kimani has Claude prompting workflow to formalize
+
+**Docket Tracking:**
+- Similar to existing patent-docket-dashboard
+- Full matter management
+
+**Tech Stack:** Next.js + Supabase + Claude API + Vercel
+**Development:** Cursor IDE (AI-assisted coding)
+
+**Business Model:** SaaS for patent attorneys
+**First Customer:** Kiklis Clark (dogfooding)
+
+**Scaffolded:** `patent-prosecutor/` folder with USPTO API + AI libs ready
+
+**Status:** Cursor download task due Mar 24
+
+## Annual Bill/Subscription Payments
+**Date:** 2026-03-18
+**Idea:** Pay bills and subscriptions annually instead of monthly to:
+- Avoid monthly budgeting complexity
+- Reduce expense tracking overhead
+- Prevent service interruptions from missed payments
+- Often get 10-20% discount for annual commitment
+**Status:** To evaluate — could review which subscriptions offer annual discounts
+**Tags:** #personal-finance #subscriptions #budgeting
+
