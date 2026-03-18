@@ -7,6 +7,7 @@ Next review: 2026-04-05
 ---
 
 ## Personal — Health & Fitness
+- **Rythm Health blood tests** — Comprehensive blood testing service. https://rythmhealth.com/what-we-test *(2026-03-17)*
 - **Puppy Yoga DC** — Yoga class with puppies. Fun fitness/social activity. *(2026-03-13)*
 - **Soothe app for massages** — On-demand massage service app. Wellness/recovery. *(2026-03-11)*
 - **LifeForce Magnesium for sleep** — Add magnesium supplement to stack for better sleep. *(2026-03-06)*
@@ -73,3 +74,9 @@ Next review: 2026-04-05
 ---
 
 *Last updated: 2026-03-15*
+
+## 2026-03-17 - Fashion Video Resource
+Watch Robbie and Maria's fashion video for style inspiration/insights
+- URL: https://www.innerconfidence.com/members/fashion
+- Password: leverage
+- Context: Life Concierge fashion dashboard development
