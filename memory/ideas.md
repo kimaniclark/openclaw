@@ -81,3 +81,10 @@ Watch Robbie and Maria's fashion video for style inspiration/insights
 - URL: https://www.innerconfidence.com/members/fashion
 - Password: leverage
 - Context: Life Concierge fashion dashboard development
+
+## Patent Prosecution Automation Software
+**Date:** 2026-03-18
+**Context:** While working on Karios patent apps, Kimani noted desire to automate patent prosecution workflows
+**Status:** To discuss in #law-company channel
+**Tags:** #law-firm #software #automation
+
