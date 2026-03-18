@@ -2,17 +2,23 @@
 
 ## Active Monitoring
 
-### Karios $57,200 Deposit — URGENT ⏰
-**Invoice sent:** March 11, 2026
-**Monitor for:** Payment confirmation (wire, ACH, or LawPay)
-**Deadline:** Before Kimani's inventor call — **Thursday March 12, 4:00 PM**
+### Clipboard Nation OA Response — Lu Approval ⏰
+**Application:** 18/534,782 (docket 3021-0003)
+**Matter:** Non-Final Office Action response
+**Deadline:** March 20, 2026
+**Contact:** Lu (owner) — Lumo@clipboardnation.com
+**Status:** Kimani emailed Lu on March 17; draft response ready
 
-Check kimani@kiklisclark.com for:
-- Reply from svet@karios.ai, sree@karios.ai, or salim.k@karios.ai
-- Bank of America wire/ACH notification
-- LawPay payment notification
+Monitor kimani@kiklisclark.com for reply from Lumo@clipboardnation.com.
+Lu is a friend — may also respond via text.
 
-Alert Kimani in #law-company immediately when payment method is confirmed.
+Alert Kimani in #law-company when Lu responds.
+
+### Karios $57,200 Deposit ✅ PAID
+**Collected:** March 18, 2026
+**Amount:** $57,200
+
+Patent applications due today and Friday. Payment confirmed - removing from active monitoring.
 
 ### eBay Ab Machine — SOLD & PICKED UP ✅
 **Completed:** Hammer Strength Ab Machine ($1,950) picked up by buyer (hi-fi_nerd/helpmedrinks)
