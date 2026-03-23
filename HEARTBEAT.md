@@ -2,17 +2,22 @@
 
 ## Active Monitoring
 
-### Clipboard Nation OA Response — Lu Approval ⏰
+### Clipboard Nation OA Response — Lu Approval ⚠️ DEADLINE PASSED
 **Application:** 18/534,782 (docket 3021-0003)
 **Matter:** Non-Final Office Action response
-**Deadline:** March 20, 2026
+**Deadline:** March 20, 2026 (PASSED)
 **Contact:** Lu (owner) — Lumo@clipboardnation.com
-**Status:** Kimani emailed Lu on March 17; draft response ready
+**Status:** ESCALATED March 21 at 4am - Lu never responded to approval emails
 
-Monitor kimani@kiklisclark.com for reply from Lumo@clipboardnation.com.
-Lu is a friend — may also respond via text.
+Kimani emailed March 17 + follow-up March 20. No response from Lu.
+USPTO shows no new filings. Alert sent to #law-company.
 
-Alert Kimani in #law-company when Lu responds.
+**Awaiting Kimani's response:**
+- Was response filed without email confirmation?
+- Was extension filed?
+- Did Lu approve via phone/text?
+
+Remove this section once resolved.
 
 ### Karios $57,200 Deposit ✅ PAID
 **Collected:** March 18, 2026
@@ -52,7 +57,7 @@ Alert Kimani in #home when inquiries come in.
 **USPTO API Monitoring (Weekly):**
 Use USPTO Open Data Portal API to check status changes on active applications:
 - **18/534,782** (Clipboard Nation 3021-0003) — Non-Final OA due Mar 20
-- **18/325,585** (A Good Walk 1002-0002) — Final Rejection due Mar 21
+- **18/325,585** (A Good Walk 1002-0002) — Final Rejection *(Morris said stand by 5-7 days on Mar 20)*
 - **63/820,629** (Archivox 1013-0002-PRO) — Missing Parts
 
 Alert in #law-company if:

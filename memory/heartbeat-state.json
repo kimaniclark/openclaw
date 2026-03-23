@@ -6,10 +6,10 @@
     "ebayListings": 1740672000,
     "craigslistInquiries": 1772629270386,
     "relationshipMaintenance": 1772397076338,
-    "fitnessUpdate": 1741608274000,
+    "fitnessUpdate": 1742216826000,
     "weeklyCheckin": 1709391600000,
     "lawFirmEmail": 1741858200000,
-    "patentDeadlines": 1741858200000
+    "patentDeadlines": 1742216826000
   },
   "notes": {
     "twilioSms": "FAILED - checked 2026-03-09 11:32 PM. Still failed, awaiting Kimani decision on resubmission.",
@@ -18,14 +18,13 @@
     "ebayListings": "Session expired - kclark3 needs password re-auth. Alert sent to #home.",
     "ebayPickup": "March 6 pickup (Hammer Strength Ab Machine) - ASKED Kimani for confirmation 2026-03-10 8:04 AM.",
     "craigslistInquiries": "Can't check - admin@ token needs refresh.",
-    "fitnessUpdate": "Pinged #fitness for Withings stats - Tuesday 8:04 AM (missed Monday).",
-    "relationshipMaintenance": "Sent weekly suggestions: Monica English (bday tomorrow!), Johnny Norton (bday Mar 17), Jamel Davenport (networking). Sunday 3:30 PM.",
+    "fitnessUpdate": "Pinged #fitness for Withings stats - Tuesday Mar 17, 8:07 AM.",
+    "relationshipMaintenance": "Sent weekly suggestions Sunday. Johnny Norton's bday is TODAY (Mar 17)!",
     "weeklyCheckin": "Monday check-in sent to #home: workout days, time system, dashboard stats. 2026-03-02 11 AM.",
     "lawFirmEmail": "Checked 2026-03-15 6:30 AM. Found: Rho card declined ($52 Jace AI), Convene invoice overdue, Coach Marketer $97 failed. Alerted #law-company.",
-    "patentDeadlines": "Mar 20 (18/534,782 Non-Final OA), Mar 21 (18/325,585 Final Rejection) - 5-6 days out. Alerted #law-company.",
-    "kariosDeposit": "Deadline was Mar 12 - no payment confirmation found. Status unknown.",
-    "upcomingMeeting": "Ian - Monday Mar 16 at 3:30 PM (Calendly booking)",
-    "lastUpdate": "2026-03-15T06:30:00-04:00"
+    "patentDeadlines": "Mar 20 (18/534,782 Non-Final OA), Mar 21 (18/325,585 Final Rejection). Checked USPTO API 2026-03-17 8:07 AM - no status changes since Nov 2025 alerts. 3-4 days remaining.",
+    "kariosDeposit": "Deadline was Mar 12 - no payment confirmation found. Item STALE, should be cleaned up.",
+    "lastUpdate": "2026-03-17T08:07:00-04:00"
   },
   "blockers": {
     "crownEmailOAuth": "401 Invalid Credentials - needs token refresh for gmailCrownAcquisitions",
@@ -36,8 +35,13 @@
   },
   "pendingMorning": [
     "Confirm eBay pickup (March 6 Hammer Strength Ab Machine) completed - ASKED",
-    "Get Withings stats for fitness dashboard - ASKED",
+    "Get Withings stats for fitness dashboard - ASKED again Mar 17",
     "Refresh Crown and admin Gmail tokens for email monitoring",
-    "Karios $57,200 deposit - deadline passed, status unknown"
+    "Karios $57,200 deposit - deadline passed Mar 12, status unknown, STALE"
+  ],
+  "staleItems": [
+    "Karios deposit (deadline Mar 12 passed)",
+    "Medtronic Engagement Letter (deadline Feb 21)",
+    "Karios/NEV Proposal PDF (expected Feb 23-24)"
   ]
 }

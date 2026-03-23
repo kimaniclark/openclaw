@@ -18,6 +18,13 @@ Next review: 2026-04-05
 - **Private Jet Trip to Blue Vista Villa** — Trip with Ivy and Hope. *(2026-03-12)*
 - **Jeanette Fever Up Gift Certificate** — Send Fever Up gift certificate to Jeanette. *(2026-02-07)*
 
+## Personal — Entertainment & Activities
+- **Sandbox VR Washington** — https://sandboxvr.com/washington — Premium VR experience venue opening in DC. Group activity. *(2026-03-14)*
+- **Resume rooftop movie nights** — When it gets warmer out. *(2026-03-18)*
+
+## Business — New Venture Ideas
+- **AI Movie Discovery Platform** — Netflix/Rotten Tomatoes for user-generated AI films. Ranking, discovery, and community for AI-created movies. *(2026-03-19)*
+
 ## Personal — Home
 - **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade. *(2026-02-23)*
 - **Donate unsellable gym equipment to Beta Academy** — Clearing out home gym items that won't sell. *(2026-03-13)*
