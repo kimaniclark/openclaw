@@ -7,6 +7,9 @@ Next review: 2026-04-05
 ---
 
 ## Personal — Health & Fitness
+- **Resume Tiny Spoon Chef** — https://www.tinyspoonchef.com — Meal planning/prep service. *(2026-03-25)*
+- **Start drinking protein shakes** — Support muscle building / recovery from workouts. *(2026-03-25)*
+- **Get a flexologist for stretching** — Professional assisted stretching for mobility/recovery. *(2026-03-25)*
 - **Function Health blood tests** — Comprehensive testing for $365. https://www.functionhealth.com/pricing *(2026-03-17)*
 - **Rythm Health blood tests** — Comprehensive blood testing service. https://rythmhealth.com/what-we-test *(2026-03-17)*
 - **Puppy Yoga DC** — Yoga class with puppies. Fun fitness/social activity. *(2026-03-13)*
@@ -141,3 +144,50 @@ Watch Robbie and Maria's fashion video for style inspiration/insights
 **Status:** To evaluate — could review which subscriptions offer annual discounts
 **Tags:** #personal-finance #subscriptions #budgeting
 
+
+## 2026-03-24 — 2 Second Lean
+- Implement 2 Second Lean methodology
+- Create a 2 Second Lean database for public access
+- Source: #time-management
+
+
+## 2026-03-25 - Calendar-Based Outfit Pre-Planning
+Pre-plan outfits for upcoming social events on calendar
+
+**Trigger:** Social events on calendar (lunch with Dani, dinner, dates, etc.)
+**Timing:** Day before or morning of event
+
+**Features:**
+- Surface 2-3 outfit suggestions from saved outfits
+- Or open full dashboard for manual selection
+- Include weather forecast for the day (dress for temp/rain)
+- Consider event type (casual lunch vs formal dinner)
+
+**Implementation ideas:**
+- Heartbeat check: scan calendar for social events in next 24-48h
+- If found, ping #fashion with outfit suggestions + weather
+- Link to dashboard for final selection
+- Could save selected outfit to "planned" state
+
+**Context:** Life Concierge product feature - proactive styling assistance
+
+**Update (same day):** Outfit planning can happen at event booking time, not just day-of
+- If event is far out: select outfit now (weather TBD)
+- Closer to event: add weather context, confirm or adjust
+- Two-phase: "planned outfit" → "confirmed with weather" day before
+
+## 2026-03-25: Wander Port Orford Cliffs
+- **Source:** Kimani
+- **Idea:** Book Wander Port Orford Cliffs
+- **Context:** Travel — Wander vacation rental on Oregon coast
+- **Status:** To book
+
+## 2026-03-25 - Black Dress Shoes (Smart-Casual)
+Get black dress shoes that are more casual than current dressiest pair
+- Gap: Need something between sneakers and formal oxfords
+- Options to consider: loafers, derby shoes, minimal leather sneakers, monk straps
+- Context: Wardrobe currently has 1 oxford shoes, 1 loafers in catalog
+
+## 2026-03-25 - Sunglasses
+Get sunglasses
+- Category: Accessories (already in dashboard, no items yet)
