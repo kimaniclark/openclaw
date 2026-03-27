@@ -7,6 +7,7 @@ Next review: 2026-04-05
 ---
 
 ## Personal — Health & Fitness
+- **Home jiu jitsu mat** — Flowspace Mats for training at home. https://flowspacemats.com *(2026-03-26)*
 - **Resume Tiny Spoon Chef** — https://www.tinyspoonchef.com — Meal planning/prep service. *(2026-03-25)*
 - **Start drinking protein shakes** — Support muscle building / recovery from workouts. *(2026-03-25)*
 - **Get a flexologist for stretching** — Professional assisted stretching for mobility/recovery. *(2026-03-25)*

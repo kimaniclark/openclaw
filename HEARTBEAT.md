@@ -2,20 +2,25 @@
 
 ## Active Monitoring
 
-### Clipboard Nation OA Response — Lu Approval ⚠️ DEADLINE PASSED
+### Clipboard Nation OA Response — Lu Approval ⚠️ NEXT DEADLINE APRIL 20
 **Application:** 18/534,782 (docket 3021-0003)
 **Matter:** Non-Final Office Action response
-**Deadline:** March 20, 2026 (PASSED)
+**OA Mailed:** November 20, 2025
+**Next Deadline:** April 20, 2026 (5-month extension)
+**Final Deadline:** May 20, 2026 (absolute max)
 **Contact:** Lu (owner) — Lumo@clipboardnation.com
-**Status:** ESCALATED March 21 at 4am - Lu never responded to approval emails
 
-Kimani emailed March 17 + follow-up March 20. No response from Lu.
-USPTO shows no new filings. Alert sent to #law-company.
+**Timeline:**
+- March 17: Kimani emailed draft response
+- March 20: Kimani sent follow-up email (deadline day)
+- March 24: Kimani texted Lu to set up call + sent another email
 
-**Awaiting Kimani's response:**
-- Was response filed without email confirmation?
-- Was extension filed?
-- Did Lu approve via phone/text?
+**Status:** Lu has not responded or booked a call. No response filed yet.
+
+**CHECK DAILY** for reply from Lumo@clipboardnation.com.
+Alert Kimani in #law-company immediately when Lu responds.
+
+**Note:** Extensions available ($960 small entity per month) but need Lu's authorization.
 
 Remove this section once resolved.
 

@@ -53,6 +53,31 @@ Real examples of what Johnny can do for clients.
 
 ---
 
+## eBay Sales: Gym Equipment ($2,000 Profit)
+
+**Date:** March 2026 (payment received March 26, 2026)
+
+**Task:** Sell gym equipment Kimani no longer needed — specifically a Hammer Strength Ab Machine.
+
+**Challenge:** Selling large items is a hassle — photography, writing listings, pricing research, monitoring messages, negotiating offers, coordinating pickup. Most people let stuff sit in their garage for years because it's too much effort.
+
+**What Johnny Did:**
+1. Photographed the equipment
+2. Researched comparable listings for pricing
+3. Created detailed eBay listings with descriptions and photos
+4. Set up "Best Offer" to allow negotiation
+5. Monitored buyer messages and questions
+6. Coordinated pickup scheduling with buyer
+7. Tracked payment until funds cleared
+
+**Result:** ✅ Ab machine sold for ~$2,000. Funds received.
+
+**Capability Demonstrated:** Johnny handles end-to-end sales — from listing to cash in hand. Client just approves and collects the money.
+
+**Value Generated:** $2,000 profit from item that would have otherwise sat unused.
+
+---
+
 ## Template for Future Stories
 
 **Date:** 

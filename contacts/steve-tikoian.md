@@ -9,16 +9,16 @@
 
 ## Relationship
 - **Inner Circle:** yes
-- **Frequency:** 9-months
-- **Last Contact:** 
-- **Next Due:** 
+- **Frequency:** quarterly
+- **Last Contact:** 2026-03-25
+- **Next Due:** 2026-06-25
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
-- **Tags:** Old Friend
+- **Tags:** Old Friend, Stay In Touch
 
 ## Context
-
+Added to active relationship maintenance list March 2026.
 
 ## Their World
 - **Business/Work:** 
@@ -26,7 +26,8 @@
 - **Family:** 
 
 ## Notes
-
+Kimani wants to stay in regular touch.
 
 ## History
 - [Date] - Imported from Contacts Journal
+- 2026-03-25 - Added to active stay-in-touch rotation
