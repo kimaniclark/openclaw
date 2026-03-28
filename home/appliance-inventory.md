@@ -1,42 +1,30 @@
-# Appliance Inventory
+# Appliance Inventory & Maintenance Schedule
 
 **Address:** 1830 Jefferson Place NW #21, Washington DC 20036  
-**Last Updated:** February 27, 2026
+**Building:** Renovated 2009 | HOA covers exterior walls & doors only  
+**Last Updated:** March 28, 2026
 
 ---
 
-## HVAC System
+## APPLIANCES
 
-### Gas Furnace
+### Viking Professional Gas Range (30", 4-burner + convection)
 | Field | Value |
 |-------|-------|
-| Brand | Carrier |
-| Model | Comfort 92 |
-| Type | Ultra Efficient Gas Furnace |
-| Serial | TBD (need label photo) |
+| Brand | Viking |
+| Model | Professional 30" (likely VGSC530 series) |
+| Serial | TBD (plate inside oven door frame) |
+| Type | Gas range, 4 sealed burners, convection oven |
+| Notes | Rarely used — Kimani doesn't cook often |
 
 **Maintenance:**
-- Filter replacement: Every 1-3 months
-- Annual tune-up: Fall (before heating season)
+- Clean burner caps/grates: Every 3 months
+- Deep clean oven: Every 6 months (self-clean or manual)
+- Check gas connections: Annually
+- Clean range hood filter: Every 3 months
+- Inspect igniter: Annually
 
-### Evaporator / Heat Pump
-| Field | Value |
-|-------|-------|
-| Brand | Lennox |
-| Model | CK40CT-60C-71 |
-| Serial | 1525B00554 |
-| Refrigerant | R-454B |
-| Max Pressure | 640 PSIG |
-
-**Maintenance:**
-- Annual tune-up: Spring (before cooling season)
-- Check refrigerant levels during service
-
----
-
-## Kitchen
-
-### Refrigerator
+### Viking Refrigerator
 | Field | Value |
 |-------|-------|
 | Brand | Viking |
@@ -47,11 +35,12 @@
 | Electrical | 115V, 9.9A |
 
 **Maintenance:**
-- Condenser coils: Clean every 6-12 months
-- Water filter: Replace every 6 months (if equipped)
-- Door seals: Check annually
+- Clean condenser coils: Every 6-12 months
+- Replace water filter: Every 6 months (if equipped)
+- Check door seals: Annually
+- Clean drip pan: Every 6 months
 
-### Dishwasher
+### Viking Dishwasher
 | Field | Value |
 |-------|-------|
 | Brand | Viking |
@@ -67,26 +56,7 @@
 - Check spray arms: Every 3 months
 - Wipe door gasket: Monthly
 
-### Range / Oven
-| Field | Value |
-|-------|-------|
-| Brand | Viking |
-| Model | TBD |
-| Serial | TBD |
-
-**Maintenance:**
-- Self-clean cycle: Every 3-6 months (or as needed)
-- Check burner caps: Monthly
-- Clean range hood filter: Monthly
-
-### Microwave
-**Status:** ⚠️ NEEDS REPLACEMENT
-
----
-
-## Laundry
-
-### Washer
+### GE Washer
 | Field | Value |
 |-------|-------|
 | Brand | GE (General Electric) |
@@ -97,11 +67,11 @@
 
 **Maintenance:**
 - Clean drum: Monthly (hot cycle with cleaner)
-- Wipe door gasket: Weekly
-- Check/replace hoses: ⚠️ OVERDUE (replace every 5 years)
+- Wipe door gasket: Monthly
+- ⚠️ **Replace hoses with braided stainless steel — OVERDUE** (replace every 5 years)
 - Clean filter: Monthly
 
-### Dryer
+### GE Dryer
 | Field | Value |
 |-------|-------|
 | Brand | GE (General Electric) |
@@ -112,22 +82,119 @@
 
 **Maintenance:**
 - Lint trap: Every load
-- Vent/duct cleaning: ⚠️ Annually (fire hazard - schedule professional cleaning)
-- Drum clean: Every few months
+- 🔴 **Professional vent/duct cleaning — OVERDUE** (annually, fire hazard)
+- Clean drum: Every few months
 - Check exhaust hose: Annually
 
----
-
-## Priority Actions
-
-1. **🔴 Dryer vent cleaning** — 20-year-old dryer, lint buildup is fire risk
-2. **🔴 Washer hoses** — Replace with braided stainless steel (burst risk)
-3. **🟡 Microwave** — Needs replacement
-4. **🟡 HVAC tune-up** — Schedule spring AC service
+### Microwave
+**Status:** ⚠️ NEEDS REPLACEMENT
 
 ---
 
-## Coverage Notes
+## HVAC (Owner Responsibility — both units)
+
+### Carrier Comfort 92 Gas Furnace (in-unit)
+| Field | Value |
+|-------|-------|
+| Brand | Carrier |
+| Model | Comfort 92 |
+| Type | Ultra Efficient Gas Furnace |
+| Serial | TBD (need label photo) |
+
+**Maintenance:**
+- Replace air filter: Every 3 months
+- Annual tune-up: Fall (before heating season)
+- Check thermostat calibration: Annually
+- Inspect flue/venting: Annually
+
+### Lennox Evaporator / Heat Pump (rooftop)
+| Field | Value |
+|-------|-------|
+| Brand | Lennox |
+| Model | CK40CT-60C-71 |
+| Serial | 1525B00554 |
+| Refrigerant | R-454B |
+| Max Pressure | 640 PSIG |
+
+**Maintenance:**
+- Annual tune-up: Spring (before cooling season)
+- Check refrigerant levels: During service
+- Clean evaporator coils: Annually
+- Clear condensate drain: Seasonally
+
+---
+
+## PLUMBING
+
+- Water heater: Flush annually, check anode rod
+- Drains: Clean bathroom + kitchen (quarterly)
+- Toilet components: Check flapper/fill valve (annually)
+- Faucet aerators: Clean/replace (annually)
+- Supply line hoses: Replace every 5-10 years
+- Water shut-off valves: Exercise quarterly (prevent seizing)
+
+---
+
+## ELECTRICAL / SAFETY
+
+- Smoke detectors: Test monthly, replace batteries 2x/year, replace unit every 10 years
+- GFCI outlets: Test every 3 months
+- Fire extinguisher: Check pressure annually, replace every 10-12 years
+- Breaker panel: Visual inspection annually
+
+---
+
+## WINDOWS & DOORS
+
+- Window tracks: Clean + lubricate annually
+- Door locks/hinges: Lubricate annually
+- Caulking around frames: Inspect/reseal as needed
+
+---
+
+## BATHROOM
+
+- Exhaust fan: Clean quarterly, replace every 10 years
+- Caulk/grout: Inspect, reseal as needed
+- Showerhead: Descale every 6 months
+
+---
+
+## INTERIOR
+
+- Garbage disposal: Clean monthly (ice + citrus)
+- Air purifier filters: Per manufacturer schedule
+- Humidifier/dehumidifier: Seasonal maintenance
+
+---
+
+## DECK (Owner Responsibility)
+
+- Inspect for damage: Annually
+- Check railings: Annually
+- Deck door latching mechanism: Oil with WD-40 annually
+
+---
+
+## 🔴 PRIORITY ACTIONS (Do Now)
+
+1. **Dryer vent cleaning** — 20-year dryer, lint = fire risk. Schedule professional cleaning.
+2. **Washer hoses** — Replace with braided stainless steel (~$20, prevents flooding)
+3. **Microwave** — Replace (not working)
+4. **HVAC spring tune-up** — Schedule AC service before summer
+
+---
+
+## SEASONAL CALENDAR
+
+**Spring (March-May):** AC tune-up, test smoke detectors, exercise shut-off valves, check caulking, test GFCI outlets
+**Summer (June-Aug):** Clean condenser coils, clean dryer vent, range hood filter
+**Fall (Sept-Nov):** Furnace tune-up, replace HVAC filter, flush water heater, check fire extinguisher
+**Winter (Dec-Feb):** Replace batteries in smoke detectors, inspect plumbing for leaks, check door seals, oil deck door latch
+
+---
+
+## COVERAGE NOTES
 
 **HOA Covers:**
 - Everything outside walls and outside door
