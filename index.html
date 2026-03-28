@@ -1,1 +1,66 @@
-<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=finance/expense-dashboard.html"></head><body><a href="finance/expense-dashboard.html">Finance Dashboard</a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimani Clark - Dashboards</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 600px; width: 100%; }
+        h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; text-align: center; }
+        .subtitle { color: #86868b; font-size: 14px; text-align: center; margin-bottom: 32px; }
+        .card {
+            display: block;
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .card-icon { font-size: 28px; margin-bottom: 8px; }
+        .card-title { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+        .card-desc { font-size: 13px; color: #86868b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Dashboards</h1>
+        <p class="subtitle">Kimani Clark</p>
+
+        <a href="life-dashboard.html" class="card">
+            <div class="card-icon">🎯</div>
+            <div class="card-title">Life Dashboard</div>
+            <div class="card-desc">Health, fitness, time management, entertainment, travel, fashion, car, home</div>
+        </a>
+
+        <a href="home-concierge.html" class="card">
+            <div class="card-icon">🏠</div>
+            <div class="card-title">Home Concierge</div>
+            <div class="card-desc">Condo management, maintenance schedule, appliance inventory, training guides</div>
+        </a>
+
+        <a href="finance/expense-dashboard.html" class="card">
+            <div class="card-icon">💰</div>
+            <div class="card-title">Finance Dashboard</div>
+            <div class="card-desc">Personal & business expenses, monthly breakdown</div>
+        </a>
+    </div>
+</body>
+</html>
