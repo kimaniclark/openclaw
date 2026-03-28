@@ -2050,6 +2050,13 @@ https://www.amazon.com/AmazonBasics-CR2032-Lithium-Coin-Cell/dp/B0787K2XWZ</div>
                         <p>Schedule AC service before summer. Lennox rooftop unit needs annual checkup.</p>
                     </div>
                 </div>
+
+                <!-- This Month's Tasks -->
+                <div style="margin-top: 30px;">
+                    <h3 style="color: #007aff; margin-bottom: 8px;" id="this-month-title">📅 This Month's Tasks</h3>
+                    <p style="font-size: 13px; color: #6e6e73; margin-bottom: 16px;">Tasks due based on the current month. Check them off as you complete them.</p>
+                    <div id="monthly-tasks-list"></div>
+                </div>
             </div>
 
             <!-- Full Maintenance Schedule -->
@@ -2149,7 +2156,7 @@ https://www.amazon.com/AmazonBasics-CR2032-Lithium-Coin-Cell/dp/B0787K2XWZ</div>
                             <tr><th>Task</th><th>Frequency</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>Test smoke detectors</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Test smoke detectors</td><td><span class="freq-badge biannual">2x per year</span></td></tr>
                             <tr><td>Replace smoke detector batteries</td><td><span class="freq-badge biannual">2x per year</span></td></tr>
                             <tr><td>Replace smoke detector units</td><td><span class="freq-badge annual">Every 10 years</span></td></tr>
                             <tr><td>Test GFCI outlets</td><td><span class="freq-badge quarterly">Every 3 months</span></td></tr>
@@ -2412,6 +2419,191 @@ https://www.amazon.com/AmazonBasics-CR2032-Lithium-Coin-Cell/dp/B0787K2XWZ</div>
                 });
             });
         });
+    </script>
+
+    <script>
+        // Monthly Task Assignment System
+        // Smoke detectors: test biannually (Jun, Dec), replace batteries biannually (Jun, Dec)
+        // Monthly tasks run every month
+        // Quarterly tasks: Mar, Jun, Sep, Dec
+        // Biannual tasks: Jun, Dec
+        // Spring annuals: Apr
+        // Fall annuals: Oct
+        // Winter annual: Jan
+
+        const monthlyTasks = {
+            every: [
+                { task: "Clean dishwasher filter", area: "Kitchen", icon: "🍽️" },
+                { task: "Run dishwasher cleaner cycle", area: "Kitchen", icon: "🍽️" },
+                { task: "Wipe dishwasher door gasket", area: "Kitchen", icon: "🍽️" },
+                { task: "Clean washer drum (hot cycle w/ cleaner)", area: "Laundry", icon: "👕" },
+                { task: "Wipe washer door gasket", area: "Laundry", icon: "👕" },
+                { task: "Clean washer filter", area: "Laundry", icon: "👕" },
+                { task: "Clean garbage disposal (ice + citrus)", area: "Interior", icon: "🏠" }
+            ],
+            quarterly: [
+                { task: "Clean range burner caps & grates", area: "Kitchen", icon: "🍳" },
+                { task: "Clean range hood filter", area: "Kitchen", icon: "🍳" },
+                { task: "Check dishwasher spray arms", area: "Kitchen", icon: "🍽️" },
+                { task: "Clean dryer drum", area: "Laundry", icon: "🔥" },
+                { task: "Replace HVAC air filter", area: "HVAC", icon: "🌡️" },
+                { task: "Clean drains (bathroom + kitchen)", area: "Plumbing", icon: "🔧" },
+                { task: "Exercise water shut-off valves", area: "Plumbing", icon: "🔧" },
+                { task: "Test GFCI outlets", area: "Electrical", icon: "⚡" },
+                { task: "Clean bathroom exhaust fan", area: "Bathroom", icon: "🚿" }
+            ],
+            biannual: [
+                { task: "Deep clean oven", area: "Kitchen", icon: "🍳" },
+                { task: "Clean refrigerator condenser coils", area: "Kitchen", icon: "🧊" },
+                { task: "Clean refrigerator drip pan", area: "Kitchen", icon: "🧊" },
+                { task: "Replace refrigerator water filter", area: "Kitchen", icon: "🧊" },
+                { task: "Test smoke detectors", area: "Safety", icon: "⚡" },
+                { task: "Replace smoke detector batteries", area: "Safety", icon: "⚡" },
+                { task: "Descale showerhead", area: "Bathroom", icon: "🚿" }
+            ],
+            spring: [
+                { task: "Schedule AC tune-up (Lennox rooftop)", area: "HVAC", icon: "❄️" },
+                { task: "Check range gas connections", area: "Kitchen", icon: "🍳" },
+                { task: "Inspect range igniter", area: "Kitchen", icon: "🍳" },
+                { task: "Clean + lubricate window tracks", area: "Windows/Doors", icon: "🪟" },
+                { task: "Lubricate door locks & hinges", area: "Windows/Doors", icon: "🪟" },
+                { task: "Inspect/reseal caulking around frames", area: "Windows/Doors", icon: "🪟" },
+                { task: "Clean/replace faucet aerators", area: "Plumbing", icon: "🔧" },
+                { task: "Check toilet components (flapper, fill valve)", area: "Plumbing", icon: "🔧" },
+                { task: "Replace air purifier filters", area: "Interior", icon: "🏠" }
+            ],
+            fall: [
+                { task: "Schedule furnace tune-up (Carrier)", area: "HVAC", icon: "🌡️" },
+                { task: "Flush water heater + check anode rod", area: "Plumbing", icon: "🔧" },
+                { task: "Check fire extinguisher pressure", area: "Safety", icon: "⚡" },
+                { task: "Visual inspection of breaker panel", area: "Electrical", icon: "⚡" },
+                { task: "Check refrigerator door seals", area: "Kitchen", icon: "🧊" },
+                { task: "Check dryer exhaust hose", area: "Laundry", icon: "🔥" },
+                { task: "Inspect deck for damage", area: "Deck", icon: "🏡" },
+                { task: "Check deck railings", area: "Deck", icon: "🏡" },
+                { task: "Inspect bathroom caulk/grout", area: "Bathroom", icon: "🚿" }
+            ],
+            winter: [
+                { task: "Oil deck door latching mechanism (WD-40)", area: "Deck", icon: "🏡" }
+            ]
+        };
+
+        function getMonthTasks(month) {
+            // month is 0-indexed (0 = January)
+            let tasks = [...monthlyTasks.every];
+
+            // Quarterly: Mar(2), Jun(5), Sep(8), Dec(11)
+            if ([2, 5, 8, 11].includes(month)) {
+                tasks = tasks.concat(monthlyTasks.quarterly);
+            }
+
+            // Biannual: Jun(5), Dec(11)
+            if ([5, 11].includes(month)) {
+                tasks = tasks.concat(monthlyTasks.biannual);
+            }
+
+            // Spring annuals: April(3)
+            if (month === 3) {
+                tasks = tasks.concat(monthlyTasks.spring);
+            }
+
+            // Fall annuals: October(9)
+            if (month === 9) {
+                tasks = tasks.concat(monthlyTasks.fall);
+            }
+
+            // Winter annual: January(0)
+            if (month === 0) {
+                tasks = tasks.concat(monthlyTasks.winter);
+            }
+
+            return tasks;
+        }
+
+        function renderMonthlyTasks() {
+            const now = new Date();
+            const month = now.getMonth();
+            const monthNames = ["January", "February", "March", "April", "May", "June",
+                                "July", "August", "September", "October", "November", "December"];
+
+            const titleEl = document.getElementById('this-month-title');
+            if (titleEl) {
+                titleEl.textContent = '📅 ' + monthNames[month] + ' Tasks';
+            }
+
+            const container = document.getElementById('monthly-tasks-list');
+            if (!container) return;
+
+            const tasks = getMonthTasks(month);
+            const storageKey = 'maint-tasks-' + now.getFullYear() + '-' + (month + 1);
+            let completed = {};
+            try {
+                completed = JSON.parse(localStorage.getItem(storageKey) || '{}');
+            } catch(e) {}
+
+            // Group by area
+            const grouped = {};
+            tasks.forEach(function(t, i) {
+                if (!grouped[t.area]) grouped[t.area] = [];
+                grouped[t.area].push({ ...t, index: i });
+            });
+
+            let html = '';
+            const totalTasks = tasks.length;
+            const completedCount = Object.keys(completed).filter(function(k) { return completed[k]; }).length;
+
+            // Progress bar
+            const pct = totalTasks > 0 ? Math.round((completedCount / totalTasks) * 100) : 0;
+            html += '<div style="margin-bottom: 20px; padding: 16px; background: #f5f5f7; border-radius: 10px;">';
+            html += '<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">';
+            html += '<span style="font-size: 14px; font-weight: 600;">' + completedCount + ' of ' + totalTasks + ' tasks completed</span>';
+            html += '<span style="font-size: 14px; font-weight: 600; color: ' + (pct === 100 ? '#34c759' : '#007aff') + ';">' + pct + '%</span>';
+            html += '</div>';
+            html += '<div style="height: 8px; background: #e5e5e7; border-radius: 4px; overflow: hidden;">';
+            html += '<div style="height: 100%; width: ' + pct + '%; background: ' + (pct === 100 ? '#34c759' : '#007aff') + '; border-radius: 4px; transition: width 0.3s;"></div>';
+            html += '</div>';
+            html += '</div>';
+
+            Object.keys(grouped).forEach(function(area) {
+                html += '<div style="margin-bottom: 16px;">';
+                html += '<div style="font-size: 13px; font-weight: 600; color: #6e6e73; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">' + grouped[area][0].icon + ' ' + area + '</div>';
+                grouped[area].forEach(function(t) {
+                    const isChecked = completed[t.index] || false;
+                    const checkStyle = isChecked
+                        ? 'background: #34c759; border-color: #34c759; color: white;'
+                        : 'background: white; border-color: #d1d1d6;';
+                    const textStyle = isChecked ? 'text-decoration: line-through; color: #86868b;' : '';
+
+                    html += '<label style="display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 8px; cursor: pointer; transition: background 0.2s;" onmouseover="this.style.background=\'#f5f5f7\'" onmouseout="this.style.background=\'transparent\'">';
+                    html += '<input type="checkbox" ' + (isChecked ? 'checked' : '') + ' onchange="toggleTask(' + t.index + ', this.checked)" style="display: none;">';
+                    html += '<div style="width: 24px; height: 24px; border: 2px solid; border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 14px; ' + checkStyle + '">' + (isChecked ? '✓' : '') + '</div>';
+                    html += '<span style="font-size: 14px; ' + textStyle + '">' + t.task + '</span>';
+                    html += '</label>';
+                });
+                html += '</div>';
+            });
+
+            container.innerHTML = html;
+        }
+
+        function toggleTask(index, checked) {
+            const now = new Date();
+            const storageKey = 'maint-tasks-' + now.getFullYear() + '-' + (now.getMonth() + 1);
+            let completed = {};
+            try {
+                completed = JSON.parse(localStorage.getItem(storageKey) || '{}');
+            } catch(e) {}
+            if (checked) {
+                completed[index] = true;
+            } else {
+                delete completed[index];
+            }
+            localStorage.setItem(storageKey, JSON.stringify(completed));
+            renderMonthlyTasks();
+        }
+
+        // Render on page load
+        document.addEventListener('DOMContentLoaded', renderMonthlyTasks);
     </script>
 
 </body>
