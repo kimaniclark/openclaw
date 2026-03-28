@@ -409,6 +409,169 @@
             padding: 12px 18px;
         }
 
+        /* Maintenance Schedule Styles */
+        .maint-priority {
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .maint-priority.critical {
+            background: #fef2f2;
+            border-left: 4px solid #ef4444;
+        }
+        .maint-priority.warning {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+        }
+        .maint-priority-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+        .maint-priority-text h4 {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .maint-priority-text p {
+            font-size: 13px;
+            color: #6e6e73;
+        }
+        .maint-category {
+            margin-bottom: 24px;
+        }
+        .maint-category-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8e8ed;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .maint-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .maint-table th {
+            text-align: left;
+            padding: 10px 12px;
+            background: #f5f5f7;
+            font-weight: 600;
+            font-size: 13px;
+            color: #6e6e73;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .maint-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .maint-table tr:hover {
+            background: #f9f9fb;
+        }
+        .freq-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .freq-badge.monthly { background: #dbeafe; color: #1d4ed8; }
+        .freq-badge.quarterly { background: #fef3c7; color: #92400e; }
+        .freq-badge.biannual { background: #d1fae5; color: #065f46; }
+        .freq-badge.annual { background: #ede9fe; color: #5b21b6; }
+        .freq-badge.per-use { background: #fce7f3; color: #9d174d; }
+        .freq-badge.overdue { background: #fef2f2; color: #dc2626; font-weight: 600; }
+        .season-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .season-card {
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #e8e8ed;
+        }
+        .season-card.spring { border-color: #34d399; background: #f0fdf4; }
+        .season-card.summer { border-color: #fbbf24; background: #fefce8; }
+        .season-card.fall { border-color: #f97316; background: #fff7ed; }
+        .season-card.winter { border-color: #60a5fa; background: #eff6ff; }
+        .season-card h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .season-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .season-card li {
+            font-size: 13px;
+            padding: 4px 0;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .season-card li::before {
+            content: '•';
+            color: #6e6e73;
+        }
+        .appliance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .appliance-card {
+            background: #f9f9f9;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #e8e8ed;
+        }
+        .appliance-card h4 {
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .appliance-card .detail {
+            font-size: 13px;
+            color: #6e6e73;
+            margin-bottom: 3px;
+        }
+        .appliance-card .detail strong {
+            color: #1d1d1f;
+        }
+        .coverage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .coverage-card {
+            padding: 16px;
+            border-radius: 8px;
+        }
+        .coverage-card.owner { background: #fef3c7; border: 2px solid #f59e0b; }
+        .coverage-card.hoa { background: #d1fae5; border: 2px solid #34d399; }
+        .coverage-card.tbd { background: #f3f4f6; border: 2px solid #d1d5db; }
+        .coverage-card h4 {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .coverage-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .coverage-card li {
+            font-size: 14px;
+            padding: 3px 0;
+        }
+
     </style>
 </head>
 <body>
@@ -427,6 +590,7 @@
             <button class="tab" onclick="showSection('condo')">Condo Systems</button>
             <button class="tab" onclick="showSection('rooms')">All Rooms</button>
             <button class="tab" onclick="showSection('contacts')">Service Providers</button>
+            <button class="tab" onclick="showSection('maintenance')">🔧 Maintenance</button>
         </div>
 
         <!-- Overview Section -->
@@ -1839,6 +2003,342 @@ https://www.amazon.com/AmazonBasics-CR2032-Lithium-Coin-Cell/dp/B0787K2XWZ</div>
                             <p>• Home Depot</p>
                             <p>• Propane Taxi (delivery): <a href="https://propanetaxi.com" target="_blank">propanetaxi.com</a></p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Maintenance Schedule Section -->
+        <div id="maintenance" class="section">
+            <div class="card">
+                <div class="card-header">
+                    <h2>🔧 Maintenance Schedule</h2>
+                    <span style="font-size: 14px; color: #6e6e73;">Last updated: March 28, 2026</span>
+                </div>
+
+                <!-- Priority Actions -->
+                <h3 style="color: #ef4444; margin-bottom: 16px;">🚨 Priority Actions</h3>
+                
+                <div class="maint-priority critical">
+                    <div class="maint-priority-icon">🔥</div>
+                    <div class="maint-priority-text">
+                        <h4>Dryer Vent Cleaning</h4>
+                        <p>20-year-old dryer — lint buildup is a fire hazard. Schedule professional cleaning ASAP.</p>
+                    </div>
+                </div>
+
+                <div class="maint-priority critical">
+                    <div class="maint-priority-icon">💧</div>
+                    <div class="maint-priority-text">
+                        <h4>Replace Washer Hoses</h4>
+                        <p>Replace rubber hoses with braided stainless steel (~$20). 20-year-old hoses are a burst/flood risk. Overdue by 15+ years.</p>
+                    </div>
+                </div>
+
+                <div class="maint-priority warning">
+                    <div class="maint-priority-icon">📡</div>
+                    <div class="maint-priority-text">
+                        <h4>Replace Microwave</h4>
+                        <p>Current microwave not working. Needs replacement.</p>
+                    </div>
+                </div>
+
+                <div class="maint-priority warning">
+                    <div class="maint-priority-icon">❄️</div>
+                    <div class="maint-priority-text">
+                        <h4>HVAC Spring Tune-up</h4>
+                        <p>Schedule AC service before summer. Lennox rooftop unit needs annual checkup.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Maintenance Schedule -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📋 Full Maintenance Schedule</h2>
+                </div>
+
+                <!-- Kitchen Appliances -->
+                <div class="maint-category">
+                    <div class="maint-category-title">🍳 Kitchen Appliances</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Appliance</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Clean burner caps/grates</td><td>Viking Range</td><td><span class="freq-badge quarterly">Every 3 months</span></td></tr>
+                            <tr><td>Deep clean oven</td><td>Viking Range</td><td><span class="freq-badge biannual">Every 6 months</span></td></tr>
+                            <tr><td>Check gas connections</td><td>Viking Range</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Clean range hood filter</td><td>Viking Range</td><td><span class="freq-badge quarterly">Every 3 months</span></td></tr>
+                            <tr><td>Inspect igniter</td><td>Viking Range</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Clean condenser coils</td><td>Viking Fridge</td><td><span class="freq-badge biannual">Every 6-12 months</span></td></tr>
+                            <tr><td>Replace water filter</td><td>Viking Fridge</td><td><span class="freq-badge biannual">Every 6 months</span></td></tr>
+                            <tr><td>Check door seals</td><td>Viking Fridge</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Clean drip pan</td><td>Viking Fridge</td><td><span class="freq-badge biannual">Every 6 months</span></td></tr>
+                            <tr><td>Clean filter</td><td>Viking Dishwasher</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Run cleaner cycle</td><td>Viking Dishwasher</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Check spray arms</td><td>Viking Dishwasher</td><td><span class="freq-badge quarterly">Every 3 months</span></td></tr>
+                            <tr><td>Wipe door gasket</td><td>Viking Dishwasher</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Laundry -->
+                <div class="maint-category">
+                    <div class="maint-category-title">👕 Laundry</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Appliance</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Clean drum (hot cycle w/ cleaner)</td><td>GE Washer</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Wipe door gasket</td><td>GE Washer</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Replace hoses (braided stainless)</td><td>GE Washer</td><td><span class="freq-badge overdue">⚠️ OVERDUE</span></td></tr>
+                            <tr><td>Clean filter</td><td>GE Washer</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Clean lint trap</td><td>GE Dryer</td><td><span class="freq-badge per-use">Every load</span></td></tr>
+                            <tr><td>Professional vent/duct cleaning</td><td>GE Dryer</td><td><span class="freq-badge overdue">🔴 OVERDUE</span></td></tr>
+                            <tr><td>Clean drum</td><td>GE Dryer</td><td><span class="freq-badge quarterly">Every few months</span></td></tr>
+                            <tr><td>Check exhaust hose</td><td>GE Dryer</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- HVAC -->
+                <div class="maint-category">
+                    <div class="maint-category-title">🌡️ HVAC (Owner Responsibility)</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Unit</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Replace air filter</td><td>Carrier Furnace</td><td><span class="freq-badge quarterly">Every 3 months</span></td></tr>
+                            <tr><td>Annual tune-up</td><td>Carrier Furnace</td><td><span class="freq-badge annual">Fall</span></td></tr>
+                            <tr><td>Check thermostat calibration</td><td>Carrier Furnace</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Inspect flue/venting</td><td>Carrier Furnace</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Annual tune-up</td><td>Lennox Heat Pump (roof)</td><td><span class="freq-badge annual">Spring</span></td></tr>
+                            <tr><td>Check refrigerant levels</td><td>Lennox Heat Pump (roof)</td><td><span class="freq-badge annual">During service</span></td></tr>
+                            <tr><td>Clean evaporator coils</td><td>Lennox Heat Pump (roof)</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Clear condensate drain</td><td>Lennox Heat Pump (roof)</td><td><span class="freq-badge quarterly">Seasonally</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Plumbing -->
+                <div class="maint-category">
+                    <div class="maint-category-title">🔧 Plumbing</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Flush water heater + check anode rod</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Clean drains (bathroom + kitchen)</td><td><span class="freq-badge quarterly">Quarterly</span></td></tr>
+                            <tr><td>Check toilet components (flapper, fill valve)</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Clean/replace faucet aerators</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Replace supply line hoses</td><td><span class="freq-badge annual">Every 5-10 years</span></td></tr>
+                            <tr><td>Exercise water shut-off valves</td><td><span class="freq-badge quarterly">Quarterly</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Electrical / Safety -->
+                <div class="maint-category">
+                    <div class="maint-category-title">⚡ Electrical &amp; Safety</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Test smoke detectors</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Replace smoke detector batteries</td><td><span class="freq-badge biannual">2x per year</span></td></tr>
+                            <tr><td>Replace smoke detector units</td><td><span class="freq-badge annual">Every 10 years</span></td></tr>
+                            <tr><td>Test GFCI outlets</td><td><span class="freq-badge quarterly">Every 3 months</span></td></tr>
+                            <tr><td>Check fire extinguisher pressure</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Replace fire extinguisher</td><td><span class="freq-badge annual">Every 10-12 years</span></td></tr>
+                            <tr><td>Visual inspection of breaker panel</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Windows, Doors & Interior -->
+                <div class="maint-category">
+                    <div class="maint-category-title">🪟 Windows, Doors &amp; Interior</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Clean + lubricate window tracks</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Lubricate door locks/hinges</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Inspect/reseal caulking around frames</td><td><span class="freq-badge annual">As needed</span></td></tr>
+                            <tr><td>Clean garbage disposal (ice + citrus)</td><td><span class="freq-badge monthly">Monthly</span></td></tr>
+                            <tr><td>Replace air purifier filters</td><td><span class="freq-badge quarterly">Per manufacturer</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Bathroom -->
+                <div class="maint-category">
+                    <div class="maint-category-title">🚿 Bathroom</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Clean exhaust fan</td><td><span class="freq-badge quarterly">Quarterly</span></td></tr>
+                            <tr><td>Replace exhaust fan</td><td><span class="freq-badge annual">Every 10 years</span></td></tr>
+                            <tr><td>Inspect caulk/grout, reseal as needed</td><td><span class="freq-badge annual">As needed</span></td></tr>
+                            <tr><td>Descale showerhead</td><td><span class="freq-badge biannual">Every 6 months</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Deck -->
+                <div class="maint-category">
+                    <div class="maint-category-title">🏡 Deck (Owner Responsibility)</div>
+                    <table class="maint-table">
+                        <thead>
+                            <tr><th>Task</th><th>Frequency</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Inspect for damage</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Check railings</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                            <tr><td>Oil deck door latching mechanism (WD-40)</td><td><span class="freq-badge annual">Annually</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Seasonal Calendar -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📅 Seasonal Calendar</h2>
+                </div>
+
+                <div class="season-grid">
+                    <div class="season-card spring">
+                        <h4>🌱 Spring (Mar–May)</h4>
+                        <ul>
+                            <li>AC tune-up (Lennox rooftop)</li>
+                            <li>Test smoke detectors</li>
+                            <li>Exercise water shut-off valves</li>
+                            <li>Check caulking around frames</li>
+                            <li>Test GFCI outlets</li>
+                            <li>Replace HVAC filter</li>
+                        </ul>
+                    </div>
+                    <div class="season-card summer">
+                        <h4>☀️ Summer (Jun–Aug)</h4>
+                        <ul>
+                            <li>Clean refrigerator condenser coils</li>
+                            <li>Professional dryer vent cleaning</li>
+                            <li>Clean range hood filter</li>
+                            <li>Replace HVAC filter</li>
+                            <li>Descale showerhead</li>
+                        </ul>
+                    </div>
+                    <div class="season-card fall">
+                        <h4>🍂 Fall (Sep–Nov)</h4>
+                        <ul>
+                            <li>Furnace tune-up (Carrier)</li>
+                            <li>Replace HVAC filter</li>
+                            <li>Flush water heater</li>
+                            <li>Check fire extinguisher</li>
+                            <li>Replace smoke detector batteries</li>
+                            <li>Inspect deck for damage</li>
+                        </ul>
+                    </div>
+                    <div class="season-card winter">
+                        <h4>❄️ Winter (Dec–Feb)</h4>
+                        <ul>
+                            <li>Replace smoke detector batteries</li>
+                            <li>Inspect plumbing for leaks</li>
+                            <li>Check door seals</li>
+                            <li>Oil deck door latch (WD-40)</li>
+                            <li>Replace HVAC filter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Appliance Inventory -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>📦 Appliance Inventory</h2>
+                </div>
+
+                <div class="appliance-grid">
+                    <div class="appliance-card">
+                        <h4>🍳 Viking Professional Gas Range</h4>
+                        <div class="detail"><strong>Type:</strong> 30", 4 sealed burners, convection oven</div>
+                        <div class="detail"><strong>Model:</strong> Professional 30" (VGSC530 series)</div>
+                        <div class="detail"><strong>Notes:</strong> Rarely used</div>
+                    </div>
+                    <div class="appliance-card">
+                        <h4>🧊 Viking Refrigerator</h4>
+                        <div class="detail"><strong>Model:</strong> VCBB363RSS</div>
+                        <div class="detail"><strong>Serial:</strong> 020107R00003068</div>
+                        <div class="detail"><strong>Type:</strong> 36" Built-in Bottom Freezer</div>
+                    </div>
+                    <div class="appliance-card">
+                        <h4>🍽️ Viking Dishwasher</h4>
+                        <div class="detail"><strong>Model:</strong> DFUD042</div>
+                        <div class="detail"><strong>Serial:</strong> 064501439041</div>
+                        <div class="detail"><strong>Made in:</strong> Sweden</div>
+                    </div>
+                    <div class="appliance-card" style="border-left: 3px solid #ef4444;">
+                        <h4>👕 GE Washer (2006)</h4>
+                        <div class="detail"><strong>Model:</strong> WSSH300G0WW</div>
+                        <div class="detail"><strong>Serial:</strong> ZL405918W</div>
+                        <div class="detail" style="color: #ef4444; font-weight: 600;">⚠️ 20 years old — replace hoses</div>
+                    </div>
+                    <div class="appliance-card" style="border-left: 3px solid #ef4444;">
+                        <h4>🔥 GE Dryer (2006)</h4>
+                        <div class="detail"><strong>Model:</strong> DSXH47EG0WW</div>
+                        <div class="detail"><strong>Serial:</strong> VL704450W</div>
+                        <div class="detail" style="color: #ef4444; font-weight: 600;">🔴 20 years old — clean vent ASAP</div>
+                    </div>
+                    <div class="appliance-card">
+                        <h4>🌡️ Carrier Comfort 92 Furnace</h4>
+                        <div class="detail"><strong>Type:</strong> Ultra Efficient Gas Furnace</div>
+                        <div class="detail"><strong>Location:</strong> In-unit</div>
+                    </div>
+                    <div class="appliance-card">
+                        <h4>❄️ Lennox Evaporator/Heat Pump</h4>
+                        <div class="detail"><strong>Model:</strong> CK40CT-60C-71</div>
+                        <div class="detail"><strong>Serial:</strong> 1525B00554</div>
+                        <div class="detail"><strong>Location:</strong> Rooftop</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coverage Notes -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>🏢 Coverage &amp; Responsibility</h2>
+                </div>
+
+                <div class="coverage-grid">
+                    <div class="coverage-card hoa">
+                        <h4>✅ HOA Covers</h4>
+                        <ul>
+                            <li>Everything outside walls</li>
+                            <li>Outside door</li>
+                        </ul>
+                    </div>
+                    <div class="coverage-card owner">
+                        <h4>⚠️ Owner Responsibility</h4>
+                        <ul>
+                            <li>Deck</li>
+                            <li>Both HVAC units (in-unit + rooftop)</li>
+                            <li>All appliances</li>
+                        </ul>
+                    </div>
+                    <div class="coverage-card tbd">
+                        <h4>❓ TBD</h4>
+                        <ul>
+                            <li>Exterior windows (ask building manager)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
