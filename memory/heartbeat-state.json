@@ -1,46 +1,40 @@
 {
   "lastChecks": {
-    "twilioSms": 1741578766000,
+    "twilioSms": 1772629270386,
     "medtronicEmail": 1739966466,
     "ebayMessages": 1740585600,
     "ebayListings": 1740672000,
-    "craigslistInquiries": 1772629270386,
-    "relationshipMaintenance": 1711181749000,
+    "craigslistInquiries": 1772870820000,
+    "relationshipMaintenance": 1772870820000,
     "fitnessUpdate": 1711181749000,
     "weeklyCheckin": 1709391600000,
-    "lawFirmEmail": 1741858200000,
-    "patentDeadlines": 1742216826000
+    "lawFirmEmail": 1772870820000,
+    "patentDeadlines": 1774724354802
   },
   "notes": {
-    "twilioSms": "FAILED - checked 2026-03-09 11:32 PM. Still failed, awaiting Kimani decision on resubmission.",
+    "twilioSms": "Resubmitted Mar 29. A2P endpoint returning 404 — may need different API path or campaign not yet created. Next check April 1.",
     "medtronicEmail": "Crown email OAuth 401 error - needs token refresh. Deadline was Feb 21.",
     "ebayMessages": "Auth expired - kclark3 needs password re-auth.",
-    "ebayListings": "Session expired - kclark3 needs password re-auth. Alert sent to #home.",
-    "ebayPickup": "March 6 pickup (Hammer Strength Ab Machine) - ASKED Kimani for confirmation 2026-03-10 8:04 AM.",
-    "craigslistInquiries": "Can't check - admin@ token needs refresh.",
-    "fitnessUpdate": "Pinged #fitness Monday Mar 23, 6:15 AM.",
-    "relationshipMaintenance": "Attempted weekly suggestions Mar 23 - #social channel not found.",
-    "weeklyCheckin": "Monday check-in sent to #home: workout days, time system, dashboard stats. 2026-03-02 11 AM.",
-    "lawFirmEmail": "Checked 2026-03-15 6:30 AM. Found: Rho card declined ($52 Jace AI), Convene invoice overdue, Coach Marketer $97 failed. Alerted #law-company.",
-    "patentDeadlines": "Mar 20 (18/534,782 Non-Final OA), Mar 21 (18/325,585 Final Rejection). Checked USPTO API 2026-03-17 8:07 AM - no status changes since Nov 2025 alerts. 3-4 days remaining.",
-    "kariosDeposit": "Deadline was Mar 12 - no payment confirmation found. Item STALE, should be cleaned up.",
-    "lastUpdate": "2026-03-17T08:07:00-04:00"
+    "ebayListings": "Session expired - kclark3 needs password re-auth.",
+    "craigslistInquiries": "Checked Mar 29 8AM. No buyer inquiries. Got renewal notice for 2 postings. Alerted #home.",
+    "fitnessUpdate": "Pinged #fitness Monday Mar 23, 6:15 AM. Due again tomorrow Monday Mar 30.",
+    "relationshipMaintenance": "Posted weekly suggestions Mar 29 to #social: Sheryl Modlin, Kirsten, Richard Chang.",
+    "lawFirmEmail": "Checked Mar 29 8AM. Chris Cresswell replied Mar 27 asking for non-provisional filing cost estimate (Archivox 1013-0002-PRO). Alerted #law-company. No Sree/Karios commission agreement yet. BHIP reports from Mar 23.",
+    "patentDeadlines": "Last checked Mar 28. A Good Walk examiner interview 3/26. Clipboard Nation OA still pending Lu response.",
+    "lastUpdate": "2026-03-29T12:07:00.000Z"
   },
   "blockers": {
     "crownEmailOAuth": "401 Invalid Credentials - needs token refresh for gmailCrownAcquisitions",
     "adminEmailToken": "admin@kimaniclark.com token needs refresh",
-    "browserAutomation": "Chrome extension relay running but no tab connected. Openclaw profile starts but snapshot fails.",
     "ebayAuth": "kclark3 session expired, password required",
-    "braveApi": "Web search needs Brave API key"
+    "twilioA2P": "UsAppToPerson endpoint returning 404 — campaign may not exist yet or API path changed"
   },
   "pendingMorning": [
-    "Confirm eBay pickup (March 6 Hammer Strength Ab Machine) completed - ASKED",
-    "Get Withings stats for fitness dashboard - ASKED again Mar 17",
+    "Get Withings stats for fitness dashboard — due Monday Mar 30",
     "Refresh Crown and admin Gmail tokens for email monitoring",
-    "Karios $57,200 deposit - deadline passed Mar 12, status unknown, STALE"
+    "Reply to Chris Cresswell with non-provisional filing cost estimate"
   ],
   "staleItems": [
-    "Karios deposit (deadline Mar 12 passed)",
     "Medtronic Engagement Letter (deadline Feb 21)",
     "Karios/NEV Proposal PDF (expected Feb 23-24)"
   ]

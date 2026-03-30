@@ -106,14 +106,34 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 
 ## Web Design Resources
 
-**Design Inspiration:**
+**Design Inspiration — Award/Curated Galleries:**
 - **Dribbble** — https://dribbble.com — Designer portfolios, UI/UX inspiration
 - **Godly** — https://godly.website — Curated gallery of beautiful websites
 - **Awwwards** — https://awwwards.com — Award-winning web design showcase
+- **SiteInspire** — https://www.siteinspire.com — Curated, filterable by style/type/subject
+- **CSS Design Awards** — https://www.cssdesignawards.com — Daily web design awards
+- **CSS Winner** — https://www.csswinner.com — Similar to CSS Design Awards
+- **Mindsparkle Mag** — https://mindsparklemag.com — High-end brand/agency sites
+- **Web Design Inspiration** — https://www.webdesign-inspiration.com — Filterable by industry, style, color
+- **Httpster** — https://httpster.net — Minimal, tasteful designs
+- **Lapa.ninja** — https://www.lapa.ninja — Landing page inspiration (4,000+ examples)
+
+**Design Inspiration — Industry/Niche:**
+- **LandingFolio** — https://www.landingfolio.com — SaaS and business landing pages
+- **SaaS Pages** — https://saaspages.xyz — SaaS page design patterns
+- **Dark Mode Design** — https://www.darkmodedesign.com — Dark-themed sites
+- **One Page Love** — https://onepagelove.com — Single-page website designs
+- **Screenlane** — https://screenlane.com — UI/UX patterns and flows
+- **fearn.ai** — https://fearn.ai — AI/SaaS design reference (patent space)
+
+**Design Inspiration — Components/Patterns:**
+- **Collect UI** — https://collectui.com — Daily UI inspiration by component type
+- **Mobbin** — https://mobbin.com — Mobile + web design patterns from real products
 
 **Website Builders:**
 - **Framer** — https://framer.com — Design-forward, great templates
 - **Webflow** — https://webflow.com — Powerful, more technical
+- **Refokus** — https://www.refokus.com — Premium Webflow agency (portfolio is inspo itself)
 
 **Reference Video:**
 - "Stealing $10K Website Designs with Claude Code" — https://youtu.be/AaO6ujcx6TY
@@ -125,6 +145,34 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **When to use**: For calls not scheduled through Calendly (Calendly auto-generates individual Zoom links)
 
 ---
+
+### Discord Channel IDs (Guild: 1470332865123188767)
+- general: 1470332865622577247
+- general-personal: 1470333928253554763
+- the-modern-owner: 1470334742661697628
+- life-concierge: 1470335156035391660
+- crown-acquisitions: 1470335740025241600
+- modeling-agency: 1470339912032321656
+- fashion: 1471145870480117791
+- health: 1471145873101820066
+- fitness: 1471145873605136440
+- travel: 1471145875056099489
+- finance: 1471145875983171614
+- home: 1471145877140668568
+- food: 1471145878151757900
+- social: 1471145879149875422
+- car: 1471145879862906994
+- entertainment: 1471145881074925773
+- time-management: 1471145881590824994
+- one-call-away: 1471145884312932475
+- communications: 1471147058781225134
+- mortgage-confidential: 1471154076732493844
+- tax-confidential: 1471154077395194149
+- health-insurance-confidential: 1471182869224362286
+- crown-acquisitions-medical-roll-up: 1471283205947658452
+- law-company: 1471284233401270332
+- ideas: 1486987534914289744
+- launchpad: 1486993826819215434
 
 ## What Goes Here
 

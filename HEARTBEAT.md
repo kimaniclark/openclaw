@@ -48,9 +48,18 @@ Check admin@kimaniclark.com for Craigslist responses about:
 
 Alert Kimani in #home when inquiries come in.
 
-### Twilio A2P 10DLC — FAILED ⚠️
-~~Check if SMS is working yet. Once approved, alert Kimani in #one-call-away that we're ready to start super connector outreach for One Call Away.~~
-**Status:** Campaign FAILED (Feb 2, 2026). Alerted Kimani on March 3. Awaiting decision on resubmission/appeal. Remove once resolved.
+### Twilio A2P 10DLC — RESUBMITTED ⏳ (Check every 3 days)
+**Campaign SID:** CM64d8b4aea89fe5f463be01a9ad2b65cd
+**Resubmitted:** March 29, 2026
+**Expected review time:** 2-3 weeks
+**Next check:** April 1, 2026
+
+**CHECK every 3 days** via API:
+```
+curl -u "$SID:$TOKEN" "https://messaging.twilio.com/v1/Services/MG4498afae1fd33670124d899e92068d32/UsAppToPerson"
+```
+When approved → alert Kimani in #one-call-away that SMS is ready for super connector outreach.
+If rejected again → alert in #communications with rejection reason.
 
 ### Medtronic Engagement Letter ⚠️ STALE
 ~~Check Crown Acquisitions email (kimani@crownacquisitions.co) for engagement letter from Jon Corey (jcorey@mckoolsmith.com) re: Chad Clark v. Medtronic case.~~
@@ -113,6 +122,14 @@ Check law firm email for agreement from **Sree** re: Karios sales commission. Wh
 - Alert in #crown-acquisitions
 - Deal: 15% of Karios product sales
 - If signed → move to Active deals on CFE dashboard
+
+### Gospel Leather Jacket — Natalia UPS Shipment (April 1)
+**Check with Kimani on April 1** to see if Natalia has provided a UPS tracking number for the black leather jacket from Gospel (NYC).
+- If no tracking number → Kimani may want us to email Natalia (Lanaloan03@hotmail.com) to ask for it
+- Natalia received the shipping assignment March 25
+- Alert in #home
+
+Remove this section once jacket is received.
 
 ### Relationship Maintenance (Weekly)
 Every Sunday evening or Monday morning, review `contacts/` folder for inner circle people and suggest 2-3 to reach out to that week. Rotate through different tags (Friend, Social V, Feel Good, etc.) and prioritize anyone approaching their frequency limit. Post suggestions to #social channel.

@@ -7,6 +7,7 @@ Next review: 2026-04-05
 ---
 
 ## Personal — Health & Fitness
+- **Start yoga with Mayu Yoga online** — Online yoga practice. *(2026-03-28)*
 - **Home jiu jitsu mat** — Flowspace Mats for training at home. https://flowspacemats.com *(2026-03-26)*
 - **Resume Tiny Spoon Chef** — https://www.tinyspoonchef.com — Meal planning/prep service. *(2026-03-25)*
 - **Start drinking protein shakes** — Support muscle building / recovery from workouts. *(2026-03-25)*
@@ -192,3 +193,15 @@ Get black dress shoes that are more casual than current dressiest pair
 ## 2026-03-25 - Sunglasses
 Get sunglasses
 - Category: Accessories (already in dashboard, no items yet)
+
+## 2026-03-28: European Music Tour — Travel Agent
+- **Source:** Kimani
+- **Idea:** Have Kristin (travel agent) plan the European music tour in July
+- **Context:** Travel — leverage Kristin Sakowski at Lily Pond Travel to handle logistics for a European music festival/concert tour trip in July 2026
+- **Status:** To initiate — reach out to Kristin
+
+## 2026-03-29: Neeraj's Catskills Place
+- **Source:** Kimani
+- **Idea:** Visit Neeraj's place in the Catskills
+- **Context:** Travel — friend's property in Catskills, NY
+- **Status:** To coordinate with Neeraj

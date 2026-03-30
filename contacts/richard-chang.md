@@ -11,8 +11,8 @@
 ## Relationship
 - **Inner Circle:** yes
 - **Frequency:** 9-months
-- **Last Contact:** 
-- **Next Due:** 
+- **Last Contact:** 2026-03-29
+- **Next Due:** 2027-01-29
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 

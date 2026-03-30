@@ -1,12 +1,13 @@
 # Fitness Tracking
 
-## Current Stats (Mar 11, 2026)
-- **Weight:** 190.7 lb (stable)
-- **Body Fat:** 19.5%
+## Current Stats (Mar 29, 2026)
+- **Weight:** 193.2 lb (stable)
+- **Body Fat:** 19.8%
 
 ### History
 | Date | Weight | Body Fat | Trend |
 |------|--------|----------|-------|
+| Mar 29 | 193.2 lb | 19.8% | Gaining Weight |
 | Mar 11 | 190.7 lb | 19.5% | Gaining Weight |
 | Mar 6 | 191.5 lb | 17.8% | Gaining Weight |
 | Mar 2 | 191.7 lb | 18.1% | Stable |
@@ -35,8 +36,9 @@
 - Week of Mar 2-8: Working Out 2/2 ✓, Running 1/2, Jiu Jitsu 1/2
 - Week of Mar 9-15: Working Out 1/2, Running 0/2, Jiu Jitsu 1/2
 - Week of Mar 16-22: (out of town)
-- Current week (Mar 23-29): 
-  - Working Out: 0/2 (planned: Tue + Thu)
+- Week of Mar 23-29: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2 (all-nighter week)
+- Current week (Mar 29 - Apr 4): 
+  - Working Out: 0/2 (planned: Mon + Wed)
   - Running: 0/2
   - Jiu Jitsu: 0/2
 
