@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tron Cost Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8f9fa;
+      min-height: 100vh;
+      padding: 2rem;
+      color: #333;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .header h1 { font-size: 2.2rem; color: #1a1a1a; margin-bottom: 0.3rem; }
+    .header .meta { color: #666; font-size: 0.9rem; }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      max-width: 1200px;
+      margin: 0 auto 2rem;
+    }
+    .stat-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border: 1px solid #e9ecef;
+    }
+    .stat-label { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-value { font-size: 1.8rem; font-weight: 700; color: #1a1a1a; margin-top: 0.25rem; }
+    .stat-sub { font-size: 0.8rem; color: #888; margin-top: 0.25rem; }
+    .stat-value.green { color: #10b981; }
+    .stat-value.blue { color: #3b82f6; }
+    .stat-value.orange { color: #f59e0b; }
+    .stat-value.red { color: #ef4444; }
+
+    .charts {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 800px) {
+      .charts { grid-template-columns: 1fr; }
+    }
+    .chart-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border: 1px solid #e9ecef;
+    }
+    .chart-card h2 {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .bar-chart { display: flex; flex-direction: column; gap: 4px; }
+    .bar-row { display: flex; align-items: center; gap: 8px; height: 24px; }
+    .bar-date { font-size: 0.7rem; color: #888; width: 50px; text-align: right; flex-shrink: 0; }
+    .bar-fill { height: 18px; border-radius: 4px; background: linear-gradient(90deg, #3b82f6, #60a5fa); min-width: 2px; transition: width 0.3s; }
+    .bar-cost { font-size: 0.7rem; color: #666; margin-left: 4px; }
+
+    .model-list { display: flex; flex-direction: column; gap: 12px; }
+    .model-item { display: flex; justify-content: space-between; align-items: center; }
+    .model-name { font-size: 0.9rem; font-weight: 500; }
+    .model-cost { font-size: 0.9rem; font-weight: 600; color: #3b82f6; }
+    .model-bar { height: 6px; background: #e9ecef; border-radius: 3px; margin-top: 4px; }
+    .model-bar-fill { height: 100%; border-radius: 3px; }
+
+    .insights {
+      max-width: 1200px;
+      margin: 1.5rem auto 0;
+    }
+    .insight-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border: 1px solid #e9ecef;
+    }
+    .insight-card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
+    .insight-item { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
+    .insight-item:last-child { border-bottom: none; }
+    .insight-item span { color: #3b82f6; font-weight: 600; }
+
+    .updated { text-align: center; color: #999; font-size: 0.8rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📊 Tron Cost Dashboard</h1>
+    <div class="meta">API usage and cost tracking</div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">All-Time Cost</div>
+      <div class="stat-value">$1,530</div>
+      <div class="stat-sub">71 sessions since Feb 1</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">This Month (March)</div>
+      <div class="stat-value blue">$318</div>
+      <div class="stat-sub">↓ 74% from Feb ($1,212)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Avg Daily Cost</div>
+      <div class="stat-value orange">$10.88</div>
+      <div class="stat-sub">~$326/month at this rate</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Cache Savings</div>
+      <div class="stat-value green">$255</div>
+      <div class="stat-sub">511M cached tokens reused</div>
+    </div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-card">
+      <h2>📈 Daily Cost (Last 30 Days)</h2>
+      <div class="bar-chart" id="dailyChart"></div>
+    </div>
+
+    <div class="chart-card">
+      <h2>🤖 Cost by Model</h2>
+      <div class="model-list">
+        <div>
+          <div class="model-item">
+            <div class="model-name">Claude Opus 4.5</div>
+            <div class="model-cost">$883.90</div>
+          </div>
+          <div class="model-bar"><div class="model-bar-fill" style="width: 100%; background: #3b82f6;"></div></div>
+          <div style="font-size: 0.75rem; color: #888; margin-top: 2px;">57.8% — Legacy, phased out</div>
+        </div>
+        <div>
+          <div class="model-item">
+            <div class="model-name">Claude Opus 4.6</div>
+            <div class="model-cost">$373.16</div>
+          </div>
+          <div class="model-bar"><div class="model-bar-fill" style="width: 42%; background: #8b5cf6;"></div></div>
+          <div style="font-size: 0.75rem; color: #888; margin-top: 2px;">24.4% — Current primary</div>
+        </div>
+        <div>
+          <div class="model-item">
+            <div class="model-name">Delivery Mirror</div>
+            <div class="model-cost">$272.11</div>
+          </div>
+          <div class="model-bar"><div class="model-bar-fill" style="width: 31%; background: #f59e0b;"></div></div>
+          <div style="font-size: 0.75rem; color: #888; margin-top: 2px;">17.8% — Cross-channel delivery</div>
+        </div>
+        <div>
+          <div class="model-item">
+            <div class="model-name">Claude Haiku 4.5</div>
+            <div class="model-cost">$1.45</div>
+          </div>
+          <div class="model-bar"><div class="model-bar-fill" style="width: 1%; background: #10b981;"></div></div>
+          <div style="font-size: 0.75rem; color: #888; margin-top: 2px;">0.1% — Lightweight tasks</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="insights">
+    <div class="insight-card">
+      <h2>💡 Cost Insights</h2>
+      <div class="insight-item">📉 March cost is <span>74% lower</span> than February — setup phase (Feb) was expensive, operations are much cheaper</div>
+      <div class="insight-item">💾 Prompt caching saved <span>~$255</span> by reusing 511M tokens instead of re-sending them</div>
+      <div class="insight-item">🧠 Opus models account for <span>82%</span> of all cost — routing more tasks to Haiku/Sonnet would cut costs significantly</div>
+      <div class="insight-item">📊 At current March rate (~$10/day), monthly cost is <span>~$326/month</span> — down from $1,212 in February</div>
+      <div class="insight-item">⚡ Busiest days correlate with heavy setup/development work — routine operations are much cheaper</div>
+      <div class="insight-item">💰 eBay revenue ($1,950 Hammer Strength + other sales) has already <span>offset costs</span> significantly</div>
+    </div>
+  </div>
+
+  <div class="updated">Last updated: March 30, 2026 · Data from session logs</div>
+
+  <script>
+    const dailyData = [{"date": "2026-02-28", "cost": 7.89}, {"date": "2026-03-01", "cost": 10.05}, {"date": "2026-03-02", "cost": 8.03}, {"date": "2026-03-03", "cost": 12.03}, {"date": "2026-03-04", "cost": 4.7}, {"date": "2026-03-05", "cost": 10.6}, {"date": "2026-03-06", "cost": 8.57}, {"date": "2026-03-07", "cost": 14.44}, {"date": "2026-03-08", "cost": 2.85}, {"date": "2026-03-09", "cost": 3.75}, {"date": "2026-03-10", "cost": 9.26}, {"date": "2026-03-11", "cost": 33.78}, {"date": "2026-03-12", "cost": 13.68}, {"date": "2026-03-13", "cost": 39.61}, {"date": "2026-03-14", "cost": 4.96}, {"date": "2026-03-15", "cost": 14.42}, {"date": "2026-03-16", "cost": 21.98}, {"date": "2026-03-17", "cost": 12.28}, {"date": "2026-03-18", "cost": 20.1}, {"date": "2026-03-19", "cost": 1.65}, {"date": "2026-03-20", "cost": 19.67}, {"date": "2026-03-21", "cost": 6.71}, {"date": "2026-03-22", "cost": 0.75}, {"date": "2026-03-23", "cost": 6.84}, {"date": "2026-03-24", "cost": 10.08}, {"date": "2026-03-25", "cost": 22.3}, {"date": "2026-03-26", "cost": 1.07}, {"date": "2026-03-27", "cost": 0.16}, {"date": "2026-03-28", "cost": 0.98}, {"date": "2026-03-30", "cost": 3.27}];
+    
+    const maxCost = Math.max(...dailyData.map(d => d.cost));
+    const chart = document.getElementById('dailyChart');
+    
+    dailyData.forEach(d => {
+      const pct = (d.cost / maxCost) * 100;
+      const dateStr = d.date.slice(5); // MM-DD
+      const row = document.createElement('div');
+      row.className = 'bar-row';
+      row.innerHTML = `
+        <div class="bar-date">${dateStr}</div>
+        <div class="bar-fill" style="width: ${pct}%"></div>
+        <div class="bar-cost">$${d.cost.toFixed(2)}</div>
+      `;
+      chart.appendChild(row);
+    });
+  </script>
+</body>
+</html>
