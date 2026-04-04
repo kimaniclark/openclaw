@@ -35,11 +35,12 @@ Patent applications due today and Friday. Payment confirmed - removing from acti
 - **Funds release:** March 23 → eBay linked payout method (check eBay → Seller Hub → Payments to confirm where)
 - Remove this section after funds confirmed
 
-### ACloset Clothing Pictures (Life Dashboard) ✅ RECEIVED
-**Status:** 2 emails received March 13 (96 total images)
-- Part I: 50 images | Part II: 46 images  
-- Brands visible on clothing (BOSS, Robert Barakett, etc.) but no separate text list
-- Awaiting Kimani's decision: process all images with vision AI, or ask Natalia for brand list
+### Fashion Dashboard ✅ COMPLETE
+**Live Dashboard:** https://kimaniclark.github.io/wardrobe-dashboard/
+- 98 items cataloged and categorized (96 from ACloset + 2 Manssion accessories)
+- Full outfit builder with drag/drop functionality
+- Analytics showing wardrobe breakdown by brand/color/category
+- Integrated into Life Dashboard as premium product prototype
 
 ### Craigslist Inquiries - Gym Equipment
 Check admin@kimaniclark.com for Craigslist responses about:
@@ -47,6 +48,27 @@ Check admin@kimaniclark.com for Craigslist responses about:
 - **VKR Station** ($450): washingtondc.craigslist.org/doc/spo/d/washington-nautilus-commercial-vkr/7917607548.html
 
 Alert Kimani in #home when inquiries come in.
+
+### Jack Response - George's Foreign Auto Service ⚠️ NEW
+**Email sent to:** Jack at George's Foreign Auto Service
+**About:** 2014 BMW i-8 service appointment (corrected from 8 Series)
+**Issue:** Service records showing "No History" despite previous service there
+**Goal:** Schedule service appointment soon
+**Monitor:** kimani@kimaniclark.com for response from Jack
+**Alert:** #car channel when Jack responds
+
+### TrustBooks Erroneous Charges ⚠️ AWAITING FINAL RESPONSE
+**Issue:** Account was cancelled but system charged 4 times on April 1, 2026
+**Charges:** 3 × $99 = $297 went through (4th blocked by bank)
+**Timeline:**
+- April 2: Kimani emailed Chris Plott
+- April 3, 8:51 AM: Chris replied — reviewing with billing team Friday morning
+- April 3, 8:53 AM: Kimani responded with cancellation details
+**Status:** Chris reviewing with billing team (said Friday morning)
+
+**Monitor for:** Final response from Chris Plott at TrustBooks
+**Alert:** Kimani in #law-company when TrustBooks responds
+**Backup plan:** Contact Rho.co to dispute charges if no resolution by Friday EOD
 
 ### Twilio A2P 10DLC — RESUBMITTED ⏳ (Check every 3 days)
 **Campaign SID:** CM64d8b4aea89fe5f463be01a9ad2b65cd
@@ -88,6 +110,12 @@ Check kimani@kiklisclark.com for:
 - Alert Kimani immediately in #law-company when these arrive
 - Note: Application number, Document type (CTFR, Office Action, etc.), Attorney Docket #
 
+**OVERTURE LAW REFERRALS:**
+- From: overture/referral domains
+- Check if PATENT-related (vs trademark/copyright)
+- If patent referral → alert in #law-company immediately
+- Keywords: patent, provisional, utility, PCT, office action, USPTO
+
 **Weekly - Black Hills IP Docket Reports:**
 - From: Automated Email (Black Hills IP)
 - "Pending Docketing Report for Kiklis and Clark, P.L.L.C."
@@ -123,22 +151,44 @@ Check law firm email for agreement from **Sree** re: Karios sales commission. Wh
 - Deal: 15% of Karios product sales
 - If signed → move to Active deals on CFE dashboard
 
-### Gospel Leather Jacket — Natalia UPS Shipment (April 1)
-**Check with Kimani on April 1** to see if Natalia has provided a UPS tracking number for the black leather jacket from Gospel (NYC).
-- If no tracking number → Kimani may want us to email Natalia (Lanaloan03@hotmail.com) to ask for it
-- Natalia received the shipping assignment March 25
-- Alert in #home
 
-Remove this section once jacket is received.
+
+### TheLifeConcierge.co Website Screenshot — PENDING ⏰
+**Corrected URL**: thelifeconcierge.co (not .com) — will be live temporarily while Circle.so is reactivated
+- **TAKE SCREENSHOTS** of the Course Clout-designed site for branding reference
+- Save to `life-concierge/website-screenshots/`
+- Circle expires again next month unless renewed ($129/mo)
+- Alert Kimani in #life-concierge when screenshots are captured
+
+Remove this section once screenshots are captured.
+
+### Daily Cost Tracking (For 1 Week - Sonnet Optimization)
+**March 31 - April 7, 2026** — Track daily AI costs to determine proper Anthropic account funding levels. Report daily in #general-personal:
+- Yesterday's cost breakdown (Opus vs Sonnet)
+- Running weekly total
+- Weekly summary on April 7 with funding recommendation
 
 ### Relationship Maintenance (Weekly)
 Every Sunday evening or Monday morning, review `contacts/` folder for inner circle people and suggest 2-3 to reach out to that week. Rotate through different tags (Friend, Social V, Feel Good, etc.) and prioritize anyone approaching their frequency limit. Post suggestions to #social channel.
+
+### Vision & Purpose Weekly Check-ins
+**Sunday evenings**: Ask Kimani for 3 most important outcomes for the upcoming week (in #vision-purpose)
+**Every 3 weeks**: Life Wheel check-in (changed from monthly)
 
 ### Fitness Dashboard Update (Weekly) — POST TO #fitness
 Every Monday morning, ping Kimani **in #fitness channel** (not #home) for:
 1. Updated Withings stats (weight, body fat %)
 2. Which two days he plans to work out this week
 Update `life-dashboard.html` fitness section with new data and reset the week range.
+
+### DeleteMe Monitoring ✅ ACTIVE
+**Service:** DeleteMe privacy service (joindeleteme.com)
+**Signed up:** March 31, 2026
+**Monitor kimani@kimaniclark.com for:**
+1. **Opt-out confirmation emails** from data brokers (next 7 days) — alert Kimani to click confirm
+2. **DeleteMe report** around April 7, 2026 — alert when received
+
+Remove this section once first report received.
 
 ### TCPA Attorney Research (When web access available)
 Research TCPA attorneys for spam call/text lawsuits when Brave Search API is configured:
