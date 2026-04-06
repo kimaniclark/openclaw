@@ -1,0 +1,27 @@
+{
+  "trackingPeriod": "2026-03-31 to 2026-04-07",
+  "dailyCosts": {
+    "2026-04-01": {
+      "total": 22.79,
+      "asOf": "16:30 ET",
+      "breakdown": {
+        "claude-opus-4-5": 18.73,
+        "claude-opus-4-6": 3.94,
+        "other": 0.13
+      },
+      "sessions": 7,
+      "outputTokens": 53943,
+      "cacheReadTokens": 7075606,
+      "cacheWriteTokens": 4874957,
+      "notes": "Heavy day - eBay browser check, multiple heartbeats, email sweeps, USPTO monitoring"
+    },
+    "2026-04-02": {
+      "total": "TBD - midday estimate ~$15-20",
+      "asOf": "12:34 ET (midday, still accumulating)",
+      "sessions": 11,
+      "currentSessionCost": 4.53,
+      "notes": "Heartbeat checks, email sweeps, eBay browser check, A2P status, revenue check-in. Day still active."
+    }
+  },
+  "runningTotal": "22.79 + today TBD"
+}

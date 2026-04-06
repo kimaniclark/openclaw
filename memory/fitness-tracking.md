@@ -38,7 +38,7 @@
 - Week of Mar 16-22: (out of town)
 - Week of Mar 23-29: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2 (all-nighter week)
 - Current week (Mar 29 - Apr 4): 
-  - Working Out: 0/2 (planned: Mon + Wed)
+  - Working Out: 0/2 (planned: Wed + Fri)
   - Running: 0/2
   - Jiu Jitsu: 0/2
 

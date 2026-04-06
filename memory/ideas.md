@@ -1,207 +1,69 @@
-# Captured Ideas
+# Ideas Log
 
-Review cycle: Every 3 weeks
-Last review: 2026-03-15
-Next review: 2026-04-05
+## 2026-03-31: Steno.ai for Coaches
 
----
+**URL:** https://www.steno.ai/coaches
 
-## Personal — Health & Fitness
-- **Start yoga with Mayu Yoga online** — Online yoga practice. *(2026-03-28)*
-- **Home jiu jitsu mat** — Flowspace Mats for training at home. https://flowspacemats.com *(2026-03-26)*
-- **Resume Tiny Spoon Chef** — https://www.tinyspoonchef.com — Meal planning/prep service. *(2026-03-25)*
-- **Start drinking protein shakes** — Support muscle building / recovery from workouts. *(2026-03-25)*
-- **Get a flexologist for stretching** — Professional assisted stretching for mobility/recovery. *(2026-03-25)*
-- **Function Health blood tests** — Comprehensive testing for $365. https://www.functionhealth.com/pricing *(2026-03-17)*
-- **Rythm Health blood tests** — Comprehensive blood testing service. https://rythmhealth.com/what-we-test *(2026-03-17)*
-- **Puppy Yoga DC** — Yoga class with puppies. Fun fitness/social activity. *(2026-03-13)*
-- **Soothe app for massages** — On-demand massage service app. Wellness/recovery. *(2026-03-11)*
-- **LifeForce Magnesium for sleep** — Add magnesium supplement to stack for better sleep. *(2026-03-06)*
-- **Nutrition Solutions (nutritionsolutions.com)** — Meal prep/nutrition service. *(2026-02-19)*
+**Concept:** AI Twins for Coaches - Scale coaching business with AI version of yourself
 
-## Personal — Travel & Experiences
-- **Private Jet Trip to Blue Vista Villa** — Trip with Ivy and Hope. *(2026-03-12)*
-- **Jeanette Fever Up Gift Certificate** — Send Fever Up gift certificate to Jeanette. *(2026-02-07)*
+**Key Features:**
+- Creates an AI "Twin" that captures how you think and communicate
+- Speaks 23 languages automatically
+- Integrates with platforms like Kajabi, Mighty Networks
+- Used by Tony Robbins (reached 3,302 people with his twin)
 
-## Personal — Entertainment & Activities
-- **Sandbox VR Washington** — https://sandboxvr.com/washington — Premium VR experience venue opening in DC. Group activity. *(2026-03-14)*
-- **Resume rooftop movie nights** — When it gets warmer out. *(2026-03-18)*
+**Value Prop:** "Coach everyone. Personally." - Guide more people through transformation using your frameworks, voice, and approach without more time investment.
 
-## Business — New Venture Ideas
-- **AI Movie Discovery Platform** — Netflix/Rotten Tomatoes for user-generated AI films. Ranking, discovery, and community for AI-created movies. *(2026-03-19)*
+**Process:**
+1. Complete interview to shape how Twin thinks/speaks
+2. Launch Twin across platforms
+3. Twin works continuously answering questions, guiding conversations
 
-## Personal — Home
-- **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade. *(2026-02-23)*
-- **Donate unsellable gym equipment to Beta Academy** — Clearing out home gym items that won't sell. *(2026-03-13)*
-- **Collect deposit money from High Crown Homes** — Outstanding deposit to recover. *(2026-02-27)*
+**Notable Users:** Tony Robbins, bestselling authors, Fortune 500 speakers
 
-## Personal — Privacy & Communications
-- **DeleteMe (deleteme.com)** — Privacy data removal service. Removes personal info from data brokers. *(2026-02-11)*
-- **Headline Cleaner browser extension** — https://headlinecleaner.com/en/browser-extension — Cleans clickbait headlines. *(2026-02-28)*
-- **Claude browser extension** — https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn *(2026-03-11)*
+**Application for Modern Owner:**
+- Could create Kimani AI twin to scale coaching
+- Handle initial student questions/guidance
+- Provide 24/7 support in multiple languages
+- Extend reach without stretching time thin
 
-## Personal — Finance & Admin
-- **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant. *(2026-03-02)*
-- **Pay Upwork to fix account** — Account issue needs resolution. *(2026-03-02)*
-- **Close kimaniclark7@gmail.com Account** — Email consolidation. *(2026-02-07)*
-- **Change Asana Email Address** — Update to restored johnnybradley876@gmail.com. *(2026-02-07)*
-
-## Personal — Learning & Reference
-- **Civil Rights Lawyer Archive** — American Archive historical interview about NAACP Legal Defense Fund. *(2026-02-07)*
-- **Website Design Process (YouTube)** — "Stealing $10K Website Designs with Claude Code" https://youtu.be/AaO6ujcx6TY *(2026-02-11)*
-- **Danielle's Mail and Papers Folder** — Google Drive organization project. *(2026-02-07)*
+**Status:** Idea captured for evaluation
 
 ---
 
-## Business — Kiklis Clark (Law Firm)
-- **Law Firm Platform Model** — Transform into platform where attorneys bring their own work. Revenue: % of attorney billings (passive income). Target: attorneys who want their own book but don't want to start a firm. *(2026-03-12)*
-- **Patent Prosecution Software on Base44** — Build patent prosecution software using base44.com. *(2026-02-19)*
-- **Try fearn.ai for patent drawings** — https://fearn.ai/ — AI patent drafting platform. *(2026-03-11)*
+## Previous Ideas
 
-## Business — Crown Acquisitions
-- **Seamless.ai for lead generation** — https://seamless.ai — B2B lead gen for medical roll-up deal sourcing. *(2026-03-10)*
-- **M&A outreach via marketing agencies + accountants** — LinkedIn outreach through service providers who see businesses ready to sell. *(2026-02-25)*
-- **Video messages on LinkedIn for acquisition outreach** — Personal video DMs for higher response rate. *(2026-02-25)*
-- **Chamber of Commerce lunch & learns** — Attend local chamber meetings for deal flow. *(2026-02-25)*
-- **Hire acquisition lead specialist (Upwork)** — Outsource deal sourcing. *(2026-02-25)*
-- **Stake.law + Market Operandi referral partnership** — Connect for referral fee arrangement. *(2026-03-04)*
+*(Add previous ideas below as they come in)*
 
-## Business — The Modern Owner
-- **Build custom LMS website** — Replace LearnWorlds ($300/mo) with custom-built. Stack: Base44/Framer + Bunny.net + Stripe. Could save ~$250/month. *(2026-02-20)*
+## 2026-03-31 - Investment Watch Learning
+Watch courses at Watch Trading Academy and buy an investment watch
+- URL: https://www.watchtradingacademy.com/
+- Create AI summaries of videos for easy implementation
+- Goal: Learn watch investment strategy and make first purchase
+- Context: Adding luxury accessories to wardrobe, potential investment vehicle
 
-## Business — Life Concierge
-- **Dub.co Partner Program** — https://partners.dub.co/jace/apply *(2026-02-09)*
+## 2026-04-01 - Operation Underground Railroad Morse Code Bracelets
+**Brand:** Operation Underground Railroad
+**Product:** Morse code bracelets
+**Link:** https://store.ourrescue.org/products/morse-code-bracelet
+**Category:** Accessories / Jewelry
+**Note:** Meaningful accessories supporting anti-trafficking mission
 
-## Business — Tools & Tech
-- **Analyze software subscriptions for DIY replacement** — Review all ~$2,700/mo in software expenses to identify which could be eliminated by building custom solutions. *(2026-03-15)*
-- **Base44.com No-Code AI App Builder** — AI no-code app builder ($20/mo). *(2026-02-07)*
-- **Best Vibe Coding Tools** — https://www.techradar.com/pro/best-vibe-coding-tools *(2026-02-10)*
-- **Dual Agent Guide - Cost Savings** — https://dual-agent-guide.vercel.app/ *(2026-02-10)*
-- **fearn.ai website design reference** — Clean, modern SaaS design for Crown or Kiklis Clark site. *(2026-03-11)*
+## 2026-04-01 - Adobe Express Background Remover
+**For Natalia/future clothing photos:**
+Adobe Express background remover: https://www.adobe.com/express/feature/image/remove-background
+- Free, high quality background removal
+- Better than remove.bg for clothing items
+- Use this when taking additional wardrobe photos
 
----
+## 2026-04-01 - Watch Trading Academy - Lazy Trader Program
+**URL:** https://www.watchtradingacademy.com/lazytrader/
+**Context:** Follow-up to investment watch learning idea
+**Related:** Watch Trading Academy main site for courses and investment strategy
 
-## Archived
-*(Moved here after review - deprioritized but not deleted)*
-
----
-
-*Last updated: 2026-03-15*
-
-## 2026-03-17 - Fashion Video Resource
-Watch Robbie and Maria's fashion video for style inspiration/insights
-- URL: https://www.innerconfidence.com/members/fashion
-- Password: leverage
-- Context: Life Concierge fashion dashboard development
-
-## Patent Prosecution Automation Software
-**Date:** 2026-03-18
-**Context:** While working on Karios patent apps, Kimani noted desire to automate patent prosecution workflows
-**Status:** To discuss in #law-company channel
-**Tags:** #law-firm #software #automation
-
-
----
-
-## Patent Prosecutor SaaS (2026-03-18)
-
-**Concept:** AI-powered patent prosecution software
-
-**Core Features:**
-1. **OA Monitoring** — USPTO API polling, auto-notify when office actions arrive
-2. **Client Reporting** — Auto-generate and send OA report emails, get authorization
-3. **AI Analysis** — Pull prior art + history, generate argument strategies, rank by strength
-4. **Draft Generation** — Create response using templates + AI arguments
-5. **Attorney Review** — Review, modify, approve workflow
-6. **E-filing** — Prepare for Patent Center filing
-7. **Auto-Report** — Notify client of filing automatically
-
-**Patent Application Drafting:**
-- Integrate with Grain for invention disclosure meeting transcripts
-- Upload disclosure documents
-- Auto-generate patent applications
-- Kimani has Claude prompting workflow to formalize
-
-**Docket Tracking:**
-- Similar to existing patent-docket-dashboard
-- Full matter management
-
-**Tech Stack:** Next.js + Supabase + Claude API + Vercel
-**Development:** Cursor IDE (AI-assisted coding)
-
-**Business Model:** SaaS for patent attorneys
-**First Customer:** Kiklis Clark (dogfooding)
-
-**Scaffolded:** `patent-prosecutor/` folder with USPTO API + AI libs ready
-
-**Status:** Cursor download task due Mar 24
-
-## Annual Bill/Subscription Payments
-**Date:** 2026-03-18
-**Idea:** Pay bills and subscriptions annually instead of monthly to:
-- Avoid monthly budgeting complexity
-- Reduce expense tracking overhead
-- Prevent service interruptions from missed payments
-- Often get 10-20% discount for annual commitment
-**Status:** To evaluate — could review which subscriptions offer annual discounts
-**Tags:** #personal-finance #subscriptions #budgeting
-
-
-## 2026-03-24 — 2 Second Lean
-- Implement 2 Second Lean methodology
-- Create a 2 Second Lean database for public access
-- Source: #time-management
-
-
-## 2026-03-25 - Calendar-Based Outfit Pre-Planning
-Pre-plan outfits for upcoming social events on calendar
-
-**Trigger:** Social events on calendar (lunch with Dani, dinner, dates, etc.)
-**Timing:** Day before or morning of event
-
-**Features:**
-- Surface 2-3 outfit suggestions from saved outfits
-- Or open full dashboard for manual selection
-- Include weather forecast for the day (dress for temp/rain)
-- Consider event type (casual lunch vs formal dinner)
-
-**Implementation ideas:**
-- Heartbeat check: scan calendar for social events in next 24-48h
-- If found, ping #fashion with outfit suggestions + weather
-- Link to dashboard for final selection
-- Could save selected outfit to "planned" state
-
-**Context:** Life Concierge product feature - proactive styling assistance
-
-**Update (same day):** Outfit planning can happen at event booking time, not just day-of
-- If event is far out: select outfit now (weather TBD)
-- Closer to event: add weather context, confirm or adjust
-- Two-phase: "planned outfit" → "confirmed with weather" day before
-
-## 2026-03-25: Wander Port Orford Cliffs
-- **Source:** Kimani
-- **Idea:** Book Wander Port Orford Cliffs
-- **Context:** Travel — Wander vacation rental on Oregon coast
-- **Status:** To book
-
-## 2026-03-25 - Black Dress Shoes (Smart-Casual)
-Get black dress shoes that are more casual than current dressiest pair
-- Gap: Need something between sneakers and formal oxfords
-- Options to consider: loafers, derby shoes, minimal leather sneakers, monk straps
-- Context: Wardrobe currently has 1 oxford shoes, 1 loafers in catalog
-
-## 2026-03-25 - Sunglasses
-Get sunglasses
-- Category: Accessories (already in dashboard, no items yet)
-
-## 2026-03-28: European Music Tour — Travel Agent
-- **Source:** Kimani
-- **Idea:** Have Kristin (travel agent) plan the European music tour in July
-- **Context:** Travel — leverage Kristin Sakowski at Lily Pond Travel to handle logistics for a European music festival/concert tour trip in July 2026
-- **Status:** To initiate — reach out to Kristin
-
-## 2026-03-29: Neeraj's Catskills Place
-- **Source:** Kimani
-- **Idea:** Visit Neeraj's place in the Catskills
-- **Context:** Travel — friend's property in Catskills, NY
-- **Status:** To coordinate with Neeraj
+## 2026-04-03 - YoungLA T-shirt for Re-purchase
+**Brand:** YoungLA
+**Product:** T-shirt #4334
+**Link:** https://www.youngla.com/products/4334?hcUrl=/en-US&variant=45458035310780
+**Note:** Already own one (olive-gray, in wardrobe dashboard) - might want to buy another
+**Category:** Athletic wear / casual t-shirts

@@ -21,8 +21,8 @@
     {"id": 17, "image": "part1_image16.jpeg", "brand": "WAX LONDON", "category": "shacket", "color": "beige", "style": ["casual"]},
     {"id": 18, "image": "part1_image17.jpeg", "brand": "TRAVIS MATHEW", "category": "pants", "color": "black", "style": ["smart-casual"]},
     {"id": 19, "image": "part1_image18.jpeg", "brand": "NIKE", "category": "sweatshirt", "color": "burgundy", "style": ["athletic", "collegiate"]},
-    {"id": 20, "image": "part1_image19.jpeg", "brand": "ALLSAINTS", "category": "sweater", "color": "olive", "style": ["casual"]},
-    {"id": 21, "image": "part1_image20.jpeg", "brand": "LEX DEUS", "category": "jacket", "color": "olive", "style": ["casual"]},
+    {"id": 20, "image": "part1_image19.jpeg", "brand": "ALLSAINTS", "category": "sweater", "color": "gray", "style": ["casual"]},
+    {"id": 21, "image": "part1_image20.jpeg", "brand": "LEX DEUS", "category": "jacket", "color": "gray", "style": ["casual"]},
     {"id": 22, "image": "part1_image21.jpeg", "brand": "UNDER ARMOUR", "category": "quarter-zip", "color": "charcoal", "style": ["athletic"]},
     {"id": 23, "image": "part1_image22.jpeg", "brand": "YOUNGLA", "category": "polo", "color": "black", "style": ["smart-casual"]},
     {"id": 24, "image": "part1_image23.jpeg", "brand": "WOLF & SHEPHERD", "category": "sneakers", "color": "white", "style": ["casual", "smart-casual"]},
@@ -99,6 +99,8 @@
     {"id": 95, "image": "part2_image44.jpeg", "brand": "YOUNGLA", "category": "sweatpants", "color": "black", "style": ["athletic"]},
     {"id": 96, "image": "part2_image45.jpeg", "brand": "ROBERT BARAKETT", "category": "polo", "color": "black", "style": ["smart-casual"]},
     {"id": 97, "image": "manssion_necklace.jpg", "brand": "MANSSION", "category": "necklace", "color": "silver", "style": ["casual", "smart-casual"]},
-    {"id": 98, "image": "manssion_bracelet.jpg", "brand": "MANSSION", "category": "bracelet", "color": "silver", "style": ["casual", "smart-casual"]}
+    {"id": 98, "image": "manssion_bracelet.jpg", "brand": "MANSSION", "category": "bracelet", "color": "silver", "style": ["casual", "smart-casual"]},
+    {"id": 99, "image": "gracie_jiu_jitsu_sweatpants.jpg", "brand": "GRACIE JIU-JITSU", "category": "sweatpants", "color": "black", "style": ["athletic", "casual"]},
+    {"id": 100, "image": "youngla_olive_gray_tshirt.jpg", "brand": "YOUNGLA", "category": "t-shirt", "color": "olive-gray", "style": ["athletic", "casual"]}
   ]
 }

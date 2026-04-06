@@ -21,7 +21,7 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **kimani@modernowner.co** — The Modern Owner business email
 - **kimani@crownacquisitions.co** — Crown Acquisitions business email
 - **kimani@kiklisclark.com** — Kiklis Clark law firm email ✅ NEW
-- **assistant@kimaniclark.com** — Johnny's sending address (alias)
+- **assistant@kiklisclark.com** — Tron's sending address (alias) ✅ ACTIVE
 - **admin@kimaniclark.com** — Newsletters/logins (alias)
 
 ### OpenClaw Config Notes
@@ -138,6 +138,17 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 **Reference Video:**
 - "Stealing $10K Website Designs with Claude Code" — https://youtu.be/AaO6ujcx6TY
 
+### Voice Server (Phone Calls) ✅
+- **Guide**: `workspace/voice-server-guide.md`
+- **Server**: `http://localhost:18791` (auto-starts on boot)
+- **Twilio number**: +1 (202) 998-6450
+- **Make call**: `POST /call` with `to` (E.164) and `prompt`
+- **Get results**: `GET /call/{callSid}` or `GET /calls`
+- **Inbound calls**: Auto-answered, check `/calls?direction=inbound`
+- **Backend**: OpenAI Realtime API (~500ms latency)
+- **Backup**: Claude Haiku + ElevenLabs (`npm start` in ~/voice-server)
+- **Voice**: "ash" (OpenAI Realtime default)
+
 ### Zoom (Direct Link)
 - **Meeting ID**: 4333875714
 - **Password**: 177172
@@ -210,3 +221,10 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## Sequence (getsequence.io) — Business Account Management
+**API Available:** Yes
+**Purpose:** Automated routing to/from business accounts
+**Context:** March 2026 transfers were setting up the system (333% increase was infrastructure, not expenses)
+**Potential integration:** Could pull transaction data for comprehensive business dashboards
+

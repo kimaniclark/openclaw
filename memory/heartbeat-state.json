@@ -1,41 +1,31 @@
 {
   "lastChecks": {
-    "twilioSms": 1772629270386,
-    "medtronicEmail": 1739966466,
-    "ebayMessages": 1740585600,
-    "ebayListings": 1740672000,
-    "craigslistInquiries": 1772870820000,
-    "relationshipMaintenance": 1772870820000,
-    "fitnessUpdate": 1711181749000,
-    "weeklyCheckin": 1709391600000,
-    "lawFirmEmail": 1772870820000,
-    "patentDeadlines": 1774724354802
+    "email": 1743843540,
+    "emailNote": "2026-04-05 08:19 ET - Sunday AM sweep. Law firm: Kristell follow-up to Chris Cresswell on Archivox non-pro ($19.5K). Crown: Umaer Haq Rejuvenation Clinic folder. Personal: LearnWorlds payment failed. TrustBooks still silent. Lu still silent. Jack still silent. No USPTO correspondence. No Overture referrals. No Craigslist inquiries.",
+    "calendar": 1743843540,
+    "calendarNote": "2026-04-05: No Google Calendar events next 48h. Luvisia Molenje meeting tomorrow 3:30 PM (from heartbeat state).",
+    "weather": null,
+    "twilioA2P": 1743753720,
+    "twilioA2PStatus": "FAILED - Only 1 campaign found (QE2c..., Feb 2 original). March 29 resubmission NOT visible in API. Alerted #communications.",
+    "twilioA2PNextCheck": "2026-04-07"
   },
-  "notes": {
-    "twilioSms": "Resubmitted Mar 29. A2P endpoint returning 404 — may need different API path or campaign not yet created. Next check April 1.",
-    "medtronicEmail": "Crown email OAuth 401 error - needs token refresh. Deadline was Feb 21.",
-    "ebayMessages": "Auth expired - kclark3 needs password re-auth.",
-    "ebayListings": "Session expired - kclark3 needs password re-auth.",
-    "craigslistInquiries": "Checked Mar 29 8AM. No buyer inquiries. Got renewal notice for 2 postings. Alerted #home.",
-    "fitnessUpdate": "Pinged #fitness Monday Mar 23, 6:15 AM. Due again tomorrow Monday Mar 30.",
-    "relationshipMaintenance": "Posted weekly suggestions Mar 29 to #social: Sheryl Modlin, Kirsten, Richard Chang.",
-    "lawFirmEmail": "Checked Mar 29 8AM. Chris Cresswell replied Mar 27 asking for non-provisional filing cost estimate (Archivox 1013-0002-PRO). Alerted #law-company. No Sree/Karios commission agreement yet. BHIP reports from Mar 23.",
-    "patentDeadlines": "Last checked Mar 28. A Good Walk examiner interview 3/26. Clipboard Nation OA still pending Lu response.",
-    "lastUpdate": "2026-03-29T12:07:00.000Z"
-  },
-  "blockers": {
-    "crownEmailOAuth": "401 Invalid Credentials - needs token refresh for gmailCrownAcquisitions",
-    "adminEmailToken": "admin@kimaniclark.com token needs refresh",
-    "ebayAuth": "kclark3 session expired, password required",
-    "twilioA2P": "UsAppToPerson endpoint returning 404 — campaign may not exist yet or API path changed"
-  },
-  "pendingMorning": [
-    "Get Withings stats for fitness dashboard — due Monday Mar 30",
-    "Refresh Crown and admin Gmail tokens for email monitoring",
-    "Reply to Chris Cresswell with non-provisional filing cost estimate"
-  ],
-  "staleItems": [
-    "Medtronic Engagement Letter (deadline Feb 21)",
-    "Karios/NEV Proposal PDF (expected Feb 23-24)"
-  ]
+  "findings": {
+    "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
+    "chrisCresswell": "2026-04-05: Kristell followed up on Archivox non-pro. Chris hasn't responded to $19.5K estimate since Mar 28.",
+    "overture": "2026-03-31: 4 referrals, none patent-related. No action.",
+    "bhipDocket": "2026-03-30: Pending + Completed reports received.",
+    "luClipboard": "Still no response. Deadline April 20.",
+    "deleteme": "Welcome email received Mar 31. OUR Rescue Store shipment on way (Apr 1). Watch for opt-out confirmations.",
+    "trustbooks": "2026-04-05: Still no response from Chris Plott. Past Friday deadline. Rho dispute recommended.",
+    "medicalRollUp": "2026-04-02: Amanda Bellerby call completed (joined Zoom ~6PM)",
+    "craigslist": "No inquiries.",
+    "ebayPayout": "No payout notification yet for Hammer Strength sale.",
+    "grainMeeting": "2026-04-02: Patent Claim Strategy - Dielectric Housing meeting recorded",
+    "pejmanGhadimi": "2026-04-09 @ 3:30 PM ET: 30-min meeting with Pejman Ghadimi (WTA) booked",
+    "googleWorkspace": "2026-04-02: modernowner.co Google Workspace billing needs update (ACTION REQUIRED email). Low urgency.",
+    "luvisiaMeeting": "2026-04-06 @ 3:30 PM ET: 60-min meeting with Luvisia Molenje booked via Calendly",
+    "jackAutoService": "No response yet as of Apr 5.",
+    "rejuvenationClinic": "2026-04-05: Umaer Haq shared Google Drive folder for Rejuvenation Clinic deal. Alerted #crown-acquisitions.",
+    "learnWorlds": "2026-04-05: Payment failed notification. Alerted #the-modern-owner."
+  }
 }

@@ -22,6 +22,13 @@
   - Current state: 4 real goals posted, 6-7 super connectors ready to match
   - Core premise: For any goal, someone exists who can deliver it easily
 
+### Mission & Purpose
+- **Operation Underground Railroad (O.U.R.)** — Kimani volunteers with O.U.R., fighting human trafficking
+- **Proceeds donation commitment** — Portion of proceeds from all businesses will support O.U.R.
+- **Purpose-driven revenue** — Every dollar generated has dual impact: business growth + child rescue operations
+- **Website integration strategy** — Plan to include O.U.R. mission on business websites to attract values-aligned customers and provide emotional connection beyond transactions
+- **Core template developed** — Universal elements: Kimani's volunteer commitment, proceeds percentage, ourrescue.org link, mission statement
+
 ### Technical Setup
 - OpenClaw running locally with Discord + Telegram channels
 - Discord server has multiple channels by topic (personal, business, confidential)
@@ -36,14 +43,23 @@
 ### Preferences
 - Prefers organized channel structure (Discord) for power-user experience
 - Values proactive assistance over reactive Q&A
-- **Motion Task Protocol** ⚠️ CRITICAL:
+- **Motion Task Protocol** ⚠️ CRITICAL - **Updated with Crystal delegation**:
   - When Kimani asks to add something to Motion, DO NOT just create the task
   - FIRST: Analyze — can I do this myself? Can I do 80% of it?
-  - SECOND: Suggest — "I could handle X, you'd only need to Y" 
-  - THIRD: Only create a Motion task if it genuinely requires Kimani's action
-  - ALWAYS prep as much as possible before the task lands on him
-  - Example: "Add calling the dentist to Motion" → I should offer to find the number, draft what to say, suggest available times from his calendar, THEN ask if he still wants a task or if I've reduced it enough
+  - SECOND: Can Crystal handle this? (human work but not Kimani-specific)
+  - THIRD: Suggest — "I could handle X, Crystal could handle Y, you'd only need to Z"
+  - FOURTH: Only create a Motion task if it genuinely requires Kimani's action
+  - ALWAYS prep as much as possible and delegate appropriately before task lands on him
+  - Example: "Add calling the dentist to Motion" → I find the number, draft what to say, suggest Crystal make the call, Kimani just approves the approach
 - **Epic Network calls**: Alert Kimani in **#crown-acquisitions** (NOT #crown-acquisitions-medical-roll-up) when Epic Network coaching calls or events are happening (until further notice)
+
+### Team Resources
+- **Kristell** — Project manager across all businesses (EXCEPT Kiss Models & One Call Away)
+  - Status: Salaried, available for full-time work, currently underutilized
+  - Opportunity: Proactively identify delegation opportunities for human work that doesn't require Kimani specifically
+  - Scope: Research, admin tasks, follow-ups, process documentation, operational work
+  - **Communication:** Phase 1 = Slack, Phase 2 = Motion assignments (once workflow established)
+  - **Flag Kristell opportunities** when identifying tasks that need human execution but not Kimani's expertise
 
 ---
 
