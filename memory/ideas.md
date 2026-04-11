@@ -1,5 +1,17 @@
 # Ideas Log
 
+## 2026-04-09: Cold Email Benchmark Report
+
+**URL:** https://instantly.ai/cold-email-benchmark-report-2026
+
+**Context:** Instantly.ai (which we have API access to) cold email benchmark insights for 2026
+
+**Application:** Could inform Crown Acquisitions outreach strategy with Dolores/xrevenue.ai integration. Benchmark data for optimizing acquisition deal flow campaigns.
+
+**Tags:** #crown-acquisitions #outreach #email-marketing #data
+
+---
+
 ## 2026-03-31: Steno.ai for Coaches
 
 **URL:** https://www.steno.ai/coaches
