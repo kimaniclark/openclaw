@@ -2,6 +2,20 @@
 
 ## Active Monitoring
 
+### Dr. Kravitz Dental Appointment Response
+**Email sent:** April 12, 2026 (5:40 AM)
+**To:** kara@kravitzdentistry.com (CC: drjoe@kravitzdentistry.com)
+**About:** Dark spot on front right tooth - requested Thursday 3:30 PM
+**Monitor:** kimani@kimaniclark.com for response from Kara or Dr. Kravitz
+**Action when received:** 
+1. Alert Kimani in #health channel
+2. If confirmed appointment time → add to Google Calendar
+3. Remove from monitoring once scheduled
+
+**Requested time:** Thursday, April 17, 2026 at 3:30 PM
+
+## Active Monitoring
+
 ### Clipboard Nation OA Response — Lu Approval ⚠️ NEXT DEADLINE APRIL 20
 **Application:** 18/534,782 (docket 3021-0003)
 **Matter:** Non-Final Office Action response
@@ -57,18 +71,14 @@ Alert Kimani in #home when inquiries come in.
 **Monitor:** kimani@kimaniclark.com for response from Jack
 **Alert:** #car channel when Jack responds
 
-### TrustBooks Erroneous Charges ⚠️ AWAITING FINAL RESPONSE
+### TrustBooks Erroneous Charges — REFUND DENIED ⚠️ ACTION NEEDED
 **Issue:** Account was cancelled but system charged 4 times on April 1, 2026
 **Charges:** 3 × $99 = $297 went through (4th blocked by bank)
-**Timeline:**
-- April 2: Kimani emailed Chris Plott
-- April 3, 8:51 AM: Chris replied — reviewing with billing team Friday morning
-- April 3, 8:53 AM: Kimani responded with cancellation details
-**Status:** Chris reviewing with billing team (said Friday morning)
+**April 6 response:** Chris Plott refused refund — claims charges valid because "data was maintained" after failed CC. Suggested disputing via credit card.
+**Alerted:** #law-company on April 11
 
-**Monitor for:** Final response from Chris Plott at TrustBooks
-**Alert:** Kimani in #law-company when TrustBooks responds
-**Backup plan:** Contact Rho.co to dispute charges if no resolution by Friday EOD
+**Next step:** Dispute $297 through Rho. Awaiting Kimani's go-ahead.
+Remove this section once dispute filed or Kimani decides to drop it.
 
 ### Twilio A2P 10DLC — RESUBMITTED ⏳ (Check every 3 days)
 **Campaign SID:** CM64d8b4aea89fe5f463be01a9ad2b65cd
