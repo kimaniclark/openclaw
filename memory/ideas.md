@@ -1,81 +1,37 @@
-# Ideas Log
+# IDEAS.md - Captured Ideas
 
-## 2026-04-09: Cold Email Benchmark Report
+*Ideas captured for review every 3 weeks*
 
-**URL:** https://instantly.ai/cold-email-benchmark-report-2026
+## Personal Health - Urgent
+- **Get rash on back of neck checked by doctor** — Rash on left side of back of neck needs medical evaluation. *(2026-04-12)*
 
-**Context:** Instantly.ai (which we have API access to) cold email benchmark insights for 2026
+## Personal Health & Fitness
+- **Train online with Dorian Yates** — Online training with 6-time Mr. Olympia. https://dyacademy.co.uk *(2026-04-12)*
 
-**Application:** Could inform Crown Acquisitions outreach strategy with Dolores/xrevenue.ai integration. Benchmark data for optimizing acquisition deal flow campaigns.
+## Business Strategy
+- **Use Bryan Steiner's Capital as CFE client bridge** — Use Bryan Steiner's Capital as a bridge for CFE clients who aren't profitable enough in the beginning. *(2026-04-12)*
 
-**Tags:** #crown-acquisitions #outreach #email-marketing #data
+## Sorcerics - Ambient AI Home System (April 10, 2026)
+**Link:** https://get.sorcerics.com/
+**Context:** Came across via Instagram Stories ad
 
----
+**What it is:**
+- **"SOL"** - Ambient AI system for smart homes
+- **Spatial AI** that understands context, movement, behavior
+- **No apps, voice commands, or setup required**
+- **On-device AI** - real-time responses, privacy-focused
+- **Auto-adjusts:** lighting, climate, devices based on situational awareness
+- **Q1 2026 launch** in North America (funded by NAVER D2SF)
 
-## 2026-03-31: Steno.ai for Coaches
+**Why it's interesting:**
+- Solves smart home complexity (no manual commands/routines)
+- True ambient computing - invisible interface
+- Privacy-first approach (all processing on-device)
+- Could be massive market opportunity if execution is right
 
-**URL:** https://www.steno.ai/coaches
-
-**Concept:** AI Twins for Coaches - Scale coaching business with AI version of yourself
-
-**Key Features:**
-- Creates an AI "Twin" that captures how you think and communicate
-- Speaks 23 languages automatically
-- Integrates with platforms like Kajabi, Mighty Networks
-- Used by Tony Robbins (reached 3,302 people with his twin)
-
-**Value Prop:** "Coach everyone. Personally." - Guide more people through transformation using your frameworks, voice, and approach without more time investment.
-
-**Process:**
-1. Complete interview to shape how Twin thinks/speaks
-2. Launch Twin across platforms
-3. Twin works continuously answering questions, guiding conversations
-
-**Notable Users:** Tony Robbins, bestselling authors, Fortune 500 speakers
-
-**Application for Modern Owner:**
-- Could create Kimani AI twin to scale coaching
-- Handle initial student questions/guidance
-- Provide 24/7 support in multiple languages
-- Extend reach without stretching time thin
-
-**Status:** Idea captured for evaluation
+**Potential applications:**
+- Competitor analysis for Life Concierge home automation
+- Could inspire our own ambient AI features
+- Partnership opportunity for home concierge services?
 
 ---
-
-## Previous Ideas
-
-*(Add previous ideas below as they come in)*
-
-## 2026-03-31 - Investment Watch Learning
-Watch courses at Watch Trading Academy and buy an investment watch
-- URL: https://www.watchtradingacademy.com/
-- Create AI summaries of videos for easy implementation
-- Goal: Learn watch investment strategy and make first purchase
-- Context: Adding luxury accessories to wardrobe, potential investment vehicle
-
-## 2026-04-01 - Operation Underground Railroad Morse Code Bracelets
-**Brand:** Operation Underground Railroad
-**Product:** Morse code bracelets
-**Link:** https://store.ourrescue.org/products/morse-code-bracelet
-**Category:** Accessories / Jewelry
-**Note:** Meaningful accessories supporting anti-trafficking mission
-
-## 2026-04-01 - Adobe Express Background Remover
-**For Natalia/future clothing photos:**
-Adobe Express background remover: https://www.adobe.com/express/feature/image/remove-background
-- Free, high quality background removal
-- Better than remove.bg for clothing items
-- Use this when taking additional wardrobe photos
-
-## 2026-04-01 - Watch Trading Academy - Lazy Trader Program
-**URL:** https://www.watchtradingacademy.com/lazytrader/
-**Context:** Follow-up to investment watch learning idea
-**Related:** Watch Trading Academy main site for courses and investment strategy
-
-## 2026-04-03 - YoungLA T-shirt for Re-purchase
-**Brand:** YoungLA
-**Product:** T-shirt #4334
-**Link:** https://www.youngla.com/products/4334?hcUrl=/en-US&variant=45458035310780
-**Note:** Already own one (olive-gray, in wardrobe dashboard) - might want to buy another
-**Category:** Athletic wear / casual t-shirts

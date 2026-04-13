@@ -3,16 +3,17 @@
 ## Active Monitoring
 
 ### Dr. Kravitz Dental Appointment Response
-**Email sent:** April 12, 2026 (5:40 AM)
-**To:** kara@kravitzdentistry.com (CC: drjoe@kravitzdentistry.com)
+**Original email:** April 12, 2026 (5:40 AM) to kara@kravitzdentistry.com
+**Kara's mailbox inactive** — auto-reply says forwarded to Gracie
+**Follow-up sent:** April 12, 2026 (7:21 AM) directly to gracie@kravitzdentistry.com
 **About:** Dark spot on front right tooth - requested Thursday 3:30 PM
-**Monitor:** kimani@kimaniclark.com for response from Kara or Dr. Kravitz
+**Monitor:** kimani@kimaniclark.com for response from Gracie at Kravitz Dentistry
 **Action when received:** 
 1. Alert Kimani in #health channel
 2. If confirmed appointment time → add to Google Calendar
 3. Remove from monitoring once scheduled
 
-**Requested time:** Thursday, April 17, 2026 at 3:30 PM
+**Requested time:** Thursday, April 16, 2026 at 3:30 PM
 
 ## Active Monitoring
 

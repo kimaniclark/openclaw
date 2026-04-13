@@ -37,10 +37,13 @@
 - Week of Mar 9-15: Working Out 1/2, Running 0/2, Jiu Jitsu 1/2
 - Week of Mar 16-22: (out of town)
 - Week of Mar 23-29: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2 (all-nighter week)
-- Current week (Mar 29 - Apr 4): 
-  - Working Out: 0/2 (planned: Wed + Fri)
+- Week of Mar 29 - Apr 4: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2
+- Week of Apr 5-11: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2
+- Week of Apr 6-12: Working Out 1/2, Running 0/2, Jiu Jitsu 0/2
+- Current week (Apr 13-19): 
+  - Working Out: 0/2 (planned: Tue + Thu)
   - Running: 0/2
-  - Jiu Jitsu: 0/2
+  - Jiu Jitsu: 0/2 (planned: Mon)
 
 ## Boxing - Nuboxx Fitness
 - Location: 1449 U St. NW, Washington, DC 20009

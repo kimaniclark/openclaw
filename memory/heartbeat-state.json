@@ -1,31 +1,32 @@
 {
   "lastChecks": {
-    "email": 1743843540,
-    "emailNote": "2026-04-05 08:19 ET - Sunday AM sweep. Law firm: Kristell follow-up to Chris Cresswell on Archivox non-pro ($19.5K). Crown: Umaer Haq Rejuvenation Clinic folder. Personal: LearnWorlds payment failed. TrustBooks still silent. Lu still silent. Jack still silent. No USPTO correspondence. No Overture referrals. No Craigslist inquiries.",
-    "calendar": 1743843540,
-    "calendarNote": "2026-04-05: No Google Calendar events next 48h. Luvisia Molenje meeting tomorrow 3:30 PM (from heartbeat state).",
+    "email": 1776023938,
+    "emailNote": "2026-04-12 15:57 ET - Afternoon. New: Calendly Michael Mills Thu Apr 16 5:30pm (30min Zoom), Natalia Lopez invoice $1,756.22 (Feb-Apr work). No Gracie/Kravitz response yet. No law firm urgent items.",
+    "calendar": 1776023938,
+    "calendarNote": "2026-04-12: Delano Mon 2pm, dental requested Thu 3:30pm (unconfirmed), Michael Mills Thu 5:30pm, Danielle Apr 27 2pm.",
     "weather": null,
-    "twilioA2P": 1743753720,
-    "twilioA2PStatus": "FAILED - Only 1 campaign found (QE2c..., Feb 2 original). March 29 resubmission NOT visible in API. Alerted #communications.",
-    "twilioA2PNextCheck": "2026-04-07"
+    "twilioA2P": 1775998813,
+    "twilioA2PStatus": "Still FAILED. Same campaign QE2c6890da from Feb 2. CTA rejection 30909. No new campaign created. March 29 resubmission never went through.",
+    "twilioA2PNextCheck": "2026-04-15"
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
+    "clipboardNation": "2026-04-10: Prosecution Manager scheduling calls with Lu for Clipboard Nation + Validir. April 20 deadline = 10 days out.",
     "chrisCresswell": "2026-04-05: Kristell followed up on Archivox non-pro. Chris hasn't responded to $19.5K estimate since Mar 28.",
-    "overture": "2026-03-31: 4 referrals, none patent-related. No action.",
+    "overture": "2026-04-09: Aja Hashian 'sneak peek for founding members' — not a referral.",
     "bhipDocket": "2026-03-30: Pending + Completed reports received.",
-    "luClipboard": "Still no response. Deadline April 20.",
-    "deleteme": "Welcome email received Mar 31. OUR Rescue Store shipment on way (Apr 1). Watch for opt-out confirmations.",
-    "trustbooks": "2026-04-05: Still no response from Chris Plott. Past Friday deadline. Rho dispute recommended.",
-    "medicalRollUp": "2026-04-02: Amanda Bellerby call completed (joined Zoom ~6PM)",
+    "luClipboard": "RESOLVED - Lu engaged. Prosecution Manager scheduling call.",
+    "deleteme": "2026-04-09: Promo email 'It pays to have friends'. No first report yet (expected ~Apr 7, now 3 days overdue).",
+    "trustbooks": "2026-04-10: Still no response from Chris Plott since Apr 3. 1 week past Friday deadline. Rho dispute overdue.",
+    "lawpay": "2026-04-07: $30 owed balance. NSF on acct ending 5616.",
+    "rhoDeclined": "2026-04-12: Card 6249 declined AGAIN — LearnWorlds CY $299. Still exceeds credit limit. This is a recurring issue.",
+    "intuitRenewal": "2026-04-10: Kiklis & Clark Intuit subscription renewal failed — Mastercard.",
+    "primeDeclined": "2026-04-10: PRIME Corporate Services renewal fee declined.",
     "craigslist": "No inquiries.",
-    "ebayPayout": "No payout notification yet for Hammer Strength sale.",
-    "grainMeeting": "2026-04-02: Patent Claim Strategy - Dielectric Housing meeting recorded",
-    "pejmanGhadimi": "2026-04-09 @ 3:30 PM ET: 30-min meeting with Pejman Ghadimi (WTA) booked",
-    "googleWorkspace": "2026-04-02: modernowner.co Google Workspace billing needs update (ACTION REQUIRED email). Low urgency.",
-    "luvisiaMeeting": "2026-04-06 @ 3:30 PM ET: 60-min meeting with Luvisia Molenje booked via Calendly",
-    "jackAutoService": "No response yet as of Apr 5.",
-    "rejuvenationClinic": "2026-04-05: Umaer Haq shared Google Drive folder for Rejuvenation Clinic deal. Alerted #crown-acquisitions.",
-    "learnWorlds": "2026-04-05: Payment failed notification. Alerted #the-modern-owner."
+    "jackAutoService": "No response as of Apr 10.",
+    "nvgDrawings": "2026-04-09: NVG delivered Karios drawings. Kristell confirmed receipt.",
+    "ianEvans": "2026-04-09: Approved 1015-0008 non-provisional.",
+    "kravitzDental": "2026-04-12: Kara mailbox inactive. Auto-forwarded to Gracie. Resent appointment request directly to gracie@kravitzdentistry.com. Updated date to Thursday April 16.",
+    "learnworlds": "2026-04-12: 3rd payment attempt failed. School at risk of being locked."
   }
 }
