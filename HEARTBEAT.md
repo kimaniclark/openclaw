@@ -2,18 +2,7 @@
 
 ## Active Monitoring
 
-### Dr. Kravitz Dental Appointment Response
-**Original email:** April 12, 2026 (5:40 AM) to kara@kravitzdentistry.com
-**Kara's mailbox inactive** — auto-reply says forwarded to Gracie
-**Follow-up sent:** April 12, 2026 (7:21 AM) directly to gracie@kravitzdentistry.com
-**About:** Dark spot on front right tooth - requested Thursday 3:30 PM
-**Monitor:** kimani@kimaniclark.com for response from Gracie at Kravitz Dentistry
-**Action when received:** 
-1. Alert Kimani in #health channel
-2. If confirmed appointment time → add to Google Calendar
-3. Remove from monitoring once scheduled
 
-**Requested time:** Thursday, April 16, 2026 at 3:30 PM
 
 ## Active Monitoring
 
@@ -164,11 +153,10 @@ Check law firm email for agreement from **Sree** re: Karios sales commission. Wh
 
 
 
-### TheLifeConcierge.co Website Screenshot — PENDING ⏰
-**Corrected URL**: thelifeconcierge.co (not .com) — will be live temporarily while Circle.so is reactivated
-- **TAKE SCREENSHOTS** of the Course Clout-designed site for branding reference
+### TheLifeConcierge.co Website Screenshot — DELANO REACTIVATING ⏰
+**Update April 13**: Delano at Course Clout is reactivating the website temporarily
+- **TAKE SCREENSHOTS** when live for branding reference (for new website creation)
 - Save to `life-concierge/website-screenshots/`
-- Circle expires again next month unless renewed ($129/mo)
 - Alert Kimani in #life-concierge when screenshots are captured
 
 Remove this section once screenshots are captured.
