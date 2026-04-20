@@ -70,18 +70,15 @@ Alert Kimani in #home when inquiries come in.
 **Next step:** Dispute $297 through Rho. Awaiting Kimani's go-ahead.
 Remove this section once dispute filed or Kimani decides to drop it.
 
-### Twilio A2P 10DLC — RESUBMITTED ⏳ (Check every 3 days)
-**Campaign SID:** CM64d8b4aea89fe5f463be01a9ad2b65cd
-**Resubmitted:** March 29, 2026
-**Expected review time:** 2-3 weeks
-**Next check:** April 1, 2026
+### Twilio A2P 10DLC — FAILED ❌ (Alerted April 17)
+**Campaign SID:** QE2c6890da8086d771620e9b13fadeba0b
+**Status:** FAILED — CTA verification issue (error 30909)
+**Last updated:** Feb 2, 2026 (March 29 resubmission may not have gone through)
+**Issue:** Reviewer couldn't verify CTA — kimaniclark.com/terms and /privacy-policy may not be live
+**Alerted:** #communications on April 17, 2026
 
-**CHECK every 3 days** via API:
-```
-curl -u "$SID:$TOKEN" "https://messaging.twilio.com/v1/Services/MG4498afae1fd33670124d899e92068d32/UsAppToPerson"
-```
-When approved → alert Kimani in #one-call-away that SMS is ready for super connector outreach.
-If rejected again → alert in #communications with rejection reason.
+**Next step:** Awaiting Kimani's response. Need to ensure terms/privacy pages are live, then resubmit.
+Remove this section once resubmitted or Kimani decides on next steps.
 
 ### Medtronic Engagement Letter ⚠️ STALE
 ~~Check Crown Acquisitions email (kimani@crownacquisitions.co) for engagement letter from Jon Corey (jcorey@mckoolsmith.com) re: Chad Clark v. Medtronic case.~~

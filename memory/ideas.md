@@ -10,6 +10,16 @@
 
 ## Business Strategy
 - **Use Bryan Steiner's Capital as CFE client bridge** — Use Bryan Steiner's Capital as a bridge for CFE clients who aren't profitable enough in the beginning. *(2026-04-12)*
+- **Get lifeconcierge.ai domain name** — Acquire lifeconcierge.ai domain for Life Concierge business. *(2026-04-15)*
+
+## Beauty & Aesthetics Tools
+- **Qoves facial analysis platform** — AI-powered facial analysis and improvement protocol (https://www.qoves.com). $150/year for comprehensive facial biometric analysis, personalized protocol, visualizations. Non-surgical approach based on 2000+ studies. *(2026-04-14)*
+
+## Business Tools & Software
+- **Zenzap team communication platform** — Alternative to Slack with better task management, simpler pricing (https://www.zenzap.co). Features: built-in tasks, file organization, SOC2/GDPR compliance on all plans, mobile-first. Pricing starts free, Pro $3/user/month. *(2026-04-18)*
+
+## Health & Wellness - Personal
+- **In-home flexologist like Stretch Lab** — Get professional assisted stretching services at home. *(2026-04-17)*
 
 ## Sorcerics - Ambient AI Home System (April 10, 2026)
 **Link:** https://get.sorcerics.com/
@@ -33,5 +43,11 @@
 - Competitor analysis for Life Concierge home automation
 - Could inspire our own ambient AI features
 - Partnership opportunity for home concierge services?
+
+## Personal Entertainment & Activities
+- **Weekly new restaurant with Beli app** — https://apps.apple.com/app/id1478375386 — Use Beli to discover and try a new restaurant each week. *(2026-04-13)*
+
+## Car/Vehicle
+- **Luxury Car Hacks Course** — https://exoticcarhacks.samcart.com/products/luxury-car-hacks-497/?coupon=LUXUPGRADE97 *(2026-04-13)*
 
 ---

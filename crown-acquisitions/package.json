@@ -1,0 +1,14 @@
+{
+  "name": "crown-acquisitions-website",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Crown Acquisitions website automation using Framer API",
+  "main": "framer-website-setup.js",
+  "scripts": {
+    "setup": "node framer-website-setup.js",
+    "test": "node --experimental-print-required-tla framer-website-setup.js"
+  },
+  "dependencies": {
+    "framer-api": "^1.0.0"
+  }
+}

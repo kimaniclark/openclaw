@@ -1,22 +1,24 @@
 {
   "lastChecks": {
-    "email": 1776023938,
-    "emailNote": "2026-04-12 15:57 ET - Afternoon. New: Calendly Michael Mills Thu Apr 16 5:30pm (30min Zoom), Natalia Lopez invoice $1,756.22 (Feb-Apr work). No Gracie/Kravitz response yet. No law firm urgent items.",
-    "calendar": 1776023938,
-    "calendarNote": "2026-04-12: Delano Mon 2pm, dental requested Thu 3:30pm (unconfirmed), Michael Mills Thu 5:30pm, Danielle Apr 27 2pm.",
+    "email": 1776187275,
+    "emailNote": "2026-04-14 13:20 ET - Capitol Hill Movers: disassembly $200, reassembly $240. LearnWorlds Lia personal email re outstanding balance. Carlos Aviles Zoom meeting active. CL NS600 renewal ready.",
+    "calendar": 1776079797,
+    "calendarNote": "2026-04-13: OAuth expired, could not check. Known: Delano today 2pm, dental Thu 3:30pm (unconfirmed), Michael Mills Thu 5:30pm.",
     "weather": null,
-    "twilioA2P": 1775998813,
-    "twilioA2PStatus": "Still FAILED. Same campaign QE2c6890da from Feb 2. CTA rejection 30909. No new campaign created. March 29 resubmission never went through.",
-    "twilioA2PNextCheck": "2026-04-15"
+    "twilioA2P": 1776171616,
+    "twilioA2PStatus": "Still FAILED. Same CTA rejection 30909 on campaign QE2c6890da8086d771620e9b13fadeba0b from Feb 2. Date_updated unchanged. March 29 resubmission not visible — may need new campaign SID.",
+    "twilioA2PNextCheck": "2026-04-17",
+    "ebay": 1776175266,
+    "ebayNote": "2026-04-14 10:00 ET - 7 active listings (down from 8, VKR sold/delisted?). Total $1,800. NS600 still leading (84 views, 4 watchers). No new buyer messages or offers. 6 unread = all eBay system msgs. eBay suggests sending offers on 2 listings."
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
-    "clipboardNation": "2026-04-10: Prosecution Manager scheduling calls with Lu for Clipboard Nation + Validir. April 20 deadline = 10 days out.",
+    "clipboardNation": "2026-04-14: Still no response from Lu. 6 days to April 20 deadline. Alerted #law-company with urgency.",
     "chrisCresswell": "2026-04-05: Kristell followed up on Archivox non-pro. Chris hasn't responded to $19.5K estimate since Mar 28.",
     "overture": "2026-04-09: Aja Hashian 'sneak peek for founding members' — not a referral.",
     "bhipDocket": "2026-03-30: Pending + Completed reports received.",
     "luClipboard": "RESOLVED - Lu engaged. Prosecution Manager scheduling call.",
-    "deleteme": "2026-04-09: Promo email 'It pays to have friends'. No first report yet (expected ~Apr 7, now 3 days overdue).",
+    "deleteme": "2026-04-14: DeleteMe sent \"Your Information Is Being Removed\" email Apr 13. Opt-outs submitted. No action needed from Kimani.",
     "trustbooks": "2026-04-10: Still no response from Chris Plott since Apr 3. 1 week past Friday deadline. Rho dispute overdue.",
     "lawpay": "2026-04-07: $30 owed balance. NSF on acct ending 5616.",
     "rhoDeclined": "2026-04-12: Card 6249 declined AGAIN — LearnWorlds CY $299. Still exceeds credit limit. This is a recurring issue.",
@@ -26,7 +28,8 @@
     "jackAutoService": "No response as of Apr 10.",
     "nvgDrawings": "2026-04-09: NVG delivered Karios drawings. Kristell confirmed receipt.",
     "ianEvans": "2026-04-09: Approved 1015-0008 non-provisional.",
-    "kravitzDental": "2026-04-12: Kara mailbox inactive. Auto-forwarded to Gracie. Resent appointment request directly to gracie@kravitzdentistry.com. Updated date to Thursday April 16.",
-    "learnworlds": "2026-04-12: 3rd payment attempt failed. School at risk of being locked."
+    "kravitzDental": "2026-04-14: Gracie replied Apr 13 offering Thu April 16 at 4:00 PM. Alerted #health. Awaiting Kimani confirmation.",
+    "learnworlds": "2026-04-14: Lia from LearnWorlds emailed about outstanding balance. Alerted #the-modern-owner.",
+    "capitolHillMovers": "2026-04-14: Quotes received - disassembly $200, reassembly $240, full package $650. Alerted #home."
   }
 }
