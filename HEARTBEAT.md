@@ -6,27 +6,48 @@
 
 ## Active Monitoring
 
-### Clipboard Nation OA Response — Lu Approval ⚠️ NEXT DEADLINE APRIL 20
+### Clipboard Nation OA Response — Lu Engaged ⚠️ DEADLINE PASSED
 **Application:** 18/534,782 (docket 3021-0003)
 **Matter:** Non-Final Office Action response
 **OA Mailed:** November 20, 2025
-**Next Deadline:** April 20, 2026 (5-month extension)
-**Final Deadline:** May 20, 2026 (absolute max)
+**April 20 Deadline:** PASSED (5-month extension expired)
+**Final Deadline:** May 20, 2026 (absolute max, requires 6th month extension ~$960)
 **Contact:** Lu (owner) — Lumo@clipboardnation.com
 
 **Timeline:**
 - March 17: Kimani emailed draft response
 - March 20: Kimani sent follow-up email (deadline day)
 - March 24: Kimani texted Lu to set up call + sent another email
+- April 9: Kristell emailed Lu to schedule two calls (Clipboard Nation + Validir)
+- April 17: Kristell sent follow-up
+- April 18: Lu booked both calls, asked about invoice, confirmed Validir Thursday meeting
+- April 21: Lu sent neural network YouTube link
+- April 22: Lu sent detailed email about Clipboard Nation enhancements (motion tracking, play detection)
 
-**Status:** Lu has not responded or booked a call. No response filed yet.
+**Status:** Lu is actively engaged. Calls booked. OA response still needs to be filed (extension needed now).
+**Alerted:** #law-company on April 22
 
-**CHECK DAILY** for reply from Lumo@clipboardnation.com.
-Alert Kimani in #law-company immediately when Lu responds.
+Remove this section once OA response filed.
 
-**Note:** Extensions available ($960 small entity per month) but need Lu's authorization.
+### EMAIL LU MALENGI - Continuation-in-Part (CIP) ⏰ TUESDAY APRIL 29
+**Reminder:** Email Lu Malengi about continuation-in-part off Clipboard Nation matter
+**Parent Matter:** 3021-0003 (18/534,782) — Clipboard Nation 
+**New CIP Matter:** 3021-0004
+**Contact:** Lumo@clipboardnation.com
+**Set by:** Kimani on April 23, 2026
 
-Remove this section once resolved.
+Remove this section once email sent.
+
+### NEW: USPTO OA — 18/776,642 (1009-0002) ⚠️ RECEIVED APRIL 21
+**Application:** 18/776,642 (docket 1009-0002)
+**Matter:** SYSTEMS AND METHODS FOR DETECTING LAW ENFORCEMENT VEHICLES
+**Attorney:** Richard Giambruno II
+**Documents:** CTNF (Non-Final Office Action) + 892 (References Cited)
+**Received:** April 21, 2026
+**Alerted:** #law-company on April 22
+
+**Action needed:** Review OA, docket response deadline, begin analysis.
+Remove this section once docketed and response plan in place.
 
 ### Karios $57,200 Deposit ✅ PAID
 **Collected:** March 18, 2026

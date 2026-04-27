@@ -1,12 +1,13 @@
 # Fitness Tracking
 
-## Current Stats (Mar 29, 2026)
-- **Weight:** 193.2 lb (stable)
-- **Body Fat:** 19.8%
+## Current Stats (Apr 22, 2026)
+- **Weight:** 191.5 lb (stable)
+- **Body Fat:** 18.4%
 
 ### History
 | Date | Weight | Body Fat | Trend |
 |------|--------|----------|-------|
+| Apr 22 | 191.5 lb | 18.4% | Losing Weight |
 | Mar 29 | 193.2 lb | 19.8% | Gaining Weight |
 | Mar 11 | 190.7 lb | 19.5% | Gaining Weight |
 | Mar 6 | 191.5 lb | 17.8% | Gaining Weight |
@@ -40,10 +41,11 @@
 - Week of Mar 29 - Apr 4: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 5-11: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 6-12: Working Out 1/2, Running 0/2, Jiu Jitsu 0/2
-- Current week (Apr 13-19): 
-  - Working Out: 1/2 ✓ (Mon done, Thu remaining)
+- Week of Apr 13-19: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
+- Current week (Apr 20-26): 
+  - Working Out: 1/2 ✓ (Wed done, Fri planned)
   - Running: 0/2
-  - Jiu Jitsu: 0/2 (planned: Mon)
+  - Jiu Jitsu: 0/2
 
 ## Boxing - Nuboxx Fitness
 - Location: 1449 U St. NW, Washington, DC 20009
