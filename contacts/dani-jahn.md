@@ -10,8 +10,8 @@
 ## Relationship
 - **Inner Circle:** yes
 - **Frequency:** 9-months
-- **Last Contact:** 
-- **Next Due:** 
+- **Last Contact:** 2026-04-29
+- **Next Due:** 2027-01-29
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
@@ -30,3 +30,4 @@
 
 ## History
 - [Date] - Imported from Contacts Journal
+- 2026-04-29 - Kimani mentioned recent lunch

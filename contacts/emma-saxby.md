@@ -11,8 +11,8 @@
 ## Relationship
 - **Inner Circle:** yes
 - **Frequency:** 5-months
-- **Last Contact:** 
-- **Next Due:** 
+- **Last Contact:** 2026-02-28
+- **Next Due:** 2026-07-28
 - **Meetup Type:** 
 - **Preferred Days:** 
 - **Their Spots:** 
@@ -31,3 +31,4 @@
 
 ## History
 - [Date] - Imported from Contacts Journal
+- 2026-02-28 - Texted when she was coming to town
