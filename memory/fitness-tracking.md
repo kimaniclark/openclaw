@@ -1,19 +1,21 @@
 # Fitness Tracking
 
-## Current Stats (Apr 22, 2026)
-- **Weight:** 191.5 lb (stable)
-- **Body Fat:** 18.4%
+## Current Stats (May 1, 2026)
+- **Weight:** 195.2 lb (gaining)
+- **Body Fat:** 16.2%
+- **Muscle:** 79.7%
 
 ### History
-| Date | Weight | Body Fat | Trend |
-|------|--------|----------|-------|
-| Apr 22 | 191.5 lb | 18.4% | Losing Weight |
-| Mar 29 | 193.2 lb | 19.8% | Gaining Weight |
-| Mar 11 | 190.7 lb | 19.5% | Gaining Weight |
-| Mar 6 | 191.5 lb | 17.8% | Gaining Weight |
-| Mar 2 | 191.7 lb | 18.1% | Stable |
-| Feb 20 | 189.8 lb | 17.7% | Losing Weight |
-| Feb 8 | 189.8 lb | 18.8% | Gaining Weight |
+| Date | Weight | Body Fat | Muscle | Trend |
+|------|--------|----------|--------|-------|
+| May 1 | 195.2 lb | 16.2% | 79.7% | Gaining Weight |
+| Apr 22 | 191.5 lb | 18.4% | - | Losing Weight |
+| Mar 29 | 193.2 lb | 19.8% | - | Gaining Weight |
+| Mar 11 | 190.7 lb | 19.5% | - | Gaining Weight |
+| Mar 6 | 191.5 lb | 17.8% | - | Gaining Weight |
+| Mar 2 | 191.7 lb | 18.1% | - | Stable |
+| Feb 20 | 189.8 lb | 17.7% | - | Losing Weight |
+| Feb 8 | 189.8 lb | 18.8% | - | Gaining Weight |
 
 ## Goal
 **Lift weights at least 2x per week**
@@ -42,8 +44,9 @@
 - Week of Apr 5-11: Working Out 0/2, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 6-12: Working Out 1/2, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 13-19: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
-- Current week (Apr 20-26): 
-  - Working Out: 1/2 ✓ (Wed done, Fri planned)
+- Week of Apr 20-26: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
+- Current week (Apr 27 - May 3): 
+  - Working Out: 2/2 ✓ (Fri + Sun)
   - Running: 0/2
   - Jiu Jitsu: 0/2
 

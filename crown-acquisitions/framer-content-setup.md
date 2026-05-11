@@ -117,7 +117,9 @@ Kimani Clark brings deep expertise in business acquisitions, legal analysis, and
 Whether you're considering selling your business or exploring strategic partnerships, we're here to help you achieve your goals.
 
 **Contact Info:**
-- **Email:** kimani@crownacquisitions.co
+- **General Inquiries:** info@crownacquisitions.co  
+- **Administrative:** admin@crownacquisitions.co
+- **Direct Contact:** kimani@crownacquisitions.co
 - **Phone:** 301-674-1098
 - **CTA:** Schedule a Confidential Consultation
 

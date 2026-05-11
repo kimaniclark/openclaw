@@ -15,8 +15,17 @@
 ## Beauty & Aesthetics Tools
 - **Qoves facial analysis platform** — AI-powered facial analysis and improvement protocol (https://www.qoves.com). $150/year for comprehensive facial biometric analysis, personalized protocol, visualizations. Non-surgical approach based on 2000+ studies. *(2026-04-14)*
 
+## Legal Business Ideas
+- **Potential law firm name: Sentinel** — Alternative name for law firm branding. *(2026-05-02)*
+
+## Social Media Products
+- **Instagram Plus concept** — Premium Instagram experience idea (link was broken). *(2026-05-06)*
+
 ## Business Tools & Software
 - **Zenzap team communication platform** — Alternative to Slack with better task management, simpler pricing (https://www.zenzap.co). Features: built-in tasks, file organization, SOC2/GDPR compliance on all plans, mobile-first. Pricing starts free, Pro $3/user/month. *(2026-04-18)*
+
+## Social & Recreation
+- **Yacht charter with Michael Chasen** — Go out on yacht charter with Michael Chasen via Below Deck DC (https://www.belowdeckdc.com). 74' Sunseeker yacht, up to 13 passengers day charter, 4/6/8 hour options. *(2026-05-07)*
 
 ## Health & Wellness - Personal
 - **In-home flexologist like Stretch Lab** — Get professional assisted stretching services at home. *(2026-04-17)*
@@ -46,6 +55,9 @@
 
 ## Personal Entertainment & Activities
 - **Weekly new restaurant with Beli app** — https://apps.apple.com/app/id1478375386 — Use Beli to discover and try a new restaurant each week. *(2026-04-13)*
+
+## Communications Infrastructure
+- **Evaluate Telnyx as Twilio alternative** — Research Telnyx for voice calling (30-50% cheaper, sub-200ms latency, owns full stack). Key question: Does it support dynamic per-call prompting like our current voice server setup? Two paths: LiveKit on Telnyx (new beta) vs Telnyx WebSocket streaming. *(2026-05-06)*
 
 ## Car/Vehicle
 - **Luxury Car Hacks Course** — https://exoticcarhacks.samcart.com/products/luxury-car-hacks-497/?coupon=LUXUPGRADE97 *(2026-04-13)*

@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "email": 1777229581,
-    "emailNote": "2026-04-26 14:52 ET - Law Firm: Ricci (1009-0002) sent arguments doc with highlighted claims. Kimani followed up with Ricci on OA response (deadline Jul 21). Kimani followed up with Lu on 1010-0002 call prep doc. Lawline course no longer available. Personal: Calendly - Amanda booked Medical Roll Up Call Mon Apr 27 5:30 PM. No USPTO, no Overture, no Jack/Chris.",
+    "email": 1777979406698,
+    "emailNote": "2026-05-05 07:06 ET - URGENT: SiteGround hosting expires TODAY, Rho 7552 declined $359.88. Motley Rice engaged on Medtronic/Chad case. Ricci call rescheduled today. NVG drawings for 1015-0007-PRO received. BHIP dockets May 3. Looka+MIC payments failing on Crown.",
     "calendar": 1776079797,
     "calendarNote": "2026-04-13: OAuth expired, could not check. Need to refresh.",
     "weather": null,
@@ -32,6 +32,10 @@
     "learnworlds": "2026-04-26: LearnWorlds sent FINAL NOTICE about updated billing. Escalating.",
     "capitolHillMovers": "2026-04-14: Quotes received - disassembly $200, reassembly $240, full package $650.",
     "ricciArguments": "2026-04-26: Ricci sent arguments doc for 1009-0002 (law enforcement vehicles). Highlighted strongest in green, own thoughts in blue. Mentions Mobileye. Kimani followed up asking if he wants to proceed (Jul 21 deadline).",
-    "amandaRollUp": "2026-04-26: Amanda booked Medical Roll Up Call - Mon Apr 27 5:30 PM via Calendly."
+    "amandaRollUp": "2026-04-26: Amanda booked Medical Roll Up Call - Mon Apr 27 5:30 PM via Calendly.",
+    "siteGround": "2026-05-05: Hosting expires TODAY. Last billing attempt failed. Manual renewal needed ASAP.",
+    "motleyRice": "2026-05-05: Morgan Schmidt requested HVAD articles. Kimani replied with ProPublica+Rolling Stone links. Legal team reviewing.",
+    "ricciCall": "2026-05-05: Call rescheduled today ~5pm. Kimani has dentist at 3pm. Ricci confirmed OK.",
+    "nvgCube": "2026-05-05: Drawings for 1015-0007-PRO delivered. Prosecution Manager confirmed receipt."
   }
 }

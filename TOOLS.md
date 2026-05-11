@@ -20,6 +20,10 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **kimani@kimaniclark.com** — Personal email (primary inbox)
 - **kimani@modernowner.co** — The Modern Owner business email
 - **kimani@crownacquisitions.co** — Crown Acquisitions business email
+- **assistant@crownacquisitions.co** — Tron's Crown Acquisitions email (alias) ✅ NEW
+- **manager@crownacquisitions.co** — Kristell's Crown Acquisitions email ✅ NEW
+- **info@crownacquisitions.co** — General inquiries → Kimani + Kristell (Google Group) ✅ NEW
+- **admin@crownacquisitions.co** — Administrative requests → Kimani + Kristell (Google Group) ✅ NEW
 - **kimani@kiklisclark.com** — Kiklis Clark law firm email ✅ NEW
 - **assistant@kiklisclark.com** — Tron's sending address (alias) ✅ ACTIVE
 - **admin@kimaniclark.com** — Newsletters/logins (alias)
