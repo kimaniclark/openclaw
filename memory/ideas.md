@@ -27,6 +27,9 @@
 ## Social & Recreation
 - **Yacht charter with Michael Chasen** — Go out on yacht charter with Michael Chasen via Below Deck DC (https://www.belowdeckdc.com). 74' Sunseeker yacht, up to 13 passengers day charter, 4/6/8 hour options. *(2026-05-07)*
 
+## Kitchen & Food Tech
+- **Cheffy E.G.O.R. breakfast robot** — Automatic egg cracking and cooking robot (https://www.cheffy.ai). Cooks eggs 7 ways, timer/scheduling, dishwasher safe, cracks up to 2 or boils up to 6 eggs. Patent-pending shell-cracking tech. Launching soon. *(2026-05-12)*
+
 ## Health & Wellness - Personal
 - **In-home flexologist like Stretch Lab** — Get professional assisted stretching services at home. *(2026-04-17)*
 
