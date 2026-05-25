@@ -1,15 +1,16 @@
 {
   "lastChecks": {
-    "email": 1777979406698,
-    "emailNote": "2026-05-05 07:06 ET - URGENT: SiteGround hosting expires TODAY, Rho 7552 declined $359.88. Motley Rice engaged on Medtronic/Chad case. Ricci call rescheduled today. NVG drawings for 1015-0007-PRO received. BHIP dockets May 3. Looka+MIC payments failing on Crown.",
-    "calendar": 1776079797,
-    "calendarNote": "2026-04-13: OAuth expired, could not check. Need to refresh.",
-    "weather": null,
+    "email": 1779536340974,
+    "emailNote": "2026-05-23 07:35 ET - Personal: 18 unread. Brian Carey/Lesley Moss referral thread (FL clients). PRIME payment requests x3. BarterSaves no appliance repair. CircleCo cancelled. Law firm: Overture IP/speech referral + trademark litigation referral (time-sensitive). Allison Kunk $7,500 payment. DC Bar renewal reminder. No USPTO correspondence.",
+    "calendar": 1779554814812,
+    "calendarNote": "2026-05-23 12:46 ET - OAuth refreshed, calendar working. Only event next 48h: DC Area Philosopher book club (Sun evening). Clear Saturday.",
+    "weather": 1779554814812,
     "twilioA2P": 1776839760,
     "twilioA2PStatus": "Still FAILED. Same CTA rejection 30909. No change since Feb 2.",
     "twilioA2PNextCheck": "2026-04-27",
     "ebay": 1777212053,
-    "ebayNote": "2026-04-26 10:00 ET - 3 active listings (unchanged). Treadmill $299 19views/0watchers 4d left. NS600 $399 88views/4watchers 28d left. Calf Raise $150 31views/0watchers 29d left. Total $848. No new buyer messages. 6 unread all eBay system. eBay suggesting send offers on 1 listing (likely NS600 with watchers)."
+    "ebayNote": "2026-04-26 10:00 ET - 3 active listings (unchanged). Treadmill $299 19views/0watchers 4d left. NS600 $399 88views/4watchers 28d left. Calf Raise $150 31views/0watchers 29d left. Total $848. No new buyer messages. 6 unread all eBay system. eBay suggesting send offers on 1 listing (likely NS600 with watchers).",
+    "weatherNote": "2026-05-23 12:46 ET - DC: 55°F, light rain/mist all day. Not great outdoor weather."
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
@@ -36,6 +37,12 @@
     "siteGround": "2026-05-05: Hosting expires TODAY. Last billing attempt failed. Manual renewal needed ASAP.",
     "motleyRice": "2026-05-05: Morgan Schmidt requested HVAD articles. Kimani replied with ProPublica+Rolling Stone links. Legal team reviewing.",
     "ricciCall": "2026-05-05: Call rescheduled today ~5pm. Kimani has dentist at 3pm. Ricci confirmed OK.",
-    "nvgCube": "2026-05-05: Drawings for 1015-0007-PRO delivered. Prosecution Manager confirmed receipt."
+    "nvgCube": "2026-05-05: Drawings for 1015-0007-PRO delivered. Prosecution Manager confirmed receipt.",
+    "overtureIP": "2026-05-22: IP/Online Speech referral from Samar Shah. Embroidery group free speech issue.",
+    "overtureTrademark": "2026-05-22: Trademark litigation referral from Benjamin Walsh. MD District Court. Time-sensitive.",
+    "allisonKunk": "2026-05-22: $7,500 payment received via 8am/AffiniPay.",
+    "dcBarRenewal": "2026-05-23: DC Bar license renewal reminder received.",
+    "barterSaves": "2026-05-22: No appliance repair available. Dead end for washing machine.",
+    "circleCo": "2026-05-21: Account cancelled after failed $129 payment."
   }
 }
