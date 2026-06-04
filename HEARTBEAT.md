@@ -2,6 +2,15 @@
 
 ## Active Monitoring
 
+### Withings Sleep Mat Support Response
+**Issue:** Sleep mat stopped working May 9, 2026
+**Contact made:** Chat support said they would email back
+**Monitor:** admin@kimaniclark.com for response from Withings
+**Alert:** #health channel when Withings responds with solution
+**Impact:** Sleep debt tracking unavailable until mat reactivated
+
+Remove this section once mat is working again.
+
 
 
 ## Active Monitoring
@@ -195,6 +204,15 @@ Update `life-dashboard.html` fitness section with new data and reset the week ra
 2. **DeleteMe report** around April 7, 2026 — alert when received
 
 Remove this section once first report received.
+
+### OpenAI Realtime API Migration ⚠️ THURSDAY MAY 29
+**Reminder:** Follow up on upgrading voice server from deprecated beta to GPT-Realtime-2
+- Beta API was removed May 12 — migration is mandatory
+- Need to check ~/voice-server/ code and update to GA Realtime API
+- Benefits: GPT-5-class reasoning, 128K context, 69%→95% call success rates
+- Set by Kimani on May 26, 2026
+
+Remove this section once migration is complete.
 
 ### TCPA Attorney Research (When web access available)
 Research TCPA attorneys for spam call/text lawsuits when Brave Search API is configured:
