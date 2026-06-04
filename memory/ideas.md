@@ -9,7 +9,6 @@
 - **Train online with Dorian Yates** — Online training with 6-time Mr. Olympia. https://dyacademy.co.uk *(2026-04-12)*
 
 ## Business Strategy
-- **Use Bryan Steiner's Capital as CFE client bridge** — Use Bryan Steiner's Capital as a bridge for CFE clients who aren't profitable enough in the beginning. *(2026-04-12)*
 - **Get lifeconcierge.ai domain name** — Acquire lifeconcierge.ai domain for Life Concierge business. *(2026-04-15)*
 
 ## Beauty & Aesthetics Tools
@@ -56,8 +55,7 @@
 - Could inspire our own ambient AI features
 - Partnership opportunity for home concierge services?
 
-## Personal Entertainment & Activities
-- **Weekly new restaurant with Beli app** — https://apps.apple.com/app/id1478375386 — Use Beli to discover and try a new restaurant each week. *(2026-04-13)*
+
 
 ## Communications Infrastructure
 - **Evaluate Telnyx as Twilio alternative** — Research Telnyx for voice calling (30-50% cheaper, sub-200ms latency, owns full stack). Key question: Does it support dynamic per-call prompting like our current voice server setup? Two paths: LiveKit on Telnyx (new beta) vs Telnyx WebSocket streaming. *(2026-05-06)*
