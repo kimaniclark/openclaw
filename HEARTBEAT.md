@@ -27,14 +27,19 @@ Remove this section once mat is working again.
 
 This section can be archived.
 
-### EMAIL LU MALENGI - Continuation-in-Part (CIP) ⏰ TUESDAY APRIL 29
-**Reminder:** Email Lu Malengi about continuation-in-part off Clipboard Nation matter
-**Parent Matter:** 3021-0003 (18/534,782) — Clipboard Nation 
-**New CIP Matter:** 3021-0004
-**Contact:** Lumo@clipboardnation.com
-**Set by:** Kimani on April 23, 2026
+### 📋 WEEKLY TASK PROCESSING - Every Tuesday
+**Routine:** Launchpad → Motion processing (30 mins)
+**Goal:** Prevent task backlog accumulation
+**Steps:**
+1. Urgent items (5 min) - Time-sensitive to Motion immediately
+2. Email/communication sweep (10 min) - All 5 sources
+3. Batch process remaining (15 min) - Motion/capture list triage  
+4. Clean slate (5 min) - Clear launchpad, verify Motion schedule
 
-Remove this section once email sent.
+**Success:** Launchpad <5 items, no overdue Motion tasks
+**⚠️ Critical:** This prevents another 72-item backlog situation
+
+Remove if process becomes automated.
 
 ### NEW: USPTO OA — 18/776,642 (1009-0002) ⚠️ RECEIVED APRIL 21
 **Application:** 18/776,642 (docket 1009-0002)
@@ -65,12 +70,7 @@ Patent applications due today and Friday. Payment confirmed - removing from acti
 - Analytics showing wardrobe breakdown by brand/color/category
 - Integrated into Life Dashboard as premium product prototype
 
-### Craigslist Inquiries - Gym Equipment
-Check admin@kimaniclark.com for Craigslist responses about:
-- **NS600 + NS75X** ($999): washingtondc.craigslist.org/doc/spo/d/washington-nautilus-ns600-complete-home/7917601087.html
-- **VKR Station** ($450): washingtondc.craigslist.org/doc/spo/d/washington-nautilus-commercial-vkr/7917607548.html
 
-Alert Kimani in #home when inquiries come in.
 
 ### Jack Response - George's Foreign Auto Service ⚠️ NEW
 **Email sent to:** Jack at George's Foreign Auto Service
@@ -205,14 +205,9 @@ Update `life-dashboard.html` fitness section with new data and reset the week ra
 
 Remove this section once first report received.
 
-### OpenAI Realtime API Migration ⚠️ THURSDAY MAY 29
-**Reminder:** Follow up on upgrading voice server from deprecated beta to GPT-Realtime-2
-- Beta API was removed May 12 — migration is mandatory
-- Need to check ~/voice-server/ code and update to GA Realtime API
-- Benefits: GPT-5-class reasoning, 128K context, 69%→95% call success rates
-- Set by Kimani on May 26, 2026
-
-Remove this section once migration is complete.
+### OpenAI Realtime API Migration ✅ COMPLETE
+**Migrated:** June 4, 2026 — server-realtime.js updated to `gpt-4o-mini-realtime-preview-2025-06-03` (GA)
+Remove this section on next cleanup.
 
 ### TCPA Attorney Research (When web access available)
 Research TCPA attorneys for spam call/text lawsuits when Brave Search API is configured:

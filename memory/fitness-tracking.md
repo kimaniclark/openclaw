@@ -1,13 +1,16 @@
 # Fitness Tracking
 
-## Current Stats (May 1, 2026)
-- **Weight:** 195.2 lb (gaining)
-- **Body Fat:** 16.2%
-- **Muscle:** 79.7%
+## Current Stats (Jun 4, 2026)
+- **Weight:** 195.7 lb (stable)
+- **Body Fat:** 16.3%
+- **Muscle:** 79.5%
+- **Status:** Gaining Muscle + Stable Weight
 
 ### History
 | Date | Weight | Body Fat | Muscle | Trend |
 |------|--------|----------|--------|-------|
+| Jun 4 | 195.7 lb | 16.3% | 79.5% | Gaining Muscle |
+| Jun 3 | 197.1 lb | 17.7% | 78.2% | Gaining Muscle |
 | May 1 | 195.2 lb | 16.2% | 79.7% | Gaining Weight |
 | Apr 22 | 191.5 lb | 18.4% | - | Losing Weight |
 | Mar 29 | 193.2 lb | 19.8% | - | Gaining Weight |
@@ -45,8 +48,9 @@
 - Week of Apr 6-12: Working Out 1/2, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 13-19: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 20-26: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
-- Current week (Apr 27 - May 3): 
-  - Working Out: 2/2 ✓ (Fri + Sun)
+- Week of Apr 27 - May 3: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
+- Current week (Jun 2-8): 
+  - Working Out: 2/2 ✓ GOAL HIT
   - Running: 0/2
   - Jiu Jitsu: 0/2
 
