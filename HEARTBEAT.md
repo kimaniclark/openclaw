@@ -2,6 +2,24 @@
 
 ## Active Monitoring
 
+### Happy Kiddos CFE Call Setup ⚠️ NEW
+**Brian Carey Action:** Either book on Kimani's calendar OR email about Happy Kiddos schedule
+**Monitor:** kimani@kimaniclark.com for calendar booking or email from Brian
+**Josh Aguilar Response:** Whether he wants to join the first call
+**If Josh says YES:** Book on his calendar: https://link.infiniteventurestx.com/widget/bookings/iv-discoverycall-30
+**Alert:** #crown-acquisitions when either happens
+
+Remove this section once Happy Kiddos call is scheduled.
+
+### GI Haul CFE Call Coordination ⚠️ NEW  
+**Monitor:** GI Haul schedule availability
+**Cross-check:** Kimani + GI Haul + Dolores availability
+**Dolores Calendar:** https://calendly.com/dh--8/meeting-with-dolores-60?back=1&month=2026-06
+**Action:** Report time options to Kimani (he'll book when ready)
+**Alert:** #crown-acquisitions with coordinated availability
+
+Remove this section once GI Haul call is scheduled.
+
 ### Withings Sleep Mat Support Response
 **Issue:** Sleep mat stopped working May 9, 2026
 **Contact made:** Chat support said they would email back
