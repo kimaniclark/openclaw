@@ -20,14 +20,13 @@ Remove this section once Happy Kiddos call is scheduled.
 
 Remove this section once GI Haul call is scheduled.
 
-### Withings Sleep Mat Support Response
-**Issue:** Sleep mat stopped working May 9, 2026
-**Contact made:** Chat support said they would email back
-**Monitor:** admin@kimaniclark.com for response from Withings
-**Alert:** #health channel when Withings responds with solution
-**Impact:** Sleep debt tracking unavailable until mat reactivated
+### Withings Sleep Mat — ORDERED ✅ (Check-in June 26)
+**Ordered:** June 16, 2026 (30% discount coupon applied)
+**Natalia notified:** Yes — email sent to watch for package
+**Check-in date:** June 26, 2026 — ask Kimani if it arrived
+**Alert:** #health when mat is set up and tracking resumes
 
-Remove this section once mat is working again.
+Remove this section once mat is set up and working.
 
 
 
