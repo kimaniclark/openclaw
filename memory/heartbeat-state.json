@@ -1,9 +1,9 @@
 {
   "lastChecks": {
-    "email": 1781467414268,
-    "emailNote": "2026-06-14 16:03 ET - No new unread across personal or law firm. Silver Lyan cancellation still only unread (old).",
-    "calendar": 1781349177564,
-    "calendarNote": "2026-06-13 07:10 ET - Silver Lyan tonight 7:45pm. Mon: 2pm Brian/Mike/Dave, 3pm Peter Anderson, 3:30pm Brad Powers. Tue: 12pm Brian/Uday.",
+    "email": 1750378380000,
+    "emailNote": "2026-06-19 20:13 ET - Personal: newsletters only (O.U.R., ZBiotics, Bookclubs, The Coop). Law firm: clear. Crown: 2 Dolores marketing emails (AI4BIZ Bootcamp promo, not deal-related). Nothing actionable.",
+    "calendar": 1750348620000,
+    "calendarNote": "2026-06-19 12:57 ET - No events today or tomorrow.",
     "weather": 1781471652161,
     "twilioA2P": 1776839760,
     "twilioA2PStatus": "Still FAILED. Same CTA rejection 30909. No change since Feb 2.",
@@ -20,7 +20,7 @@
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
     "clipboardNation": "2026-04-22: Lu sent detailed enhancement email (motion tracking, play detection). Engaged.",
     "chrisCresswell": "2026-04-05: Kristell followed up on Archivox non-pro. Chris hasn't responded to $19.5K estimate since Mar 28.",
-    "overture": "2026-04-09: Aja Hashian 'sneak peek for founding members' — not a referral.",
+    "overture": "2026-04-09: Aja Hashian 'sneak peek for founding members' \u2014 not a referral.",
     "bhipDocket": "2026-05-25: Pending Docketing Report 05/24 + Completed Report week preceding 05/25 received. Need to review.",
     "luClipboard": "RESOLVED - Lu engaged. Booked calls. DEADLINE TODAY Apr 20.",
     "deleteme": "2026-04-14: DeleteMe \"Your Information Is Being Removed\" Apr 13. No action needed.",
@@ -76,6 +76,23 @@
     "overtureReferralBankruptcy": "2026-06-13: Lynn Tarpy responded with full credentials, doc checklist for Bart Potter. Ball in Bart court. Awaiting retention.",
     "rachaelScheduling": "2026-06-12: Mon Jun 15 2pm meeting with Brian, Mike, Dave scheduled. George Parks (gcparks06@gmail.com) needs adding. Also Brad Powers 3:30pm Mon, Uday 12pm Tue.",
     "silverLyan": "2026-06-13: Reservation cancelled at 4:20pm. Alerted Kimani to confirm intentional.",
-    "withingsUpdate": "2026-06-12: John Carlo confirmed 30% coupon SAV30WSM026A2BBB097C74C works on new Sleep device (latest gen). Instructions provided. Kimani accepted. Already alerted #health."
-  }
+    "withingsUpdate": "2026-06-12: John Carlo confirmed 30% coupon SAV30WSM026A2BBB097C74C works on new Sleep device (latest gen). Instructions provided. Kimani accepted. Already alerted #health.",
+    "brianCancellations": "2026-06-16: Both Brian Carey meetings cancelled (11am Ethan Lefever, 12pm Uday). No reschedule yet.",
+    "amandaBellerby": "2026-06-16: Amanda rebooked 6pm then cancelled again ~9:45pm Jun 15. Two cancellations now.",
+    "googleWorkspaceFail": "2026-06-16: Payment failed for Google Workspace Business Starter - innovatingpatents.com. Alerted #general-personal.",
+    "giHaulMeeting": "2026-06-16: GI Haul meeting happened Jun 15 (Mike + brother Dave + Kimani). Mike sent follow-up email. Dolores also involved. CFE call item may be closeable.",
+    "rachaelReschedule": "2026-06-16: RESOLVED. Brian & Don booked Tue Jun 23 1pm (45 min).",
+    "ricciMeeting": "2026-06-18: CANCELLED via Calendly. 1009-0002 OA deadline Jul 21 still active. No reschedule.",
+    "brianDonMeeting": "2026-06-16: Brian Carey booked Tue Jun 23 1pm with new guest Don (franchisebuildingexpert.com). Replaces cancelled Ethan/Uday meetings.",
+    "brianJun23": "2026-06-16: Two meetings Tue Jun 23 \u2014 11am Brian+Nandor Veres, 1pm Brian+Don (franchise). Brian building pipeline.",
+    "overtureJun16": "2026-06-16: 3 new Overture referrals \u2014 Carmack shipping claim (CA), NYC tax dispute, TX probate. None patent-related. No action.",
+    "happyKiddos": "2026-06-18: Brian Carey introduced Ramon Ferrer (Happy Kiddos Orlando). Meeting proposed Fri or Mon. Kimani sent scheduling link. Alerted #crown-acquisitions.",
+    "briannaVoelker": "2026-06-18: Malpractice referral names from rsmdlaw.com for Kimani brother case. They declined but provided alternatives.",
+    "vsbRenewal": "2026-06-18: Virginia State Bar 2026-2027 annual dues available. Alerted #law-company.",
+    "usptoODPRegistration": "2026-06-18: USPTO Open Data Portal now requires registration for API access. Starting Jun 18. Alerted #law-company. Need to register to maintain monitoring.",
+    "roopSoodZoom": "2026-06-18: Kimani joined 30min Zoom with Roop S Sood at 11:30am.",
+    "roopSood": "2026-06-18: 30min meeting happened at 11:30am. Grain recorded summary.",
+    "toddMathews": "2026-06-18: Todd Mathews (tmathews@baileyglasser.com) booked 15min meeting Thu Jun 25 5:30pm via Calendly."
+  },
+  "pendingActions": {}
 }

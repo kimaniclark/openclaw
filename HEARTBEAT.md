@@ -2,12 +2,12 @@
 
 ## Active Monitoring
 
-### Happy Kiddos CFE Call Setup ⚠️ NEW
-**Brian Carey Action:** Either book on Kimani's calendar OR email about Happy Kiddos schedule
-**Monitor:** kimani@kimaniclark.com for calendar booking or email from Brian
+### Happy Kiddos CFE Call Setup ⚠️ SCHEDULING LINK SENT
+**Status:** Kimani replied June 17 with cal.link/kimaniclark — Ramon (Happy Kiddos owner) needs to book.
+**Monitor:** kimani@kimaniclark.com for Calendly booking from Ramon Ferrer (ramonfabian1@icloud.com)
 **Josh Aguilar Response:** Whether he wants to join the first call
 **If Josh says YES:** Book on his calendar: https://link.infiniteventurestx.com/widget/bookings/iv-discoverycall-30
-**Alert:** #crown-acquisitions when either happens
+**Alert:** #crown-acquisitions when booking happens
 
 Remove this section once Happy Kiddos call is scheduled.
 
