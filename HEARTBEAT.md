@@ -24,18 +24,14 @@ Remove this section only if Kiss Models gets its own dedicated agent.
 
 Remove this section on next cleanup.
 
-### Yaryk Huryn — Mother Agency Contract ⚠️ AUTO-SEND
-**Monitor:** info@kissmodelmanagement.com for reply from y.huryn.business@gmail.com
-**Thread:** Re: Form Submission - Application (threadId: 19f009f3e0bf4ec5)
-**Waiting for:** Yaryk to reply with his Full Name
-**On reply:** Automatically send Mother Agency Agreement via SignWell API
-  - Template ID: dd6463e3-3b42-4f35-b3a3-ebe446eeaccc
-  - Model placeholder → Yaryk's full name + y.huryn.business@gmail.com
-  - Victoria placeholder → victoria@kissmodelmanagement.com
-**Alert:** #ai-model-applications when he responds AND when contract is sent
-**No approval needed** — send automatically per Kimani's instruction
+### Yaryk Huryn — Mother Agency Contract ✅ SENT
+**Completed:** July 2, 2026
+**Full Name:** Yaryk Huryn
+**SignWell Doc ID:** 86bbab19-49a2-42a1-b906-28993570c972
+**Sent to:** y.huryn.business@gmail.com + victoria@kissmodelmanagement.com
+**Alerted:** #ai-model-applications (Slack) + #modeling-agency (Discord)
 
-Remove this section once contract is sent.
+Remove this section on next cleanup.
 
 ### Happy Kiddos CFE Call Setup ⚠️ SCHEDULING LINK SENT
 **Status:** Kimani replied June 17 with cal.link/kimaniclark — Ramon (Happy Kiddos owner) needs to book.
