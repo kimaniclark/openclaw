@@ -2,6 +2,41 @@
 
 ## Active Monitoring
 
+### Kiss Models Email — Daily Monitor ⚠️ ACTIVE
+**Check:** info@kissmodelmanagement.com each morning
+**Watch for:**
+- New casting inquiries from Stephen Mitchell or other clients
+- New model applications (Squarespace form submissions)
+- Replies from Yaryk Huryn or Suji Helmer
+- Anything Victoria needs help actioning
+**Alert:** Post to relevant #ai- channel in Kiss Models Slack + alert Kimani in #modeling-agency on Discord if urgent
+**Note:** Victoria is new to working with AI — be patient, clear, and guide her on what info I need
+**Slack channels:** #ai-model-applications (C0BEM8R079Q), #ai-client-inquiry (C0BER2FBMPW), #ai-marketing (C0BE5F6EECF)
+
+Remove this section only if Kiss Models gets its own dedicated agent.
+
+### Suji Helmer — Non-Exclusive Contract ✅ SENT
+**Completed:** July 2, 2026
+**Full Name:** Kimberly Suji Woodill
+**SignWell Doc ID:** e75a9556-25ad-4ec8-8954-162b0d929677
+**Sent to:** suji@whitehallfarm.us + victoria@kissmodelmanagement.com
+**Alerted:** #ai-model-applications (Slack) + #modeling-agency (Discord)
+
+Remove this section on next cleanup.
+
+### Yaryk Huryn — Mother Agency Contract ⚠️ AUTO-SEND
+**Monitor:** info@kissmodelmanagement.com for reply from y.huryn.business@gmail.com
+**Thread:** Re: Form Submission - Application (threadId: 19f009f3e0bf4ec5)
+**Waiting for:** Yaryk to reply with his Full Name
+**On reply:** Automatically send Mother Agency Agreement via SignWell API
+  - Template ID: dd6463e3-3b42-4f35-b3a3-ebe446eeaccc
+  - Model placeholder → Yaryk's full name + y.huryn.business@gmail.com
+  - Victoria placeholder → victoria@kissmodelmanagement.com
+**Alert:** #ai-model-applications when he responds AND when contract is sent
+**No approval needed** — send automatically per Kimani's instruction
+
+Remove this section once contract is sent.
+
 ### Happy Kiddos CFE Call Setup ⚠️ SCHEDULING LINK SENT
 **Status:** Kimani replied June 17 with cal.link/kimaniclark — Ramon (Happy Kiddos owner) needs to book.
 **Monitor:** kimani@kimaniclark.com for Calendly booking from Ramon Ferrer (ramonfabian1@icloud.com)

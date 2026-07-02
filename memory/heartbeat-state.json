@@ -1,9 +1,9 @@
 {
   "lastChecks": {
-    "email": 1750378380000,
-    "emailNote": "2026-06-19 20:13 ET - Personal: newsletters only (O.U.R., ZBiotics, Bookclubs, The Coop). Law firm: clear. Crown: 2 Dolores marketing emails (AI4BIZ Bootcamp promo, not deal-related). Nothing actionable.",
-    "calendar": 1750348620000,
-    "calendarNote": "2026-06-19 12:57 ET - No events today or tomorrow.",
+    "email": 1782997176458,
+    "emailNote": "2026-07-02 08:56 ET - SUJI REPLIED with full name (Kimberly Suji Woodill). Non-Exclusive contract AUTO-SENT via SignWell. VSB July eNews (law firm). Kimani sent filing receipts for 1015-0002-PRO through 1015-0013. Crown: Kimani sent Fast Town Daytona Beach emails. Carl's Auction spam.",
+    "calendar": 1782126942364,
+    "calendarNote": "2026-06-22 07:12 ET - Today Mon: Kimani/Gun 11:30pm. Tomorrow Tue Jun 23: Brian+Nandor 11am, Brian+Don 1pm, Amanda Bellerby Medical Roll Up 6pm.",
     "weather": 1781471652161,
     "twilioA2P": 1776839760,
     "twilioA2PStatus": "Still FAILED. Same CTA rejection 30909. No change since Feb 2.",
@@ -11,8 +11,8 @@
     "ebay": 1777212053,
     "ebayNote": "2026-04-26 10:00 ET - 3 active listings (unchanged). Treadmill $299 19views/0watchers 4d left. NS600 $399 88views/4watchers 28d left. Calf Raise $150 31views/0watchers 29d left. Total $848. No new buyer messages. 6 unread all eBay system. eBay suggesting send offers on 1 listing (likely NS600 with watchers).",
     "weatherNote": "2026-06-14 17:13 ET - DC: 92F overcast. Tomorrow: 81F high, cooler week ahead.",
-    "relationshipMaintenance": 1781441532947,
-    "relationshipMaintenanceNote": "2026-06-14 08:47 ET - Posted to #social: Jamel Davenport (overdue quarterly x2 weeks), Michael Aquilino (overdue quarterly), Donnie Naghdi (Good Friend rotation).",
+    "relationshipMaintenance": 1782126942364,
+    "relationshipMaintenanceNote": "2026-06-22 07:12 ET - Posted to #social: Irene Bremis (Good Friend), Jessie Rhinesmith (Good Friend), Becky (Feel Good).",
     "visionPurpose": 1781471652161,
     "visionPurposeNote": "2026-06-14 17:13 ET - Posted weekly check-in to #vision-purpose. Asked for 3 outcomes. Highlighted packed Monday schedule."
   },
@@ -20,7 +20,7 @@
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
     "clipboardNation": "2026-04-22: Lu sent detailed enhancement email (motion tracking, play detection). Engaged.",
     "chrisCresswell": "2026-04-05: Kristell followed up on Archivox non-pro. Chris hasn't responded to $19.5K estimate since Mar 28.",
-    "overture": "2026-04-09: Aja Hashian 'sneak peek for founding members' \u2014 not a referral.",
+    "overture": "2026-04-09: Aja Hashian 'sneak peek for founding members' — not a referral.",
     "bhipDocket": "2026-05-25: Pending Docketing Report 05/24 + Completed Report week preceding 05/25 received. Need to review.",
     "luClipboard": "RESOLVED - Lu engaged. Booked calls. DEADLINE TODAY Apr 20.",
     "deleteme": "2026-04-14: DeleteMe \"Your Information Is Being Removed\" Apr 13. No action needed.",
@@ -84,15 +84,21 @@
     "rachaelReschedule": "2026-06-16: RESOLVED. Brian & Don booked Tue Jun 23 1pm (45 min).",
     "ricciMeeting": "2026-06-18: CANCELLED via Calendly. 1009-0002 OA deadline Jul 21 still active. No reschedule.",
     "brianDonMeeting": "2026-06-16: Brian Carey booked Tue Jun 23 1pm with new guest Don (franchisebuildingexpert.com). Replaces cancelled Ethan/Uday meetings.",
-    "brianJun23": "2026-06-16: Two meetings Tue Jun 23 \u2014 11am Brian+Nandor Veres, 1pm Brian+Don (franchise). Brian building pipeline.",
-    "overtureJun16": "2026-06-16: 3 new Overture referrals \u2014 Carmack shipping claim (CA), NYC tax dispute, TX probate. None patent-related. No action.",
+    "brianJun23": "2026-06-16: Two meetings Tue Jun 23 — 11am Brian+Nandor Veres, 1pm Brian+Don (franchise). Brian building pipeline.",
+    "overtureJun16": "2026-06-16: 3 new Overture referrals — Carmack shipping claim (CA), NYC tax dispute, TX probate. None patent-related. No action.",
     "happyKiddos": "2026-06-18: Brian Carey introduced Ramon Ferrer (Happy Kiddos Orlando). Meeting proposed Fri or Mon. Kimani sent scheduling link. Alerted #crown-acquisitions.",
     "briannaVoelker": "2026-06-18: Malpractice referral names from rsmdlaw.com for Kimani brother case. They declined but provided alternatives.",
     "vsbRenewal": "2026-06-18: Virginia State Bar 2026-2027 annual dues available. Alerted #law-company.",
     "usptoODPRegistration": "2026-06-18: USPTO Open Data Portal now requires registration for API access. Starting Jun 18. Alerted #law-company. Need to register to maintain monitoring.",
     "roopSoodZoom": "2026-06-18: Kimani joined 30min Zoom with Roop S Sood at 11:30am.",
     "roopSood": "2026-06-18: 30min meeting happened at 11:30am. Grain recorded summary.",
-    "toddMathews": "2026-06-18: Todd Mathews (tmathews@baileyglasser.com) booked 15min meeting Thu Jun 25 5:30pm via Calendly."
+    "toddMathews": "2026-06-18: Todd Mathews (tmathews@baileyglasser.com) booked 15min meeting Thu Jun 25 5:30pm via Calendly.",
+    "amandaRebooked": "2026-06-22: Amanda Bellerby booked AGAIN for Tue Jun 23 6pm. Third booking after two cancellations. Alerted #crown-acquisitions.",
+    "rhoDeclinedAnthropic": "2026-06-22: Law firm Rho card declined $99.64 Anthropic Claude subscription. Alerted #law-company.",
+    "rhoDeclinedJul2": "2026-07-02: Card maxed. Motion $92.22 + 9x Google Workspace $38.16. kiklisclark.com Workspace CANCELLED.",
+    "googleWorkspaceKiklisClark": "2026-07-02: Subscription cancelled due to repeated payment failures. Services inaccessible.",
+    "alexanderIakimchuk": "2026-07-02: New Kiss Models application from Thailand. Victoria responded.",
+    "sujiContract": "2026-07-02: Suji replied 'Kimberly Suji Woodill'. Non-Exclusive contract auto-sent via SignWell (doc e75a9556). Alerted Slack + Discord."
   },
   "pendingActions": {}
 }

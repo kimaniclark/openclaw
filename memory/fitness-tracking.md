@@ -49,8 +49,9 @@
 - Week of Apr 13-19: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 20-26: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 27 - May 3: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
-- Current week (Jun 2-8): 
-  - Working Out: 2/2 ✓ GOAL HIT
+- Week of Jun 2-8: Working Out 2/2 ✓
+- Current week (Jun 30 - Jul 6): 
+  - Working Out: 1/2 ✓ (Wed done, Fri planned)
   - Running: 0/2
   - Jiu Jitsu: 0/2
 
