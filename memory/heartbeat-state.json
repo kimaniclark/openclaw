@@ -1,9 +1,9 @@
 {
   "lastChecks": {
-    "email": 1783010615970,
-    "emailNote": "2026-07-02 12:42 ET - YARYK REPLIED with full name (Yaryk Huryn). Mother Agency contract AUTO-SENT via SignWell. Also: Don Schin LinkedIn InMail to law firm, VSB July eNews. Nothing new personal/crown.",
-    "calendar": 1782126942364,
-    "calendarNote": "2026-06-22 07:12 ET - Today Mon: Kimani/Gun 11:30pm. Tomorrow Tue Jun 23: Brian+Nandor 11am, Brian+Don 1pm, Amanda Bellerby Medical Roll Up 6pm.",
+    "email": 1783253188932,
+    "emailNote": "2026-07-05 08:01 ET - Law firm: Rho declined Motion $92.22 AGAIN (card maxed), QuickBooks pricing change, Convene overdue. Personal: newsletter only. Kiss: Tsion Taddesse application (already tracked). USPTO: N572 on 18/325,585 (Jun 30, not yet alerted → alerted now).",
+    "calendar": 1783253188932,
+    "calendarNote": "2026-07-05 08:01 ET - Today: Goonies 11am. Mon: Kimani/Gun 11:30pm. Tue: Goonies 11am, Inception 1pm, Def Leppard Paris 2pm, Inception 7pm.",
     "weather": 1781471652161,
     "twilioA2P": 1776839760,
     "twilioA2PStatus": "Still FAILED. Same CTA rejection 30909. No change since Feb 2.",
@@ -11,10 +11,10 @@
     "ebay": 1777212053,
     "ebayNote": "2026-04-26 10:00 ET - 3 active listings (unchanged). Treadmill $299 19views/0watchers 4d left. NS600 $399 88views/4watchers 28d left. Calf Raise $150 31views/0watchers 29d left. Total $848. No new buyer messages. 6 unread all eBay system. eBay suggesting send offers on 1 listing (likely NS600 with watchers).",
     "weatherNote": "2026-06-14 17:13 ET - DC: 92F overcast. Tomorrow: 81F high, cooler week ahead.",
-    "relationshipMaintenance": 1782126942364,
-    "relationshipMaintenanceNote": "2026-06-22 07:12 ET - Posted to #social: Irene Bremis (Good Friend), Jessie Rhinesmith (Good Friend), Becky (Feel Good).",
-    "visionPurpose": 1781471652161,
-    "visionPurposeNote": "2026-06-14 17:13 ET - Posted weekly check-in to #vision-purpose. Asked for 3 outcomes. Highlighted packed Monday schedule."
+    "relationshipMaintenance": 1783253188932,
+    "relationshipMaintenanceNote": "2026-07-05 08:01 ET - Posted to #social: Tony Cavasilios (Social V), Bitania (Friend), Heidi Soulen (Friend).",
+    "visionPurpose": 1783253188932,
+    "visionPurposeNote": "2026-07-05 08:01 ET - Posted weekly check-in to #general-personal."
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
@@ -99,7 +99,17 @@
     "googleWorkspaceKiklisClark": "2026-07-02: Subscription cancelled due to repeated payment failures. Services inaccessible.",
     "alexanderIakimchuk": "2026-07-02: New Kiss Models application from Thailand. Victoria responded.",
     "sujiContract": "2026-07-02: Suji replied 'Kimberly Suji Woodill'. Non-Exclusive contract auto-sent via SignWell (doc e75a9556). Alerted Slack + Discord.",
-    "yarykContract": "2026-07-02: Yaryk replied 'Yaryk Huryn'. Mother Agency Agreement auto-sent via SignWell (doc 86bbab19). Alerted Slack + Discord."
+    "yarykContract": "2026-07-02: Yaryk replied 'Yaryk Huryn'. Mother Agency Agreement auto-sent via SignWell (doc 86bbab19). Alerted Slack + Discord.",
+    "cornerstoneHealthX": "2026-07-02: Kimani intro'd James (james.bhtm@gmail.com) to Cornerstone HealthX. Brian Carey cc'd, offering Rachael to schedule meeting. Monitor for scheduling.",
+    "medtronicTolling": "2026-07-02: Kimani sent executed tolling agreement to Peter (attorney). Following up.",
+    "modernOwnerWorkspace": "2026-07-04: Google Workspace Business Starter payment failed for modernowner.co. Second workspace at risk after kiklisclark.com cancelled Jul 2.",
+    "rhoDeclinedJul3": "2026-07-03: Motion $92.22 declined on law firm Rho card. Ongoing maxed card issue.",
+    "maxLanham": "2026-07-03: Confirmed Wed Jul 9 3pm call with Victoria. Zoom link sent. Model application follow-up.",
+    "tsionTaddesse": "2026-07-04: New Kiss Models application from Tsion Taddesse (Richmond VA). Victoria requested digitals.",
+    "conveneOverdue": "2026-07-04: Convene invoice INVWPM-INV67416 overdue for Kiklis and Clark. Threatens access suspension. Likely tied to Rho card being maxed.",
+    "usptoN572": "2026-07-05: N572 on 18/325,585 (A Good Walk 1002-0002) received Jun 30. Likely Notice of Abandonment. Alerted #law-company.",
+    "rhoDeclinedJul5": "2026-07-05: Motion $92.22 declined AGAIN. Card 6249 credit limit exceeded. Ongoing.",
+    "quickbooksPricing": "2026-07-05: Intuit sent pricing change notice for QuickBooks. Need to review details."
   },
   "pendingActions": {}
 }
