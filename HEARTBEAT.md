@@ -51,13 +51,7 @@ Remove this section once Happy Kiddos call is scheduled.
 
 Remove this section once GI Haul call is scheduled.
 
-### Withings Sleep Mat — ORDERED ✅ (Check-in June 26)
-**Ordered:** June 16, 2026 (30% discount coupon applied)
-**Natalia notified:** Yes — email sent to watch for package
-**Check-in date:** June 26, 2026 — ask Kimani if it arrived
-**Alert:** #health when mat is set up and tracking resumes
 
-Remove this section once mat is set up and working.
 
 
 
