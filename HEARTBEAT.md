@@ -2,8 +2,8 @@
 
 ## Active Monitoring
 
-### Kiss Models Email — Daily Monitor ⚠️ ACTIVE
-**Check:** info@kissmodelmanagement.com each morning
+### Kiss Models Email — Every 20 Minutes ⚠️ ACTIVE
+**Check:** info@kissmodelmanagement.com every 20 minutes (per Victoria's request, July 14)
 **Watch for:**
 - New casting inquiries from Stephen Mitchell or other clients
 - New model applications (Squarespace form submissions)
@@ -12,6 +12,14 @@
 **Alert:** Post to relevant #ai- channel in Kiss Models Slack + alert Kimani in #modeling-agency on Discord if urgent
 **Note:** Victoria is new to working with AI — be patient, clear, and guide her on what info I need
 **Slack channels:** #ai-model-applications (C0BEM8R079Q), #ai-client-inquiry (C0BER2FBMPW), #ai-marketing (C0BE5F6EECF)
+
+### Post-Meeting Follow-Up ⚠️ PROCESS
+**Rule:** After Victoria has a meeting with a potential model, ALWAYS ask her how it went before sending any contracts.
+**Workflow:**
+1. Track when Victoria has model meetings scheduled
+2. After the meeting → Ask Victoria in #ai-model-applications: "How did the meeting go? Should I send a contract?"
+3. Only send contract after Victoria confirms → Ask which type (mother agency vs non-exclusive)
+4. Never auto-send contracts without Victoria's green light
 
 Remove this section only if Kiss Models gets its own dedicated agent.
 
@@ -232,20 +240,26 @@ Every Sunday evening or Monday morning, review `contacts/` folder for inner circ
 **Sunday evenings**: Ask Kimani for 3 most important outcomes for the upcoming week (in #vision-purpose)
 **Every 3 weeks**: Life Wheel check-in (changed from monthly)
 
+### Nuboxx Boxing Reminder — MONDAY JULY 20 ONLY ⚠️
+Ask Kimani in #fitness: "Which day this week do you want to try Nuboxx boxing?"
+First class: $35 (BOGO). Book at: https://www.wellnessliving.com/schedule/nuboxx_fitness
+Remove this section after Monday July 20.
+
 ### Fitness Dashboard Update (Weekly) — POST TO #fitness
-Every Monday morning, ping Kimani **in #fitness channel** (not #home) for:
-1. Updated Withings stats (weight, body fat %)
+Every Monday morning, ping Kimani **in #fitness channel** with ONE message covering:
+1. Updated Withings stats (weight, body fat %) — weekly check only, not daily
 2. Which two days he plans to work out this week
 Update `life-dashboard.html` fitness section with new data and reset the week range.
 
-### DeleteMe Monitoring ✅ ACTIVE
+**Note:** Kimani will share stats weekly on Mondays. Do NOT ask for screenshots daily — too much friction. Goal: eventually automate via Withings API (Motion task due Mar 13, still pending).
+
+### DeleteMe Monitoring ✅ ONGOING (Quarterly)
 **Service:** DeleteMe privacy service (joindeleteme.com)
 **Signed up:** March 31, 2026
-**Monitor kimani@kimaniclark.com for:**
-1. **Opt-out confirmation emails** from data brokers (next 7 days) — alert Kimani to click confirm
-2. **DeleteMe report** around April 7, 2026 — alert when received
-
-Remove this section once first report received.
+**Reports arrive:** Quarterly
+**Monitor kimani@kimaniclark.com for:** DeleteMe report emails
+**Alert:** Post to **#communications** channel (NOT #general) — reduces spam calls/emails/data broker exposure
+**First report received:** ~July 2026
 
 ### OpenAI Realtime API Migration ✅ COMPLETE
 **Migrated:** June 4, 2026 — server-realtime.js updated to `gpt-4o-mini-realtime-preview-2025-06-03` (GA)

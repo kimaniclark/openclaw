@@ -12,6 +12,7 @@
 
 ## Referral History
 - **2026-02-17:** Jessica Orenstein (friend since junior high, planning Puerto Rico trip)
+- **2026-07-14:** Paul Harrity (pharrity@harrityllp.com) — group trip, 15 people, DC to Albany, October 2026
 
 ---
 *Added: 2026-02-17*

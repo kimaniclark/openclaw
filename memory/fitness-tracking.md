@@ -1,10 +1,10 @@
 # Fitness Tracking
 
-## Current Stats (Jul 3, 2026)
-- **Weight:** 194.2 lb (stable)
-- **Body Fat:** 19.9%
-- **Muscle:** 76.1%
-- **Status:** Losing Fat 🎯
+## Current Stats (Jul 6, 2026)
+- **Weight:** 194.0 lb (stable)
+- **Body Fat:** 20.6%
+- **Muscle:** 75.4%
+- **Status:** Gaining Fat ⚠️ — diet needs attention
 
 ### History
 | Date | Weight | Body Fat | Muscle | Trend |
@@ -51,8 +51,10 @@
 - Week of Apr 20-26: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
 - Week of Apr 27 - May 3: Working Out 2/2 ✓, Running 0/2, Jiu Jitsu 0/2
 - Week of Jun 2-8: Working Out 2/2 ✓
-- Current week (Jun 30 - Jul 6): 
-  - Working Out: 2/2 ✓ GOAL HIT
+- Week of Jun 30 - Jul 6: Working Out 2/2 ✓
+- Week of Jul 6-12: Working Out 0/2 (missed)
+- Current week (Jul 13-19): 
+  - Working Out: 2/2 ✓ (Tue + Fri)
   - Running: 0/2
   - Jiu Jitsu: 0/2
 

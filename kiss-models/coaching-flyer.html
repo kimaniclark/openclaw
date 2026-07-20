@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600&display=swap');
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    width: 1080px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header {
+    background: #1f2122;
+    padding: 50px 0 30px;
+    text-align: center;
+  }
+  
+  .header img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .title-banner {
+    background: #1f2122;
+    padding: 20px 0 44px;
+    text-align: center;
+  }
+  
+  .title-banner h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #c2a163;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  
+  .title-banner p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ccc;
+    margin-top: 14px;
+    letter-spacing: 2px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .image-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0;
+  }
+  
+  .image-row img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+  
+  .package-band {
+    padding: 52px 80px;
+    text-align: center;
+  }
+  
+  .package-band .pkg-label {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .package-band .pkg-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .package-band .pkg-price {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 52px;
+    margin-top: 20px;
+  }
+
+  .package-band .pkg-bundle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+  }
+
+  .package-band .pkg-note {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  
+  .band-white { background: #ffffff; }
+  .band-white .pkg-label { color: #1f2122; }
+  .band-white .pkg-desc { color: #444; }
+  .band-white .pkg-price { color: #c2a163; }
+  .band-white .pkg-bundle { color: #1f2122; }
+  
+  .band-gold { background: #c9ad85; }
+  .band-gold .pkg-label { color: #1f2122; }
+  .band-gold .pkg-desc { color: #1f2122; }
+  .band-gold .pkg-price { color: #1f2122; }
+  .band-gold .pkg-bundle { color: #1f2122; }
+  
+  .band-dark { background: #1f2122; }
+  .band-dark .pkg-label { color: #c2a163; }
+  .band-dark .pkg-desc { color: #ddd; }
+  .band-dark .pkg-price { color: #c2a163; }
+  .band-dark .pkg-note { color: #c2a163; }
+
+  .footer {
+    background: #1f2122;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #c2a163;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+
+  .divider {
+    height: 3px;
+    background: #c2a163;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header with Logo -->
+<div class="header">
+  <img src="kiss-logo-white.png" alt="KiSS">
+</div>
+
+<!-- Title -->
+<div class="title-banner">
+  <h2>Model Coaching</h2>
+  <p>Learn from a professional model with over 20 years of international experience, having worked with top agencies and brands across Europe, Asia, and the United States.</p>
+</div>
+
+<div class="divider"></div>
+
+<!-- Image Row 1 -->
+<div class="image-row">
+  <img src="flyer-photos/v1.webp" alt="">
+  <img src="flyer-photos/v2.jpg" alt="">
+  <img src="flyer-photos/v3.jpg" alt="">
+  <img src="flyer-photos/v4.webp" alt="">
+</div>
+
+<!-- Online Session - White Band -->
+<div class="package-band band-white">
+  <div class="pkg-label">Online Session</div>
+  <div class="pkg-desc">
+    A refined, one-on-one consultation designed to elevate your understanding of the modeling world. Together, we refine portfolio curation, polaroids, casting preparation, and agency strategy. Perfect for reviewing your progress, receiving personalized feedback, and strengthening your industry knowledge from anywhere.
+  </div>
+  <div class="pkg-price">$150</div>
+  <div class="pkg-bundle">Bundle of 3 sessions — $400</div>
+</div>
+
+<!-- Image Row 2 -->
+<div class="image-row">
+  <img src="flyer-photos/v5.jpg" alt="">
+  <img src="flyer-photos/v6.jpg" alt="">
+  <img src="flyer-photos/v7.png" alt="">
+  <img src="flyer-photos/v8.jpg" alt="">
+</div>
+
+<!-- In-Person Session - Gold Band -->
+<div class="package-band band-gold">
+  <div class="pkg-label">In-Person Session</div>
+  <div class="pkg-desc">
+    A premium hands-on coaching experience, tailored to perfect your runway presence, posing artistry, movement, and work with clothing and accessories. This session mirrors real industry environments — runway, castings, fittings, and camera work — to shape you into a confident, polished, high-level talent.
+  </div>
+  <div class="pkg-price">$200</div>
+  <div class="pkg-bundle">Bundle of 3 sessions — $500</div>
+</div>
+
+<!-- Image Row 3 -->
+<div class="image-row">
+  <img src="flyer-photos/v9_ada.jpg" alt="">
+  <img src="flyer-photos/v10_annafox.jpg" alt="">
+  <img src="flyer-photos/v11.jpg" alt="">
+  <img src="flyer-photos/v12.jpg" alt="">
+</div>
+
+<!-- Custom Packages - Dark Band -->
+<div class="package-band band-dark">
+  <div class="pkg-label">Custom Packages</div>
+  <div class="pkg-desc">
+    A curated blend of online and in-person sessions crafted to guide you through the complete modeling process. From mastering foundational skills to advanced runway work, photoshoots, casting performance, and Fashion Week preparation — your bespoke journey unfolds step by step, fully tailored to your ambitions.
+  </div>
+  <div class="pkg-note">Contact us for custom package pricing</div>
+</div>
+
+<!-- Footer -->
+<div class="divider"></div>
+<div class="footer">
+  <p>
+    Email: info@kissmodelmanagement.com | Office: 202-640-3560<br>
+    Web: www.kissmodelmanagement.com | Instagram: @kissmodelsus
+  </p>
+</div>
+
+</body>
+</html>

@@ -8,10 +8,10 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #f8f9fa;
+      background: #0f0f13;
       min-height: 100vh;
       padding: 2rem;
-      color: #333;
+      color: #e0e0e0;
     }
     .header {
       text-align: center;
@@ -19,110 +19,141 @@
     }
     .header h1 {
       font-size: 2.5rem;
-      color: #1a1a1a;
+      color: #fff;
       margin-bottom: 0.5rem;
+      letter-spacing: -0.5px;
     }
     .header .meta {
-      color: #666;
+      color: #888;
       font-size: 0.9rem;
     }
     .stats {
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 1.5rem;
       margin: 2rem 0;
+      flex-wrap: wrap;
     }
     .stat {
       text-align: center;
-      padding: 1rem;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      min-width: 100px;
+      padding: 1rem 1.5rem;
+      background: #1a1a24;
+      border-radius: 10px;
+      border: 1px solid #2a2a38;
+      min-width: 120px;
     }
     .stat-number {
       font-size: 2rem;
-      font-weight: bold;
-      color: #007bff;
+      font-weight: 700;
+      color: #6c63ff;
     }
     .stat-label {
-      font-size: 0.9rem;
-      color: #666;
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 0.25rem;
+    }
+    .section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #6c63ff;
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #2a2a38;
     }
     .categories {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.25rem;
       max-width: 1400px;
       margin: 0 auto;
     }
     .category {
-      background: white;
+      background: #1a1a24;
       border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.25rem;
+      border: 1px solid #2a2a38;
     }
     .category h2 {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      font-weight: 700;
       margin-bottom: 1rem;
-      color: #1a1a1a;
+      color: #fff;
       display: flex;
       align-items: center;
       gap: 0.5rem;
     }
     .idea {
-      margin-bottom: 1rem;
-      padding: 1rem;
-      background: #f8f9fa;
+      margin-bottom: 0.75rem;
+      padding: 0.85rem 1rem;
+      background: #12121a;
       border-radius: 8px;
-      border-left: 4px solid #007bff;
+      border-left: 3px solid #6c63ff;
+      transition: border-color 0.2s;
     }
     .idea:last-child { margin-bottom: 0; }
+    .idea:hover { border-left-color: #a89dff; }
     .idea-title {
       font-weight: 600;
-      color: #1a1a1a;
-      margin-bottom: 0.5rem;
+      color: #f0f0f0;
+      font-size: 0.9rem;
+      margin-bottom: 0.35rem;
     }
     .idea-desc {
-      color: #666;
-      font-size: 0.9rem;
-      line-height: 1.4;
-      margin-bottom: 0.5rem;
+      color: #888;
+      font-size: 0.82rem;
+      line-height: 1.45;
+      margin-bottom: 0.35rem;
     }
+    .idea-desc a { color: #6c63ff; text-decoration: none; }
+    .idea-desc a:hover { text-decoration: underline; }
     .idea-date {
-      font-size: 0.8rem;
-      color: #999;
+      font-size: 0.75rem;
+      color: #555;
     }
     .footer {
       text-align: center;
       margin-top: 3rem;
       padding-top: 2rem;
-      border-top: 1px solid #eee;
-      color: #666;
-      font-size: 0.9rem;
+      border-top: 1px solid #2a2a38;
+      color: #555;
+      font-size: 0.85rem;
     }
   </style>
 </head>
 <body>
   <div class="header">
     <h1>💡 Ideas Dashboard</h1>
-    <div class="meta">Captured ideas organized by life area • Last updated: June 04, 2026</div>
+    <div class="meta">Captured ideas organized by life area • Last updated: July 17, 2026</div>
   </div>
-  
+
   <div class="stats">
     <div class="stat">
       <div class="stat-number">48</div>
       <div class="stat-label">Total Ideas</div>
     </div>
     <div class="stat">
-      <div class="stat-number">11</div>
+      <div class="stat-number">13</div>
       <div class="stat-label">Categories</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3w</div>
+      <div class="stat-label">Review Cycle</div>
     </div>
   </div>
 
+  <!-- ── PERSONAL ─────────────────────────────────────────────── -->
+  <div class="section-title" style="max-width:1400px;margin-left:auto;margin-right:auto;">Personal</div>
   <div class="categories">
+
     <div class="category">
       <h2>🏥 Health</h2>
+      <div class="idea">
+        <div class="idea-title">Get rash on back of neck checked by doctor</div>
+        <div class="idea-desc">Rash on left side of back of neck needs medical evaluation.</div>
+        <div class="idea-date">2026-04-12</div>
+      </div>
       <div class="idea">
         <div class="idea-title">Puppy Yoga DC</div>
         <div class="idea-desc">Yoga class with puppies. Fun fitness/social activity.</div>
@@ -139,47 +170,85 @@
         <div class="idea-date">2026-03-06</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Get rash on back of neck checked by doctor</div>
-        <div class="idea-desc">Rash on left side of back of neck needs medical evaluation.</div>
-        <div class="idea-date">2026-04-12</div>
-      </div>
-      <div class="idea">
         <div class="idea-title">Qoves facial analysis platform</div>
-        <div class="idea-desc">AI-powered facial analysis and improvement protocol (https://www.qoves.com). $150/year for comprehensive facial biometric analysis, personalized protocol, visualizations. Non-surgical approach based on 2000+ studies.</div>
+        <div class="idea-desc">AI-powered facial analysis and improvement protocol — <a href="https://www.qoves.com" target="_blank">qoves.com</a>. $150/year, comprehensive biometric analysis, non-surgical approach based on 2000+ studies.</div>
         <div class="idea-date">2026-04-14</div>
       </div>
       <div class="idea">
         <div class="idea-title">In-home flexologist like Stretch Lab</div>
-        <div class="idea-desc">Get professional assisted stretching services at home.</div>
+        <div class="idea-desc">Professional assisted stretching services at home.</div>
         <div class="idea-date">2026-04-17</div>
       </div>
+      <div class="idea">
+        <div class="idea-title">Function Health blood tests</div>
+        <div class="idea-desc">Comprehensive testing for $365 — <a href="https://www.functionhealth.com/pricing" target="_blank">functionhealth.com</a></div>
+        <div class="idea-date">2026-03-17</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Rythm Health blood tests</div>
+        <div class="idea-desc">Comprehensive blood testing service — <a href="https://rythmhealth.com" target="_blank">rythmhealth.com</a></div>
+        <div class="idea-date">2026-03-17</div>
+      </div>
     </div>
+
     <div class="category">
       <h2>💪 Fitness</h2>
       <div class="idea">
         <div class="idea-title">Train online with Dorian Yates</div>
-        <div class="idea-desc">Online training with 6-time Mr. Olympia. https://dyacademy.co.uk</div>
+        <div class="idea-desc">Online training with 6-time Mr. Olympia — <a href="https://dyacademy.co.uk" target="_blank">dyacademy.co.uk</a></div>
         <div class="idea-date">2026-04-12</div>
       </div>
+      <div class="idea">
+        <div class="idea-title">Start yoga with Mayu Yoga online</div>
+        <div class="idea-desc">Online yoga practice.</div>
+        <div class="idea-date">2026-03-28</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Home jiu jitsu mat</div>
+        <div class="idea-desc">Flowspace Mats for training at home — <a href="https://flowspacemats.com" target="_blank">flowspacemats.com</a></div>
+        <div class="idea-date">2026-03-26</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Start drinking protein shakes</div>
+        <div class="idea-desc">Support muscle building and recovery from workouts.</div>
+        <div class="idea-date">2026-03-25</div>
+      </div>
     </div>
+
     <div class="category">
       <h2>🍽️ Food</h2>
       <div class="idea">
-        <div class="idea-title">Nutrition Solutions (nutritionsolutions.com)</div>
-        <div class="idea-desc">Meal prep/nutrition service.</div>
-        <div class="idea-date">2026-02-19</div>
-      </div>
-      <div class="idea">
         <div class="idea-title">Cheffy E.G.O.R. breakfast robot</div>
-        <div class="idea-desc">Automatic egg cracking and cooking robot (https://www.cheffy.ai). Cooks eggs 7 ways, timer/scheduling, dishwasher safe, cracks up to 2 or boils up to 6 eggs. Patent-pending shell-cracking tech. Launching soon.</div>
+        <div class="idea-desc">Automatic egg cracking and cooking robot — <a href="https://www.cheffy.ai" target="_blank">cheffy.ai</a>. Cooks eggs 7 ways, timer/scheduling, dishwasher safe. Launching soon.</div>
         <div class="idea-date">2026-05-12</div>
       </div>
+      <div class="idea">
+        <div class="idea-title">Resume Tiny Spoon Chef</div>
+        <div class="idea-desc">Meal planning/prep service — <a href="https://www.tinyspoonchef.com" target="_blank">tinyspoonchef.com</a></div>
+        <div class="idea-date">2026-03-25</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Nutrition Solutions</div>
+        <div class="idea-desc">Meal prep/nutrition service — <a href="https://nutritionsolutions.com" target="_blank">nutritionsolutions.com</a></div>
+        <div class="idea-date">2026-02-19</div>
+      </div>
     </div>
+
     <div class="category">
       <h2>🏠 Home</h2>
       <div class="idea">
+        <div class="idea-title">Replace deck fireplace table at condo</div>
+        <div class="idea-desc">Replace the fireplace table on the condo deck.</div>
+        <div class="idea-date">2026-07-17</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Sorcerics "SOL" ambient AI home system</div>
+        <div class="idea-desc">Spatial AI that auto-adjusts lighting, climate, devices. No apps or setup required — <a href="https://get.sorcerics.com" target="_blank">get.sorcerics.com</a></div>
+        <div class="idea-date">2026-04-10</div>
+      </div>
+      <div class="idea">
         <div class="idea-title">Barsys 360</div>
-        <div class="idea-desc">https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade.</div>
+        <div class="idea-desc">Automated cocktail maker. Home bar upgrade — <a href="https://barsys.com/us/product/barsys-360" target="_blank">barsys.com</a></div>
         <div class="idea-date">2026-02-23</div>
       </div>
       <div class="idea">
@@ -187,43 +256,67 @@
         <div class="idea-desc">Clearing out home gym items that won't sell.</div>
         <div class="idea-date">2026-03-13</div>
       </div>
-      <div class="idea">
-        <div class="idea-title">Sorcerics "SOL" ambient AI home system</div>
-        <div class="idea-desc">https://get.sorcerics.com/ — Spatial AI that understands context, movement, behavior. No apps, voice commands, or setup required. On-device AI - real-time responses, privacy-focused. Auto-adjusts: lighting, climate, devices based on situational awareness. Q1 2026 launch in North America.</div>
-        <div class="idea-date">2026-04-10</div>
-      </div>
     </div>
+
     <div class="category">
       <h2>🚗 Car</h2>
       <div class="idea">
         <div class="idea-title">Luxury Car Hacks Course</div>
-        <div class="idea-desc">https://exoticcarhacks.samcart.com/products/luxury-car-hacks-497/?coupon=LUXUPGRADE97</div>
+        <div class="idea-desc"><a href="https://exoticcarhacks.samcart.com/products/luxury-car-hacks-497/?coupon=LUXUPGRADE97" target="_blank">exoticcarhacks.samcart.com</a> — Use coupon LUXUPGRADE97.</div>
         <div class="idea-date">2026-04-13</div>
       </div>
     </div>
+
     <div class="category">
-      <h2>🎬 Entertainment</h2>
+      <h2>✈️ Travel & Social</h2>
       <div class="idea">
-        <div class="idea-title">Jeanette Fever Up Gift Certificate</div>
-        <div class="idea-desc">Send Fever Up gift certificate to Jeanette.</div>
-        <div class="idea-date">2026-02-07</div>
+        <div class="idea-title">Yacht charter with Michael Chasen</div>
+        <div class="idea-desc">74' Sunseeker via Below Deck DC — <a href="https://www.belowdeckdc.com" target="_blank">belowdeckdc.com</a>. Up to 13 passengers, 4/6/8 hour options.</div>
+        <div class="idea-date">2026-05-07</div>
       </div>
-    </div>
-    <div class="category">
-      <h2>✈️ Travel</h2>
       <div class="idea">
         <div class="idea-title">Private Jet Trip to Blue Vista Villa</div>
         <div class="idea-desc">Trip with Ivy and Hope.</div>
         <div class="idea-date">2026-03-12</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Yacht charter with Michael Chasen</div>
-        <div class="idea-desc">Go out on yacht charter with Michael Chasen via Below Deck DC (https://www.belowdeckdc.com). 74' Sunseeker yacht, up to 13 passengers day charter, 4/6/8 hour options.</div>
-        <div class="idea-date">2026-05-07</div>
+        <div class="idea-title">Jeanette Fever Up Gift Certificate</div>
+        <div class="idea-desc">Send Fever Up gift certificate to Jeanette.</div>
+        <div class="idea-date">2026-02-07</div>
       </div>
     </div>
+
+    <div class="category">
+      <h2>🧠 Productivity</h2>
+      <div class="idea">
+        <div class="idea-title">Weekly top 3 outcomes review</div>
+        <div class="idea-desc">At the beginning of each week, identify the 3 most important and impactful outcomes to achieve.</div>
+        <div class="idea-date">2026-03-30</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Weekly life wheel focus</div>
+        <div class="idea-desc">At the start of each week, review the life wheel and pick 3 categories to focus on (e.g., the lowest-scoring three).</div>
+        <div class="idea-date">2026-03-30</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Still Messenger — unified quiet inbox</div>
+        <div class="idea-desc">Combines iMessage, WhatsApp, Telegram, Signal, Instagram DM, Slack, Discord — no feeds, no reels — <a href="https://stillmessenger.com" target="_blank">stillmessenger.com</a>. $9.99/mo, 7-day free trial.</div>
+        <div class="idea-date">2026-07-08</div>
+      </div>
+    </div>
+
     <div class="category">
       <h2>💰 Finance</h2>
+      <div class="idea">
+        <div class="idea-title">Use Mercury for personal and business banking</div>
+        <div class="idea-desc">Switch to <a href="https://mercury.com" target="_blank">mercury.com</a> for both personal and all business banking accounts.</div>
+        <div class="idea-date">2026-07-18</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Collect deposit money from High Crown Homes</div>
+        <div class="idea-desc">Outstanding deposit to recover.</div>
+        <div class="idea-date">2026-02-27</div>
+      </div>
       <div class="idea">
         <div class="idea-title">Cancel ChatGPT subscription</div>
         <div class="idea-desc">Already have Claude via OpenClaw, likely redundant.</div>
@@ -235,78 +328,34 @@
         <div class="idea-date">2026-03-02</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Close kimaniclark7@gmail.com Account</div>
+        <div class="idea-title">Close kimaniclark7@gmail.com</div>
         <div class="idea-desc">Email consolidation.</div>
         <div class="idea-date">2026-02-07</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Change Asana Email Address</div>
+        <div class="idea-title">Change Asana email address</div>
         <div class="idea-desc">Update to restored johnnybradley876@gmail.com.</div>
         <div class="idea-date">2026-02-07</div>
       </div>
-      <div class="idea">
-        <div class="idea-title">Collect deposit money from High Crown Homes</div>
-        <div class="idea-desc">Outstanding deposit to recover.</div>
-        <div class="idea-date">2026-02-27</div>
-      </div>
     </div>
+
+  </div>
+
+  <!-- ── BUSINESS ─────────────────────────────────────────────── -->
+  <div class="section-title" style="max-width:1400px;margin-left:auto;margin-right:auto;margin-top:3rem;">Business</div>
+  <div class="categories">
+
     <div class="category">
-      <h2>📱 Communications</h2>
-      <div class="idea">
-        <div class="idea-title">DeleteMe (deleteme.com)</div>
-        <div class="idea-desc">Privacy data removal service. Removes personal info from data brokers.</div>
-        <div class="idea-date">2026-02-11</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Headline Cleaner browser extension</div>
-        <div class="idea-desc">https://headlinecleaner.com/en/browser-extension — Cleans clickbait headlines.</div>
-        <div class="idea-date">2026-02-28</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Claude browser extension</div>
-        <div class="idea-desc">https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn</div>
-        <div class="idea-date">2026-03-11</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Evaluate Telnyx as Twilio alternative</div>
-        <div class="idea-desc">Research Telnyx for voice calling (30-50% cheaper, sub-200ms latency, owns full stack). Key question: Does it support dynamic per-call prompting like our current voice server setup? Two paths: LiveKit on Telnyx (new beta) vs Telnyx WebSocket streaming.</div>
-        <div class="idea-date">2026-05-06</div>
-      </div>
-    </div>
-    <div class="category">
-      <h2>🔧 Miscellaneous</h2>
-      <div class="idea">
-        <div class="idea-title">Civil Rights Lawyer Archive</div>
-        <div class="idea-desc">American Archive historical interview about NAACP Legal Defense Fund.</div>
-        <div class="idea-date">2026-02-07</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Website Design Process (YouTube)</div>
-        <div class="idea-desc">"Stealing $10K Website Designs with Claude Code" https://youtu.be/AaO6ujcx6TY</div>
-        <div class="idea-date">2026-02-11</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Danielle's Mail and Papers Folder</div>
-        <div class="idea-desc">Google Drive organization project.</div>
-        <div class="idea-date">2026-02-07</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Instagram Plus concept</div>
-        <div class="idea-desc">Premium Instagram experience idea (link was broken).</div>
-        <div class="idea-date">2026-05-06</div>
-      </div>
-      <div class="idea">
-        <div class="idea-title">Zenzap team communication platform</div>
-        <div class="idea-desc">Alternative to Slack with better task management, simpler pricing (https://www.zenzap.co). Features: built-in tasks, file organization, SOC2/GDPR compliance on all plans, mobile-first. Pricing starts free, Pro $3/user/month.</div>
-        <div class="idea-date">2026-04-18</div>
-      </div>
-    </div>
-    <div class="category">
-      <h2>💼 Business Ideas</h2>
+      <h2>⚖️ Law Company</h2>
       <div class="idea">
         <div class="idea-title">Law Firm Platform Model</div>
-        <div class="idea-desc">Transform into platform where attorneys bring their own work. Revenue: % of attorney billings (passive income). Target: attorneys who want their own book but don't want to start a firm.</div>
+        <div class="idea-desc">Transform into platform where attorneys bring their own work. Revenue: % of attorney billings. Target: attorneys who want their own book but not the overhead.</div>
         <div class="idea-date">2026-03-12</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Potential law firm name: Sentinel</div>
+        <div class="idea-desc">Alternative name for law firm branding.</div>
+        <div class="idea-date">2026-05-02</div>
       </div>
       <div class="idea">
         <div class="idea-title">Patent Prosecution Software on Base44</div>
@@ -315,18 +364,27 @@
       </div>
       <div class="idea">
         <div class="idea-title">Try fearn.ai for patent drawings</div>
-        <div class="idea-desc">https://fearn.ai/ — AI patent drafting platform.</div>
+        <div class="idea-desc">AI patent drafting platform — <a href="https://fearn.ai" target="_blank">fearn.ai</a></div>
         <div class="idea-date">2026-03-11</div>
       </div>
+    </div>
+
+    <div class="category">
+      <h2>🏢 Crown Acquisitions</h2>
       <div class="idea">
-        <div class="idea-title">Potential law firm name: Sentinel</div>
-        <div class="idea-desc">Alternative name for law firm branding.</div>
-        <div class="idea-date">2026-05-02</div>
+        <div class="idea-title">Bryan Steiner's Capital as CFE client bridge</div>
+        <div class="idea-desc">Use Bryan Steiner's Capital as a bridge for CFE clients who aren't yet profitable enough.</div>
+        <div class="idea-date">2026-04-12</div>
       </div>
       <div class="idea">
         <div class="idea-title">Seamless.ai for lead generation</div>
-        <div class="idea-desc">https://seamless.ai — B2B lead gen for medical roll-up deal sourcing.</div>
+        <div class="idea-desc">B2B lead gen for medical roll-up deal sourcing — <a href="https://seamless.ai" target="_blank">seamless.ai</a></div>
         <div class="idea-date">2026-03-10</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Credit repair business opportunity</div>
+        <div class="idea-desc">Business opportunity for Crown Acquisitions — <a href="https://ubkacredit.com" target="_blank">ubkacredit.com</a></div>
+        <div class="idea-date">2026-05-28</div>
       </div>
       <div class="idea">
         <div class="idea-title">M&A outreach via marketing agencies + accountants</div>
@@ -353,51 +411,88 @@
         <div class="idea-desc">Connect for referral fee arrangement.</div>
         <div class="idea-date">2026-03-04</div>
       </div>
-      <div class="idea">
-        <div class="idea-title">Credit repair business opportunity</div>
-        <div class="idea-desc">https://ubkacredit.com — Business opportunity for Crown Acquisitions.</div>
-        <div class="idea-date">2026-05-28</div>
-      </div>
+    </div>
+
+    <div class="category">
+      <h2>🎓 The Modern Owner</h2>
       <div class="idea">
         <div class="idea-title">Build custom LMS website</div>
         <div class="idea-desc">Replace LearnWorlds ($300/mo) with custom-built. Stack: Base44/Framer + Bunny.net + Stripe. Could save ~$250/month.</div>
         <div class="idea-date">2026-02-20</div>
       </div>
-      <div class="idea">
-        <div class="idea-title">Dub.co Partner Program</div>
-        <div class="idea-desc">https://partners.dub.co/jace/apply</div>
-        <div class="idea-date">2026-02-09</div>
-      </div>
+    </div>
+
+    <div class="category">
+      <h2>🤝 Life Concierge</h2>
       <div class="idea">
         <div class="idea-title">Get lifeconcierge.ai domain name</div>
         <div class="idea-desc">Acquire lifeconcierge.ai domain for Life Concierge business.</div>
         <div class="idea-date">2026-04-15</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Base44.com No-Code AI App Builder</div>
-        <div class="idea-desc">AI no-code app builder ($20/mo).</div>
-        <div class="idea-date">2026-02-07</div>
+        <div class="idea-title">Dub.co Partner Program</div>
+        <div class="idea-desc"><a href="https://partners.dub.co/jace/apply" target="_blank">partners.dub.co/jace/apply</a></div>
+        <div class="idea-date">2026-02-09</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>⚙️ Operations & Infrastructure</h2>
+      <div class="idea">
+        <div class="idea-title">Add O.U.R. charity section to all business websites</div>
+        <div class="idea-desc">Operation Underground Railroad mission section on every business site to attract values-aligned clients.</div>
+        <div class="idea-date">2026-03-31</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Best Vibe Coding Tools</div>
-        <div class="idea-desc">https://www.techradar.com/pro/best-vibe-coding-tools</div>
-        <div class="idea-date">2026-02-10</div>
+        <div class="idea-title">Create assistant@ email aliases for each business</div>
+        <div class="idea-desc">Set up assistant@ aliases for each business domain so Tron can send from each. Currently only assistant@kimaniclark.com exists.</div>
+        <div class="idea-date">2026-03-30</div>
       </div>
       <div class="idea">
-        <div class="idea-title">Dual Agent Guide - Cost Savings</div>
-        <div class="idea-desc">https://dual-agent-guide.vercel.app/</div>
-        <div class="idea-date">2026-02-10</div>
+        <div class="idea-title">Supercut.ai — Loom alternative</div>
+        <div class="idea-desc">Use <a href="https://supercut.ai" target="_blank">supercut.ai</a> instead of Loom for video recording.</div>
+        <div class="idea-date">2026-07-18</div>
       </div>
       <div class="idea">
-        <div class="idea-title">fearn.ai website design reference</div>
-        <div class="idea-desc">Clean, modern SaaS design for Crown or Kiklis Clark site.</div>
+        <div class="idea-title">Zenzap — Slack alternative</div>
+        <div class="idea-desc">Better task management, simpler pricing — <a href="https://www.zenzap.co" target="_blank">zenzap.co</a>. Built-in tasks, SOC2/GDPR on all plans. Free tier + Pro $3/user/mo.</div>
+        <div class="idea-date">2026-04-18</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Evaluate Telnyx as Twilio alternative</div>
+        <div class="idea-desc">30-50% cheaper, sub-200ms latency. Two paths: LiveKit on Telnyx vs WebSocket streaming.</div>
+        <div class="idea-date">2026-05-06</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2>📱 Communications</h2>
+      <div class="idea">
+        <div class="idea-title">DeleteMe privacy service</div>
+        <div class="idea-desc">Removes personal info from data brokers — <a href="https://deleteme.com" target="_blank">deleteme.com</a></div>
+        <div class="idea-date">2026-02-11</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Instagram Plus concept</div>
+        <div class="idea-desc">Premium Instagram experience product idea.</div>
+        <div class="idea-date">2026-05-06</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Headline Cleaner browser extension</div>
+        <div class="idea-desc">Cleans clickbait headlines — <a href="https://headlinecleaner.com/en/browser-extension" target="_blank">headlinecleaner.com</a></div>
+        <div class="idea-date">2026-02-28</div>
+      </div>
+      <div class="idea">
+        <div class="idea-title">Claude browser extension</div>
+        <div class="idea-desc"><a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn" target="_blank">Chrome Web Store</a></div>
         <div class="idea-date">2026-03-11</div>
       </div>
     </div>
+
   </div>
-  
+
   <div class="footer">
-    Ideas are reviewed every 3 weeks • Archive or act on items to keep the list fresh
+    Ideas are reviewed every 3 weeks • Archive or act on items to keep the list fresh • Last sync: July 17, 2026
   </div>
 </body>
 </html>

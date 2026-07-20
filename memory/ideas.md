@@ -21,6 +21,7 @@
 - **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade. *(2026-02-23)*
 - **Donate unsellable gym equipment to Beta Academy** — Clearing out home gym items that won't sell. *(2026-03-13)*
 - **Sorcerics "SOL" ambient AI home system** — https://get.sorcerics.com/ — Spatial AI that understands context, movement, behavior. No apps, voice commands, or setup required. On-device AI - real-time responses, privacy-focused. Auto-adjusts: lighting, climate, devices based on situational awareness. Q1 2026 launch in North America. *(2026-04-10)*
+- **Replace deck fireplace table at condo** — Replace the fireplace table on the condo deck. *(2026-07-17)*
 
 ## Car
 - **Luxury Car Hacks Course** — https://exoticcarhacks.samcart.com/products/luxury-car-hacks-497/?coupon=LUXUPGRADE97 *(2026-04-13)*
@@ -35,6 +36,7 @@
 ## Social
 
 ## Finance
+- **Use Mercury for personal and business banking** — Switch to mercury.com for both personal and business banking. *(2026-07-18)*
 - **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant. *(2026-03-02)*
 - **Pay Upwork to fix account** — Account issue needs resolution. *(2026-03-02)*
 - **Close kimaniclark7@gmail.com Account** — Email consolidation. *(2026-02-07)*
@@ -53,6 +55,7 @@
 - **Danielle's Mail and Papers Folder** — Google Drive organization project. *(2026-02-07)*
 - **Instagram Plus concept** — Premium Instagram experience idea (link was broken). *(2026-05-06)*
 - **Zenzap team communication platform** — Alternative to Slack with better task management, simpler pricing (https://www.zenzap.co). Features: built-in tasks, file organization, SOC2/GDPR compliance on all plans, mobile-first. Pricing starts free, Pro $3/user/month. *(2026-04-18)*
+- **Still Messenger** — Unified inbox app that strips out feeds, reels, and algorithmic content from all messaging apps (https://stillmessenger.com). Connects iMessage, WhatsApp, Telegram, Signal, Instagram DM, Slack, Discord + more. $9.99/mo, 7-day free trial. Avg screen time drop 47%. *(2026-07-08)*
 
 ---
 
@@ -81,6 +84,7 @@
 - **Get lifeconcierge.ai domain name** — Acquire lifeconcierge.ai domain for Life Concierge business. *(2026-04-15)*
 
 ### Business Tools & Platforms
+- **Supercut.ai instead of Loom** — Use https://supercut.ai/ for video recording instead of Loom. *(2026-07-18)*
 - **Base44.com No-Code AI App Builder** — AI no-code app builder ($20/mo). *(2026-02-07)*
 - **Best Vibe Coding Tools** — https://www.techradar.com/pro/best-vibe-coding-tools *(2026-02-10)*
 - **Dual Agent Guide - Cost Savings** — https://dual-agent-guide.vercel.app/ *(2026-02-10)*
