@@ -6,7 +6,7 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 ## Categories
 
 ### Business Ideas
-- [ ] 
+- [ ] Open a Skool subscription program for The Modern Owner (added July 21)
 
 ### Process Improvements
 - [ ] 
@@ -18,7 +18,7 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 - [ ] 
 
 ### One-Time Projects
-- [ ] 
+- [ ] Buy a Robert Baracquet shirt (added July 23)
 
 ---
 

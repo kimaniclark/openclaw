@@ -240,10 +240,8 @@ Every Sunday evening or Monday morning, review `contacts/` folder for inner circ
 **Sunday evenings**: Ask Kimani for 3 most important outcomes for the upcoming week (in #vision-purpose)
 **Every 3 weeks**: Life Wheel check-in (changed from monthly)
 
-### Nuboxx Boxing Reminder — MONDAY JULY 20 ONLY ⚠️
-Ask Kimani in #fitness: "Which day this week do you want to try Nuboxx boxing?"
-First class: $35 (BOGO). Book at: https://www.wellnessliving.com/schedule/nuboxx_fitness
-Remove this section after Monday July 20.
+### Nuboxx Boxing Reminder ✅ SENT Jul 20
+Asked in #fitness. Remove this section on next cleanup.
 
 ### Fitness Dashboard Update (Weekly) — POST TO #fitness
 Every Monday morning, ping Kimani **in #fitness channel** with ONE message covering:

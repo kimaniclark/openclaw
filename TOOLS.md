@@ -37,6 +37,7 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - **What I can do**: Create tasks, get schedules
 - **LIMITATION**: Motion API only supports Tasks, NOT Events. Tasks show in Motion but don't sync to Apple Calendar.
 - **CRITICAL**: Always include `autoScheduled` when creating tasks — without it, tasks won't appear on calendar!
+- **CRITICAL**: Use `X-API-Key` header (not `Authorization: Bearer`) for Motion API calls!
   ```json
   "autoScheduled": {
     "startDate": "YYYY-MM-DD",
@@ -188,6 +189,7 @@ All credentials stored in `credentials.json`. These are ALREADY SET UP AND WORKI
 - law-company: 1471284233401270332
 - ideas: 1486987534914289744
 - launchpad: 1486993826819215434
+- vision-purpose: 1488784687588573215
 
 ## What Goes Here
 
