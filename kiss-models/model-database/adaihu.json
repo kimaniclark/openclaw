@@ -1,0 +1,90 @@
+{
+  "name": "Adaihu",
+  "fullName": "Adaihu Ononuju",
+  "modelId": 2787695,
+  "active": true,
+  "careerType": "Model",
+  "gender": "Female",
+  "dob": "1996-09-01",
+  "age": 29,
+  "ethnicity": "Black/African American",
+  "nationality": null,
+  "location": "Washington D.C., DC, USA",
+  "email": "adaomodeling@gmail.com",
+  "mobile": null,
+  "portfolio": "https://adaihuononuju.squarespace.com/",
+  "dropbox": "https://www.dropbox.com/scl/fo/evot1hqf3lh670sko4s3b/AFCBUWy2DX5nWetB5WBsvjk?rlkey=9w1gl373s5gpode47zkgnt8mz&st=uokkm0jw&dl=0",
+  "stats": {
+    "eye": "Dark Brown",
+    "hair": "Black",
+    "hairLength": "Short",
+    "height": {
+      "cm": 173,
+      "imperial": "5'8\""
+    },
+    "bust": {
+      "cm": 79,
+      "inches": 31
+    },
+    "waist": {
+      "cm": 61,
+      "inches": 24
+    },
+    "hips": {
+      "cm": 79,
+      "inches": 31
+    },
+    "shoe": {
+      "eu": 40,
+      "us": 9,
+      "uk": 6.5
+    },
+    "cup": null,
+    "dress": null,
+    "weight": null,
+    "statsConfirmedByModel": "2024-10-16"
+  },
+  "social": {
+    "instagram": "none (confirmed Sep 2025)",
+    "facebook": null,
+    "twitter": null,
+    "tiktok": null
+  },
+  "castings": {
+    "total": 37,
+    "recent": [
+      {
+        "company": "Dick's Sporting Goods",
+        "date": "2026-08-27",
+        "type": "Casting"
+      },
+      {
+        "company": "KEUNE / DES MOINES IA",
+        "date": "2026-08-02",
+        "type": "Casting"
+      },
+      {
+        "company": "Choice Hotels",
+        "date": "2026-07-22",
+        "type": "Casting"
+      },
+      {
+        "company": "Members Club",
+        "date": "2026-06-13",
+        "type": "Casting"
+      },
+      {
+        "company": "KEUNE",
+        "date": "2026-06-07",
+        "type": "Casting"
+      }
+    ]
+  },
+  "photos": {
+    "portfolioPadCount": 20,
+    "headshot": "model-profiles/adaihu-headshot.jpg"
+  },
+  "notes": "Stats confirmed accurate by model on Oct 16, 2024. Joined Kiss June 2024.",
+  "addedToDatabase": "2026-07-30",
+  "approvedBy": "Victoria"
+}

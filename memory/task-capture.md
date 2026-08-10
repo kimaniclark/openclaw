@@ -19,6 +19,7 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 
 ### One-Time Projects
 - [ ] Buy a Robert Baracquet shirt (added July 23)
+- [ ] Pay Dolores $2,000 for outreach software (added Aug 4)
 
 ---
 

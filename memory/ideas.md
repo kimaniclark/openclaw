@@ -18,6 +18,8 @@
 - **Cheffy E.G.O.R. breakfast robot** — Automatic egg cracking and cooking robot (https://www.cheffy.ai). Cooks eggs 7 ways, timer/scheduling, dishwasher safe, cracks up to 2 or boils up to 6 eggs. Patent-pending shell-cracking tech. Launching soon. *(2026-05-12)*
 
 ## Home
+- **Get the STIL hot tub** — Purchase the STIL hot tub. *(2026-08-07)*
+- **Give Natalia the Wegmans grocery list to keep stocked** — Create and share a standing Wegmans grocery list with Natalia so she can keep the house stocked. *(2026-07-28)*
 - **Barsys 360** — https://barsys.com/us/product/barsys-360 — Automated cocktail maker. Home bar upgrade. *(2026-02-23)*
 - **Donate unsellable gym equipment to Beta Academy** — Clearing out home gym items that won't sell. *(2026-03-13)*
 - **Sorcerics "SOL" ambient AI home system** — https://get.sorcerics.com/ — Spatial AI that understands context, movement, behavior. No apps, voice commands, or setup required. On-device AI - real-time responses, privacy-focused. Auto-adjusts: lighting, climate, devices based on situational awareness. Q1 2026 launch in North America. *(2026-04-10)*
@@ -34,6 +36,7 @@
 - **Yacht charter with Michael Chasen** — Go out on yacht charter with Michael Chasen via Below Deck DC (https://www.belowdeckdc.com). 74' Sunseeker yacht, up to 13 passengers day charter, 4/6/8 hour options. *(2026-05-07)*
 
 ## Social
+- **Call Justin Miller** *(2026-07-28)*
 
 ## Finance
 - **Use Mercury for personal and business banking** — Switch to mercury.com for both personal and business banking. *(2026-07-18)*

@@ -2,6 +2,11 @@
 
 ## Active Monitoring
 
+### ⚠️ CHANNEL ROUTING RULE (PERMANENT)
+- **#fashion** = Kimani's personal clothes, wardrobe, style ONLY
+- **#modeling-agency** = ALL Kiss Models / modeling agency updates
+- **Never post Kiss Models content in #fashion** — Kimani has corrected this twice
+
 ### Kiss Models Email — Every 20 Minutes ⚠️ ACTIVE
 **Check:** info@kissmodelmanagement.com every 20 minutes (per Victoria's request, July 14)
 **Watch for:**
