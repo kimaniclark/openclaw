@@ -38,7 +38,12 @@
 ## Social
 - **Call Justin Miller** *(2026-07-28)*
 
+## Courses & Learning
+- **"How to Be Good at Life" by Ben Meer** — Book by the "Systems Guy." Endorsed by Sahil Bloom and Arthur C. Brooks. Releasing Oct 2026 (Avery/Penguin Random House). Pre-order unlocks the Year of Systems course. https://benmeer.com/book/ *(2026-08-10)*
+- **Year of Systems by Ben Meer** — 52 life systems course, one per week. $297 (includes book pre-order). Covers Physical Health, Mind, Relationships, Emotions, Money, Career, Environment. By the "Systems Guy" from Forbes (2.3M followers, Cornell MBA). https://benmeer.com/yearofsystems/ *(2026-08-10)*
+
 ## Finance
+- **Prepay a year of mortgage and condo fee** — Get ahead by prepaying 12 months of mortgage and condo association fees. *(2026-08-10)*
 - **Use Mercury for personal and business banking** — Switch to mercury.com for both personal and business banking. *(2026-07-18)*
 - **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant. *(2026-03-02)*
 - **Pay Upwork to fix account** — Account issue needs resolution. *(2026-03-02)*

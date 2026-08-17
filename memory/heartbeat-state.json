@@ -1,9 +1,9 @@
 {
   "lastChecks": {
-    "email": 1786275752561,
-    "emailNote": "2026-08-09 07:39 ET - Kiss Models: Wanida Anelone resubmission (same as yesterday). Daksh Sachar cold outreach (spam). No urgent items.",
-    "calendar": 1785943490136,
-    "calendarNote": "2026-08-05 11:23 ET - Amanda Bellerby Medical Roll Up Call 12pm today. Don Banyong 11am Thu Aug 6.",
+    "email": 1786825480412,
+    "emailNote": "2026-08-15 16:23 ET - Personal: no new unread. Law firm: ChatGPT promo only. Kiss Models: no new unread since 14:38 check.",
+    "calendar": 1786806815385,
+    "calendarNote": "2026-08-15 11:12 ET - No events in next 48 hours. Clear weekend.",
     "weather": 1781471652161,
     "twilioA2P": 1776839760,
     "twilioA2PStatus": "Still FAILED. Same CTA rejection 30909. No change since Feb 2.",
@@ -14,7 +14,9 @@
     "relationshipMaintenance": 1786275752561,
     "relationshipMaintenanceNote": "2026-08-09 07:39 ET - Emma Saxby (overdue 2wks), Ben Geber (local, no recent contact), Jesse Krieger. Posted #social.",
     "visionPurpose": 1786307720765,
-    "visionPurposeNote": "2026-08-09 16:34 ET - Weekly outcomes ask posted to #vision-purpose. Context: patent deadlines, Rho card issues, Amanda showing up, BHIP docket decision."
+    "visionPurposeNote": "2026-08-09 16:34 ET - Weekly outcomes ask posted to #vision-purpose. Context: patent deadlines, Rho card issues, Amanda showing up, BHIP docket decision.",
+    "kissModelsEmail": 1786834758174,
+    "kissModelsEmailNote": "2026-08-15 18:58 ET - No new actionable emails. Facebook notifs, ClickUp promos, brand growth pitch only."
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
@@ -279,7 +281,28 @@
     "michaelChasenIBO": "2026-08-08: Michael Chasen IBO pitch meeting Aug 7 (38min). Brad Powers + 3 others. ESOP-based structure. Grain summary available.",
     "wanidaAnelone": "2026-08-08: New application from Wanida Anelone, Falls Church VA. 29yo, 5-8, 180lbs. Under 1yr exp. No portfolio. Victoria replied. Posted Slack + Discord.",
     "guruDisabled": "2026-08-09: Guru account disabled. INV00142855 0, 30 days past due. Rho card issue. Alerted #law-company.",
-    "patentDeadlinesAug9": "2026-08-09: TODAY - L3Harris 4031-0190 maintenance fee + Archivox 1013-0002-PRO petition to restore. Both hard deadlines. Alerted #law-company."
+    "patentDeadlinesAug9": "2026-08-09: TODAY - L3Harris 4031-0190 maintenance fee + Archivox 1013-0002-PRO petition to restore. Both hard deadlines. Alerted #law-company.",
+    "learnworldsFailedAug10": "2026-08-10: Payment failed again. Second month in a row. Alerted #finance.",
+    "mdCPFOverdue": "2026-08-10: MD Courts CPF assessment reminder. Late fee Sep 11. Attorney ID 9712160130. Alerted #law-company.",
+    "guruInvoice143979": "2026-08-10: INV00143979 0 due today. Previous INV00142855 30 days past due. Account disabled. Alerted #law-company.",
+    "quickbooksFailedAug10": "2026-08-10: Intuit subscription renewal failed. Rho card. Alerted #law-company.",
+    "gunHudsonInvite": "2026-08-10: Gun Hudson invited Kimani for Tue Aug 11 9pm-10pm GMT+4. Alerted #general-personal.",
+    "lawFirmModernOwnerCall": "2026-08-10: Calendly booking - Law Firm and Modern Owner Call Tue Aug 11 11am 30min. Alerted #general-personal.",
+    "pichetpongKanchang": "2026-08-10: New application from Pichetpong Kanchang, Potsdam Germany. 16yo, 178cm, 70kg. Minor. No portfolio. Posted Slack #ai-model-applications + Discord #modeling-agency.",
+    "amtrakUpdate0810": "2026-08-10: Emily Maxwell (Cast Partner) - Amtrak self-tapes submitted to client. Feedback/selects expected later this week. Posted Slack #ai-client-inquiry.",
+    "paulHarrityCasey": "2026-08-10: Paul Harrity + Michael Casey both replied to Kimani intro. Not hiring now but open to future call. Connection made. Alerted #law-company.",
+    "tracyCortesFollowUp": "2026-08-10: Tracy Cortes (Brio) following up on credit line pitch. Closed 00K at 9pts for similar company. Wants call. Alerted #law-company.",
+    "josephStewart4NML": "2026-08-10: Joseph Stewart confirmed for 4NML shoot Aug 19, 12-6pm at Roy Cox Studio. $300 minus 20% booking fee. Asking about prep/wardrobe. Posted Slack #ai-client-inquiry.",
+    "learnworldsFailedAug11": "2026-08-11: 2nd payment failure notice. After Jul 31 lockout/Aug 1 recovery. Rho card issue. Alerted #finance.",
+    "amandaRebookedAug17": "2026-08-14: Amanda Bellerby booked 7th Medical Roll Up Call — Mon Aug 17 4pm. Alerted #crown-acquisitions-medical-roll-up.",
+    "overtureIPLicensing": "2026-08-14: Overture patent referral from Samar Shah. IP licensing — client needs guidance on employer license agreement for their invention. Time-sensitive. Alerted #law-company.",
+    "kerithLemonRoster": "2026-08-14: Kerith Lemon confirmed male+female models for photoshoot. Victoria promised roster by today Aug 14. Alerted Slack #ai-client-inquiry.",
+    "axometricsFollowUp": "2026-08-14: Charles Davis (CEO) second follow-up — \"Can you wrap this up?\" re provisional filing. Kimani said app ready Aug 11 but not yet filed. Alerted #law-company.",
+    "jubemiZoom": "2026-08-14: Jubemi Lantigua-Williams joined Kiss Models Zoom personal meeting room ~3:26pm. Victoria likely conducting intro meeting.",
+    "annAngle": "2026-08-15: Ann Angle replied to application email. Available Mon Aug 18 only (leaves for Albania Tue). Posted Slack #ai-model-applications.",
+    "yarykRedlines": "2026-08-15: Victoria forwarded Yaryk Huryn contract redlines from lawyer Elizabeth Soc (liz.soc@soclaw.us). Kimani directed Victoria to have lawyer book call on cal.link/kimaniclark. Victoria confirmed forwarded. Ball in Elizabeth Soc court.",
+    "jessicaSiegalWillott": "2026-08-15: Contact form - teen hand modeling inquiry. Independent. (352) 328-6288. jess_sw24@hotmail.com. Victoria replied.",
+    "skySmall": "2026-08-15: Skyy Small replied to application follow-up. Interested, wants new Zoom times. Previous offered times passed. Posted Slack #ai-model-applications."
   },
   "pendingActions": {}
 }

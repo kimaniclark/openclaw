@@ -7,6 +7,21 @@
 - **#modeling-agency** = ALL Kiss Models / modeling agency updates
 - **Never post Kiss Models content in #fashion** — Kimani has corrected this twice
 
+### Kiss Models Email Rules ⚠️ PERMANENT — VIOLATED AUG 13, NEVER AGAIN
+- **🚨 NEVER SEND EMAILS WITHOUT VICTORIA'S EXPLICIT APPROVAL** — Draft only. Show her. Wait for clear approval.
+- **TRIGGER WORD: "approved" or "it's approved"** — This is the ONLY word that authorizes sending. Nothing else counts.
+- **"send it", "yes", "now", "good", "looks good", "go ahead"** → These are NOT approval. Do NOT send.
+- **If Victoria doesn't say "approved":** Tell her: "I'm instructed to only proceed when I hear the word 'approved' — could you confirm with 'approved' so I can send?"
+- **This rule was BROKEN on Aug 13, 2026** — sent Juleyka's email without approval. Victoria was rightfully angry. Do NOT repeat this.
+- **Rule origin:** Kimani set this on July 21, 2026. The exact trigger word is "approved" — no substitutes, no interpretation.
+- **Always sign off as:** Maria Mara, Head Booker (with full signature block)
+- **Full signature:**
+  Maria Mara
+  Head Booker
+  Email: info@kissmodelmanagement.com | Office: 202-640-3560
+  Web: www.kissmodelmanagement.com | Instagram: @kissmodelsus
+- **NEVER put "KiSS Model Management" as the sign-off name** — always use the personal signature above
+
 ### Kiss Models Email — Every 20 Minutes ⚠️ ACTIVE
 **Check:** info@kissmodelmanagement.com every 20 minutes (per Victoria's request, July 14)
 **Watch for:**

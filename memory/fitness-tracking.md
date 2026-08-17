@@ -54,8 +54,9 @@
 - Week of Jun 30 - Jul 6: Working Out 2/2 ✓
 - Week of Jul 6-12: Working Out 0/2 (missed)
 - Week of Jul 13-19: Working Out 2/2 ✓
-- Current week (Aug 3-9): 
-  - Working Out: 1/2 ✓ (Mon done, Fri planned)
+- Week of Aug 3-9: Working Out 2/2 ✓
+- Current week (Aug 10-16): 
+  - Working Out: 1/2 ✓ (Thu done, Sun planned)
   - Running: 0/2
   - Jiu Jitsu: 0/2
 
