@@ -1,0 +1,144 @@
+﻿Tab 1
+  
+
+Kickoff Meeting
+ATPS Protective Services
+90 Minutes  ·  Strategy Session  ·  Business Growth & Exit Readiness Engagement
+
+
+Goal: align on metrics, name the biggest near-term fire, and collect what we need to start executing on Cash Collection, Debt Optimization, and Profitability from Day 1.
+Part 1 — Meeting Agenda
+Please review Part 2 before we meet so we can hit the ground running.
+TIME
+	SEGMENT
+	0:00–0:30
+	Current State & Biggest Fire
+Quick recap of the three constraints named in the proposal: Cash Collection & Aging AR, High-Interest Business Debt, and Margin Compression. Then we hear from you: what's the single biggest fire right now?
+	0:30–1:00
+	Set Metrics & Sprint Goals
+Agree on the numbers we're chasing so there's no ambiguity at Phase 1 completion: revenue target, AR aging baseline, debt payoff/refinance target, labor cost as a % of revenue, and the weekly KPIs we track together.
+	1:00–1:30
+	Lock the Phase 1 Workstreams
+Walk through Cash Collection Overhaul, Debt Optimization, and the Profitability Plan, confirm action items, and assign clear ownership and start dates on both teams.
+	
+
+Part 2 — Pre-Meeting Homework
+Some of this may not apply, or you may not have exact numbers yet — ballpark is fine. The goal is a real starting baseline, not a perfect one.
+A — Revenue & Margin Baseline
+1.  Total revenue, last 30 days and last 90 days, broken out by service line (armed guard contracts, event security, executive protection, corporate security)? How much is recurring/contract revenue vs. one-off event revenue?Answer: _________Last 30 days: $357,148.79
+
+
+Last 90 days: $1,246,011.44_____________________________________________________
+	2.  Gross margin by service line, if trackable separately? Which line is most profitable, and which is thinnest?
+Answer:_______Gross margin - aim for MINIMUM $10.00 per billable hour. 
+________________________________________________________
+	3.  Current bill rate vs. pay rate spread per guard type (armed vs. unarmed)?
+Answer: Armed Security - Billing $35-39 per hour, Paying $25-28 per hour
+Unarmed Security - Billing $29-32 per hour, Paying 19-21 per hour
+_______________________________________________________________
+	4.  What percentage of total costs is direct labor (wages, payroll tax, workers' comp) vs. overhead?
+Answer: ___Will confirm with accounting - she is currently OOO
+_____________________________________________________________
+	5.  What is the monthly revenue (top line) Jan - date 2026? What is the average monthly revenue year to date? This will help us determine the baseline revenue at the start of the contract. 
+Answer: _YTD $3,182,432.88 - Average monthly revenue between $320k to $450k
+_______________________________________________________________
+	
+
+B — Cash Collection & Accounts Receivable
+6.  Current AR aging: how much is 30/60/90+ days past due, and which clients or contract types are the repeat offenders?
+Answer: ________________________________________________________________
+	7.  What billing/invoicing system is in use today? Are clients on retainer, contract, or billed per shift/event?
+Answer: ___Old system: invoice weekly on NET15 or NET30. We have started to collect payment up front from new clients, invoicing for a deposit (1st month of services due on receipt), then subsequent invoices sent on the 1st of month on NET15._____________________________________________________________
+	8.  Standard payment terms offered to clients (net 15/30/60)? Any autopay, ACH, or card-on-file collection already in place?
+Answer: __Typically NET15 or NET30. We are pivoting to a deposit up-front and prepayment model, where the for ongoing work, the first month is paid up front, and the following month is invoiced on the first of the month, on NET15 terms.______________________________________________________________
+	9.  Is there a deposit or prepayment policy for event security bookings?
+Answer: __Event security is paid up front.______________________________________________________________
+	
+
+C — Debt
+10.  Outstanding business debt: amount(s), interest rate(s), lender(s), and maturity/terms?
+Answer: ___High-interest MCA. _Balance is 37% paid at $145,066.60. Weekly payments of $4266.67____________________________________________________________
+	11.  What was the debt originally used for (equipment, payroll gaps, growth capital, etc.)?
+Answer: __Payroll gaps - emergency funding due to emergency circumstances. Would never recommend such predatory terms, but we were desperate______________________________________________________________
+	12.  Any personal guarantees attached to existing debt?
+Answer: _______I don’t believe so_________________________________________________________
+	
+
+D — Workforce, Scheduling & Compliance
+13.  Headcount breakdown: full-time vs. part-time vs. 1099/contract, armed vs. unarmed?
+Answer: ___Approximately 275 part-time, 50 full-time_____________________________________________________________
+	14.  What scheduling/dispatch software is used to staff shifts and events?
+Answer: Scheduling: WhenIWork
+Timekeeping: Chronotek
+Guard Comms: WhatsApp
+Leadership Comms: Slack_____________________________________________________________
+	15.  Guard turnover rate, and average time to onboard a new hire (state guard card, firearms permit, background check)?
+Answer: Will check our turnover rate. Average onboarding time is at approximately 1 week_______________________________________________________________
+	16.  Which states/jurisdictions are you currently licensed and bonded in? Any expansion plans on the table?
+Answer: __DC, MD, VA, WV, TN, TX, FL, SD
+NC will be live at the end of September
+PA and NY by the end of the year______________________________________________________________
+	17.  Current insurance coverage (general liability, workers' comp, umbrella) — carrier and premium?
+Answer: ____GL/ WC / UMB. $5 million umbrella, $1m worker’s comp
+We use a broker, Central Insurance Agency. Great partnership with them. WC Premium is $40,950.00
+GL/Umb Premium is $322,140.00____________________________________________________________
+	
+
+E — Sales Pipeline & Client Contracts
+18.  Top 5–10 clients by revenue, with contract length and renewal dates?
+Answer: _SEED Public Charter School (2nd year starting now) $1m+
+Bullpen DC (3rd year), Post Brothers Construction (currently in 1st year of 3),
+ _______________________________________________________________
+	19.  Does any single client represent more than 20% of revenue?
+Answer: ________SEED Public Charter School________________________________________________________
+	20.  What's the current process for landing new corporate or event contracts — referral, RFP/bid, outbound?
+Answer: __All inbound - leadgen via Bark.com______________________________________________________________
+	20. What is the current active pipeline (name of lead, time on pipeline) So that we can exclude these leads from our revenue shared agreement. 
+Answer: _______
+	
+
+F — Systems & Tech Stack
+22.  What accounting, payroll, scheduling/dispatch, and CRM systems are in use today?
+Answer: ___Accounting - Quickbooks, outsourced to JIA Accounting
+Payroll - Paychex, outsourced to JIA Accounting
+Scheduling / Timesheets - WhenIWork/Chronotek_____________________________________________________________
+	23.  Who is our point person for software access and credentials?
+Answer: __Andrew Tauber - information@atpssecurity.com
+______________________________________________________________
+	
+
+G — The Bigger Picture
+24.  In your gut — what is the ONE thing that, if fixed tomorrow, would change the trajectory of the business most?
+Answer: __Working capital (not on predatory terms)______________________________________________________________
+	25.  Is there anything happening in the business right now we don't yet know about — a key person leaving, a client at risk of churning, a lease or facility issue — that should factor into our plan?
+Answer: ___SEED Public Charter School. Our largest client is on the fence - we are on a 3-month remedial probationary period._____________________________________________________________
+	Part 3 — Access Points
+Based on our discussion above, we will begin audit and exploration on these items. Access points will be requested as needed for platforms etc. at that time. Providing access and information will get us started in the right direction and enable us to move quickly.
+Notes
+* Where are you using ai?
+   * Creating RFPs
+   * Teachable / trainings
+   * * Platforms - Teachable
+* Org chart - ops mgr?
+* Already partners with affiliate - equipment (cameras, etc)
+* Note: change billing end of year
+* Training for leadership as we scale - prepare them for the level of success
+   * Weekly scorecards, weekly meeting, Slack etiquette
+* Identifying the next charter school opening
+* What went wrong - debrief on issues with director issue on charter school
+
+
+
+
+
+
+Questions:
+
+
+1. What is the current sales process - business development?
+2. What is the current RFP process? Walk throughs, spec brief, etc
+3. What are the procedures for security? (questions to the protected person) - Kimani’s example
+4. Weekly scorecards, weekly meeting, Slack etiquette
+5. Busy season?
+6. Upsells/ add-ons?
+7.
