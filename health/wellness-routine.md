@@ -1,4 +1,16 @@
-# Wellness Routine — Journey Within & Recovery Services
+# Wellness Routine — Recovery, Health & Aesthetic Optimization
+
+## Health-Based Aesthetics (Oscar Patel Framework)
+- **Community:** https://www.skool.com/oscars-community/about
+- **Philosophy:** Looks are more health-driven than fitness-driven — controllable through optimizing health markers
+- **Reference:** Oscar Patel's transformation (health-based, not gym-based)
+- **Why it matters:** Personal optimization + Outlier course content (teaching others what's actionable about appearance)
+- **Qoves Analysis:** Submitted Aug 31 — detailed facial assessment (expected ~Sep 29) 
+- **Context:** Age 54 — proactive approach to aging well
+
+---
+
+# Recovery Services — Journey Within
 
 **Last updated:** August 13, 2026
 
