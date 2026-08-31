@@ -142,6 +142,10 @@ Patent applications due today and Friday. Payment confirmed - removing from acti
 
 
 
+### Mobile Car Wash — Club Exec Auto
+**Website:** https://clubexecauto.com/
+**Vehicle:** 2014 BMW i8
+
 ### Jack Response - George's Foreign Auto Service ⚠️ NEW
 **Email sent to:** Jack at George's Foreign Auto Service
 **About:** 2014 BMW i-8 service appointment (corrected from 8 Series)
@@ -260,8 +264,18 @@ Every Sunday evening or Monday morning, review `contacts/` folder for inner circ
 **Sunday evenings**: Ask Kimani for 3 most important outcomes for the upcoming week (in #vision-purpose)
 **Every 3 weeks**: Life Wheel check-in (changed from monthly)
 
-### Nuboxx Boxing Reminder ✅ SENT Jul 20
-Asked in #fitness. Remove this section on next cleanup.
+### Dorian Yates Academy — Monitor for Response ⚠️
+- Kimani submitted inquiry on Aug 19, 2026
+- **Check:** kimani@kimaniclark.com for emails from DY Academy / dyacademy.co.uk
+- **Alert:** #fitness when email arrives
+- Kimani monitoring WhatsApp himself
+
+### Strava MCP Access — Check in September ⏰
+- Strava is rolling out MCP access gradually (currently Claude-only, "coming soon")
+- MCP URL: https://mcp.strava.com/mcp
+- **Check in September:** See if access is open. If so, connect via OpenClaw MCP config.
+- This would auto-track all Tonal workouts (synced to Strava) without subscription needed
+- Kimani's Strava account: admin@kimaniclark.com (free account)
 
 ### Fitness Dashboard Update (Weekly) — POST TO #fitness
 Every Monday morning, ping Kimani **in #fitness channel** with ONE message covering:

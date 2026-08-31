@@ -35,10 +35,16 @@
 - **Private Jet Trip to Blue Vista Villa** — Trip with Ivy and Hope. *(2026-03-12)*
 - **Yacht charter with Michael Chasen** — Go out on yacht charter with Michael Chasen via Below Deck DC (https://www.belowdeckdc.com). 74' Sunseeker yacht, up to 13 passengers day charter, 4/6/8 hour options. *(2026-05-07)*
 
+## Business Ideas — New Ventures
+- **Boss as a Service — expanded tracking items** — Beyond workouts, track: Boxing, Jiu jitsu, Protein shake, Screen time, Entrepreneurial time system, Sleep debt, Exercise time limit. *(2026-08-24)*
+- **Register timebandits.co for watch trading** — Domain for a watch trading business. *(2026-08-24)*
+
 ## Social
 - **Call Justin Miller** *(2026-07-28)*
 
 ## Courses & Learning
+- **Oscar Patel — Health IS Looks** — Natural facial improvement through health, breathing, posture, and movement. No filler, Botox, or surgery. https://oscarpatel.com *(2026-08-24)*
+- **Transcribe and summarize Wealth Mastery content with AI** — Use AI to transcribe and summarize Wealth Mastery course/recordings. *(2026-08-18)*
 - **"How to Be Good at Life" by Ben Meer** — Book by the "Systems Guy." Endorsed by Sahil Bloom and Arthur C. Brooks. Releasing Oct 2026 (Avery/Penguin Random House). Pre-order unlocks the Year of Systems course. https://benmeer.com/book/ *(2026-08-10)*
 - **Year of Systems by Ben Meer** — 52 life systems course, one per week. $297 (includes book pre-order). Covers Physical Health, Mind, Relationships, Emotions, Money, Career, Environment. By the "Systems Guy" from Forbes (2.3M followers, Cornell MBA). https://benmeer.com/yearofsystems/ *(2026-08-10)*
 
@@ -76,6 +82,7 @@
 - **Potential law firm name: Sentinel** — Alternative name for law firm branding. *(2026-05-02)*
 
 ### Crown Acquisitions
+- **Target tech companies for acquisition** — Expand Crown Acquisitions deal flow to include tech companies. *(2026-08-12)*
 - **Seamless.ai for lead generation** — https://seamless.ai — B2B lead gen for medical roll-up deal sourcing. *(2026-03-10)*
 - **M&A outreach via marketing agencies + accountants** — LinkedIn outreach through service providers who see businesses ready to sell. *(2026-02-25)*
 - **Video messages on LinkedIn for acquisition outreach** — Personal video DMs for higher response rate. *(2026-02-25)*
@@ -92,6 +99,7 @@
 - **Get lifeconcierge.ai domain name** — Acquire lifeconcierge.ai domain for Life Concierge business. *(2026-04-15)*
 
 ### Business Tools & Platforms
+- **Lightfield — AI-native CRM** — CRM that auto-builds customer context from calls, emails, and meetings. AI agents prep meetings, generate pipeline, draft follow-ups. No manual logging. https://lightfield.app *(2026-08-30)*
 - **Supercut.ai instead of Loom** — Use https://supercut.ai/ for video recording instead of Loom. *(2026-07-18)*
 - **Base44.com No-Code AI App Builder** — AI no-code app builder ($20/mo). *(2026-02-07)*
 - **Best Vibe Coding Tools** — https://www.techradar.com/pro/best-vibe-coding-tools *(2026-02-10)*
@@ -106,3 +114,43 @@
 ---
 
 *Last updated: June 4, 2026*
+
+## 2026-08-20 - Watch Scout 2.0 for Watch Trading
+Use Watch Scout 2.0 as a tool for watch trading/investment
+- Related to: Watch Trading Academy course (already purchased)
+- Related to: Watch Trading Academy Lazy Trader program
+
+## Done-For-You Acquisition Service (2026-08-24)
+**Source:** Kimani's idea — https://dfy.acquisitions.com
+**Concept:** Offer a "done-for-you" acquisition service for Crown Acquisitions clients
+**Reference model:** Acquisitions.com DFY — source, vet, negotiate, finance, and close a $1M+ cash-flowing business in ~90 days. Client stays the buyer, Tron/Crown does all the work.
+**Stats on their model:** 100s of deals closed, $1B+ M&A advised
+**Crown Acquisitions angle:** Could position as a premium service tier — clients pay Crown to find and close deals for them (vs CFE where Crown takes equity in existing businesses)
+**Revenue model:** Upfront fee + success fee on close
+
+## Clearly Acquired — Pricing Model Reference (2026-08-24)
+**Source:** Kimani's idea — https://www.clearlyacquired.com/buyer-pricing
+**What it is:** AI-driven Business & Debt Brokerage platform for buyers
+
+**Their pricing tiers (great reference for Crown pricing):**
+
+| Tier | Price | What you get |
+|------|-------|-------------|
+| Self-Service | $49/mo | AI deal sourcing, 100+ marketplaces, Clara AI analyst |
+| DFY Lite | $3,000/mo | Full sourcing team, 3,000 prospects/mo, dedicated advisor |
+| DFY Standard | $6,000/mo | 7,500 prospects/mo, search fund level |
+| All tiers | + success fee | Double Lehman Fee on closed deals (less retainer) |
+
+**Double Lehman Fee structure:** Standard M&A fee formula — 10% on first $1M, 8% on second $1M, 6% on third, 4% on fourth, 2% above $4M
+
+**Key features:**
+- 200M off-market business database
+- AI-powered screening (Clara AI)
+- Debt brokerage included
+- Off-market outreach campaigns
+
+**Crown Acquisitions angle:**
+- Pricing benchmark for Crown's own DFY acquisition service
+- $3K-$6K/month retainer + success fee is the market rate
+- Platform could be used as a sourcing tool ($49/mo self-service tier)
+- Possibly worth trialing $49/mo for deal sourcing

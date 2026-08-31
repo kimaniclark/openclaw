@@ -7,6 +7,7 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 
 ### Business Ideas
 - [ ] Open a Skool subscription program for The Modern Owner (added July 21)
+- [ ] Create Jiu Jitsu tracking software — log techniques, drills, and things learned in practice (added Aug 25)
 
 ### Process Improvements
 - [ ] 
@@ -37,6 +38,45 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 - [ ] Ask Dolores + Tron how to produce videos without self-recording (added Aug 15)
 - [ ] Try Kick for bookkeeping — kick.co (added Aug 16)
 - [ ] Switch law firm banking to Mercury + bookkeeping to Kick.co (added Aug 16)
+- [ ] Use Ana's black and white yacht pic for the Social Gravity website (added Aug 17)
+- [ ] Handle Dream Builders deposit before statute of limitations (added Aug 18)
+- [ ] Get a dentist and go (added Aug 18)
+- [ ] Watch Claude for coaches (added Aug 18)
+- [ ] Try the Polar Browser (added Aug 18)
+- [ ] Prepare the Medtronic engagement letter (added Aug 18)
+- [ ] Tell Dolores and Faith about the security company M&A research (added Aug 19)
+- [ ] Claim @outlierlifeco Instagram handle (added Aug 19)
+- [ ] Backup Outlier data (added Aug 19)
+- [ ] Schedule call with Brad Powers and Brian Carey (added Aug 21 — time-sensitive)
+- [ ] Text Jeff Wilson to schedule a call (added Aug 21 — time-sensitive)
+- [ ] Call with Journey Within (added Aug 21 — time-sensitive)
+- [ ] Call Austin (added Aug 21 — time-sensitive)
+- [ ] Respond to Dolores (added Aug 21 — time-sensitive)
+- [ ] Respond to Josh Aguilar (added Aug 21 — time-sensitive)
+- [ ] Tell Dolores and Faith about what Josh Marx said about charter schools (added Aug 21)
+- [ ] Email Chris Gowan about the engagement letter (added Aug 24 — today)
+- [ ] Email Michael Chasen and Jeff Wolfson about Powerhouse and Brad Powers (added Aug 24 — today)
+- [ ] Finish Alison Kunk's patent application (added Aug 24 — today)
+- [ ] Prepare Karios response to missing parts (added Aug 24 — today)
+- [ ] Get everything into Motion (added Aug 24 — today)
+- [ ] Call Brian Steiner about ATPS Security (added Aug 24)
+- [ ] Report Liu's office action (added Aug 26 — today)
+
+### 💸 Bills to Pay (batch these together)
+- [ ] Pay Natalia — ~$3,800 (added Aug 24)
+- [ ] Pay Dolores — $2,000 (added Aug 24) *(also in One-Time Projects)*
+- [ ] Pay first mortgage — $4,400 (added Aug 24)
+- [ ] Pay condo fee — $1,188 (added Aug 24)
+- [ ] Pay Black Hills IP — $3,500 (added Aug 24) *(also in One-Time Projects)*
+- [ ] Pay Henry — $300 (added Aug 24)
+- [ ] Pay J&T floor cleaning — $300 (added Aug 24)
+- [ ] Pay for modeling software — $340 (added Aug 24)
+- [ ] Pay LearnWorlds $300 + switch account to archive plan (added Aug 24)
+- [ ] Pay mobile tailor — $165 (added Aug 24)
+- [ ] Pay electric bill (Pepco) — ~$1,500 (added Aug 24)
+- [ ] Pay gas bill (Washington Gas) — ~$500 (added Aug 24)
+
+**Total outstanding payments: ~$16,093**
 
 ---
 
