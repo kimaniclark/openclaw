@@ -2,6 +2,15 @@
 
 ## Active Monitoring
 
+### Qoves.com Facial Analysis ⏳
+**Submitted:** ~August 31, 2026
+**Expected delivery:** ~September 28-29, 2026 (28 days from Aug 31)
+**Monitor:** kimani@kimaniclark.com for email from Qoves.com with completed report
+**Alert:** #health channel when report arrives
+**Stages:** Facial Data Processing → Aesthetic Assessment → Protocol Preparation → Care Team Review → Report Finalisation
+
+Remove this section once report is received.
+
 ### ⚠️ CHANNEL ROUTING RULE (PERMANENT)
 - **#fashion** = Kimani's personal clothes, wardrobe, style ONLY
 - **#modeling-agency** = ALL Kiss Models / modeling agency updates
