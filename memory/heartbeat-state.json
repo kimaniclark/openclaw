@@ -1,9 +1,9 @@
 {
   "lastChecks": {
-    "email": 1788030666861,
-    "emailNote": "2026-08-29 14:07 ET - Kiss Models: Monica Wiseman LOC spam, Diana Henderson pay-to-play award spam. Law firm: Rho declined Motion 87 on card 4077, Intuit QuickBooks cancellation warning, Anelise Herman (BHIP) follow-up, Bob Blanchard controls integration invite, Grain Yannik call summary.",
-    "calendar": 1788132066518,
-    "calendarNote": "2026-08-30 19:13 ET - Sasha Kaganas Tue Sep 1 11:30am 30min. T2 Laser AMC tonight + Tue. Hunger Games Thu.",
+    "email": 1788238250523,
+    "emailNote": "2026-09-01 00:50 ET - Law firm: ACH remittance from Michelle McCune (FHSD Schools). Pitch Scientific cold outreach (ignore). LinkedIn Daniel Can accepted. Personal: newsletters only.",
+    "calendar": 1788174000207,
+    "calendarNote": "2026-08-31 06:54 ET - Sasha Kaganas Tue Sep 1 11:30am 30min. No Google Calendar events in 72h.",
     "weather": 1781471652161,
     "twilioA2P": 1787258848832,
     "twilioA2PStatus": "Still FAILED. No change since Feb 2. CTA verification error 30909.",
@@ -11,12 +11,12 @@
     "ebay": 1777212053,
     "ebayNote": "2026-04-26 10:00 ET - 3 active listings (unchanged). Treadmill $299 19views/0watchers 4d left. NS600 $399 88views/4watchers 28d left. Calf Raise $150 31views/0watchers 29d left. Total $848. No new buyer messages. 6 unread all eBay system. eBay suggesting send offers on 1 listing (likely NS600 with watchers).",
     "weatherNote": "2026-06-14 17:13 ET - DC: 92F overcast. Tomorrow: 81F high, cooler week ahead.",
-    "relationshipMaintenance": 1786963182752,
-    "relationshipMaintenanceNote": "2026-08-17 06:35 ET - Emma Saxby (overdue 6mo), Steve Tikoian (overdue quarterly), Jamel Davenport (no contact). Posted #social.",
+    "relationshipMaintenance": 1788174000207,
+    "relationshipMaintenanceNote": "2026-08-31 06:54 ET - Steve Tikoian (overdue 5mo), Jamel Davenport (no contact, quarterly due), Michael Aquilino (overdue 6mo). Posted #social.",
     "visionPurpose": 1788132066518,
     "visionPurposeNote": "2026-08-30 19:13 ET - Weekly outcomes posted to #vision-purpose. Context: Sasha Kaganas Tue meeting, CTFR 3021-0003, BHIP call, Bizee renewal, Rho card, Axometrics, NVG past due.",
-    "kissModelsEmail": 1788132066518,
-    "kissModelsEmailNote": "2026-08-30 19:13 ET - Jane Wiley spam, Monica Wiseman spam. No real inquiries."
+    "kissModelsEmail": 1788238250523,
+    "kissModelsEmailNote": "2026-09-01 00:50 ET - Innersense/Hairbrained booking confirmed (Regina, Palm Springs). DevaCurl Sep 3 confirmed (ShaVonne, 8am Bristol Pkwy). Innersense contact OOO. All handled by Victoria."
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
@@ -313,7 +313,7 @@
     "annAngleMeeting": "2026-08-17: Ann Angle 2pm Zoom with Victoria confirmed and happening. Zoom link sent.",
     "niobyColorWow": "2026-08-17: Nioby confirmed for Federici Brands/Color Wow event Bethesda MD Aug 24. Client: Marisol Ramirez (marisol@federicibrands.com). Event details incoming.",
     "annAngleMeetingDone": "2026-08-17: Ann Angle 2pm Zoom with Victoria happened. Ann had Zoom issues initially but joined. Meeting completed.",
-    "annAngleContract": "2026-08-17: Ann Angle offered non-exclusive contract after successful Zoom with Victoria. Awaiting full legal name to send via SignWell.",
+    "annAngleContract": "2026-08-31: Ann Angle following up, looking for photographers per Victoria suggestion. Contract being sent. Alerted #modeling-agency.",
     "niobyColorWowRate": "2026-08-17: Victoria asked Marisol for final rate on Nioby + whether 1-2 additional model spots needed. Awaiting reply.",
     "kerithFollowUp": "2026-08-17: Victoria followed up with Kerith Lemon on Sept 22 photoshoot model roster selections. Awaiting reply.",
     "devaCurlAudition": "2026-08-17: DevaCurl audition this Thursday. Asia Miller confirmed. Victoria followed up with Stephen Mitchell. Monitor for updates.",
@@ -388,7 +388,26 @@
     "aneliseHermanFollowUp": "2026-08-29: Anelise Herman (BHIP BizDev Director) second follow-up. Wants 20-30 min call next week re account.",
     "yannikZimmermann": "2026-08-26: 57-min call. AI-driven lead gen engine for Kiss Models. Cold email targeting US casting directors. Risk-reversal offer. Yannik sending sample lead list + email draft.",
     "colinHarrisLA": "2026-08-29: Colin Harris heading to LA Sep 9. Will do digitals package there. Confirmed still working with Kiss Models.",
-    "sashaKaganas": "2026-08-30: Calendly booking Tue Sep 1 11:30am 30min. Alerted #general-personal."
+    "sashaKaganas": "2026-08-30: Calendly booking Tue Sep 1 11:30am 30min. Alerted #general-personal.",
+    "paypalDispute": "2026-08-31: Genesis Dudley filed Item Not Received case PP-R-BWN-643640945. $399. Deadline Sep 9. Alerted Slack + Discord.",
+    "sojosInquiry": "2026-08-31: Shibo Chan/SOJOS client inquiry. Male model 20-35. Sep 15 DC. 4-6hr. US usage. Posted Slack + Discord.",
+    "qovesStarted": "2026-08-31: QOVES analysis started email received. Estimated delivery ~Sep 28-29. Alerted #health.",
+    "brianCareyGryphon": "2026-08-31: Brian Carey intro to Gryphon Ward. Wants Zoom in next couple weeks. Info exchange requested. Alerted #crown-acquisitions.",
+    "learnworldsFinalAug31": "2026-08-31: 4th payment failure. $299 due since Aug 10. School LOCKED. Next failure = auto-deletion. Alerted #life-concierge.",
+    "ricciCheckIn": "2026-08-31: Ricci asked for update on 1009-0002 OA response. Kimani replied finishing this week. Alerted #law-company.",
+    "sojosNegotiation": "2026-08-31: Shibo Chan (SOJOS) interested in Aleaksei, Noelgens Jeune, Sergei, Christopher for Sep 15 shoot. Asked for reduced rates (small team). Victoria pushed back, requested max budget. Ball in Shibo court.",
+    "achRemittance": "2026-08-31: 2x ACH remittance notifications from Michelle McCune (FHSD schools) at law firm. Payment processed Aug 31. 1-3 biz days to reflect.",
+    "tuanNguyenZoom": "2026-08-31: Tuan Nguyen joined 4pm Zoom meeting (30 min). Meeting in progress.",
+    "jiTechnologies": "2026-08-31: Calendly booking Thu Sep 3 2:30pm 45min. Joseph (joseph.jtcorp@gmail.com). The Ji Technologies Corporation. Alerted #general.",
+    "devaCurlCallSheet": "2026-08-31: Victoria sent DevaCurl Sep 3 call sheet to ShaVonne. Awaiting confirmation. Alerted #modeling-agency.",
+    "devaCurlSep3": "2026-08-31: Call sheets sent for DevaCurl shoot Sep 3, 8am, 5800 Bristol Pkwy Culver City. Multiple models confirmed. Alerted #modeling-agency.",
+    "jiTechCalendly": "2026-08-31: Ji Technologies Corporation (joseph.jtcorp@gmail.com) booked Thu Sep 3 2:30pm 45min. Alerted #general.",
+    "achRemittanceFHSD": "2026-08-31: ACH remittance from Michelle McCune (FHSD Schools). Payment processing 1-3 business days.",
+    "colorWowNYC": "2026-08-31: Marisol requested models for Color Wow NYC event Sep 21. Victoria putting together package. New booking opportunity.",
+    "colorWowNYC921": "2026-08-31: New Color Wow model request for NYC Sep 21 from Marisol (Federici Brands). Victoria preparing package. Second Color Wow booking after Aug 24 Bethesda event.",
+    "reginaInnersense": "2026-08-31: Regina Francen confirmed for Innersense Organic Beauty / Hairbrained Hair Show (Palm Springs, color model). Victoria sent booking confirmation.",
+    "devaCurlConfirmed": "2026-08-31: ShaVonne confirmed for DevaCurl Sep 3 shoot. Call sheet sent. 8am at 5800 Bristol Parkway. Stephen Mitchell notified.",
+    "innersenseRegina": "2026-08-31: Regina confirmed for Innersense Organic Beauty / Hairbrained Hair Show. Palm Springs. Color model. Victoria handled."
   },
   "pendingActions": {
     "ideasReview": "2026-08-21: 3-week ideas review due. Post to #general-personal during business hours (8am+). 55 ideas across categories. Last updated Jun 4."
