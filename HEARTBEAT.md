@@ -2,6 +2,13 @@
 
 ## Active Monitoring
 
+### Wolf Alice Set Time — ALL THINGS GO ⏰ CHECK SEPT 14-17
+**Festival:** All Things Go, Merriweather Post Pavilion
+**Wolf Alice plays:** Sunday, Sept 27
+**Set times URL:** https://allthingsgofestival.com/dmv/set-times/
+**Action:** Check the URL, find Wolf Alice's exact set time, update the Sept 27 calendar event, and post the time to Kimani in #entertainment
+**Remove this section after alerting Kimani.**
+
 ### Qoves.com Facial Analysis ⏳
 **Submitted:** ~August 31, 2026
 **Expected delivery:** ~September 28-29, 2026 (28 days from Aug 31)
@@ -10,6 +17,16 @@
 **Stages:** Facial Data Processing → Aesthetic Assessment → Protocol Preparation → Care Team Review → Report Finalisation
 
 Remove this section once report is received.
+
+### Convene / 600 Hamilton Membership — PREPAY REMINDER ⏰
+**Paid:** September 2026 (Sep 10 deadline met)
+**Next alert:** ~September 25 (1 week before Oct 3 auto-deactivation threshold)
+**Goal:** Prepay several months ahead to avoid monthly deactivation cycle
+**Payment link pattern:** Square invoice from Ronnie Bar-Lev Rom (ronnie@convene.com)
+**Rate:** ~$418/month
+**New policy:** Auto-deactivates if not paid by 3rd business day of each month
+
+When alerting: remind Kimani to prepay 2-3 months at once to break the monthly scramble cycle.
 
 ### ⚠️ CHANNEL ROUTING RULE (PERMANENT)
 - **#fashion** = Kimani's personal clothes, wardrobe, style ONLY
@@ -279,12 +296,13 @@ Every Sunday evening or Monday morning, review `contacts/` folder for inner circ
 - **Alert:** #fitness when email arrives
 - Kimani monitoring WhatsApp himself
 
-### Strava MCP Access — Check in September ⏰
-- Strava is rolling out MCP access gradually (currently Claude-only, "coming soon")
-- MCP URL: https://mcp.strava.com/mcp
-- **Check in September:** See if access is open. If so, connect via OpenClaw MCP config.
-- This would auto-track all Tonal workouts (synced to Strava) without subscription needed
-- Kimani's Strava account: admin@kimaniclark.com (free account)
+### Strava MCP Access — CHECKED ✅ NEEDS SUBSCRIPTION
+- Strava MCP launched June 1, 2026 — it's live and available
+- **Requires paid Strava subscription** (Kimani is on free tier: admin@kimaniclark.com)
+- Alerted #fitness on Sept 13 — awaiting Kimani's decision on whether to subscribe
+- If he subscribes, connect via OpenClaw MCP config at https://mcp.strava.com/mcp
+
+Remove this section once Kimani decides.
 
 ### Fitness Dashboard Update (Weekly) — POST TO #fitness
 Every Monday morning, ping Kimani **in #fitness channel** with ONE message covering:

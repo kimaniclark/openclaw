@@ -8,6 +8,10 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 ### Business Ideas
 - [ ] Open a Skool subscription program for The Modern Owner (added July 21)
 - [ ] Create Jiu Jitsu tracking software — log techniques, drills, and things learned in practice (added Aug 25)
+- [ ] Put the ideas dashboard in Claude Code (added Sep 10)
+- [ ] Try HeyCatch (heycatch.ai) to launch SaaS products — Tastemakers, One Call Away, etc. (added Sep 10)
+- [ ] Switch Megafit Meals payment card (added Sep 13)
+- [ ] Ask Kristell to summarize Bulletproof John propaganda machine (added Sep 13)
 
 ### Process Improvements
 - [ ] 
@@ -61,6 +65,9 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 - [ ] Get everything into Motion (added Aug 24 — today)
 - [ ] Call Brian Steiner about ATPS Security (added Aug 24)
 - [ ] Report Liu's office action (added Aug 26 — today)
+- [ ] Set up Bossasaservice for Motion accountability (added Sep 2)
+- [ ] Find out about BizBee charge (added Sep 4)
+- [ ] Make an after party invite with a payment link (added Sep 5)
 
 ### 💸 Bills to Pay (batch these together)
 - [ ] Pay Natalia — ~$3,800 (added Aug 24)

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooftop After Party</title>
+  <meta property="og:title" content="Rooftop After Party" />
+  <meta property="og:description" content="You're invited. Secure your spot." />
+  <meta property="og:image" content="rooftop.jpg" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #0a0a0a;
+      color: #f5f0e8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('rooftop.jpg');
+      background-size: cover;
+      background-position: center top;
+      filter: brightness(0.55);
+      z-index: 0;
+    }
+
+    .hero-gradient {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        transparent 30%,
+        rgba(10, 10, 10, 0.6) 65%,
+        rgba(10, 10, 10, 0.95) 100%
+      );
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 0 24px 56px;
+      max-width: 600px;
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+    }
+
+    .label {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #c9a96e;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 8vw, 64px);
+      font-weight: 400;
+      letter-spacing: -1px;
+      line-height: 1.05;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .tagline {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 15px;
+      color: rgba(255,255,255,0.65);
+      letter-spacing: 0.5px;
+      margin-bottom: 40px;
+    }
+
+    .cta-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: #c9a96e;
+      color: #0a0a0a;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 18px 48px;
+      border-radius: 2px;
+      transition: background 0.2s ease, transform 0.1s ease;
+    }
+
+    .btn-primary:hover {
+      background: #e2c08a;
+      transform: translateY(-1px);
+    }
+
+    .price-note {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 12px;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 1px;
+    }
+
+    .details {
+      background: #0a0a0a;
+      padding: 72px 24px;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .details-label {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #c9a96e;
+      margin-bottom: 32px;
+    }
+
+    .details-item {
+      margin-bottom: 20px;
+    }
+
+    .details-item .title {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 6px;
+    }
+
+    .details-item .value {
+      font-size: 18px;
+      color: #f5f0e8;
+      letter-spacing: 0.3px;
+    }
+
+    .divider {
+      width: 40px;
+      height: 1px;
+      background: #c9a96e;
+      margin: 40px auto;
+      opacity: 0.5;
+    }
+
+    .fine-print {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 11px;
+      color: rgba(255,255,255,0.25);
+      line-height: 1.8;
+      letter-spacing: 0.3px;
+    }
+
+    .footer {
+      padding: 32px 24px;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .footer p {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 11px;
+      color: rgba(255,255,255,0.2);
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 480px) {
+      .hero-content { padding: 0 20px 48px; }
+      .btn-primary { padding: 16px 36px; }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-gradient"></div>
+    <div class="hero-content">
+      <p class="label">Private Event</p>
+      <h1>Rooftop<br>After Party</h1>
+      <p class="tagline">Good music. Good people. Above the city.</p>
+      <div class="cta-block">
+        <a href="STRIPE_LINK_HERE" class="btn-primary">Secure Your Spot — $39</a>
+        <p class="price-note">One-time entry · Limited capacity</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="details">
+    <p class="details-label">Details</p>
+
+    <div class="details-item">
+      <p class="title">Location</p>
+      <p class="value">Washington, DC</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <p class="fine-print">
+      This link is for entry access only.<br>
+      Invitation is non-transferable.<br>
+      Questions? Reach out directly.
+    </p>
+  </section>
+
+  <footer class="footer">
+    <p>ROOFTOP AFTER PARTY &nbsp;·&nbsp; PRIVATE</p>
+  </footer>
+
+</body>
+</html>

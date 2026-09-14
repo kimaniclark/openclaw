@@ -11,6 +11,8 @@
 - **In-home flexologist like Stretch Lab** — Get professional assisted stretching services at home. *(2026-04-17)*
 
 ## Fitness
+- **Watch "Blood and Guts" with Dorian Yates** — Classic bodybuilding training video. https://youtu.be/3qN2cc8_gNw *(2026-09-10)*
+- **Stoic Physique — Permanent Physique Protocol** — Science-backed 3-phase system for men over 40. No macro logging, 92% of clients still lean 365 days later. 1,400+ clients. https://fitness.stoicphysique.com *(2026-09-01)*
 - **Train online with Dorian Yates** — Online training with 6-time Mr. Olympia. https://dyacademy.co.uk *(2026-04-12)*
 
 ## Food
@@ -49,6 +51,7 @@
 - **Year of Systems by Ben Meer** — 52 life systems course, one per week. $297 (includes book pre-order). Covers Physical Health, Mind, Relationships, Emotions, Money, Career, Environment. By the "Systems Guy" from Forbes (2.3M followers, Cornell MBA). https://benmeer.com/yearofsystems/ *(2026-08-10)*
 
 ## Finance
+- **Think of all expenses annually, not monthly** — Switch mindset and payment cadence to annual prepay for all expenses to reduce friction and get discounts. *(2026-09-02)*
 - **Prepay a year of mortgage and condo fee** — Get ahead by prepaying 12 months of mortgage and condo association fees. *(2026-08-10)*
 - **Use Mercury for personal and business banking** — Switch to mercury.com for both personal and business banking. *(2026-07-18)*
 - **Cancel ChatGPT subscription** — Already have Claude via OpenClaw, likely redundant. *(2026-03-02)*
@@ -56,6 +59,9 @@
 - **Close kimaniclark7@gmail.com Account** — Email consolidation. *(2026-02-07)*
 - **Change Asana Email Address** — Update to restored johnnybradley876@gmail.com. *(2026-02-07)*
 - **Collect deposit money from High Crown Homes** — Outstanding deposit to recover. *(2026-02-27)*
+
+## Apps & Services
+- **SnapBack Returns** — App that picks up all your returns from your porch (like DoorDash for returns). Connects to Gmail to find returns automatically. $14.95/pickup, first one free. 4.7⭐ App Store. https://snapbackreturns.com *(2026-09-11)*
 
 ## Communications
 - **DeleteMe (deleteme.com)** — Privacy data removal service. Removes personal info from data brokers. *(2026-02-11)*
@@ -82,6 +88,7 @@
 - **Potential law firm name: Sentinel** — Alternative name for law firm branding. *(2026-05-02)*
 
 ### Crown Acquisitions
+- **Combine Perry Street Partners with Carl Allen Done for You** — Explore combining Perry Street Partners framework with Carl Allen's Done for You acquisition model. *(2026-09-02)*
 - **Target tech companies for acquisition** — Expand Crown Acquisitions deal flow to include tech companies. *(2026-08-12)*
 - **Seamless.ai for lead generation** — https://seamless.ai — B2B lead gen for medical roll-up deal sourcing. *(2026-03-10)*
 - **M&A outreach via marketing agencies + accountants** — LinkedIn outreach through service providers who see businesses ready to sell. *(2026-02-25)*
@@ -99,6 +106,9 @@
 - **Get lifeconcierge.ai domain name** — Acquire lifeconcierge.ai domain for Life Concierge business. *(2026-04-15)*
 
 ### Business Tools & Platforms
+- **ScoreApp — scorecard marketing / smarter waitlists** — Build waitlists that score buyer readiness and segment signups. 151k+ users, 5M+ leads generated. Free plan available. https://scoreapp.com *(2026-09-10)*
+- **Skool — AI App Builders community** — Claude Code crash course + ProductOS system (idea → customers). Members hit $20k+ MRR. $17/mo annual. https://skool.com/aiapps *(2026-09-10)*
+- **Slashy email tool** — Superhuman alternative for email. https://slashy.com *(2026-09-06)*
 - **Lightfield — AI-native CRM** — CRM that auto-builds customer context from calls, emails, and meetings. AI agents prep meetings, generate pipeline, draft follow-ups. No manual logging. https://lightfield.app *(2026-08-30)*
 - **Supercut.ai instead of Loom** — Use https://supercut.ai/ for video recording instead of Loom. *(2026-07-18)*
 - **Base44.com No-Code AI App Builder** — AI no-code app builder ($20/mo). *(2026-02-07)*
