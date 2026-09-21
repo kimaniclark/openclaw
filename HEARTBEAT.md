@@ -2,21 +2,15 @@
 
 ## Active Monitoring
 
-### Wolf Alice Set Time — ALL THINGS GO ⏰ CHECK SEPT 14-17
+### Wolf Alice Set Time — ALL THINGS GO ⏰ CHECK DAILY UNTIL POSTED
 **Festival:** All Things Go, Merriweather Post Pavilion
-**Wolf Alice plays:** Sunday, Sept 27
+**Wolf Alice plays:** Sunday, Sept 27 (CONFIRMED)
 **Set times URL:** https://allthingsgofestival.com/dmv/set-times/
-**Action:** Check the URL, find Wolf Alice's exact set time, update the Sept 27 calendar event, and post the time to Kimani in #entertainment
-**Remove this section after alerting Kimani.**
+**Status (Sep 14):** Set times page still placeholder — no times published yet. Posted lineup confirmation to #entertainment.
+**Action:** Keep checking daily. When set times appear, find Wolf Alice's exact time, update Sept 27 calendar event, and alert Kimani in #entertainment.
+**Remove this section after alerting Kimani with exact set time.**
 
-### Qoves.com Facial Analysis ⏳
-**Submitted:** ~August 31, 2026
-**Expected delivery:** ~September 28-29, 2026 (28 days from Aug 31)
-**Monitor:** kimani@kimaniclark.com for email from Qoves.com with completed report
-**Alert:** #health channel when report arrives
-**Stages:** Facial Data Processing → Aesthetic Assessment → Protocol Preparation → Care Team Review → Report Finalisation
 
-Remove this section once report is received.
 
 ### Convene / 600 Hamilton Membership — PREPAY REMINDER ⏰
 **Paid:** September 2026 (Sep 10 deadline met)
@@ -69,23 +63,9 @@ When alerting: remind Kimani to prepay 2-3 months at once to break the monthly s
 
 Remove this section only if Kiss Models gets its own dedicated agent.
 
-### Suji Helmer — Non-Exclusive Contract ✅ SENT
-**Completed:** July 2, 2026
-**Full Name:** Kimberly Suji Woodill
-**SignWell Doc ID:** e75a9556-25ad-4ec8-8954-162b0d929677
-**Sent to:** suji@whitehallfarm.us + victoria@kissmodelmanagement.com
-**Alerted:** #ai-model-applications (Slack) + #modeling-agency (Discord)
 
-Remove this section on next cleanup.
 
-### Yaryk Huryn — Mother Agency Contract ✅ SENT
-**Completed:** July 2, 2026
-**Full Name:** Yaryk Huryn
-**SignWell Doc ID:** 86bbab19-49a2-42a1-b906-28993570c972
-**Sent to:** y.huryn.business@gmail.com + victoria@kissmodelmanagement.com
-**Alerted:** #ai-model-applications (Slack) + #modeling-agency (Discord)
 
-Remove this section on next cleanup.
 
 ### Happy Kiddos CFE Call Setup ⚠️ SCHEDULING LINK SENT
 **Status:** Kimani replied June 17 with cal.link/kimaniclark — Ramon (Happy Kiddos owner) needs to book.
@@ -320,9 +300,7 @@ Update `life-dashboard.html` fitness section with new data and reset the week ra
 **Alert:** Post to **#communications** channel (NOT #general) — reduces spam calls/emails/data broker exposure
 **First report received:** ~July 2026
 
-### OpenAI Realtime API Migration ✅ COMPLETE
-**Migrated:** June 4, 2026 — server-realtime.js updated to `gpt-4o-mini-realtime-preview-2025-06-03` (GA)
-Remove this section on next cleanup.
+
 
 ### TCPA Attorney Research (When web access available)
 Research TCPA attorneys for spam call/text lawsuits when Brave Search API is configured:

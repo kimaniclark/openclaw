@@ -42,6 +42,8 @@
 - **Register timebandits.co for watch trading** — Domain for a watch trading business. *(2026-08-24)*
 
 ## Social
+- **Contact Robinson to run the law firm and other companies** — Reach out to Robinson about taking an operational leadership role across the law firm and other businesses. *(2026-09-14)*
+- **Meet with Chris Budd** — Cyber security partnerships lead at Salesforce. Discuss ATPS security and other potential clients. *(2026-09-14)*
 - **Call Justin Miller** *(2026-07-28)*
 
 ## Courses & Learning

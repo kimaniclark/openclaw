@@ -12,6 +12,9 @@ Items that aren't ready for Motion but worth keeping for future consideration. N
 - [ ] Try HeyCatch (heycatch.ai) to launch SaaS products — Tastemakers, One Call Away, etc. (added Sep 10)
 - [ ] Switch Megafit Meals payment card (added Sep 13)
 - [ ] Ask Kristell to summarize Bulletproof John propaganda machine (added Sep 13)
+- [ ] Ask Natalia to make protein shakes (added Sep 14)
+- [ ] Get Routinery lifetime access — routinery.app/unlock-lifetime-access (added Sep 16)
+- [x] Get Bulletproof Entrepreneur AI coaching & marketing program — ✅ Access confirmed via Circle (existing member). Added to Motion due Sep 19.
 
 ### Process Improvements
 - [ ] 

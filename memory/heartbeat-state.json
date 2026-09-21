@@ -1,13 +1,13 @@
 {
   "lastChecks": {
-    "email": 1788992966197,
-    "emailNote": "2026-09-09 18:28 ET - Andrew Garner booked Thu Sep 10 5:30pm (15min). Roop Sood following up on Keaton+Amanda intros. Kimani sent Amanda/Roop intro. Overture: FL trust fraud + TN immigration (not patent). DevaCurl call sheet ongoing.",
+    "email": 1789775820213,
+    "emailNote": "2026-09-18 19:54 ET - Law firm: Luvisia Molenje 3500 LawPay payment + USPTO Rho settled + Adobe expiring payment + DC Bar Practice 360. Personal: newsletters only. Posted payment alerts to #law-company.",
     "calendar": 1788863329651,
     "calendarNote": "2026-09-08 06:26 ET - No Google Calendar events in 48h. But Lifeforce blood draw at noon today (from earlier booking).",
     "weather": 1781471652161,
-    "twilioA2P": 1787258848832,
+    "twilioA2P": 1789775820213,
     "twilioA2PStatus": "Still FAILED. No change since Feb 2. CTA verification error 30909.",
-    "twilioA2PNextCheck": "2026-08-20",
+    "twilioA2PNextCheck": "2026-09-22",
     "ebay": 1777212053,
     "ebayNote": "2026-04-26 10:00 ET - 3 active listings (unchanged). Treadmill $299 19views/0watchers 4d left. NS600 $399 88views/4watchers 28d left. Calf Raise $150 31views/0watchers 29d left. Total $848. No new buyer messages. 6 unread all eBay system. eBay suggesting send offers on 1 listing (likely NS600 with watchers).",
     "weatherNote": "2026-06-14 17:13 ET - DC: 92F overcast. Tomorrow: 81F high, cooler week ahead.",
@@ -15,8 +15,12 @@
     "relationshipMaintenanceNote": "2026-09-13 20:40 ET - April Macie (bday Sep 30), Jamel Davenport (quarterly, no contact), Dani Jahn (overdue 4.5mo). Posted #social.",
     "visionPurpose": 1789348372319,
     "visionPurposeNote": "2026-09-13 21:10 ET - Weekly outcomes posted to #vision-purpose. Wolf Alice, Convene prepay, launchpad processing, Qoves report on radar.",
-    "kissModelsEmail": 1789348372319,
-    "kissModelsEmailNote": "2026-09-13 21:10 ET - 1 email: Victoria replied to Kerith re Ivy wardrobe guidance for Sep 22 shoot. Routine."
+    "kissModelsEmail": 1789775820213,
+    "kissModelsEmailNote": "2026-09-18 19:54 ET - 1 unread: Sider AI newsletter spam. Nothing actionable.",
+    "fitnessWeekly": 1789775820213,
+    "fitnessWeeklyNote": "2026-09-18 19:54 ET - Friday workout accountability posted to #fitness.",
+    "wolfAliceSetTimes": 1789775820213,
+    "wolfAliceSetTimesNote": "2026-09-18 19:54 ET - Still no set times. Just Added: Remi Wolf, Sierra Ferrell, Underscores. 7 days to festival."
   },
   "findings": {
     "usptoCorrespondence": "2026-03-30: 18/325,585 (A Good Walk 1002-0002) - EXIN + OA.APPENDIX. Alerted #law-company.",
@@ -437,9 +441,30 @@
     "andrewGarnerSep10": "2026-09-09: Andrew Garner (Perry Street Partners) booked Thu Sep 10 5:30pm 15min follow-up. Alerted #crown-acquisitions.",
     "roopSoodFollowUp": "2026-09-09: Roop Sood following up - \"this fell off\" re Keaton+Amanda intros + patent engine. Kimani sent Amanda intro same day. Alerted #crown-acquisitions.",
     "keuneCastingRichmond": "2026-09-09: KEUNE Richmond VA hair show casting. Sep 30, $750 flat. Submission deadline Fri Sep 11. Victoria responding. Posted Slack + Discord.",
-    "keuneCastingScottsdale": "2026-09-09: KEUNE Scottsdale AZ hair show. Oct 3-4, $1000 + products. Submission deadline Fri Sep 11. Victoria responding. Noted Ann Angle AZ availability. Posted Slack."
+    "keuneCastingScottsdale": "2026-09-09: KEUNE Scottsdale AZ hair show. Oct 3-4, $1000 + products. Submission deadline Fri Sep 11. Victoria responding. Noted Ann Angle AZ availability. Posted Slack.",
+    "qovesDelivered": "2026-09-12: Report delivered. Alerted #health Sep 14.",
+    "scotGiambruno": "2026-09-14: Two new patent emails (Thermacart Patent discussion 1 + Patent app #2). Alerted #law-company.",
+    "jaceAiDeclinedSep13": "2026-09-13: Jace AI 2 declined on Rho card again.",
+    "alinaMargaretApp": "2026-09-14: New application from Alina Margaret, Manassas VA. 20yo, 5-2, 105lbs. 32D/24/37. Under 1yr exp. No agency. IG @ALINAMARGARET_. Posted Slack + Discord.",
+    "wolfAliceSetTimes": "2026-09-14: Checked allthingsgofestival.com/dmv/set-times/ — ALL THREE DAYS show COMING SOON. Not released yet. Festival Sep 25-27. Keep checking.",
+    "rhoDeclinedLinkedIn0914": "2026-09-14: LinkedIn Sales Nav 19.99 declined on Rho 4077. Credit limit exceeded. Ongoing.",
+    "bhipDocketSep14": "2026-09-14: Pending + Completed docket reports received. Need to download and review.",
+    "kerithIvyRelease": "2026-09-14: Kerith talent release confirmed good. Victoria will have Ivy sign this week. Sep 22 shoot proceeding.",
+    "keuneScottsdaleDirect": "2026-09-14: Stephen Mitchell email - DIRECT BOOKING from digitals & video for KEUNE Scottsdale AZ Brunette Hair Show Oct 3-4. Alerted Slack #ai-client-inquiry + Discord #modeling-agency.",
+    "sojosDateChange": "2026-09-14: SOJOS/Shibo Chan shoot moved from Sep 15 to ~Sep 23. Not finalized. Victoria preparing two pricing packages.",
+    "keuneScottsdale": "2026-09-14: KEUNE Scottsdale AZ Oct 17-18. Stephen Mitchell casting. Direct booking from digitals.",
+    "shiboSojosReschedule": "2026-09-14: SOJOS/Vanlinker shoot moved to ~Sep 23 (was Sep 15). Date still being finalized. Shibo will confirm.",
+    "keuneBrunetteCasting": "2026-09-14: NEW KEUNE Scottsdale AZ brunette hair show. Oct 17-18. K flat + products. Deadline Sep 25. Separate from earlier KEUNE Scottsdale (Sep 11 deadline).",
+    "reginaFrancenIssue": "2026-09-14: Leland Olson (Innersense) reported negative experience with Regina Francen — attitude, blaming Victoria. Victoria apologized. Need to discuss handling.",
+    "kaifPhotographer": "2026-09-14: Kaif Aalim-Johnson, DC photographer (Vogue, 6+ yrs). Wants test shoot collab. Posted Slack.",
+    "aipiZoom": "2026-09-14: Eric Morehouse (AiPi Solutions) sent Zoom meeting link to law firm email.",
+    "reginaComplaint": "2026-09-14: Leland Olson (Innersense) negative feedback on Regina Francen. Attitude issues at Hairbrained Hair Show. Victoria apologized. Affects future bookings.",
+    "amandaZoomSep14": "2026-09-14: Amanda Bellerby joined Medical Roll Up Call Zoom at ~3:28pm. Meeting happened.",
+    "scotThermacart2": "2026-09-14: Scot Giambruno sent Thermacart 2.0 email (law firm). Third Thermacart email today.",
+    "luvisiaMolenje3500": "2026-09-18: ,500 LawPay payment from Luvisia Molenje. Posted #law-company.",
+    "usptoRhoSettled": "2026-09-18: Rho payment to USPTO settled. Patent fee processed."
   },
   "pendingActions": {
-    "ideasReview": "2026-08-21: 3-week ideas review due. Post to #general-personal during business hours (8am+). 55 ideas across categories. Last updated Jun 4."
+    "ideasReview": "2026-09-14: Posted 3-week review to #general-personal. 55 ideas. Next review ~Oct 5."
   }
 }
